@@ -1,0 +1,264 @@
+/*
+ * jQuery UI Slider 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Slider#theming
+ */
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+.ui-slider-horizontal {
+	height: .8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.6em;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+.ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}
+.slider-container {
+	float: left;
+	width: 100%;
+	box-shadow: 4px 4px 0 0 #e5e5e5;
+}
+.slider-container h3 {
+	margin:0 0 10px;
+	padding:0;
+	color:#000;
+	font-size:30px;
+	line-height:30px;
+	font-weight:normal;
+}
+.slider-container h3 span {
+	color:#ff9226;
+	font-weight:700;
+}
+.slider-container p {
+	margin:0;
+	padding:0;
+}
+.sliderbox {
+	display:inline-block;
+	width: 85%;
+	padding: 15px 29px;
+	margin:0; background-color: #fff; box-shadow: 0 0 50px 0 rgba(0,0,0,.10);
+	border-radius: 6px;
+}
+.slider-container #slider {
+	width: 100%;
+	height: 30px;
+	padding: 0;
+	border: 0;
+	background:url("../images/slider_base.png")
+}
+.slider-container #slider .ui-slider-range {
+	height: 4px;
+	background: linear-gradient(to right, #e74c3c , #ffb401);
+	top: 12px;
+}
+.slider-container #slider .ui-slider-handle {
+	outline: none;
+	background: url(../images/slider_handle.png) no-repeat left top;
+	border-radius: 0;
+	border: 0;
+	width: 20px;
+	height: 35px;
+}
+.slider-container #slider .ui-slider-handle:hover {
+	cursor: pointer;
+}
+.price_rangetxt {
+	margin: 0 auto 39px;
+	width: 100%;
+	padding: 0;
+	float: left;
+}
+.price_rangetxt div.icon {
+	width: 25%;
+	height: 52px;
+	margin-top: 28px;
+	font-size: 16px;
+	line-height: 23px;
+	cursor: pointer;
+	font-weight: 400;
+	float: left;
+	background:url(../images/slider_normal_node.png) no-repeat center top;
+}
+.heading{
+	width: 20%;
+	float: left;
+	font-size: 20px;
+	font-weight: 700;
+	padding-bottom: 32px;
+
+}
+.price_rangetxt div.icon span{
+	margin:54px 0 0;
+	display:block;
+	text-transform: uppercase;
+	color: #181818;
+	font-size: 20px;
+	font-weight: 400;
+}
+.price_rangetxt div.current {
+	color:#fff;
+	background:url(../images/slider_node01.png) no-repeat center top;
+
+}
+.price_rangetxt div#icon-1.current {
+	color:#fff;
+	background:url(../images/slider_node02.png) no-repeat center top;
+
+}
+.price_rangetxt div#icon-2.current {
+	color:#fff;
+	background:url(../images/slider_node03.png) no-repeat center top;
+
+}
+.price_rangetxt div#icon-3.current {
+	color:#fff;
+	background:url(../images/slider_node04.png) no-repeat center top;
+
+}
+.price_content {
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+}
+.price_content .smallbox {
+	float:left;
+	width:170px;
+	height: 150px;
+	padding: 25px 0;
+	background: #fff;
+
+	margin: 0 29px;
+}
+.price_content .smallbox:last-child{
+	border: none;
+}
+.price_content .image_holder {
+
+margin-bottom: 22px;
+
+}
+.price_content .value_text {
+	font-size: 16px;
+	line-height: 20px;
+	padding:0;
+	color:#000;
+	text-align: center;
+}
+.top_heading .text_value{
+
+	line-height: 20px;
+	padding:0;
+	color:#fff;
+	text-align: center;
+
+}
+.price_content .value {
+	display: block;
+	color:#000;
+	margin: 3px 0 0;
+	font-size: 20px;
+	line-height:14px;
+
+}
+
+.price_txt {
+	color:#fff;
+	font-size:30px;
+	line-height:20px;
+	font-weight: 300;
+
+}
+.price_txt .numeric1 {
+	line-height:54px;
+	font-size:56px;
+	font-weight: 500;
+	margin: 0 10px 0;
+}
+.vps_btn {
+	display:inline-block;
+	margin: 26px 0 0;
+}
+.vps_btn a {
+	color:#fff;
+	display:block;
+	font-size:18px;
+	line-height:46px;
+	background:#d7263d;
+	text-decoration:none;
+	min-width: 200px;
+	font-weight: 400;
+}
+.vps_btn a:hover{background: #fff; color: #00b2f2}
+.vps_btn a:hover {
+	opacity:0.8;
+}
+
+.tag{
+	position:absolute;
+	right:0;
+	top:0;
+}
+/*.price-slider-section{*/
+	/*background: url("../images/bg_pattern.png")repeat;*/
+	/*padding: 50px 0;*/
+
+/*}*/
+.nomargin_rt{
+	margin-right: 0 !important;
+}
+.price-box-section{
+	background: #00b2f2;
+	padding: 30px 2%;
+
+}

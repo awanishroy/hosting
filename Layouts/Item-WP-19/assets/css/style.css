@@ -1,0 +1,887 @@
+@charset "utf-8";
+
+/* ----------------------------------
+
+Name: style.css
+Version: 1.0
+
+-------------------------------------
+Table of contents
+
+    01. Google font
+    02. Reset
+    03. Typography
+    04. Hover
+    05. Height
+    06. Width
+    07. Float
+    08. Bottom
+    09. Margin
+    10. Color
+    11. Padding
+    12. Border
+    13. Font Size
+    14. Line Height
+    15. Banner
+    16. Letter Spacing
+    17. Button
+    18. Position
+    19. Top Social Link
+    20. Navigation Bar
+    21. Counter Section
+    22. Transition
+    23. OverFlow
+    24. Shape Box
+    25. Z Index
+    26. Display Block
+    27. Volunteer
+    28. Footer Section
+
+*/
+
+/* ===================================
+    Google font
+====================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900');
+
+/* ===================================
+    Reset
+====================================== */
+
+.carousel-inner {overflow: visible}
+.navbar {margin-bottom: 0}
+ul{margin: 0; padding: 0; list-style-type:none;}
+a:hover{text-decoration: none;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{margin: 0}
+button{border-width: 0;}
+p{margin-bottom: 0;}
+.menu_navigation{background-color: transparent; border-color: transparent; border: none}
+.menu_navigation .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover{background-color: transparent;}
+h2{font-size: 36px; font-weight: 500; line-height: 36px; color: #222; padding-bottom: 8px}
+h4{font-size: 22px; line-height: 24px; font-weight: 500}
+/* ===================================
+    Typography
+====================================== */
+
+/*font family*/
+
+.montserrat_font {font-family: 'Montserrat', sans-serif;}
+
+/*!* ===================================*/
+    /*Hover*/
+/*====================================== *!*/
+.menu_navigation .nav_bar li:hover a {color: #ffde00 !important;}
+.banner_btn:hover   {background-color: #fff; color: #222;  transition-duration: 0.5s}
+.search_box:hover .search_btn{background: #222 !important; border: none; transition-duration: 0.5s}
+.price_plan_box:hover{border-color: #c31f45}
+.search_btn:focus {outline: none}
+.price_plan_box:hover .btn_price_box{background: #222 !important; color: #fff; transition-duration: 0.5s;}
+.welcome_btn:hover {background-color: #fff; color: #222; transition-duration: 0.5s }
+.footer_links li:hover a{color: #c31f45}
+.hover01 figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.nav>li>a:focus, .nav>li>a:hover {background-color: #ffde00}
+.dedicated_btn:hover{background: #fff !important; color: #222; transition-duration: 0.5s}
+.btn_build_dedicated_server:hover {background-color: #fff; color: #222; transition-duration: 0.5s}
+.btn_stay_control:hover {background-color: #fff; color: #222; transition-duration: 0.5s}
+.btn_boost:hover {color: #222; transition-duration: 0.5s}
+.btn_domain:hover{color: #222 !important; box-shadow: 0 15px 50px rgba(0,0,0,.3); transition-duration: 0.5s}
+    /* ===================================
+        Float
+    ====================================== */
+
+/*Float Left*/
+.float_left {float: left;}
+
+/*Float Right*/
+.float_right    {float: right;}
+
+.left_0{left: 0}
+.right_0{right: 0}
+
+/* ===================================
+    Width
+====================================== */
+.width_100  {width: 100%}
+.width_20   {width: 20%}
+/* ===================================
+    Margin
+====================================== */
+
+/*margin*/
+.margin_0_auto  {margin: 0 auto}
+.margin_0 	    {margin:0}
+.margin_5  	    {margin: 5px;}
+.margin_10      {margin: 10px;}
+.margin_lr_35   {margin: 0 35px;}
+
+/*Margin Bottom*/
+.margin_bottom_5    {margin-bottom: 5px;}
+.margin_bottom_10   {margin-bottom: 10px;}
+.margin_bottom_15   {margin-bottom: 15px;}
+.margin_bottom_20   {margin-bottom: 20px;}
+.margin_bottom_25   {margin-bottom: 25px;}
+.margin_bottom_26   {margin-bottom: 26px;}
+.margin_bottom_30   {margin-bottom: 30px;}
+.margin_bottom_35   {margin-bottom: 35px;}
+.margin_bottom_40   {margin-bottom: 40px;}
+.margin_bottom_50   {margin-bottom: 50px;}
+.margin_bottom_53   {margin-bottom: 53px;}
+.margin_bottom_60   {margin-bottom: 60px}
+.margin_bottom_70   {margin-bottom: 70px;}
+.margin_bottom_75   {margin-bottom: 75px;}
+.margin_bottom_80   {margin-bottom: 80px}
+.margin_bottom_90   {margin-bottom: 90px;}
+.margin_bottom_95   {margin-bottom: 95px}
+.margin_bottom_100  {margin-bottom: 100px;}
+
+/*Margin Right*/
+.margin_right_8   {margin-right: 8px;}
+.margin_right_10   {margin-right: 10px;}
+.margin_right_20   {margin-right: 20px;}
+.margin_right_15  {margin-right: 15px;}
+
+/*Margin Left*/
+.margin_left_8    {margin-left: 8px;}
+.margin_left_10   {margin-left: 10px;}
+.margin_left_15   {margin-left: 15px;}
+.margin_left_20   {margin-left: 20px;}
+.margin_left_30   {margin-left: 30px;}
+.margin_left_50   {margin-left: 50px;}
+.margin_left_100  {margin-left: 100px;}
+.margin_left_230  {margin-left: 230px;}
+
+/*Margin Top*/
+.margin_top_0   {margin-top: -24px;}
+.margin_top_10  {margin-top: 10px;}
+.margin_top_20  {margin-top: 20px;}
+.margin_top_26  {margin-top: 26px;}
+.margin_top_30  {margin-top: 30px;}
+.margin_top_40  {margin-top: 40px;}
+.margin_top_35  {margin-top: 35px;}
+.margin_top_50  {margin-top: 50px;}
+.margin_top_60  {margin-top: 60px;}
+.margin_top_75  {margin-top: 75px}
+.margin_top_95  {margin-top: 95px;}
+.margin_top_120 {margin-top: 120px;}
+.margin_top_240 {margin-top: 240px;}
+
+/* ===================================
+     Color
+====================================== */
+
+/*Primary Color*/
+.primary_color_ffde00   {color: #ffde00}
+
+/*Bg Color*/
+
+
+
+/*Colors*/
+.bg_color{
+    background: rgb(179,31,80) !important;
+    background: -moz-linear-gradient(-45deg, rgba(179,31,80,1) 32%, rgba(179,31,80,1) 32%, rgba(228,30,45,1) 99%) !important;
+    background: -webkit-linear-gradient(-45deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;
+    background: linear-gradient(135deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;
+}
+.bg_000     {background-color: #000}
+.bg_fff  {background-color: #fff}
+.color_fff  {color: #fff}
+.color_222  {color: #222}
+.color_666  {color: #666}
+
+/* ===================================
+    padding
+====================================== */
+
+/*padding*/
+.padding_tb_11   {padding: 11px 0}
+.padding_tb_105  {padding: 105px 0}
+.padding25      {padding: 25px}
+.padding_35     {padding: 35px;}
+.padding_lr_12  {padding: 12px 48px;}
+.padding_lr_17  {padding: 17px 50px}
+.padding_lr_15  {padding: 0 15px;}
+.padding_10     {padding: 10px;}
+.padding_lr_30  {padding: 0 30px;}
+.padding_lr_35  {padding: 0 35px;}
+.padding_25     {padding: 25px 80px;}
+.padding_11     {padding: 11px 40px;}
+.padding_12     {padding: 12px 40px;}
+.padding_8      {padding: 8px 30px;}
+.padding_19     {padding: 19px 76px;}
+.padding_18     {padding: 18px 58px;}
+.padding_2867   {padding: 18px 67px;}
+
+/*padding top*/
+.padding_top_5  {padding-top: 5px;}
+.padding_top_8  {padding-top: 8px;}
+.padding_top_10 {padding-top: 10px;}
+.padding_top_13 {padding-top: 13px;}
+.padding_top_15	{padding-top: 15px;}
+.padding_top_20 {padding-top: 20px;}
+.padding_top_21 {padding-top: 21px;}
+.padding_top_25 {padding-top: 25px;}
+.padding_top_30 {padding-top: 30px;}
+.padding_top_35 {padding-top: 35px;}
+.padding_top_40 {padding-top: 40px;}
+.padding_top_45	{padding-top: 45px;}
+.padding_top_50 {padding-top: 50px;}
+.padding_top_60 {padding-top: 60px;}
+.padding_top_70 {padding-top: 70px;}
+.padding_top_80 {padding-top: 80px;}
+.padding_top_85 {padding-top: 85px}
+.padding_top_90 {padding-top: 90px;}
+.padding_top_95 {padding-top: 95px;}
+.padding_top_100{padding-top: 100px}
+.padding_top_120{padding-top: 120px}
+.padding_top_130{padding-top: 130px}
+.padding_top_325{padding-top: 325px}
+
+/*padding bottom*/
+.padding_bottom_5   {padding-bottom: 5px;}
+.padding_bottom_8   {padding-bottom: 8px;}
+.padding_bottom_10	{padding-bottom: 10px;}
+.padding_bottom_13  {padding-bottom: 13px;}
+.padding_bottom_15	{padding-bottom: 15px;}
+.padding_bottom_20  {padding-bottom: 20px;}
+.padding_bottom_21  {padding-bottom: 21px;}
+.padding_bottom_25  {padding-bottom: 25px;}
+.padding_bottom_30  {padding-bottom: 30px;}
+.padding_bottom_35  {padding-bottom: 35px;}
+.padding_bottom_40  {padding-bottom: 40px;}
+.padding_bottom_50  {padding-bottom: 50px;}
+.padding_bottom_45	{padding-bottom: 45px;}
+.padding_bottom_55  {padding-bottom: 55px;}
+.padding_bottom_65  {padding-bottom: 65px;}
+.padding_bottom_70  {padding-bottom: 70px;}
+.padding_bottom_75  {padding-bottom: 75px;}
+.padding_bottom_80  {padding-bottom: 80px;}
+.padding_bottom_85  {padding-bottom: 85px;}
+.padding_bottom_100 {padding-bottom: 100px}
+.padding_bottom_120 {padding-bottom: 120px}
+.padding_bottom_130 {padding-bottom: 130px}
+
+/*padding left*/
+.padding_left_0     {padding-left: 0}
+.padding_left_10    {padding-left: 10px;}
+.padding_left_15    {padding-left: 15px;}
+.padding_left_20    {padding-left: 20px;}
+.padding_left_25    {padding-left: 25px;}
+.padding_left_30	{padding-left: 30px;}
+.padding_left_40    {padding-left: 40px;}
+.padding_left_55    {padding-left: 55px;}
+.padding_left_58    {padding-left: 58px;}
+.padding_left_60    {padding-left: 60px;}
+.padding_left_70    {padding-left: 70px;}
+.padding_left_75    {padding-left: 75px;}
+.padding_left_80    {padding-left: 80px;}
+.padding_left_85    {padding-left: 85px;}
+.padding_left_95    {padding-left: 95px;}
+.padding_left_100   {padding-left: 100px;}
+.padding_left_117   {padding-left: 117px;}
+.padding_left_145   {padding-left: 145px;}
+
+/*padding right*/
+.padding_right_0   {padding-right: 0}
+.padding_right_10   {padding-right: 10px;}
+.padding_right_15   {padding-right: 15px;}
+.padding_right_20   {padding-right: 20px;}
+.padding_right_30	{padding-right: 30px;}
+.padding_right_40   {padding-right: 40px;}
+.padding_right_50   {padding-right: 50px;}
+.padding_right_55   {padding-right: 55px;}
+.padding_right_58   {padding-right: 58px;}
+.padding_right_60   {padding-right: 60px}
+.padding_right_75   {padding-right: 75px;}
+.padding_right_80   {padding-right: 80px;}
+
+/* ===================================
+     Table
+====================================== */
+
+.v_align_middle{vertical-align: middle}
+.display_block{display: block}
+.display_inline{display: inline-block}
+.display_table  {display: table}
+.display_table_cell {display: table-cell}
+
+
+/* ===================================
+     Border
+====================================== */
+.height_560 {height: 560px}
+
+/* ===================================
+     Font Size
+====================================== */
+
+/*Font Size*/
+.font_size_12   {font-size: 12px;}
+.font_size_14   {font-size: 14px;}
+.font_size_16   {font-size: 16px;}
+.font_size_18   {font-size: 18px;}
+.font_size_20   {font-size: 20px;}
+.font_size_22   {font-size: 22px;}
+.font_size_24   {font-size: 24px;}
+.font_size_26   {font-size: 26px;}
+.font_size_30   {font-size: 30px;}
+.font_size_34   {font-size: 34px;}
+.font_size_36   {font-size: 36px;}
+.font_size_40   {font-size: 40px}
+.font_size_44   {font-size: 44px}
+.font_size_48   {font-size: 48px}
+.font_size_60   {font-size: 60px;}
+.font_size_50   {font-size: 50px;}
+.font_size_70   {font-size: 70px}
+.font_size_80   {font-size: 80px;}
+.font_size_90   {font-size: 90px;}
+
+/*Font weight*/
+.font_weight_100{font-weight: 100}
+.font_weight_300{font-weight: 300}
+.font_weight_400{font-weight: 400}
+.font_weight_500{font-weight: 500}
+.font_weight_600{font-weight: 600}
+.font_weight_700{font-weight: 700}
+.font_weight_900{font-weight: 900}
+
+/* ===================================
+     Line Height
+====================================== */
+
+/*Line Height*/
+.line_height_15    {line-height: 15px;}
+.line_height_22    {line-height: 22px;}
+.line_height_24    {line-height: 24px;}
+.line_height_28     {line-height: 28px}
+.line_height_25    {line-height: 25px;}
+.line_height_30    {line-height: 30px;}
+.line_height_36     {line-height: 36px}
+.line_height_40    {line-height: 40px;}
+.line_height_52    {line-height: 52px}
+.line_height_65    {line-height: 65px;}
+.line_height_80    {line-height: 80px;}
+
+/* ===================================
+     Top, Bottom, Left, Right
+====================================== */
+/*Top*/
+.top_0  {top: 0}
+
+/*Bottom*/
+.bottom_0{bottom: 0}
+
+/*Left*/
+.left_0{left: 0}
+
+/*Right*/
+.right_0{right: 0}
+
+/* ===================================
+     Letter Spacing
+====================================== */
+
+.letter_spacing_1 {letter-spacing: 1px;}
+.letter_spacing_2 {letter-spacing: 2px;}
+.letter_spacing_4 {letter-spacing: 4px;}
+
+
+/* ===================================
+      Navigation Bar
+====================================== */
+.nav_bar li a{color: #fff !important;}
+.nav_bar li:first-child a{padding-left: 0}
+.nav_bar li:last-child a{padding-right: 0}
+.affix {top: 0; width: 100%; z-index: 9999 !important; background-color: rgba(0,0,0,0.75) !important;}
+.menu_navigation {background-color: rgba(0,0,0,0.10)}
+/* ===================================
+     Banner
+====================================== */
+
+/*Banner Image*/
+.banner_img {float: right}
+.banner_img figure img {webkit-filter: drop-shadow( 0 10px 25px rgba(11,27,38, 0.4));
+    filter: drop-shadow( 0 11px 18px rgba(11,27,38, 0.5));}
+.search_domain_img figure img {webkit-filter: drop-shadow( 0 10px 25px rgba(11,27,38, 0.4));
+    filter: drop-shadow( 0 11px 18px rgba(11,27,38, 0.5));}
+.welcome_img figure img {webkit-filter: drop-shadow( 0 10px 25px rgba(11,27,38, 0.4));
+    filter: drop-shadow( 0 11px 18px rgba(11,27,38, 0.5));}
+
+/*Banner Text*/
+.home_page_banner{width: 100%; height: 640px; float: left; display: table;}
+.home_page_banner_content h1 {line-height: 42px; margin-bottom: 35px}
+.home_page_banner_content h1 span {color: #ffde00}
+.home_page_banner_content p{line-height: 28px; font-size: 18px; font-weight: 300; margin-bottom: 50px}
+.shared_page_banner {width: 100%;height: 270px; float: left; display: table}
+.shared_page_banner_content h1{line-height: 42px; font-weight: 500; margin-bottom: 25px}
+.shared_page_banner_content p{font-size: 18px; line-height: 28px; font-weight: 400}
+.dedicated_page_banner {width: 100%; height: 440px; float: left; display: table}
+.dedicated_page_banner_content h1 span {color: #ffde00}
+.dedicated_page_banner_content h1 {margin-bottom: 35px; line-height: 42px}
+.dedicated_page_banner_content p {line-height: 28px; font-size: 18px; font-weight: 300; margin-bottom: 35px}
+.domain_page_banner {width: 100%;height: 400px; float: left; display: table}
+.about_page_banner {width: 100%;height: 270px; float: left; display: table}
+.about_page_banner_content h1{line-height: 42px; font-weight: 500; margin-bottom: 25px}
+.about_page_banner_content p {font-size: 18px; line-height: 28px; font-weight: 400}
+.sub_text {font-size: 20px; line-height: 36px; font-weight: 500; color: #ec1e28; margin-bottom: 45px}
+/* ===================================
+      Buttons
+====================================== */
+
+/*Banner Button*/
+.banner_btn {display: inline-block; padding:20px 45px; background-color: #ffde00; border-radius: 5px; color: #222; font-weight: 600; box-shadow: 0 15px 50px rgba(0,0,0,.3);}
+
+/*Plan & Price Button*/
+.btn_price_box{display: inline-block; padding: 15px 45px; text-transform: uppercase; color:#fff; font-size: 14px; line-height: 30px; font-weight: 600; border-radius: 5px; margin-bottom: 40px}
+
+/*Welcome Section Button*/
+.welcome_btn{padding: 15px 45px; display: inline-block; color: #222; text-transform: uppercase; background-color: #ffde00; border-radius: 5px; font-size: 14px; line-height: 30px; font-weight: 600; box-shadow: 0 15px 50px rgba(0,0,0,.3); margin-top: 30px}
+
+/*Dedicated Section Button*/
+.dedicated_btn {background: rgb(179,31,80) !important;
+    background: -moz-linear-gradient(-45deg, rgba(179,31,80,1) 32%, rgba(179,31,80,1) 32%, rgba(228,30,45,1) 99%) !important;
+    background: -webkit-linear-gradient(-45deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;
+    background: linear-gradient(135deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;
+    color: #fff;
+    font-size: 14px; line-height: 30px; font-weight: 600; display: inline-block; padding: 20px 50px; border-radius: 5px; margin-top: 60px;
+}
+.btn_build_dedicated_server {display: inline-block; padding: 17px 45px; background-color: #ffde00; color: #222; border-radius: 5px; font-size: 14px; line-height: 30px; font-weight: 600; margin-top: 40px}
+.btn_stay_control {display: inline-block; padding: 17px 45px; background-color: #ffde00; color: #222; border-radius: 5px; font-size: 14px; line-height: 30px; font-weight: 600; margin-top: 40px}
+.btn_boost {display: inline-block; padding: 17px 45px; color: #fff; border-radius: 5px; background: rgb(179,31,80) !important;
+    background: -moz-linear-gradient(-45deg, rgba(179,31,80,1) 32%, rgba(179,31,80,1) 32%, rgba(228,30,45,1) 99%) !important;
+    background: -webkit-linear-gradient(-45deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;
+    background: linear-gradient(135deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;
+    font-size: 14px; line-height: 30px; font-weight: 600}
+
+.btn_domain {background: rgb(179,31,80) !important;
+    background: -moz-linear-gradient(-45deg, rgba(179,31,80,1) 32%, rgba(179,31,80,1) 32%, rgba(228,30,45,1) 99%) !important;
+    background: -webkit-linear-gradient(-45deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;
+    background: linear-gradient(135deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;
+    font-size: 14px; line-height: 24px; font-weight: 500; color: #fff; padding: 15px 45px; border-radius: 5px; display: inline-block; margin-top: 25px}
+
+
+/* ===================================
+      Position
+====================================== */
+
+/*Position Relative*/
+.position_relative   {position: relative;}
+
+/*Position Absolute   */
+.position_absolute   {position: absolute;}
+
+/* ===================================
+      Guarantee Section
+====================================== */
+
+.guarantee_section p{font-size: 16px; line-height: 36px; font-weight: 500; color: #666; margin-bottom: 25px}
+.guarantee_box_text h3{font-size: 20px !important; font-weight: 500; color: #222; margin-bottom: 15px}
+.guarantee_box_text p{font-size: 14px; font-weight: 400; line-height: 22px; color: #666}
+.guarantee_box{margin-bottom: 80px}
+.guarantee_section figure  img{margin-bottom: 80px}
+.guarantee_box_img {padding: 0}
+
+/* ===================================
+      Search Domain
+====================================== */
+
+.search_box{
+    width: 90%;
+    height: 80px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.search_btn{
+    position: absolute;
+    right: 18px;
+    top: 3px;
+    padding: 24px 42px !important;
+    font-size: 14px !important;
+    font-weight: 700;
+    color: #fff !important;
+    transition-duration: 0.5s;
+    line-height: 1;
+    border: none;
+    border-radius: 4px;
+}
+
+.search_area{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+.search_box {text-align: center}
+
+.search_box .text_field{
+    width: 100%;
+    font-size: 16px;
+    line-height: 16px;
+    height: 85%;
+    padding: 0 55px;
+    box-shadow: 0 0 11px 4px rgba(0,0,0,.1);
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+}
+
+label{
+    position: absolute;
+    left: 45px;
+    text-align: center;
+    top: 17px;
+    font-size: 20px;
+    color: #233141;
+    transition: 0.3s;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+.search_domain {padding-top: 35px}
+.search_domain h2{padding-bottom: 14px}
+.search_domain p{padding-bottom: 45px}
+
+
+/* ===================================
+      Price Plan Box
+====================================== */
+
+.price_plan_box {border: 1px solid #ebeae6; border-radius: 5px}
+.price_plan_box h4{font-size: 60px; line-height: 60px; font-weight: 500; color: #ec1e28; margin-bottom: 25px}
+.price_plan_box h4 span{font-size: 36px; line-height: 60px; font-weight: 500}
+.plan_details ul li{border-bottom: 1px solid #ebeae6; font-size: 16px; line-height: 50px; font-weight: 400}
+.plan_details ul li span{font-weight: 600}
+.plan_details ul li:first-child{border-top: 1px solid #ebeae6}
+.plan_details ul li:last-child{border-bottom: none; padding: 5px 0}
+.plan_details ul li:last-child a:before{ position: absolute; content: ""; height: 32px; width: 32px; background: url("../images/see_all_plans.png") no-repeat; left: 90px; bottom: 20px}
+.plan_details ul li:last-child a{font-size: 18px; font-weight: 500; line-height: 60px; color: #c31f45}
+.dedicated_price_plan_box {border: 1px solid #ebeae6; background-color: #fff}
+.dedicated_price_plan_box h5 {color: #ec1e28; font-size: 16px; font-weight: 500; line-height: 26px; padding-bottom: 22px;}
+.dedicated_plan_details ul li {border-bottom: 1px solid #ebeae6; font-size: 16px; line-height: 48px; font-weight: 400; text-align: left; position: relative; padding-left: 50px;}
+.dedicated_plan_details ul li:before {background: url("../images/check_mark.png") no-repeat; position: absolute; content: ""; width: 16px; height: 16px; left: 25px; top: 14px}
+.dedicated_plan_details ul li span {font-weight: 600}
+.dedicated_plan_details ul li:first-child{border-top: 1px solid #ebeae6}
+.dedicated_price_plan_box h4{font-size: 48px; line-height: 60px; font-weight: 500; color: #ec1e28; margin-bottom: 10px}
+.dedicated_price_plan_box h4 span{font-size: 30px; line-height: 60px; font-weight: 500}
+.dedicated_price_plan_box p {padding-top: 25px}
+.flash_icon:before {background: url("../images/flash.png") no-repeat; content: ""; position: absolute; width: 48px; height: 56px; top: -30px; left: 0; right: 0; margin: 0 auto}
+.dedicated_details h3 {font-size: 30px; line-height: 36px; font-weight: 500; color: #fff; margin-bottom: 40px}
+.dedicated_detail_list ul li{font-size: 16px; line-height: 40px; font-weight: 500; color: #fff; position: relative}
+.dedicated_detail_list ul li:before{background: url("../images/check.png") no-repeat; width: 24px; height: 24px; content: ""; position: absolute; top: 8px; left: 50px}
+/* ===================================
+      Welcome Section
+====================================== */
+
+.welcome_note .welcome_info{font-size: 20px; line-height: 30px; font-weight: 400; color: #ffde00; padding-bottom: 40px}
+.welcome_note h2{color: #fff}
+.welcome_detail{color: #fff; font-size: 16px; line-height: 24px; font-weight: 400; text-align: justify; padding-bottom: 10px}
+.welcome_img figure img {padding-top: 50px}
+/* ===================================
+      Hosting Feature
+====================================== */
+.feature_heading figure img{margin-bottom: 0}
+.feature_box{border-bottom: 1px solid #e6e6e6}
+.feature_heading p{font-size: 16px; line-height: 36px; font-weight: 500; color: #666; margin-bottom: 25px}
+
+/* ===================================
+      Testimonials BG
+====================================== */
+
+.testimonials_bg {background: url("../images/testimonials_bg.jpg") no-repeat; width:100%; background-position: center; background-size: cover; content: ""; background-attachment: fixed}
+.testimonials_heading h2{color: #fff; margin-bottom: 22px}
+.testimonials_heading figure img{margin-bottom: 30px}
+.testimonial_content span{font-size: 14px; line-height: 24px; font-weight: 400;}
+.testimonial_content p{font-size: 18px; font-weight: 400; line-height: 30px; padding-top: 50px}
+/* ===================================
+      Display Block
+====================================== */
+
+/*Display Block*/
+.display_block{display: block}
+.display_inline{display: inline-block}
+
+
+/* ===================================
+      Footer Section
+====================================== */
+.social_links h6 a {color: #fff; font-size: 18px; font-weight: 700; line-height: 42px }
+.footer_links li{line-height: 30px;}
+.footer_links li a{color: #666}
+
+.copyrights span {font-size: 14px; color: #666; line-height: 24px; font-weight: 500}
+
+/* ===================================
+      Support Section
+====================================== */
+.support_content h3{font-size: 24px; font-weight: 400; line-height: 48px; color: #222; padding-bottom: 15px}
+.support_content p{font-size: 14px; line-height: 24px; font-weight: 500; color: #666}
+
+.bg_img {background: url("../images/bg_img.jpg") no-repeat; width: 100%; background-size: cover; background-position: center; margin-top: -333px; background-attachment: fixed}
+.bg_dedicated_server {background: url("../images/bg_dedicated_server.jpg") no-repeat; width: 100%; background-size: cover; background-position: center;}
+.semi_managed {border: 1px solid #ebeae6}
+.semi_managed h3 {font-size: 24px; line-height: 50px; font-weight: 500; color: #222}
+.semi_managed h4 {font-size: 48px; line-height: 60px; font-weight: 500; color: #ec1e28; margin-bottom: 10px}
+.semi_managed span {font-size: 30px; line-height: 60px; font-weight: 500; color: #ec1e28}
+.semi_managed_list li {font-size: 16px; font-weight: 600; line-height: 30px; color: #222}
+.semi_managed_img figure img{padding-top: 50px; padding-bottom: 15px}
+.semi_managed_list {margin-bottom: 40px}
+.semi_managed_box {margin-left: 200px}
+
+
+.fully_managed {border: 1px solid #ebeae6}
+.fully_managed h3 {font-size: 24px; line-height: 50px; font-weight: 500; color: #222}
+.fully_managed h4 {font-size: 48px; line-height: 60px; font-weight: 500; color: #ec1e28; margin-bottom: 10px}
+.fully_managed span {font-size: 30px; line-height: 60px; font-weight: 500; color: #ec1e28}
+.fully_managed_list li {font-size: 16px; font-weight: 600; line-height: 30px; color: #222}
+.fully_managed_img figure img{padding-top: 50px; padding-bottom: 15px}
+.fully_managed_list {margin-bottom: 40px}
+.fully_managed_box {margin-right: 200px}
+.dedicated_server_content h2{font-size: 36px; line-height: 42px; font-weight: 500; color: #fff}
+.dedicated_server_content p {font-size: 18px; line-height: 28px; font-weight: 400; color: #ffde00 !important; margin-bottom: 35px}
+.dedicated_server_content ul li{font-size: 16px; line-height: 30px; font-weight: 400; position: relative; padding-left: 35px}
+.dedicated_server_content ul li:before {background: url("../images/tick_mark.png") no-repeat; content: ""; position: absolute; width: 20px; height: 20px; left: 0; top: 4px}
+
+
+.operating_system_info li a figure img {padding: 0 39px}
+.operating_system_info {text-align: center}
+
+.stay_control_img {padding: 0}
+.stay_control_content h2 {font-size: 36px; line-height: 36px; font-weight: 500; color: #fff}
+.stay_control_content p {font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffde00;
+    padding-bottom: 40px;}
+.stay_control_list li {position: relative; color: #fff; font-size: 16px; line-height: 30px; font-weight: 400; padding-left: 20px}
+.stay_control_list li:before {content: ""; position: absolute; width: 10px; height: 10px; background-color: #ffde00; border-radius: 100%; left: 0; top: 8px}
+.promo_box_content {text-align: left; border: 1px solid #ebeae6}
+.promo_box_text h4 {font-size: 38px; line-height: 60px; font-weight: 500; color: #ec1e28}
+.promo_box_text h4 span {font-size: 20px; line-height: 60px; font-weight: 600; color: #ec1e28}
+.promo_box_text h3 {font-size: 24px; line-height: 48px; font-weight: 500; margin-bottom: 10px}
+.promo_box_text p {font-size: 14px; line-height: 24px; font-weight: 500; color: #666; margin-bottom: 10px}
+
+.service_box {border: 1px solid #ebeae6; padding-top: 40px; padding-bottom: 40px}
+.service_imginner {background: rgb(179,31,80) !important;
+    background: -moz-linear-gradient(-45deg, rgba(179,31,80,1) 32%, rgba(179,31,80,1) 32%, rgba(228,30,45,1) 99%) !important;
+    background: -webkit-linear-gradient(-45deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;
+    background: linear-gradient(135deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;
+    width: 100px; height: 100px; display: table; margin: 0 auto}
+.service_imginner span {display: table-cell; vertical-align: middle; font-size: 36px; line-height: 36px; color: #fff; font-weight: 700}
+.service_detail h4 {font-size: 36px; line-height: 36px; font-weight: 500; color: #ec1e28; margin-top: 25px}
+.service_detail h4 span {font-size: 18px; line-height: 36px; font-weight: 500;}
+.domain_table tr th:nth-child(odd) {
+    background:#b21f51 ;
+}
+.domain_table tr th:nth-child(even) {
+    background:#c41f45 ;
+}
+.domain_table tr th{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    border: none;
+    padding: 20px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.domain_table tbody tr td {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    border: none;
+    color: #323232;
+    text-transform: uppercase;
+    padding: 15px 0;
+    text-align: center;
+}
+.info_fields input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.message_box textarea {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+.submit_btn {
+    padding: 18px 50px !important;
+    color: #222 !important;
+    border: none !important;
+    background-color: #ffde00 !important;
+    border-radius: 2px;
+    font-weight: 500;
+}
+.welcome_content p {font-size: 16px; font-weight: 500; line-height: 24px; color: #666}
+.nav-pills {text-align: center}
+.nav-justified>li {display: inline-block; width: auto}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {background: rgb(179,31,80) !important;
+    background: -moz-linear-gradient(-45deg, rgba(179,31,80,1) 32%, rgba(179,31,80,1) 32%, rgba(228,30,45,1) 99%) !important;
+    background: -webkit-linear-gradient(-45deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;
+    background: linear-gradient(135deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;}
+.nav-justified>li>a {padding: 18px 60px; font-size: 16px; line-height: 36px; font-weight: 500; position: relative; color: #222}
+.mission_img figure:after {background: url("../images/mission_img_shadow.png") no-repeat; width: 334px; height: 45px; content: ""; position: absolute; right: 0}
+.mission_img figure {position: relative}
+.mission_content p {font-size: 18px; line-height: 30px; font-weight: 500; color: #222; text-align: justify; margin-bottom: 30px}
+.mission_content ul li{font-size: 16px; font-weight: 400; line-height: 40px; color: #666; position: relative; padding-left: 35px}
+.mission_content ul li:before {background: url("../svg/about_us/check_mark.svg") no-repeat; content: ""; position: absolute; width: 24px; height: 24px; left: 0; top: 7px}
+.about_chose_box_img figure img {padding-top: 30px; padding-bottom: 30px}
+.about_chose_box h3 {font-size: 24px; line-height: 30px; font-weight: 500; color: #222; margin-bottom: 20px}
+.about_chose_box p {font-size: 14px; line-height: 22px; font-weight: 500; color: #666; padding-bottom: 30px; }
+.about_chose_box {border-radius: 5px; padding: 0 15px}
+.help_section {
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.help_section:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(../images/help_bg.jpg);
+    background-repeat: no-repeat;
+}
+.help_section_content h2 {font-size: 36px; line-height: 42px; font-weight: 500; color: #222; margin-bottom: 20px}
+.help_section_content {padding-left: 25px}
+.help_section_content p {font-size: 16px; line-height: 24px; font-weight: 500; color: #666; margin-bottom: 40px}
+.help_people_inner {display: table; height: 560px}
+.btn_help_people {
+    background: rgb(179,31,80) !important;
+    background: -moz-linear-gradient(-45deg, rgba(179,31,80,1) 32%, rgba(179,31,80,1) 32%, rgba(228,30,45,1) 99%) !important;
+    background: -webkit-linear-gradient(-45deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;
+    background: linear-gradient(135deg, rgba(179,31,80,1) 32%,rgba(179,31,80,1) 32%,rgba(228,30,45,1) 99%) !important;
+    font-size: 14px; font-weight: 700; line-height: 30px; color: #fff; padding: 15px 45px; border-radius: 5px; display: inline-block;
+}
+.dedicated_server_img figure img {    webkit-filter: drop-shadow( 0 10px 25px rgba(11,27,38, 0.4)); filter: drop-shadow( 0 11px 18px rgba(11,27,38, 0.5));}
+.container-3 input#search{
+    width: 100%;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    float: right;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.container-3 .icon {
+    position: absolute;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #fff;
+}
+.border_bottom {
+    border-bottom: 1px solid #585758;
+}
+.side_links{
+    padding-top: 20px;
+}
+.side_links li {
+    padding-bottom: 5px;
+    color: #243049;
+    font-weight: 500;
+    font-size: 16px;
+}
+.side_links li span{float: right; color: #777; font-size: 14px; font-weight: 500 }
+.side_links li a{color: #777}
+.side_links li:last-child{padding-bottom: 0; padding-top: 0}
+.side_links li:last-child{border-bottom: none}
+.side_links li a:hover{color: #c41f45}
+.side_links li a:hover span{color: #c41f45}
+.tag_buttons li {background-color: #f5f5f5;
+    padding: 10px;
+    margin: 5px;
+    float: left;
+    font-size: 12px;}
+.tag_buttons li:hover{background-color: #d7263d;}
+.tag_buttons li:hover a {color: #ffffff;}
+.input_fields {padding: 10px;
+    padding-left: 5px;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    margin-bottom: 10px}
+
+.submit_button {padding: 10px 32px;
+    float: right;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #c41f45;
+    border-color: #c41f45;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.submit_button:hover {background-color: #fff; border: 2px solid #c41f45; color: #222}
+.btn_feature_box:hover{background-color: #fff; border:2px solid #c41f45;}
+.btn_feature_box:hover a{color: #222}
+.btn_feature_box {background-color: #c41f45; border-radius: 5px}
+.btn_feature_box a{color: #fff;}
+#loader {
+    position: absolute;
+    left:0;
+    right:0;
+    top: 50%;
+    margin: 0 auto;
+    z-index: 1;
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #d7263d;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 }
+    to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+    from{ bottom:-100px; opacity:0 }
+    to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+    display: none;
+}
+.social_links h6 a {color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 42px;}

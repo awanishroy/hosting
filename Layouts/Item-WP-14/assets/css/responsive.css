@@ -1,0 +1,351 @@
+@media only screen and (max-width: 1199px){
+    .top_navigation .navbar-nav li a{margin: 0 5px}
+    .top_navigation{padding: 10px 15px}
+    .right_nav_links li{padding: 0 5px}
+    .padding_top_200{padding-top: 150px}
+    .tag_line:before{left: 22%}
+    .company_box01, .company_box02,.company_box03{width: 140px; height: 140px}
+    .domain_listing li{width: 60px; height: 60px; margin: 0 6px}
+    .featured_box{padding: 20px}
+    .featured_box_img:before{width: 20px; left: -20px}
+    .featured_box_img:after{width: 19px; right: -19px}
+    .content_blog_post_box{padding: 22px}
+    .margin_bottom_50{margin-bottom: 45px}
+    br{display: none}
+    .banner_listing li, .hosting_feature_listing li{font-size: 14px; padding-left: 26px}
+    .banner_listing li:before{top: 6px;}
+    .hosting_feature_heading{font-size: 18px}
+    .margin_bottom_15{margin-bottom: 10px}
+    .margin_bottom_20{margin-bottom: 5px}
+    .team_member_box{padding: 40px 15px}
+    .contact_box{width: 140px; height: 140px}
+    .last_box:before{left: -145px}
+    .first_box:after{right: -115px}
+    .latest_post_content{padding: 25px 30px}
+    .font_size_16{font-size: 14px}
+    .domain_listing{text-align: center}
+    .default_mega_menu{left: 0; width: 1020px}
+    .mega_menu_02{left: -155px; width: 930px !important;}
+    .mega_menu_header02{left: -455px }
+    .header03_contact_info li{padding: 0 20px}
+    .header03_contact_info li:nth-child(1):before, .header03_contact_info li:nth-child(2):before{display: none}
+    .guarantee_box{padding: 35px}
+    .coa_block p{font-size: 16px}
+    #accordion .card-header button[aria-expanded="false"]:before{top: 0}
+    #accordion .card-header button[aria-expanded="true"]:before{top: 0}
+    .table_comparing_price_plan thead th, .table_comparing_price_plan tbody td{padding: 15px 10px}
+    .inner_btn_dedicated_plan_box{width: 190px}
+    .dedicated_plan_listing{padding: 20px 0}
+    .footer_social_links{margin-top: 15px}
+    .sub_banner_img_margin{margin-top: 60px}
+    .slider_detail{padding: 30px !important;}
+    .padding_bottom_50{padding-bottom: 40px}
+    .domain_sub_page_img figure{width: 80%; margin: 0 auto}
+    .sub_page_banner_img figure{width: 80%; margin: 0 auto}
+    .sub_page_banner_content_box{padding-top: 30px}
+    .inner_sub_page_banner_content_box{margin-bottom: 15px}
+    .contact_box{padding: 32px 0}
+    .contact_box_name{margin-top: 5px}
+    .contact_us_box{min-height: 236px; padding: 65px 25px}
+    a.learn-more, .hosting_plan_box.active a.learn-more, .domain_offer_box.active a.learn-more{width: 195px}
+    .dedicated_banner_content_box{padding-top: 160px}
+
+
+}
+@media only screen and (max-width: 991px) {
+    .navbar-toggler-icon{background: url("../images/mobile_toogle_button.svg")}
+    .padding_top_200, .padding_top_100{padding-top: 100px}
+    .font_size_48{font-size: 32px}
+    .line_height_60{line-height: 44px}
+    .margin_bottom_50{margin-bottom: 25px}
+    br{display: none}
+    .hosting_plan_box{padding: 30px 15px}
+    .hosting_plan_listing li{font-size: 14px; line-height: 24px}
+    a.learn-more, .hosting_plan_box.active a.learn-more, .domain_offer_box.active a.learn-more{width: 175px}
+    .tag_line:before{left: 12%}
+    .company_box01, .company_box02, .company_box03{width: 110px; height: 110px}
+    .company_detail_heading{font-size: 16px}
+    .margin_bottom_40{margin-bottom: 20px}
+    .guarantee_box{padding: 0 15px 15px}
+    body{font-size: 14px; line-height: 20px}
+    .font_size_36{font-size: 28px}
+    .line_height_48{line-height: 34px}
+    .featured_box_img:before{width: 5px; left: -5px}
+    .featured_box_img:after{width: 4px; right: -4px}
+    .featured_box_heading{font-size: 16px; line-height: 20px; margin-bottom: 10px}
+    .testimonial_indicators li{margin: 0 10px}
+    .first_blog_post figure img{width: 100%}
+    .margin_bottom_box{margin-bottom: 20px}
+    .center_box:after, .first_box:before{width: 80px; right: -80px}
+    .center_box:before, .last_box:after{width: 80px; left: -80px}
+    .first_box:after{right: -80px}
+    .last_box:before{left: -100px}
+    .feature_heading{font-size: 16px}
+    .btn-link{white-space: normal}
+    .banner_listing li, .hosting_feature_listing li{line-height: 26px}
+    .banner_listing li{padding-left: 35px}
+    .banner_listing li:before{top: 0}
+    .custom_box{margin-bottom: 50px}
+    .margin_bottom_20{margin-bottom: 10px}
+    .feature_margin_bottom{margin-bottom: 50px}
+    .feature_box_space{padding-top: 30px}
+    .software_box{padding: 20px 0}
+    .domain_offer_box{padding: 15px}
+    .hero_banner_img{padding-bottom: 50px}
+    .team_members_listing li{padding: 15px 3px 0}
+    .about_hosting_box_img{top: -60px}
+    .about_hosting_box{padding: 70px 20px 40px}
+    .contact_box{width: 110px; height: 110px; padding: 25px 0}
+    .contact_box_name{font-size: 14px}
+    .contact_us_box{padding: 30px 0; min-height: 150px}
+    .first_blog_post{margin-bottom: 20px}
+    .content_blog_post_box{padding: 53px}
+    .w_40{width: 31%}
+    .w_60{width: 69%}
+    .empty_column{display: none}
+    .right_nav_links{display: none}
+    .top_navigation .navbar-nav li:first-child a{margin-left: 5px}
+    .navbar-nav .hosting_dropdown{float: left}
+    .price_rangetxt div.icon{width: 60px !important; height: 60px !important;}
+    .price_rangetxt div.icon span{font-size: 12px !important;}
+    .vps_slider_listing li{padding: 25px 10px 0 !important;}
+    .navbar-toggler:focus{outline: none; border: none}
+    .mobile_navbar{position: absolute; width: 30%; right: 0; background-color: #fff; top: 100%; z-index: 9}
+    .top_navigation{background-color: #fff}
+    .navigation_bar{padding: 10px 0; margin: 0}
+    .top_navigation .navbar-nav li a{margin: 0; padding: 8px 15px; position: relative}
+    .dropdown-toggle::after{position: absolute; right: 30px; top: 10px}
+    .top_navigation .navbar-nav li:first-child a{margin-left: 0}
+    .outer_mega_menu{display: none}
+    .navbar-nav .dropdown-menu{box-shadow: none; background-color: rgba(255,0,126,.20); border-radius: 0 !important;}
+    .dd_bg_01, .dd_bg_02, .dd_bg_03, .dd_bg_04{background: none}
+    .hosting_dropdown{border: none}
+    .menu_content{width: 100%; margin-left: 0; font-size: 0; line-height: 0}
+    .hosting_dropdown a span{font-size: 14px; line-height: 14px; }
+    .hosting_dropdown a.dropdown-item{padding: 10px 15px !important;}
+    .header01_top_bar_content, .header01_top_bar_btn .btn_contact_us{display: none}
+    a.navbar-brand.header01_logo{padding: 15px;}
+    .header01_top_bar{padding: 0}
+    .header01_navigation{bottom: 0; position: relative}
+    .outer_header01_logo{text-align: left}
+    .header02_mobile_toggle{position: absolute; top: 5px; right: 5px}
+    .hide_on_mobile{display: none}
+    .outer_header01_navbar{position: absolute; top: 100%; right: 0; width: 30%; background: #fff; z-index: 9; padding: 10px 0}
+    .header01_navbar li a{padding: 10px 20px !important;}
+    .header01_navbar li:first-child > a{padding-left: 20px !important;}
+    .outer_header01_logo{border-right: none}
+    .header_02_logo, .header03_contact_info, .office_timing, .header04_social_links{display: none}
+    .header03_mobile_toggle{position: relative; right: -15px}
+    .header02_mobile_logo{display: block}
+    .navigation{position: absolute; top: 100%; right: 0; width: 30%; background-color: #fff; z-index: 9; padding: 10px 0}
+    .mobile_row{margin: 0}
+    .menubar_header_03{float: left !important; width: 100%}
+    .header04_toggle{position: absolute; right: 30px; top: 0; z-index: 9}
+    .padding_bottom_20{padding-bottom: 5px}
+    .padding_top_20{padding-top: 5px}
+    .header03_outer{top: 44px}
+    .navigation .menubar_header03 li > a:first-child{padding-left: 20px !important;}
+    .navigation .menubar_header03 li a{padding: 10px 20px !important; text-transform: capitalize}
+    .header04_navigation{background: #fff}
+    .header05_toggle{position: absolute; right: 0; top: -45px}
+    .header04_navbar li a{color: #333 !important;}
+    .mobile_footer05{text-align: center}
+    .dropdown .hosting_dropdown{width: 100%}
+    .navigation .menubar_header03 li a{color: #5a5f69 !important;}
+    .mobile_banner_margin{padding-top: 50px}
+    .guarantee_img02, .guarantee_img01, .guarantee_img03, .guarantee_img04{background-size: 65%; margin-bottom: 10px}
+    .domain_listing li{margin: 0 8px}
+    .search_box .text_field{font-size: 16px}
+    .hosting_feature_row:before, .hosting_feature_row:after{right: 48.7%}
+    .client_name{padding: 20px 0}
+    figure.footer_logo{margin-bottom: 15px}
+    .footer_social_links{margin-top: 15px}
+    .footer_social_links li a i{font-size: 14px}
+    .font_size_18{font-size: 16px}
+    .line_height_30{line-height: 24px}
+    .sub_page_banner h1{padding-bottom: 10px}
+    .starting_price{font-size: 18px}
+    .starting_price:before{left: 100px}
+    .sub_page_banner div.padding_top_200{padding-top: 50px}
+    a.learn-more .circle, .hosting_plan_box.active a.learn-more .circle, .domain_offer_box.active a.learn-more .circle{width: 2.5rem; height: 2.5rem}
+    a.learn-more .button-text, .hosting_plan_box.active a.learn-more .button-text, .domain_offer_box.active a.learn-more .button-text{padding: 0.65rem 0}
+    .margin_bottom_30{margin-bottom: 10px}
+    .tablet_box{max-width: 46%; margin: 0 2%}
+    .tablet_margin{margin-bottom: 30px}
+    .feature_heading{margin-bottom: 10px}
+    .guarantee_box p{line-height: 20px}
+    .guarantee_box_heading{margin-bottom: 10px}
+    .coa_block h2{margin-bottom: 10px}
+    .padding_bottom_60{padding-bottom: 40px}
+    .padding_top_60{padding-top: 40px}
+    .padding_bottom_100{padding-bottom: 70px}
+    .table_comparing_price_plan thead tr th{font-size: 18px; line-height: 24px}
+    .txt-l{font-size: 30px; line-height: 30px}
+    .heading_pricing_plan{font-size: 20px !important;}
+    .hosting_feature_listing{display: none}
+    .custom_box, .margin_bottom_70{margin-bottom: 30px}
+    .reseller_banner_img figure{width: 100%; height: auto; margin-top: 60px}
+    .dedicated_why_choose_img figure{width: 175px}
+    .vps_page_banner_responsive {padding-top: 70px}
+    .slider_nodes li{padding: 0 16px}
+    .why_choose_heading{font-size: 18px}
+    .guarantee_box_heading{font-size: 16px}
+    a.learn-more .circle .icon.arrow::before{right: 0.225rem}
+    a.learn-more:hover .circle .icon.arrow:before{right: .0625rem}
+    .sub_page_content_box{padding-top: 50px}
+    .domain_tlds_img{margin-bottom: 50px}
+    .domain_tlds_img figure{width: 65%; margin: 0 auto}
+    .sub_page_banner_content_box{padding-top: 0}
+    .inner_sub_page_banner_content_box{font-weight: 600; margin-bottom: 20px}
+    .inner_sub_page_banner_content_box01{margin-bottom: 10px}
+    .team_member_box{padding: 20px 15px}
+    .team_member_name{font-size: 18px}
+    .contact_page_banner_content_box{padding-top: 0}
+    .hosting_plan_box.active a.learn-more .circle .icon.arrow::before, .domain_offer_box.active a.learn-more .circle .icon.arrow::before{right: 0.225rem}
+    .hosting_plan_box.active a.learn-more:hover .circle .icon.arrow:before, .domain_offer_box.active a.learn-more:hover .circle .icon.arrow:before{right: .0625rem}
+    .margin_bottom_80{margin-bottom: 40px}
+    .search_domain_img figure{width: 100%; margin-top: 60px}
+    .hide_colum{display: none}
+    .partner_img{width: 80%; margin: 0 auto}
+    .carousel-control-next, .carousel-control-prev{bottom: -65px}
+    .inner_blog_post_box figure img{min-height: 184px}
+    .content_blog_post_box{padding: 15px}
+    .margin_bottom_35{margin-bottom: 15px}
+    .margin_bottom_10{margin-bottom: 0}
+    .content_blog_post_box p {font-size: 14px; line-height: 20px}
+    .guarantee_box p{font-size: 12px; line-height: 18px}
+    .why_choose_content_box{padding-left: 40px}
+    .reseller_hosting_feature_img figure{margin: 0 auto}
+    .team_members_listing li a{width: 35px; height: 35px}
+    .team_members_listing li a i{font-size: 16px}
+    .guarantee_box:hover .guarantee_img01, .guarantee_box:hover .guarantee_img02, .guarantee_box:hover .guarantee_img03, .guarantee_box:hover .guarantee_img04{background-size: 65%; background-repeat: no-repeat; background-position: center}
+}
+@media only screen and (max-width: 767px){
+    .padding_top_60{padding-top: 30px}
+    .padding_bottom_60{padding-bottom: 30px}
+    .font_size_48{font-size: 24px}
+    .font_size_18{font-size: 14px}
+    .line_height_60{line-height: 28px}
+    .line_height_30{line-height: 24px}
+    .margin_bottom_30{margin-bottom: 10px}
+    .margin_box{margin-bottom: 20px}
+    .tag_line:before{display: none}
+    .font_size_36{font-size: 24px}
+    .line_height_48{line-height: 30px}
+    .company_box01, .company_box02, .company_box03{width: 100px; height: 100px}
+    .padding_bottom_100{padding-bottom: 50px}
+    .padding_top_170{padding-top: 0}
+    .margin_bottom_60{margin-bottom: 40px}
+    .order_1{order: 1}
+    .order_2{order: 2}
+    .search_domain_section h2, .search_domain_section p{text-align: center}
+    .hosting_feature_row:before, .hosting_feature_row:after,.outer_featured_box:before, .featured_box_img:before, .featured_box_img:after{display: none}
+    .padding_top_50{padding-top: 0}
+    .padding_top_130{padding-top: 50px}
+    .featured_box{text-align: center !important; margin: 0 25px; border-radius: 6px}
+    .latest_post_content{padding: 5px 15px 15px}
+    .w_40, .w_60{width: 100%}
+    .w_40 img{width: 100%}
+    .testimonial_indicators, .disable_links{display: none}
+    .carousel-item{padding-top: 0}
+    .full_width{text-align: center}
+    #accordion .card-header button[aria-expanded="false"]:before{padding: 10px; left: -30px; font-size: 16px; top: 0}
+    #accordion .card-header button[aria-expanded="true"]:before{padding: 10px; left: -30px; font-size: 16px; top: 0}
+    .center_box:after, .first_box:before,.first_box:after, .center_box:before, .last_box:after, .last_box:before{display: none}
+    .heading_pricing_plan{font-size: 18px !important;}
+    .table_comparing_price_plan tbody tr td:first-child{font-size: 14px}
+    button:focus{outline: none}
+    .about_hosting_box_img{top: -55px}
+    .about_hosting_box{padding: 120px 20px 20px}
+    .padding_top_70{padding-top: 30px}
+    .tag_line{margin-top: 20px}
+    .margin_bottom_80{margin-bottom: 30px}
+    .domain_listing{text-align: center}
+    .footer_logo, .designed_by{margin-bottom: 20px}
+    .vps_slider_listing li{padding: 5px 5px 0 !important;}
+    .value_text{font-size: 14px; line-height: 18px !important;}
+    .value_text .value{font-size: 18px !important;}
+    .slider_detail{float: left !important;}
+    .dd_bg_01, .dd_bg_02, .dd_bg_03, .dd_bg_04{background: none}
+    .menu_content{width: 100%; margin-left: 0; font-size: 0}
+    .dropdown .hosting_dropdown{width: 100%}
+    .hosting_dropdown a.dropdown-item{padding: 5px 15px !important;}
+    .menu_content span{font-size: 14px}
+    .mobile_navbar, .outer_header01_navbar, .navigation{width: 50%}
+    .footer01_links_mobile{display: none}
+    .mobile_box{text-align: center}
+    .footer01_links_border{padding-bottom: 0}
+    .carousel-control-next, .carousel-control-prev{bottom: -50px}
+    .mobile_center{text-align: center !important;}
+    .footer03_social_links{float: none; text-align: center}
+    .email_submit_btn{top: 33px}
+    .header_02_top_bar{display: none}
+    .header_02_top_navigation{border-top: none; margin-top: 0}
+    .header_02{padding: 10px 0}
+    .order02{order: 2}
+    .order01{order: 1}
+    .mobile_text_center{text-align: center !important;}
+    .mobile_img figure img{width: 80%}
+    .mobile_img figure{text-align: center}
+    .padding_top_200, .padding_top_100{padding-top: 50px}
+    .hero_banner_img{padding-bottom: 50px}
+    .discount_tag span{font-size: 14px}
+    .discount_tag{padding: 0 50px}
+    .welcome_section_img figure img{width: 80% !important; height: auto !important;}
+    .company_detail_heading{font-size: 14px}
+    .mobile_center_img figure img{width: 80%}
+    .mobile_center_img figure {text-align: center}
+    .mobile_hide{display: none}
+    .font_size_20{font-size: 16px}
+    .margin_top_50{margin-top: 35px}
+    .testimonial_box_content{padding: 0 20px}
+    .coa_block h2{font-size: 20px}
+    .coa_block{padding: 40px 15px; margin: 0 10px}
+    .margin_bottom_10{margin-bottom: 5px}
+    .hosting_plan_box{margin:  0 30px}
+    .mobile_margin_box{margin-bottom: 20px !important;}
+    .feature_box{padding: 0 30px}
+    .guarantee_box{padding: 5px 30px 20px; margin: 0 30px}
+    .guarantee_box_heading{margin-bottom: 10px}
+    #accordion .card-header button[aria-expanded="true"]:before{line-height: .7}
+    #accordion .card-header button[aria-expanded="false"]:before{line-height: .7}
+    .btn{text-align: left}
+    .mobile_padding_faq{padding: 0 25px}
+    .tablet_box{max-width: 100%}
+    .reseller_hosting_feature_img figure{margin: 0 auto}
+    .banner_listing li{padding-left: 55px; text-align: left}
+    .banner_listing li:before{left: 20px}
+    .table_comparing_price_plan tbody tr td:first-child{width: 50% !important;}
+    .first_heading_pricing_plan{font-size: 16px !important;}
+    .reseller_banner_img figure{width: 80%; margin: 0 auto}
+    .banner_listing li, .hosting_feature_listing li{font-size: 14px; line-height: 18px}
+    .mobile_small_box{padding: 0 30px}
+    .dedicated_why_choose_img figure{margin: 0 auto}
+    .slider_nodes li{padding: 0 15px}
+    .slider_detail{padding: 30px 15px !important;}
+    .price_txt{min-width: 120px !important;}
+    .vps_feature_box{padding: 0 30px}
+    .guarantee_img02, .guarantee_img01, .guarantee_img03, .guarantee_img04{margin-bottom: 0}
+    .btn-link{font-size: 16px; line-height: 20px}
+    .padding_top_30{padding-top: 0}
+    .about_hosting_box{padding: 60px 20px 20px}
+    .mobile_margin_bottom{margin-bottom: 50px}
+    .help_section_img{margin-bottom: 30px}
+    .help_section_img figure{width: 80%; margin: 0 auto}
+    .team_member_box{margin: 0 30px; padding: 20px}
+    .contact_page_img figure{width: 80%; margin: 0 auto}
+    .contact_us_box{margin: 0 30px; min-height: auto; padding: 30px 25px}
+    .contact_box{width: 100px; height: 100px; padding: 17px 0}
+    .footer_logo{margin: 0 auto}
+    .guarantee_box:hover .guarantee_img01, .guarantee_box:hover .guarantee_img02, .guarantee_box:hover .guarantee_img03, .guarantee_box:hover .guarantee_img04{background-size: 65%; background-repeat: no-repeat; background-position: center}
+    .featured_post_tag{background-position: left; background-size: 85%}
+    .coa_block p{font-size: 14px}
+    .banner_listing li:before{background-size: 80%; background-repeat: no-repeat}
+    .reseller_mobile_sapce{padding-top: 0}
+    .technical_list li{margin-bottom: 7px}
+    .technical_list li:last-child{margin-bottom: 0}
+    .content_blog_post_box{padding: 13px 15px}
+}
+@media only screen and (max-width: 480px){
+    .font_size_36{font-size: 20px}
+}

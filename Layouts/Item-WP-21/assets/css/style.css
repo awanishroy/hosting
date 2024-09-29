@@ -1,0 +1,1343 @@
+@charset "utf-8";
+
+/* ----------------------------------
+
+Name: style.css
+Version: 1.0
+
+-------------------------------------
+Table of contents
+
+    01. Google font
+    02. Reset
+    03. Typography
+    04. Margin
+    05. Color
+    06. Padding
+    07. Font Size
+    08. Line Height
+    09. Button
+    10. Hover
+    11. Banner
+    12. Custom
+*/
+
+/* ===================================
+    Google font
+====================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+/* ===================================
+    Reset
+====================================== */
+body{color:#666; font-size: 16px; line-height: 24px; font-weight: 400; font-family: 'Open Sans', sans-serif; -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+    -webkit-text-size-adjust: 100%;}
+
+.navbar {margin-bottom: 0}
+ul{margin: 0; padding: 0; list-style-type:none}
+a:hover{text-decoration: none}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{margin: 0}
+p{margin-bottom: 0;}
+a{text-decoration: none}
+figure{margin: 0}
+b, strong{color: #222}
+/* ===================================
+    Typography
+====================================== */
+/*font family*/
+.secondary_font  {font-family: 'Fira Sans', sans-serif;}
+.primary_font {font-family: 'Open Sans', sans-serif;}
+/* ===================================
+    Border
+====================================== */
+
+/* ===================================
+    Margin
+====================================== */
+.margin_0_auto{margin: 0 auto}
+/*margin*/
+.margin_lr_30       {margin: 0 30px}
+/*Margin Bottom*/
+.margin_bottom_5    {margin-bottom: 5px}
+.margin_bottom_10   {margin-bottom: 10px}
+.margin_bottom_15   {margin-bottom: 15px}
+.margin_bottom_20   {margin-bottom: 20px}
+.margin_bottom_25   {margin-bottom: 25px}
+.margin_bottom_26   {margin-bottom: 26px}
+.margin_bottom_30   {margin-bottom: 30px}
+.margin_bottom_35   {margin-bottom: 35px}
+.margin_bottom_40   {margin-bottom: 40px}
+.margin_bottom_50   {margin-bottom: 50px}
+.margin_bottom_55   {margin-bottom: 55px}
+.margin_bottom_60   {margin-bottom: 60px}
+.margin_bottom_65   {margin-bottom: 65px}
+.margin_bottom_70   {margin-bottom: 70px}
+.margin_bottom_75   {margin-bottom: 75px}
+.margin_bottom_80   {margin-bottom: 80px}
+.margin_bottom_85   {margin-bottom: 85px}
+.margin_bottom_90   {margin-bottom: 90px}
+.margin_bottom_95   {margin-bottom: 95px}
+.margin_bottom_100  {margin-bottom: 100px}
+
+/*Margin Right*/
+.margin_right_14   {margin-right: 14px}
+.margin_right_10   {margin-right: 10px}
+.margin_right_15  {margin-right: 15px}
+.margin_right_20   {margin-right: 20px}
+.margin_right_60   {margin-right: 60px}
+
+/*Margin Left*/
+.margin_left_14    {margin-left: 14px}
+.margin_left_10   {margin-left: 10px}
+.margin_left_15   {margin-left: 15px}
+.margin_left_20   {margin-left: 20px}
+.margin_left_30   {margin-left: 30px}
+.margin_left_50   {margin-left: 50px}
+.margin_left_60   {margin-left: 60px}
+.margin_left_100  {margin-left: 100px}
+
+/*Margin Top*/
+.margin_top-400   {margin-top: -400px}
+.margin_top_10  {margin-top: 10px}
+.margin_top_15  {margin-top: 15px}
+.margin_top_20  {margin-top: 20px}
+.margin_top_25  {margin-top: 25px}
+.margin_top_30  {margin-top: 30px}
+.margin_top_40  {margin-top: 40px}
+.margin_top_35  {margin-top: 35px}
+.margin_top_50  {margin-top: 50px}
+.margin_top_60  {margin-top: 60px}
+.margin_top_80  {margin-top: 80px}
+.margin_top_90  {margin-top: 90px}
+.margin_top_95  {margin-top: 95px}
+.margin_top_100 {margin-top: 100px}
+.margin_top_150 {margin-top: 150px}
+.margin_top-170 {margin-top: -170px}
+
+/* ===================================
+     Color
+====================================== */
+/*Colors*/
+
+.color_fff      {color: #fff}
+.color_ff4800   {color: #ff4800}
+
+
+
+
+/*Background Colors*/
+.bg_f1f1f1  {background-color: #f1f1f1}
+.bg_ff4800  {background-color: #ff4800}
+.bg_f5f5f5  {background-color: #f5f5f5}
+.bg_222     {background-color: #222}
+.bg_181818  {background-color: #181818}
+.bg_eeeeee     {background-color: #eee}
+
+
+/* ===================================
+    padding
+====================================== */
+.section_padding{padding: 5rem 0}
+/*padding*/
+.no_padding{padding: 0}
+.padding_tb_40  {padding: 35px 25px}
+
+/*padding top*/
+.padding_top_5  {padding-top: 5px}
+.padding_top_8  {padding-top: 8px}
+.padding_top_10 {padding-top: 10px}
+.padding_top_13 {padding-top: 13px}
+.padding_top_15	{padding-top: 15px}
+.padding_top_20 {padding-top: 20px}
+.padding_top_21 {padding-top: 21px}
+.padding_top_25 {padding-top: 25px}
+.padding_top_30 {padding-top: 30px}
+.padding_top_35 {padding-top: 35px}
+.padding_top_40 {padding-top: 40px}
+.padding_top_45	{padding-top: 45px}
+.padding_top_50 {padding-top: 50px}
+.padding_top_60 {padding-top: 60px}
+.padding_top_70 {padding-top: 70px}
+.padding_top_75 {padding-top: 75px}
+.padding_top_80 {padding-top: 80px}
+.padding_top_90 {padding-top: 90px}
+.padding_top_95 {padding-top: 95px}
+.padding_top_100{padding-top: 100px}
+.padding_top_105{padding-top: 105px}
+.padding_top_150{padding-top: 150px}
+.padding_top_120{padding-top: 110px}
+.padding_top_180{padding-top: 180px}
+.padding_top_200{padding-top: 200px}
+.padding_top_250{padding-top: 250px}
+.padding_top_300{padding-top: 300px}
+
+/*padding bottom*/
+.padding_bottom_5   {padding-bottom: 5px}
+.padding_bottom_8   {padding-bottom: 8px}
+.padding_bottom_10	{padding-bottom: 10px}
+.padding_bottom_13  {padding-bottom: 13px}
+.padding_bottom_15	{padding-bottom: 15px}
+.padding_bottom_17  {padding-bottom: 17px}
+.padding_bottom_20  {padding-bottom: 20px}
+.padding_bottom_21  {padding-bottom: 21px}
+.padding_bottom_25  {padding-bottom: 25px}
+.padding_bottom_30  {padding-bottom: 30px}
+.padding_bottom_35  {padding-bottom: 35px}
+.padding_bottom_40  {padding-bottom: 40px}
+.padding_bottom_50  {padding-bottom: 50px}
+.padding_bottom_45	{padding-bottom: 45px}
+.padding_bottom_55  {padding-bottom: 55px}
+.padding_bottom_60  {padding-bottom: 60px}
+.padding_bottom_65  {padding-bottom: 65px}
+.padding_bottom_70  {padding-bottom: 70px}
+.padding_bottom_75  {padding-bottom: 75px}
+.padding_bottom_80  {padding-bottom: 80px}
+.padding_bottom_85  {padding-bottom: 85px}
+.padding_bottom_85  {padding-bottom: 85px}
+.padding_bottom_90  {padding-bottom: 90px}
+.padding_bottom_100 {padding-bottom: 100px}
+.padding_bottom_120 {padding-bottom: 110px}
+.padding_bottom_200 {padding-bottom: 200px}
+.padding_bottom_300 {padding-bottom: 300px}
+.padding_bottom_150 {padding-bottom: 150px}
+
+/*padding left*/
+.padding_left_0     {padding-left: 0}
+.padding_left_10    {padding-left: 10px}
+.padding_left_15    {padding-left: 15px}
+.padding_left_20    {padding-left: 20px}
+.padding_left_25    {padding-left: 25px}
+.padding_left_30	{padding-left: 30px}
+.padding_left_40    {padding-left: 40px}
+.padding_left_50    {padding-left: 50px}
+.padding_left_55    {padding-left: 55px}
+.padding_left_58    {padding-left: 58px}
+.padding_left_60    {padding-left: 60px}
+.padding_left_70    {padding-left: 70px}
+.padding_left_75    {padding-left: 75px}
+.padding_left_80    {padding-left: 80px}
+.padding_left_85    {padding-left: 85px}
+.padding_left_95    {padding-left: 95px}
+.padding_left_100   {padding-left: 100px}
+
+/*padding right*/
+.padding_right_0    {padding-right: 0}
+.padding_right_10   {padding-right: 10px}
+.padding_right_15   {padding-right: 15px}
+.padding_right_20   {padding-right: 20px}
+.padding_right_30	{padding-right: 30px}
+.padding_right_40   {padding-right: 40px}
+.padding_right_50   {padding-right: 50px}
+.padding_right_55   {padding-right: 55px}
+.padding_right_58   {padding-right: 58px}
+.padding_right_60   {padding-right: 60px}
+.padding_right_70   {padding-right: 70px}
+.padding_right_75   {padding-right: 75px}
+.padding_right_80   {padding-right: 80px}
+.padding_right_105  {padding-right: 105px}
+.padding_right_150  {padding-right: 150px}
+
+/* ===================================
+     Font Size
+====================================== */
+/*Font Size*/
+.font_size_12   {font-size: 12px}
+.font_size_14   {font-size: 14px}
+.font_size_16   {font-size: 16px}
+.font_size_18   {font-size: 18px}
+.font_size_20   {font-size: 20px}
+.font_size_22   {font-size: 22px}
+.font_size_24   {font-size: 24px}
+.font_size_26   {font-size: 26px}
+.font_size_28   {font-size: 28px}
+.font_size_30   {font-size: 30px}
+.font_size_32   {font-size: 32px}
+.font_size_34   {font-size: 34px}
+.font_size_36   {font-size: 36px}
+.font_size_38   {font-size: 38px}
+.font_size_40   {font-size: 40px}
+.font_size_42   {font-size: 42px}
+.font_size_44   {font-size: 44px}
+.font_size_48   {font-size: 48px}
+.font_size_60   {font-size: 60px}
+.font_size_64   {font-size: 64px}
+.font_size_50   {font-size: 50px}
+.font_size_70   {font-size: 70px}
+.font_size_80   {font-size: 80px}
+.font_size_90   {font-size: 90px}
+
+/*Font weight*/
+.font_weight_300{font-weight: 300}
+.font_weight_400{font-weight: 400}
+.font_weight_500{font-weight: 500}
+.font_weight_600{font-weight: 600}
+.font_weight_700{font-weight: 700}
+.font_weight_800{font-weight: 800}
+.font_weight_900{font-weight: 900}
+/* ===================================
+     Line Height
+====================================== */
+/*Line Height*/
+.line_height_18    {line-height: 18px}
+.line_height_22    {line-height: 22px}
+.line_height_24    {line-height: 24px}
+.line_height_25    {line-height: 25px}
+.line_height_28    {line-height: 28px}
+.line_height_30    {line-height: 30px}
+.line_height_34    {line-height: 34px}
+.line_height_36    {line-height: 36px}
+.line_height_40    {line-height: 40px}
+.line_height_42    {line-height: 42px}
+.line_height_48    {line-height: 48px}
+.line_height_50    {line-height: 50px}
+.line_height_54    {line-height: 54px}
+.line_height_65    {line-height: 65px}
+.line_height_80    {line-height: 80px}
+.line_height_82    {line-height: 82px}
+
+
+
+.row_border_top{border-top: 1px solid #e7e7e7}
+
+
+
+/* ===================================
+         Hover
+====================================== */
+.top_social_media_links li a:hover i{color: #ff4800}
+.top_contact_links li:hover i{color: #ff4800}
+.top_contact_links li:hover a{color: #ff4800}
+.menu_navigation .inner_menu_navigation .menu_navigation_list li a:hover{color: #ff4800}
+.openBtn:hover, .side_nav_button:hover{border: 1px solid #ff4800}
+.hero_banner_btn:hover{background-color: transparent; color: #ff4800; border: 2px solid #ff4800}
+.submit_search_btn:hover{background-color: transparent; border: 2px solid #ff4800; color: #ff4800; cursor: pointer}
+.submit_transfer_btn:hover{background-color: transparent; border: 2px solid #666; color: #666; cursor: pointer}
+.welcome_btn:hover{background-color: #ff4800; border: 2px solid #ff4800; color: #fff}
+.outer_hosting_plan:hover .bg_img01:before{transform: scale(1.1)}
+.outer_hosting_plan:hover .bg_img02:before{transform: scale(1.1)}
+.outer_hosting_plan:hover .bg_img03:before{transform: scale(1.1)}
+.outer_hosting_plan:hover .btn_hosting_plan{background-color: #ff4800; color: #fff; border: 2px solid #ff4800}
+.outer_hosting_plan:hover .hosting_plan{box-shadow: 0 5px 0 0 #ff4800 inset;}
+.btn_get_started:hover{background-color: #666; border: 2px solid #666; color: #fff}
+.footer_links_list li a:hover{color: #ff4800}
+.shared_hosting_plan_box:hover .btn_shared_hosting_plan{background-color: #ff4800; color: #fff}
+.shared_hosting_plan_box:hover{box-shadow: 0 5px 0 0 #ff4800 inset;}
+.btn_starting_price:hover{background-color: #666; border: 2px solid #666; color: #fff}
+.btn_shared_hosting_plan:hover{background-color: #ff4800; color: #fff}
+.btn_lear_more:hover{background-color: #666; border: 1px solid #666; color: #fff}
+
+.btn-link:hover{color: #ff4800; text-decoration: none}
+.outer_reseller_hosting_plan:hover .reseller_hosting_plan {background-color: #ff4800}
+.outer_reseller_hosting_plan:hover .reseller_hosting_plan h3, .outer_reseller_hosting_plan:hover .reseller_hosting_plan .price_box{color: #fff}
+.outer_reseller_hosting_plan:hover .btn_shared_hosting_plan{background-color: #ff4800;
+    color: #fff;}
+.btn_learn_more_specification:hover{background-color: #666; color: #fff; border: 2px solid #666}
+.domain_table tbody tr:hover{background-color: #666}
+.domain_table tbody tr:hover td{color: #fff}
+div.card.active .btn-link{color: #ff4800; text-decoration: none}
+
+
+
+
+    /* ===================================
+                    Button
+    ====================================== */
+.hero_banner_btn, .submit_search_btn, .submit_transfer_btn, .btn_hosting_plan, .welcome_btn, .btn_get_started{display: inline-block; background-color: #ff4800; color: #fff; font-size: 18px; line-height: 24px; font-weight: 400; padding: 20px 30px; text-transform: uppercase; border: 2px solid #ff4800; transition: all ease-in-out .5s}
+.submit_search_btn, .submit_transfer_btn{width: 125px; padding: 14px 0; text-align: center}
+.submit_transfer_btn, .btn_hosting_plan, .welcome_btn{background-color: #666; border: 2px solid #666}
+.btn_hosting_plan, .welcome_btn{padding: 14px 40px}
+.btn_get_started{padding: 15px 36px}
+.btn_shared_hosting_plan{display: inline-block; font-size: 18px; line-height: 24px; font-weight: 400; color: #fff; font-family: 'Fira Sans', sans-serif; background-color: #666; padding: 14px 47px; text-transform: uppercase; transition: all ease-in-out 0.5s}
+.btn_starting_price{background-color: transparent; border: 2px solid #fff; font-size: 18px; line-height: 24px; color: #fff; font-weight: 600; padding: 15px 46px; margin-right: 20px; display: inline-block}
+.btn_learn_more_specification{display: inline-block; font-weight: 400; font-size: 18px; line-height: 24px; color: #666; text-transform: uppercase; background-color: transparent; border: 2px solid #666; padding: 10px 40px; margin-top: 60px; transition: all ease-in-out 0.5s}
+.dedicated_server_btn{background-color: #ff4800; font-size: 16px; line-height: 24px; color: #fff; font-weight: 600; padding: 7px 20px; border: 2px solid #ff4800; transition:  all ease-in-out 0.5s}
+.btn_lear_more{display: inline-block; font-size: 18px; line-height: 24px; font-weight: 400; color: #666; border: 1px solid #666; background-color: transparent; padding: 12px 40px; text-transform: uppercase; margin-top: 40px; transition:  all ease-in-out 0.3s}
+
+
+
+
+/* ===================================
+             Top Bar
+====================================== */
+.top_bar{padding: 8px 0}
+
+.top_social_media_links li{display: inline-block; padding: 0 3px}
+.top_social_media_links li:first-child{padding-left: 0}
+.top_social_media_links li:last-child{padding-right: 0}
+.top_social_media_links li a i{font-size: 14px; color: #aaa; transition: all ease-in-out 0.5s}
+
+.top_contact_links li{display: inline-block; padding: 0 5px}
+.top_contact_links li:first-child{padding-left: 0}
+.top_contact_links li:last-child {padding-right: 0}
+.top_contact_links li i{padding-right: 5px; color: #aaa; transition: all ease-in-out 0.5s}
+.top_contact_links li a{font-size: 14px; line-height: 16px; font-weight: 400; color: #666; transition: all ease-in-out 0.5s}
+
+/* ===================================
+      Navigation Bar
+====================================== */
+.menu_navigation{padding: 0}
+.site_logo{padding-top: 2px}
+.site_logo img{width: 120px}
+.menu_navigation .inner_menu_navigation .menu_navigation_list li a{font-size: 14px; line-height: 14px; color: #222; text-transform: uppercase; font-weight: 600; transition: all ease-in-out 0.5s; padding: 32px 20px}
+.menu_navigation .inner_menu_navigation .menu_navigation_list li:first-child a{padding-left: 0}
+.menu_navigation .inner_menu_navigation .menu_navigation_list li:last-child a{padding-right: 0}
+.menu_navigation_list{margin-left: 60px}
+.menu_navigation .inner_menu_navigation .menu_navigation_list li.active a{color: #ff4800}
+
+.dropdown-menu{top: 76px; border-radius: 0; border: none}
+
+
+.menu_navigation .inner_menu_navigation .menu_navigation_list li.dropdown .dropdown-menu a{padding: 15px; margin-bottom: 5px; text-transform: capitalize}
+.menu_navigation .inner_menu_navigation .menu_navigation_list li.dropdown .dropdown-menu a:last-child{margin-bottom: 0}
+.menu_navigation .inner_menu_navigation .menu_navigation_list li.dropdown .dropdown-menu a:hover{background-color: #ff4800; color: #fff}
+
+/*Mega Menu*/
+.mega_menu_box{width: 20%; float: left}
+.outer_mega_menu{position: inherit}
+.menu_navigation_list li.dropdown:hover .mega_menu{width: 1170px; margin: 0 auto; left: 0; right: 0}
+.inner_mega_menu_box{width: 100%; padding: 40px 50px; float: left}
+
+.mega_menu_box_heading{font-size: 16px; line-height: 24px; font-weight: 600; color: #222; margin-bottom: 15px}
+.margin_mega_menu{margin-bottom: 20px}
+.mega_menu .mega_menu_box .list_mega_menu_box > li{position: relative; padding-left: 15px; list-style: none}
+.mega_menu .mega_menu_box .list_mega_menu_box > li:before{position: absolute; content: ""; width: 6px; height: 6px; border-radius: 100%; background-color: #3f51b5; left: 0; top: 10px}
+.mega_menu .mega_menu_box .list_mega_menu_box > li > a{font-size: 12px; line-height: 24px; color: #3f51b5; text-transform: capitalize; padding: 10px 0 !important;}
+
+.menu_navigation .inner_menu_navigation .menu_navigation_list li.dropdown .mega_menu a:hover{color: #ff4800; background-color: transparent}
+.badge{margin-left: 5px}
+.badge-success{background-color: #009688}
+.badge-primary{background-color: #1cc1ff}
+
+
+
+
+/* ===================================
+      Right Drawer
+====================================== */
+.sidenav {height: 100%; position: fixed; z-index: 9; top: 0; right: -250px; width: 250px; background-color: #111; overflow-x: hidden; transition: 0.5s; padding: 40px 0 0}
+.sidenav a {padding: 8px 8px 8px 32px; text-decoration: none; font-size: 25px; color: #818181; display: block; transition: 0.3s}
+.sidenav a.logo_link{padding: 0}
+.sidenav a:hover {color: #222}
+.sidenav .closebtn {position: absolute; top: 0px;right: 0;font-size: 24px;padding: 0px 5px;background-color: #eff6f8}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.side_nav_box{padding: 0 30px; color: #fff}
+.side_nav_box a img{margin-bottom: 10px; width: 120px}
+.side_nav_box p{font-size: 12px; line-height: 16px; margin-bottom: 10px}
+.side_nav_social_link li{display: inline-block}
+.side_nav_social_link li a{padding: 8px}
+.side_nav_social_link li a i{font-size: 14px}
+.side_nav_social_link li a:hover i{color: #fff}
+.side_nav_social_link{margin-bottom: 30px}
+.vertical_menu{margin-bottom: 25px}
+.vertical_menu .heading{font-size: 14px; line-height: 14px; color: #fff; margin-bottom: 15px}
+.vertical_menu_list li a{font-size: 12px; line-height: 24px; color: #fff; padding: 0 8px 0 15px; position: relative}
+.vertical_menu_list li a:before{position: absolute; content: ""; width: 5px; height: 5px; background: #fff; left: 0; top: 9px; border-radius: 100%; transition: .5s ease-in-out}
+.vertical_menu_list li a:hover{color: #ff4800}
+.burger__item{position: relative; cursor: pointer; transition: all 0.5s ease}
+.burger__item-line{position: absolute;}
+.burger__item-line, .burger__item-line:before, .burger__item-line:after{width: 50px; height: 3px; background: #000; border-radius: 5px}
+
+
+/* ===================================
+            Search Icon
+====================================== */
+
+.openBtn {background: transparent; padding: 5px 10px; font-size: 14px; cursor: pointer; border: 1px solid #dbdede; transition: all ease-in-out 0.5s}
+.openBtn i{color: #aaa}
+.openBtn:hover {background: transparent}
+.overlay{height: 100%; width: 100%; display: none; position: fixed; z-index: 1; top: 0; left: 0; background-color: rgb(0,0,0); background-color: rgba(0,0,0, 0.9)}
+.overlay-content {position: relative; top: 46%; width: 40%; text-align: center; margin-top: 30px; margin: auto}
+.overlay .closebtn {position: absolute; top: 20px; right: 45px; font-size: 60px; cursor: pointer; color: white}
+.overlay .closebtn:hover {color: #ccc}
+.overlay input[type=text] {padding: 20px 20px 20px 0;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    float: left;
+    width: 100%;
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;}
+.overlay input[type=text]:focus{outline: none}
+.overlay input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+}
+.overlay input[type=text]::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+}
+.overlay input[type=text]:-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+}
+
+.overlay button {background: transparent;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    right: 0; bottom: -48px}
+.side_nav_button{
+    cursor: pointer;
+    border: 1px solid #dbdede;
+    padding: 17px 18px;
+    margin-left: 10px;
+    background: url("../images/side_nav.png") no-repeat center; width: 23px; height: 15px; transition:  all ease-in-out 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================
+     Banner
+====================================== */
+.hero_banner_img{background: url("../images/hero_banner.jpg") no-repeat center; background-size: cover; height: 600px; display: table}
+.inner_banner_content{display: table-cell; vertical-align: middle}
+.inner_banner_content h1{font-size: 48px; line-height: 48px; color: #fff; font-weight: 600}
+.inner_banner_content p{font-size: 18px; line-height: 30px; font-weight: 400; color: #fff; padding-right: 21%}
+
+/*Shared Banner*/
+.shared_page_banner{background: url("../images/sub_page_banner01.jpg") no-repeat center; background-size: cover; height: 500px; display: table}
+.banner_price_tag{background: url("../images/banner_price_tag.png")no-repeat; width: 254px; height: 244px; display: table}
+.content_banner_price_tag small{font-size: 18px; font-weight: 400; color: #222}
+.content_banner_price_tag{font-size: 72px; line-height: 40px; color: #ff4800; font-weight: 400; text-align: center; display: table-cell; vertical-align: middle}
+
+/*Reseller Banner*/
+.reseller_banner{background: url("../images/bg_reseller_banner.jpg") no-repeat center; background-size: cover; height: 518px}
+.reseller_banner_list li{display: inline-block; text-align: left; font-size: 18px; line-height: 24px; color: #fff; font-family: 'Fira Sans', sans-serif; padding: 0 40px; position: relative}
+.reseller_banner_list li:before{position: absolute; content: ""; background: url("../images/check_mark.png"); width: 20px; height: 20px; left: 0; top: 0}
+.reseller_banner_list li span{font-size: 14px; line-height: 24px}
+.reseller_banner_content{padding-top: 85px}
+.technical_specification_list li{font-size: 14px; line-height: 30px; color: #666; font-weight: 400; text-align: left; position: relative; padding-left: 30px}
+.technical_specification_list li:before{position: absolute; content: ""; background: url("../images/check_mark.png"); width: 20px; height: 20px; left: 0; top: 5px}
+
+/*Dedicated Banner*/
+.dedicated_banner_img{background: url("../images/bg_dedicated_banner.jpg") no-repeat center; background-size: cover; height: 500px; display: table}
+
+
+
+/*VPS Banner*/
+.vps_banner_img{background: url("../images/bg_vps_banner.jpg") no-repeat center; background-size: cover; height: 697px; display: table}
+
+
+
+
+
+
+
+/* ===================================
+          Search Domain Section
+====================================== */
+.h2, h2{font-size: 32px; line-height: 38px; color: #222; font-family: 'Fira Sans', sans-serif; font-weight: 400}
+.h3, h3{font-size: 28px; line-height: 34px; font-weight: 400; color: #222; font-family: 'Fira Sans', sans-serif;}
+.input_domain_name_field{padding: 4% 30px; font-size: 14px; font-weight: 400; line-height: 14px; border: 1px solid #dbdede; width: 100%}
+
+.hosting_plan{padding: 40px 45px 25px; background-color: #fff; transition: all ease-in-out 0.5s}
+.hosting_plan h3{margin-bottom: 15px}
+.hosting_plan p{color: #222; margin-bottom: 25px; position: relative}
+.hosting_plan p:before{position: absolute; content: ""; background-color: #e7e7e7; height: 1px; width: 25%; left: 0; right: 0; margin: 0 auto; bottom: -30px}
+
+/* ===================================
+      Hosting Plans Section
+====================================== */
+.section_heading p{margin-bottom: 80px !important;}
+.hosting_plan_list{text-align: left; padding-top: 20px}
+.hosting_plan_list li{font-size: 16px; line-height: 36px; font-weight: 400; color: #222; position: relative; padding-left: 30px}
+.hosting_plan_list li:before{position: absolute; content: ""; background: url("../images/check_mark.png"); width: 20px; height: 20px; left: 0; top: 8px}
+.hosting_plan_price_box{padding: 30px 0 40px}
+.price_box{font-size: 72px; font-weight: 300; line-height: 72px; position: relative; color: #222}
+.price_box span{font-size: 42px; position: relative; top: -23px;}
+.price_box small{font-size: 18px}
+
+.hosting_plan_section{position: relative}
+.hosting_plan_section:before{position: absolute; content: ""; background-color: #ebebeb; width: 100%; height: 298px; bottom: 0; left: 0}
+
+.bg_img01{position: relative; overflow: hidden}
+.bg_img01:before{position: absolute; content: ""; background: url("../images/hosting_plan_img01.png"); width: 225px; height: 196px; right: -105px; bottom: -15px; transition: all ease-in-out 0.5s}
+.bg_img02{position: relative; overflow: hidden}
+.bg_img02:before{position: absolute; content: ""; background: url("../images/hosting_plan_img02.png"); width: 196px; height: 196px; right: -105px; bottom: -15px; transition: all ease-in-out 0.5s}
+.bg_img03{position: relative; overflow: hidden}
+.bg_img03:before{position: absolute; content: ""; background: url("../images/hosting_plan_img03.png"); width: 177px; height: 196px; right: -105px; bottom: -5px; transition: all ease-in-out 0.5s}
+
+/*Shared Hosting Plan*/
+.shared_hosting_plan_box{background-color: #fff; padding: 30px; transition: all ease-in-out 0.5s}
+.shared_hosting_plan_box h3{padding-bottom: 30px}
+.shared_hosting_plan_box .price_box{color: #ff4800; margin-bottom: 10px}
+.shared_hosting_list{margin-bottom: 30px}
+.shared_hosting_list li, .reseller_hosting_list li{font-size: 16px; line-height: 36px; font-weight: 400; color: #666}
+.shared_hosting_list li:last-child{color: #ff4800; font-weight: 600}
+.shared_hosting_plan h4{margin-bottom: 45px; position: relative}
+.shared_hosting_plan h4:before{position: absolute; content: ""; background-color: #e7e7e7; height: 2px; width: 100%; left: 0; bottom: -23px}
+.shared_hosting_plan p{font-size: 14px; line-height: 24px; margin-bottom: 20px}
+.shared_hosting_plan_list{margin-bottom: 65px}
+.shared_hosting_plan_list li{position: relative; font-size: 14px; line-height: 36px; color: #666; font-weight: 400; padding-left: 30px}
+.shared_hosting_plan_list li:before{position: absolute; content: ""; background: url("../images/check_mark.png"); width: 20px; height: 20px; left: 0; top: 8px}
+.shared_hosting_plan h6{color: #222; margin-bottom: 15px}
+
+
+/*Reseller Hosting*/
+.reseller_hosting_plan{padding: 30px; margin-top: -197px}
+.reseller_hosting_plan h3{margin-bottom: 30px}
+.reseller_hosting_plan .price_box{color: #ff4800; line-height: 52px}
+.reseller_plan{padding: 30px; background-color: #fff}
+.reseller_plan figure{margin-bottom: 40px}
+.reseller_hosting_list{margin-bottom: 30px}
+.reseller_hosting_list li:nth-child(4){color: #ff4800; font-weight: 600}
+.reseller_hosting_plan {transition: all ease-in-out 0.5s}
+.reseller_why_chose h4{margin-bottom: 10px}
+
+
+
+
+/* ===================================
+      Hosting Guarantee Section
+====================================== */
+.hosting_guarantee_box{padding: 0 50px}
+.hosting_guarantee_box figure{margin-bottom: 30px}
+.h5, h5{font-size: 20px; line-height: 24px; color: #222; font-weight: 400; font-family: 'Fira Sans', sans-serif}
+.arrow_down, .arrow_up{position: relative}
+.arrow_down:before{position: absolute; content: ""; background: url("../images/arrow_down.png"); width: 128px; height: 33px; top: 50px; right: -70px}
+.arrow_up:before{position: absolute; content: ""; background: url("../images/arrow_up.png"); width: 128px; height: 33px; bottom: 50px; right: -70px}
+.margin_guarantee_box{margin-top: 70px}
+.hosting_guarantee_section{background: url("../images/bg_guarantee_section.png") no-repeat bottom}
+/* ===================================
+           Welcome Section
+====================================== */
+.welcome_section{position: relative}
+.welcome_section:before{position: absolute; content: ""; background: url("../images/bg_welcome_section.png") no-repeat right; width: 100%; height: 467px; right: 0; top: 0}
+.welcome_section h2{margin-bottom: 10px}
+.welcome_content_box{position: relative}
+.welcome_content_box:before{position: absolute; content: ""; background: url("../images/welcome_section_img.png"); width: 239px; height: 227px; top: 30px; right: -140px}
+
+/* ===================================
+    Hosting Feature Section
+====================================== */
+.hosting_feature_box{padding-left: 50px; padding-top: 60px}
+.hosting_feature_box p{font-size: 14px; line-height: 24px}
+.h4, h4{font-size: 24px; line-height: 36px; color: #222; font-weight: 400; font-family: 'Fira Sans', sans-serif}
+.hosting_feature_box h4{margin-bottom: 15px}
+.margin_feature_row{margin-bottom: 40px}
+.img_hosting_feature_box01 figure, .img_hosting_feature_box02 figure, .img_hosting_feature_box03 figure, .img_hosting_feature_box04 figure{position: relative}
+.img_hosting_feature_box01 figure:before{position: absolute; content: ""; background-color: rgba(177,215,166,.20); width: 280px; height: 280px; border-radius: 100%; top: 0; right: 0}
+.img_hosting_feature_box02 figure:before{position: absolute; content: ""; background-color: rgba(91,100,117,.20); width: 280px; height: 280px; border-radius: 100%; top: 0; left: 0}
+.img_hosting_feature_box03 figure:before{position: absolute; content: ""; background-color: rgba(59,165,189,.20); width: 280px; height: 280px; border-radius: 100%; top: 0; right: 0}
+.img_hosting_feature_box04 figure:before{position: absolute; content: ""; background-color: rgba(244,222,129,.20); width: 280px; height: 280px; border-radius: 100%; top: 0; left: 0}
+.hosting_feature_section{background: url("../images/bg_feature_section.png") no-repeat center; background-size: 80%}
+
+
+/*Shared Hosting Feature Section */
+.shared_hosting_feature_section{background: url("../images/bg_build_website.png") no-repeat top;}
+.shared_hosting_feature_box figure{margin-bottom: 20px}
+.shared_hosting_feature_box h4{margin-bottom: 15px}
+.shared_hosting_feature_box p{font-size: 14px}
+.desktop_margin{margin-bottom: 30px}
+/* ===================================
+            Testimonial Section
+====================================== */
+.testimonial_section{background: url("../images/bg_testimonial.jpg") no-repeat center; background-size: cover}
+.testimonial_section p, .client_name{font-size: 24px; line-height: 36px; color: #fff; font-family: 'Fira Sans', sans-serif; margin-bottom: 50px}
+.client_name{margin-bottom: 0}
+.indicator_testimonial_slider{bottom: -70px}
+.indicator_testimonial_slider li{width: 10px; height: 10px; border-radius: 100%}
+/* ===================================
+    Build Your Website Section
+====================================== */
+.build_your_website{background: url("../images/bg_build_website.png") no-repeat top; background-size: cover}
+
+/*Build Your Website*/
+.bg_build_your_website{background: url("../images/bg_build_your_website.jpg") no-repeat center fixed; background-size: cover}
+.bg_build_your_website h2{color: #fff}
+/* ===================================
+      Partner Img Section
+====================================== */
+.border_top{border-top: 1px solid #e9e9e9}
+
+
+/* ===================================
+      Footer Section
+====================================== */
+.h6, h6{font-size: 18px; line-height: 24px; color: #fff; font-family: 'Fira Sans', sans-serif}
+.footer_links h6{margin-bottom: 50px}
+.footer_links_list li a, .footer_links_list li{font-size: 14px; line-height: 30px; color: #fff; font-weight: 400; transition: all ease-in-out 0.3s}
+.footer_links_list{padding-right: 50px}
+
+/* ===================================
+          Copyright Section
+====================================== */
+.copyright_content{font-size: 14px; line-height: 24px; font-weight: 400; color: #fff}
+.copyright_content a{color: #ff4800; transition: all ease-in-out 0.5s}
+.copyright_content a:hover{color: #fff}
+
+
+/* ===================================
+          FAQ Section
+====================================== */
+.faq_section p{position: relative; margin-bottom: 100px}
+.faq_section p:before{position: absolute; content: ""; background-color: #e7e7e7; height: 1px; width: 5%; left: 0; right: 0; margin: 0 auto; bottom: -50px}
+.card-header{background-color: transparent; border: none}
+.card{border: none}
+.btn-link{color: #222; font-weight: 600; text-decoration: none}
+.card-body{padding: 0; font-size: 14px; line-height: 26px}
+.card-header{padding: 0}
+.btn{padding: 10px 0}
+#accordion .card-header button[aria-expanded="true"]:before{font-family: 'Font Awesome 5 Free';
+    content: "\f055";
+    vertical-align: middle;
+    color: #ff4800;
+    position: absolute;
+    left: -40px;
+    top: 8px;
+    font-size: 20px;}
+#accordion .card-header button[aria-expanded="false"]:before{font-family: 'Font Awesome 5 Free';
+    content: "\f056";
+    vertical-align: middle;
+    position: absolute;
+    left: -40px;
+    top: 8px;
+    font-size: 20px;}
+/* ===================================
+   Dedicated Plan Price  Section
+====================================== */
+.dedicated_price_plans_tabs{display: inline-flex}
+.dedicated_price_plans_tabs li a{font-size: 18px; line-height: 24px; color: #666; font-weight: 500; text-transform: uppercase; background-color: #fff; padding: 15px 30px; display: block; font-family: 'Fira Sans', sans-serif}
+.dedicated_price_plans_tabs li:first-child{margin-right: 15px}
+.dedicated_price_plans_tabs li a.active{background-color: #666; color: #fff}
+.dedicate_server_table thead th, .domain_table thead th{font-size: 14px; line-height: 24px; color: #fff; font-weight: 400; font-family: 'Fira Sans', sans-serif; text-align: left; background-color: #666; border: none; text-transform: uppercase; padding: 15px 20px}
+.dedicate_server_table tbody td, .domain_table tbody td{font-size: 16px; line-height: 24px; color: #222; font-weight: 400; text-align: left; border: none; border-bottom: 1px solid #ddd; padding: 15px}
+.dedicate_server_table tbody td:first-child, .domain_table tbody td:first-child{font-weight: 600}
+.dedicate_server_table tbody tr:last-child td, .domain_table tbody tr:last-child td{border-bottom: none}
+.dedicate_server_table tbody tr, .domain_table tbody tr{border: none; background-color: #fff}
+
+
+.data_server{background-image: url("../images/bg_data_server.png"); background-position: bottom; background-repeat: no-repeat}
+
+.dedicate_server_table tbody tr{transition: all ease-in-out 0.5s}
+.dedicate_server_table tbody tr:hover{background-color: #ccc}
+.dedicate_server_table tbody tr:hover td{color: #222}
+.dedicate_server_table tbody tr:hover .dedicated_server_btn{background-color: transparent; border: 2px solid #ff4800; color: #fff}
+.dedicate_server_table{box-shadow: 0 2px 5px rgba(0,0,0,.30)}
+
+
+/*Dedicated Why Chose Box*/
+.dedicated_why_chose_box{border: 1px solid #dbdede; padding: 45px 20px}
+.dedicated_why_chose_box figure{margin-bottom: 50px}
+.dedicated_why_chose_box h4{margin-bottom: 10px}
+.dedicated_why_chose_box p{font-size: 14px; line-height: 24px}
+.dedicated_why_chose_box.center_box{position: relative; top: 50px}
+
+.dedicated_faq .card-header, .dedicated_faq .card{background-color: #f5f5f5}
+.dedicated_feature_box{border: 1px solid #dbdede; padding: 50px}
+.dedicated_feature_box h4{margin-bottom: 10px;}
+.dedicated_feature_box p{font-size: 14px; line-height: 24px}
+.center_row_box{border-top: none; border-bottom: none}
+
+
+
+/* ===================================
+        Experience Power VPS Section
+====================================== */
+.vps_power_list li{text-align: left; position: relative; padding-left: 30px; font-size: 14px; line-height: 40px}
+.vps_power_list li:before{position: absolute; content: ""; background: url("../images/check_mark.png"); width: 20px; height: 20px; left: 0; top: 11px}
+
+
+
+/* ===================================
+        VPS Why Chose
+====================================== */
+.vps_why_chose .dedicated_why_chose_box{background-color: #fff}
+
+
+/* ===================================
+        VPS Features Box Section
+====================================== */
+.vps_feature_row{border: 1px solid #dbdede; padding: 40px; background-color: #fff}
+.vps_feature_row h4{margin-bottom: 10px}
+.no_border{border-top: none}
+.vps_feature_section{background: url("../images/bg_guarantee_section.png") no-repeat bottom}
+
+.vps_banner_img h1{margin-bottom: 15px}
+.vps_banner_img p{padding: 0; margin-bottom: 50px}
+.price_rangetxt{background-color: rgba(0,0,0,.20)}
+.outer_price_content{width: 84%; margin: 0 8%; background-color: rgba(255,255,255,.20)}
+
+
+/* ===================================
+      Domain Page
+====================================== */
+.domain_banner_img{background: url("../images/bg_domain_banner.jpg") no-repeat center; background-size: cover; height: 500px; display: table}
+.domain_banner_img h1{margin-bottom: 30px}
+.domain_faq .card-header, .domain_faq .card{background-color: #fff}
+.domain_info_box h2{margin-bottom: 40px}
+.domain-tld_box{border: 1px solid #dbdede; padding: 30px}
+.domain_tld_name{font-size: 48px; line-height: 36px; font-weight: 400; color: #222; margin-bottom: 30px; font-family: 'Fira Sans', sans-serif}
+.domain-tld_box p{margin-bottom: 30px; line-height: 24px}
+.domain_tld_price{font-size: 36px; font-weight: 400; line-height: 42px; color: #ff4800; font-family: "Fira Sans", sans-serif}
+.domain-tld_box strike{font-size: 14px; line-height: 20px; color: #666}
+
+.domain_table thead th, .domain_table tbody td{text-align: center}
+
+
+/* ===================================
+        About Page
+====================================== */
+.about_banner_img{background: url("../images/bg_about_banner.jpg") no-repeat center; background-size: cover; height: 300px; display: table}
+.about_banner_img h1{margin-bottom: 30px}
+
+.about_box figure{margin-bottom: 40px}
+.about_box h3{margin-bottom: 10px}
+.btn_contact{display: inline-block; background-color: #ff4800; color: #fff; text-transform: uppercase; font-size: 18px; line-height: 24px; font-weight: 400; font-family: "Fira Sans", sans-serif; padding: 15px 30px; transition: all ease-in-out 0.5s}
+.btn_contact:hover{background-color: #666; color: #fff}
+/* ===================================
+        Contact Page
+====================================== */
+.contact_fields{font-size: 16px;
+    line-height: 24px;
+    color: #424357;
+    font-weight: 500;
+    padding: 20px 25px;
+    box-shadow: 0 0 5px rgba(0,0,0,.20);
+    border: none}
+.btn_submit{background-color: #ff4800;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #fff;
+    padding: 20px 0; margin-top: -10px; cursor: pointer; transition: all ease-in-out 0.5s}
+.btn_submit:hover{background-color: #666; color: #fff}
+
+
+/* ===================================
+        Blog Page
+====================================== */
+.btn_blog_post, .post_comment_button {background-color: #ff4800;
+    border: 2px solid #ff4800;
+    -webkit-box-shadow: 0 10px 6px -6px #666;
+    -moz-box-shadow: 0 10px 6px -6px #666;
+    box-shadow: 0 10px 6px -6px #666;
+    padding: 11px 40px;}
+.btn_blog_post a{color: #fff}
+.post_comment_button{color: #fff; margin-bottom: 50px; cursor: pointer}
+
+.container-3 input#search {
+    width: 100%;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 18px;
+    float: right;
+    padding: 10px 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.border_bottom{border-bottom: 1px solid #dbdede;}
+.side_links li{padding: 10px 0 0}
+.side_links li a{    font-size: 14px;
+    color: #222;
+    font-weight: 400;
+    line-height: 18px;
+    transition: all ease-in-out 0.4s;}
+.side_links li a span{float: right}
+.side_links li a:hover{color: #ff4800}
+.tag_buttons li{background-color: #ff4800;
+    padding: 10px;
+    margin: 5px;
+    float: left;
+    font-size: 12px;
+    transition: all ease-in-out 0.4s;}
+.tag_buttons li a{color: #fff}
+.tag_buttons li:hover{background-color: #666}
+.input_fields{    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #dbdede;}
+.submit_button{padding: 6px 32px;
+    float: right;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #ff4800;
+    border: 2px solid #ff4800;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
+    -webkit-box-shadow: 0 10px 6px -6px #666;
+    -moz-box-shadow: 0 10px 6px -6px #666;
+    box-shadow: 0 10px 6px -6px #666;
+}
+.social_links li{display: inline-block; padding: 0 5px}
+.social_links li a i{color: #666}
+.social_links li a:hover i{color: #ff4800}
+.inner_comment_box{padding: 30px}
+.blogpost_input_fields{    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dbdede;
+    }
+
+
+
+@media only screen and (min-width: 992px){
+    .menu_navigation_list li.dropdown:hover .dropdown-menu {display: block}
+
+}
+
+.terms_list{padding-left: 13px}
+.terms_list li{margin: 15px 0; font-size: 14px}
+.privacy_list{margin-bottom: 30px; padding-left: 15px}
+.privacy_list li{line-height: 30px; font-size: 15px}
+/* ===================================
+        Blog Page
+====================================== */
+.domain_transfer input{padding: 2.5% 30px}
+.domain_transfer_box h5{margin-bottom: 10px}
+.domain_transfer_box p{font-size: 14px; line-height: 24px}
+.step_box{position: relative;
+    margin-bottom: 20px;}
+.step_box:before{position: absolute; content: ""; background: url("../images/blue_check_mark.png"); width: 30px; height: 30px; top: -20px; left: 70px; right: 0; margin: 0 auto}
+.step_box div{font-size: 72px;
+    line-height: 52px;
+    font-weight: 700; opacity: .10}
+.domain_transfer_list li{text-align: left; font-size: 15px; line-height: 24px; margin-bottom: 10px; position: relative; padding-left: 30px}
+.domain_transfer_list li:last-child{margin-bottom: 0}
+.domain_transfer_list li:before{position: absolute; content: ""; background: url("../images/check_list_mark.png"); width: 15px; height: 15px; left: 0; top: 5px}
+.domain_transfer_feature_box figure{margin-bottom: 20px}
+.domain_transfer_feature_box h5{margin-bottom: 10px}
+.domain_transfer_feature_box p{font-size: 14px; line-height: 24px}
+
+/* ===================================
+            Contact Form
+====================================== */
+.input_label{font-size: 14px; line-height: 24px; font-weight: 700}
+.contact_form{border-radius: 0; box-shadow: 0 0 5px rgba(0,0,0,.20); padding: 10px 15px; margin-bottom: 30px}
+.dropdown_field{border-radius: 0}
+.form-control:focus{border-color: #ff4800; box-shadow: 0 0 0 2px rgba(255,72,0,.20)}
+.check_list li{display: inline-block; padding: 0 20px}
+.form-check-input{margin-top: 8px}
+.form-check-label{font-size: 14px; line-height: 18px; font-weight: 300}
+select.form-control:not([size]):not([multiple]){height: auto}
+.date_field{padding: 10px 15px}
+.custom-file-input{padding: 10px 15px}
+.custom-file, .custom-file-label{height: 45px; border-radius: 0; font-size: 14px; padding: 10px}
+.custom-file-label::after{height: calc(calc(2.65rem + 2px) - 1px * 2); border-radius: 0; padding: 11px 12px}
+input.submit_btn{display: block; border: none; padding: 14px 40px; font-size: 18px; line-height: 24px; font-weight: 400; background-color: #666; color: #fff}
+/* ===================================
+            Coming Soon
+====================================== */
+.coming_soon_box{padding: 80px 0}
+.coming_soon_box h1{font-size: 48px; line-height: 54px; font-weight: 600; color: #222; margin-bottom: 50px}
+/* ===================================
+            SSL Certificates
+====================================== */
+.ssl_certificates_plan_box{padding: 40px 30px}
+.ssl_certificates_plan_box h3{margin-bottom: 20px; font-size: 24px}
+.ssl_certificates_plan_list{text-align: left; margin-bottom: 30px}
+.ssl_certificates_plan_list li{font-size: 14px; line-height: 30px}
+.ssl_certificates_plan_box .price_box{margin-bottom: 20px}
+.ssl_certificates_plan_box .btn_hosting_plan:hover{background-color: #ff4800; color: #fff; border: 2px solid #ff4800}
+
+/* ===================================
+      Comparison SSL Certificates
+====================================== */
+
+article {
+    width:100%;
+    max-width:1000px;
+    margin:0 auto;
+    height:auto;
+    position:relative;
+}
+.ssl_certificate_list {
+    display:flex;
+    top:0px;
+    z-index:10;
+    padding-bottom:14px;
+}
+.ssl_certificate_list li {
+    list-style:none;
+    flex:1;
+}
+.ssl_certificate_list li:last-child {
+    border-right:1px solid #DDD;
+}
+
+.ssl_certificate_list li.active button {
+    background:#F5F5F5;
+    color:#000;
+}
+.ssl_comparison_table { border-collapse:collapse; table-layout:fixed; width:100%; }
+.ssl_comparison_table thead th { background:#F5F5F5; display:none; }
+.ssl_comparison_table tbody td, .ssl_comparison_table thead th {
+    height:53px; border:1px solid #DDD; padding:10px; empty-cells:show; text-align:center;
+}
+.ssl_comparison_table tbody td:first-child, .ssl_comparison_table thead th:first-child{text-align: left; font-size: 14px}
+
+td+td, th+th {
+    text-align:center;
+    display:none;
+}
+.ssl_comparison_table tbody td.default {
+    display:table-cell;
+}
+
+.txt-l { font-size:28px; font-weight:bold}
+.txt-top { position:relative; top:-9px; left:-2px}
+.tick { font-size:18px; color:#2CA01C}
+.hide {
+    border:0 !important;
+    background:none !important;
+}
+
+@media (min-width: 640px) {
+    .ssl_certificate_list {
+        display:none;
+    }
+    td,th {
+        display:table-cell !important;
+    }
+    td,th {
+        width: 330px;
+
+    }
+    td+td, th+th {
+        width: auto;
+    }
+}
+.ssl_plan_price{font-size: 30px; line-height: 30px}
+.btn_add_to_cart{display: inline-block; background-color: #666; color: #fff; font-size: 14px; line-height: 20px; padding: 10px 30px; transition: all ease-in-out 0.5s}
+.btn_add_to_cart:hover{background-color: #ff4800; color: #fff}
+
+/* ===================================
+            Affiliates
+====================================== */
+.sign_up_btn{display: inline-block; background-color: #ff4800; color: #fff; font-size: 14px; line-height: 20px; padding: 10px 0; transition: all ease-in-out 0.5s; text-transform: uppercase; text-align: center; min-width: 150px; margin-right: 20px}
+.login_btn{display: inline-block; background-color: #666; color: #fff; font-size: 14px; line-height: 20px; padding: 10px 0; transition: all ease-in-out 0.5s; text-transform: uppercase; text-align: center; min-width: 150px}
+.sign_up_btn:hover{background-color: #666; color: #fff}
+.login_btn:hover{background-color: #ff4800; color: #fff}
+.hosting_affiliates_box figure{margin-bottom: 15px}
+.hosting_affiliates_box h5{margin-bottom: 5px}
+.hosting_affiliates_box p{font-size: 14px}
+.how_it_works p{line-height: 30px}
+/* ===================================
+            Email Security
+====================================== */
+.email_plan_box{padding: 40px}
+.email_plan_box h4{margin-bottom: 20px}
+.email_plan_box_list{margin-bottom: 20px}
+.email_plan_box_list li{font-size: 14px; line-height: 20px}
+.email_plan_box_list li:first-child{margin-bottom: 15px}
+.email_plan_price{font-size: 30px; line-height: 30px}
+.btn_order_email{display: inline-block; background-color: #666; color: #fff; font-size: 14px; line-height: 24px; padding: 10px 30px; text-transform: uppercase; transition: all ease-in-out 0.5s; margin-top: 30px}
+.btn_order_email:hover{background-color: #ff4800; color: #fff}
+.email_hosting_feature_box figure{margin-bottom: 20px}
+.email_hosting_feature_box h5{margin-bottom: 10px}
+.email_hosting_feature_box p{font-size: 14px; line-height: 24px}
+.btn_create_account{display: inline-block; background-color: #ff4800; color: #fff; font-size: 14px; line-height: 24px; padding: 10px 30px; text-transform: uppercase; transition: all ease-in-out 0.5s}
+.btn_create_account:hover{background-color: #666; color: #fff}
+.secure_email_account h2{margin-bottom: 20px}
+.secure_email_account p{margin-bottom: 30px !important;}
+/* ===================================
+            Data Center
+====================================== */
+.data_center_map figure{position: relative}
+.data_center_map figure img{opacity: .25}
+#data_center_box01{position: absolute; cursor: pointer; left: 4%; top: 28%}
+#data_center_box02{position: absolute; cursor: pointer; left: 27%; top: 68%}
+#data_center_box03{position: absolute; cursor: pointer; left: 33%; top: 13%}
+#data_center_box04{position: absolute; cursor: pointer; left: 44%; top: 36%}
+#data_center_box05{position: absolute; cursor: pointer; left: 73%; top: 30%}
+#data_center_box06{position: absolute; cursor: pointer; left: 67%; top: 57%}
+#data_center_box07{position: absolute; cursor: pointer; left: 83%; top: 76%}
+#data_center_box01 .location_detail, #data_center_box02 .location_detail, #data_center_box03 .location_detail, #data_center_box04 .location_detail, #data_center_box05 .location_detail, #data_center_box06 .location_detail, #data_center_box07 .location_detail {position: absolute;
+    background: #fff;
+    color: #777;
+    width: 200px;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 10px;
+    display: block !important;
+    -webkit-box-shadow: 4px 0 33px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 4px 0 33px 0 rgba(0,0,0,.3);
+    box-shadow: 4px 0 33px 0 rgba(0,0,0,.3);
+    z-index: 2;
+    margin-top: 5px;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    left: -50px;
+    text-align: left;}
+#data_center_box01 .location_detail h2, #data_center_box02 .location_detail h2, #data_center_box03 .location_detail h2, #data_center_box04 .location_detail h2, #data_center_box05 .location_detail h2, #data_center_box06 .location_detail h2, #data_center_box07 .location_detail h2 {    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: #132b7e;}
+#data_center_box01 .location_detail p, #data_center_box02 .location_detail p, #data_center_box02 .location_detail p, #data_center_box04 .location_detail p, #data_center_box05 .location_detail p, #data_center_box06 .location_detail p, #data_center_box07 .location_detail p {
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+}
+#data_center_box01.location-outer:hover .location_detail, #data_center_box02.location-outer:hover .location_detail, #data_center_box03.location-outer:hover .location_detail, #data_center_box04.location-outer:hover .location_detail, #data_center_box05.location-outer:hover .location_detail, #data_center_box06.location-outer:hover .location_detail, #data_center_box07.location-outer:hover .location_detail{    display: block !important;
+    opacity: 1;
+    left: 0;
+    transition: .8s ease-in-out;}
+.data_center_box p{font-size: 14px}
+/* ===================================
+            DDoS Protection
+====================================== */
+.ddos_protection_box{background-color: #fff; padding: 40px; transition: all ease-in-out 0.5s}
+.ddos_protection_box:hover{box-shadow: 0 5px 0 0 #ff4800 inset;}
+.ddos_protection_img01 .st0, .ddos_protection_img02 .st0, .ddos_protection_img03 .st0{fill: #ff4800; transition:  all ease-in-out 0.5s}
+.ddos_protection_box:hover .ddos_protection_img01 .st0, .ddos_protection_box:hover .ddos_protection_img02 .st0, .ddos_protection_box:hover .ddos_protection_img03 .st0{fill: #666}
+svg#Layer_1{width: 80px; height: 77px}
+.ddos_protection_box figure{margin-bottom: 20px}
+.ddos_protection_box p{font-size: 14px; margin-bottom: 20px}
+.ddos_protection_box .price_box{margin-bottom: 20px}
+.ddos_protection_box:hover .btn_hosting_plan{background-color: #ff4800; color: #fff; border: 2px solid #ff4800}
+.ddos_protection_section .section_heading p{margin-bottom: 0 !important;}
+/* ===================================
+            G-Suit
+====================================== */
+.gsuit_plan_box{padding: 40px; background-color: #fff}
+.gsuit_plan_box h4{margin-bottom: 20px}
+.list_gsuit_plan_box{margin-bottom: 20px}
+.list_gsuit_plan_box li{font-size: 14px; line-height: 30px}
+.gsuit_plan_box .price_box{margin-bottom: 20px}
+.gsuit_plan_box:hover .btn_hosting_plan{background-color: #ff4800; color: #fff; border: 2px solid #ff4800}
+.one_package_box figure{margin-bottom: 20px}
+.one_package_box h5{margin-bottom: 10px}
+/* ===================================
+            Promotions
+====================================== */
+.promotion_box{background-color: #fff; padding: 30px; text-align: left}
+.promotion_discount{font-size: 26px; line-height: 30px; color: #ff4800; margin-bottom: 10px}
+.promotion_box h4{font-size: 20px; line-height: 30px; margin-bottom: 20px}
+.promotion_box p{font-size: 14px; line-height: 20px; margin-bottom: 20px}
+.promotion_box .btn_promotion_box{display: inline-block; font-size: 14px; line-height: 20px; background-color: #666; color: #fff; padding: 10px 25px; text-transform: uppercase; transition: all ease-in-out 0.5s}
+.promotion_box:hover .btn_promotion_box{background-color: #ff4800; color: #fff}
+/* ===================================
+          Testimonial Box
+====================================== */
+/*Style One*/
+.testimonial_box{background-color: #fff; padding: 30px 35px 60px; text-align: center; position: relative}
+.rating_star_list li{display: inline-block}
+.rating_star_list li i{color: #ff4800}
+.testimonial_name{font-size: 16px; line-height: 20px; color: #ff4800; margin-bottom: 20px}
+.testimonial_name small{color: #666}
+.testimonial_box p, .testimonial_box2 p, .testimonial_box3 p{font-size: 14px; line-height: 24px; margin-bottom: 20px}
+.testimonial_box figure{position: absolute; bottom: -50px; left: 0; right: 0; margin: 0 auto}
+.three_column_slider_item_box, .two_column_slider_item_box, .one_column_slider_item_box{padding-bottom: 60px}
+.three_column_slider_indicators, .two_column_slider_indicators, .one_column_slider_indicators{bottom: -50px; right: 0; left: auto}
+.three_column_slider_indicators li, .two_column_slider_indicators li, .one_column_slider_indicators li{width: 12px; height: 12px; border-radius: 100px; background-color: transparent; border: 1px solid #666}
+.three_column_slider_indicators li.active, .two_column_slider_indicators li.active, .one_column_slider_indicators li.active{background-color: #ff4800;border: 1px solid #ff4800}
+.testimonial_box2, .testimonial_box3{background-color: #f5f5f5; padding: 30px 35px 60px; text-align: center; position: relative}
+.testimonial_box2 figure, .testimonial_box3 figure{position: absolute; bottom: -50px; left: 0; right: 0; margin: 0 auto}
+.testimonial_box3{background-color: #fff !important;}
+/*Style Two*/
+.testimonial_slider_style2_box{border: 1px solid #ff4800; padding: 40px}
+.testimonial_social_links li{display: inline-block}
+.testimonial_social_links li a i{color: #666; font-size: 14px; padding: 0 5px}
+.testimonial_slider_style2_box .rating_star_list{margin-bottom: 10px}
+.testimonial_slider_style2_box p{margin-bottom: 10px}
+
+.testimonial_slider_style2_indicator, .testimonial_slider_style3_indicator{bottom: -50px; right: 0; left: auto}
+.testimonial_slider_style2_indicator li, .testimonial_slider_style3_indicator li{width: 12px; height: 12px; border-radius: 100%; background-color: #666}
+.testimonial_slider_style2_indicator li.active, .testimonial_slider_style3_indicator li.active{background-color: #ff4800}
+
+/* ===================================
+          Payment Methods
+====================================== */
+.payment_box{background-color: #f5f5f5; text-align: center; padding: 60px 100px}
+.payment_box figure{margin-bottom: 30px}
+.btn_get_in_touch{display: inline-block; font-size: 14px; line-height: 24px; color: #fff; background-color: #666; padding: 10px 30px; text-transform: uppercase; transition: all ease-in-out 0.5s}
+.btn_get_in_touch:hover{background-color: #ff4800; color: #fff}
+/* ===================================
+                Team
+====================================== */
+.team_social_list li{display: inline-block}
+.team_social_list li a i{font-size: 14px; color: #666; padding: 0 5px}
+.hosting_team_box figure{margin-bottom: 10px}
+.hosting_team_box h5{margin-bottom: 10px}
+/* ===================================
+                FAQ
+====================================== */
+.question_content{text-align: left}
+/* ===================================
+                IPTV
+====================================== */
+.iptv_plan_list{margin-bottom: 30px}
+.iptv_plan_list li{font-size: 14px; line-height: 24px}
+/* ===================================
+                Header 01
+====================================== */
+.bg_top_header{background-color: #f1f1f1; float: left; width: 100%; padding-bottom: 70px}
+.bg_top_header p{font-weight: 400; color: #666; float: left}
+.btn_top_header{display: inline-block; background-color: #ff4800; font-weight: 600; color: #fff; padding: 5px 15px; transition: all ease-in-out 0.5s;}
+.inner_top_header{padding-top: 10px}
+a.logo img{width: 100%; padding: 33px 0}
+.info_links{float: left; width: 100%; padding: 15px 5px; border-left: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5}
+.header_contact_info li{display: inline-block; padding: 0 15px}
+.header_social_links li{display: inline-block}
+.header_contact_info li,.header_contact_info li a{font-size: 14px; line-height: 24px; font-weight: 500; transition: all; color: #666}
+.header_social_links li i{padding: 0 5px; font-size: 16px; transition: all ease-in-out 0.5s; color: #666}
+.navigation .menubar li a{font-weight: 500; color: #3e4555; padding: 10px 20px !important; text-transform: uppercase; font-size: 14px}
+.navigation_links{border-left: 1px solid #e5e5e5}
+.navigation_bar {background-color: #fff; position: absolute; top: 6px}
+.header_contact_info li a i{margin-right: 5px}
+.header_contact_info li a:hover {color: #ff4800}
+.header_contact_info li a:hover i{color: #ff4800}
+.navigation .menubar li a:hover{color: #ff4800}
+.dd_menu_01{top: 42px}
+.dd_menu_01 a{font-size: 14px; line-height: 24px}
+.mega_menu_01 {top: 98px}
+.top_navigation{padding: 0 15px}
+.dd_menu_01 a:active{background-color: transparent}
+.dd_menu_01 a:focus{border: none}
+.mega_menu_01 .inner_mega_menu_box{padding: 30px 15px}
+.dd_header01{top: 42px}
+.navigation .menubar li a:focus{border: none}
+.navigation .menubar li a:active{background-color: transparent}
+/* ===================================
+                Header 02
+====================================== */
+.header_02_logo{max-width: 300px!important; flex-basis: 300px!important; position: absolute; background: #fff; height: 165px; z-index: 1; display: table; width: 220px; top: -35px; left: 0; right: 0; margin: 0 auto; -webkit-box-shadow: 0 0 10px 0 #f5f5f5; -moz-box-shadow: 0 0 10px 0 #f5f5f5; box-shadow: 0 0 10px 0 #f5f5f5;}
+.header_02_logo figure{vertical-align: middle; display: table-cell; text-align: center}
+.header_02_top_navigation{padding: 10px 0; float: left; width: 100%}
+.header_02_social_links li{display: inline-block}
+.left_box{width: 50%; float: left}
+.right_box{width: 50%; float: right; text-align: right}
+.left_box a{position: relative; font-size: 14px; color: #666; padding-left: 35px; font-weight: 600}
+.left_box a:before{position: absolute; content: ""; background: url("../images/envelope_img.png"); width: 26px; height: 18px; left: 5px; top: 0}
+.header_02_social_links li{display: inline-block}
+.header_02_social_links li a i{font-size: 14px; color: #666; padding: 0 5px}
+.header_02_social_links{float: left; margin-right: 20px}
+.inner_box{float: right}
+.contact_number{position: relative; padding-left: 30px}
+.contact_number a{font-size: 14px; color: #666; font-weight: 600}
+.contact_number a:before{position: absolute; content: ""; background: url("../images/phone_img.png"); width: 25px; height: 25px; top: 0; left: 0}
+.mega_menu_02{top: 52px}
+.mega_menu_02 .inner_mega_menu_box{width: 1100px; padding: 40px 50px; float: left; position: absolute; background-color: #fff; left: -140%; top: 0px}
+/* ===================================
+             Header 03
+====================================== */
+.header03_logo img{width: 140px}
+.header03_top_navigation{background-color: #f5f5f5; padding: 5px 0}
+.navigation  .menubar_header03 li a{padding: 10px 30px !important;}
+
+.navigation  .menubar_header03 li:last-child a{padding-right: 0 !important;}
+.header03_contact_info li{display: inline-block; position: relative; padding: 0 35px}
+.header03_contact_info li:nth-child(1):before{position: absolute; content: ""; background: url("../images/phone_img.png"); width: 25px; height: 25px; left: 0; top: 5px}
+.header03_contact_info li:nth-child(2):before{position: absolute; content: ""; background: url("../images/map_marker.png"); width: 26px; height: 26px; left: 0; top: 5px}
+.header03_contact_info li small{font-size: 14px}
+.header03_contact_info li a{font-size: 14px; color: #666}
+.header03_contact_info li{font-size: 14px; line-height: 20px}
+.dd_header03{top: 47px}
+.mega_menu03{top: 52px; left: 20%}
+.dd_header03{top: 47px}
+/* ===================================
+             Header 04
+====================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================
+          Footer 01
+====================================== */
+.footer_01_logo figure img{width: 144px}
+.footer_01_copyright_content a{color: #ff4800}
+.footer_01_copyright_content a:hover{color: #666}
+.footer_01_copyright{border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: 20px}
+.footer_01_box{padding-top: 50px}
+.footer_01_box_inner p{font-size: 14px}
+.footer_01_box_inner_social_links{margin-top: 20px}
+.footer_01_box_inner_social_links li{display: inline-block}
+.footer_01_box_inner_social_links li a i{font-size: 16px; color: #666; padding: 0 5px}
+.footer_01_links li a{font-size: 16px; line-height: 34px; color: #666; transition: all ease-in-out 0.5s}
+.footer_01_links li a:hover{color: #ff4800}
+.footer_01_contact_details li{font-size: 16px; line-height: 26px; color: #666; position: relative; padding-left: 50px; margin-bottom: 15px}
+.footer_01_contact_details li:nth-child(1):before{position: absolute; content: ""; background: url("../images/map_marker.png"); width: 26px; height: 26px; left: 0; top: 5px}
+.footer_01_contact_details li:nth-child(2):before{position: absolute; content: ""; background: url("../images/clock_img.png"); width: 28px; height: 28px; left: 0; top: 0}
+.footer_01_contact_details li:nth-child(3):before{position: absolute; content: ""; background: url("../images/phone_img.png"); width: 25px; height: 25px; left: 0; top: 0}
+.footer_01_contact_details li:nth-child(4):before{position: absolute; content: ""; background: url("../images/envelope_img.png"); width: 26px; height: 18px; left: 0; top: 5px}
+.footer_01_contact_details li:last-child{margin-bottom: 0}
+.footer_01_contact_details li a{color: #666}
+.subscription_box{background-color: #f5f5f5; padding: 25px}
+.subscription_box_heading{margin: 0 0 10px; font-size: 20px; line-height: 20px; color: #222; font-weight: 500}
+.subscription_box p{font-size: 14px; margin-bottom: 10px}
+.email_input{background: none; border: 1px solid rgba(0,0,0,.1); font-size: 14px; border-radius: 0; padding-left: 15px; color: #555; height: 40px; font-weight: 400; margin-bottom: 10px}
+.btn_subscription_box{border: none; background-color: #ff4800; font-size: 14px; line-height: 14px; color: #fff; padding: 10px 20px}
+/* ===================================
+             Footer 02
+====================================== */
+.footer_02_links li a {font-size: 14px;line-height: 30px;color: #666;transition: all ease-in-out 0.5s}
+.footer_02_contact_details li {font-size: 14px; line-height: 24px; color: #666; position: relative; padding-left: 50px; margin-bottom: 15px}
+.footer_02_contact_details li a {color: #666}
+.footer_02_contact_details li:nth-child(1):before{position: absolute; content: ""; background: url("../images/map_marker.png"); width: 26px; height: 26px; left: 0; top: 5px}
+.footer_02_contact_details li:nth-child(2):before{position: absolute; content: ""; background: url("../images/clock_img.png"); width: 28px; height: 28px; left: 0; top: 0}
+.footer_02_contact_details li:nth-child(3):before{position: absolute; content: ""; background: url("../images/phone_img.png"); width: 25px; height: 25px; left: 0; top: 0}
+.footer_02_contact_details li:nth-child(4):before{position: absolute; content: ""; background: url("../images/envelope_img.png"); width: 26px; height: 18px; left: 0; top: 5px}
+input.mail_subscribe_field {width: 100%;padding: 10px 15px;font-size: 14px;border: 1px solid #ededed; position: relative}
+.email_submit_btn{border: none; color: #fff; background-color: #ff4800; padding: 8px 20px; position: absolute;top: 33px;right: 20px}
+.footer_02_social_links{margin-top: 30px; margin-bottom: 15px}
+.footer_02_social_links li{display: inline-block}
+.footer_02_social_links li a{color: #fff; background-color: #666; width: 30px; height: 30px; border-radius: 100%; display: table}
+.footer_02_social_links li a i{display: table-cell; vertical-align: middle; text-align: center}
+.footer_02_links li a:hover, .footer_02_contact_details li a:hover{color: #ff4800}
+/* ===================================
+             Footer 03
+====================================== */
+.footer03_first_box li{display: inline-block}
+.footer03_first_box li:last-child{float: right}
+.footer03_first_box li a{font-size: 14px; line-height: 20px; color: #666; padding: 0 15px; text-transform: capitalize}
+.footer03_box_inner figure img{width: 140px; margin-bottom: 30px}
+.footer03_box_inner p{font-size: 14px; line-height: 24px}
+.footer03_social_links{float: right}
+.footer03_social_links li{display: inline-block}
+.footer03_social_links li a i{font-size: 14px; color: #666}
+
+
+
+
+

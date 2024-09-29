@@ -1,0 +1,239 @@
+@media only screen and (max-width: 1199px){
+    h1,.h1{font-size: 42px; line-height: 42px}
+    .padding_top_85{padding-top: 65px}
+    .popular_tlds_list li{padding: 30px 10px 0}
+    .padding_top_95{padding-top: 80px}
+    .padding_bottom_95{padding-bottom: 80px}
+    .section_heading_box h2{margin-bottom: 10px}
+    .why_choose_box{padding: 40px 30px; min-height: 220px}
+    .hosting_feature_box figure{margin-bottom: 20px}
+    .cpanel_section h2 br{display: none}
+    .reseller_hosting_plan{padding: 30px 25px 0}
+    .dedicate_server_table tbody tr td{padding: 25px 10px}
+    .add_ond_name{padding: 0 10px 0 0}
+    .outer_search_domain_box{padding: 0 165px}
+    .domain_tlds_box{padding: 30px 20px 0}
+    .slider-container #slider .ui-slider-range{height: 21px !important; top: 6px !important; left: 12px !important;}
+    .slider_price_box{padding: 40px 90px 0 !important;}
+    .operating_system_box{background-color: transparent; border: none; box-shadow: none; padding: 15px 0}
+    .why_choose_content_box h5{font-size: 18px}
+    .coa_content_box h2{font-size: 30px; line-height: 36px}
+}
+@media only screen and (max-width: 991px) {
+    .navbar-toggler-icon{background: url("../images/mobile_toogle_button.svg")}
+    .default_navigation{background-color: #fff; padding: 10px 0; border-bottom: 1px solid #a0b2c3; box-shadow: 0 5px 10px rgba(0,0,0,.10)}
+    .navbar-collapse{position: absolute; background-color: #fff; top: 100%; width: 25%; right: 0}
+    .header03_outer{z-index: 999; top: 61px}
+    .navbar-toggler:focus{outline: none}
+    .inner_default_navigation li a{position: relative}
+    .inner_default_navigation li a:before{position: absolute; content: ""; background-color: #fd5481; border-radius: 100%; width: 6px; height: 6px; left: 18px; top: 11px}
+    .inner_default_navigation{padding: 10px 0 20px; z-index: 9}
+    .dropdown-toggle::after{position: absolute; top: 13px; right: 20px}
+    .inner_default_navigation li a{padding: 5px 30px !important;}
+    .default_dd_menu{background-color: #4f4b6c !important; box-shadow: none; border-radius: 0 !important;}
+    .inner_default_navigation li.default_header_dd .default_dd_menu a{background-color: transparent; color: #fff; padding: 3px 30px!important; font-weight: 500; text-transform: capitalize}
+    .inner_default_navigation li.default_header_dd .default_dd_menu a:before, .outer_mega_menu{display: none}
+    .h1, h1{font-size: 30px; line-height: 30px}
+    .padding_top_85{padding-top: 35px}
+    .padding_top_95{padding-top: 60px}
+    .padding_bottom_95{padding-bottom: 60px}
+    .section_heading_box h2{font-size: 32px; line-height: 36px}
+    .popular_tlds_list li figure img{width: 75%}
+    .popular_tlds_list li{padding: 20px 10px 0}
+    br{display: none}
+    .hosting_plan_box{padding: 20px 15px 0}
+    .hosting_{margin-bottom: 10px}
+    .inner_plan_price_box{font-size: 24px; line-height: 30px}
+    .inner_plan_price_box small{font-size: 16px; line-height: 30px}
+    .hosting_plan_box_list{margin-bottom: 10px}
+    .hosting_plan_box h5{margin-bottom: 30px}
+    .why_choose_box{padding: 30px; text-align: center; min-height: auto}
+    .why_choose_box figure{margin-bottom: 15px}
+    .why_choose_content_box h5{font-size: 18px; line-height: 22px; margin-bottom: 10px}
+    .margin_bottom_70{margin-bottom: 50px}
+    .coa_content_box h2{font-size: 22px; line-height: 30px; margin-bottom: 15px}
+    .coa_content_box p{margin-bottom: 15px}
+    .footer_contact_list li:nth-child(1):before{left: -25px}
+    .footer_contact_list li:nth-child(2):before{left: -25px}
+    .footer_contact_list li:nth-child(3):before{left: -25px}
+    .footer_contact_list li{padding-left: 25px}
+    .margin_tablet{margin-bottom: 30px}
+    .cpanel_section h2{font-size: 32px; line-height: 36px; margin-bottom: 15px}
+    .cpanel_section p{margin-bottom: 25px}
+    .st-head-row{background-color: #4f4b6c; color: #fff}
+    .add_ond_name{font-size: 15px}
+    .outer_search_domain_box{padding: 0}
+    .bg_sub_banner p{font-size: 16px; line-height: 24px}
+    .margin_bottom_50{margin-bottom: 30px}
+    .domain_tlds_box{padding: 20px 10px 0}
+    .btn_price_plan{font-size: 14px; line-height: 16px; padding: 10px 20px}
+    .domain_name{margin-bottom: 40px}
+    .domain_name:before{bottom: -15px}
+    .domain_name{font-size: 20px; line-height: 24px}
+    .padding_bottom_50{padding-bottom: 30px}
+    .padding_top_50{padding-top: 30px}
+    .contact_info_box figure{margin-bottom: 10px}
+    .contact_info_box_content{text-align: center !important;}
+    .contact_info_box{padding: 20px 30px}
+    .slider-container #slider .ui-slider-range{height: 15px !important; top: 5px !important; left: 9px !important}
+    .slider-container #slider .ui-slider-handle{margin: -7px 0 0 -21px}
+    .sliderbox{padding: 15px 0 0 !important;}
+    .slider_price_box{padding: 20px 0 0 !important;}
+    .slider_price_box .inner_slider_price_box{padding: 0 20px !important;}
+    .inner_slider_price_box br{display: block}
+    .btn_home_banner{padding: 15px 30px}
+    .search_domain_heading h2{font-size: 32px; line-height: 36px; margin-bottom: 25px}
+    body{font-size: 14px}
+    .section_heading_box p{line-height: 20px}
+    a.default_logo figure{width: 120px}
+    .margin_bottom_25{margin-bottom: 10px}
+    .padding_bottom_100{padding-bottom: 50px}
+    .bg_sub_banner{padding-top: 120px}
+    .h5, h5{font-size: 16px}
+    .section_heading_box h2{margin-bottom: 20px}
+    .btn_coa, .btn_cpanel{padding: 12px 20px; font-size: 14px; line-height: 14px}
+    .bg_home_banner:before, .bg_sub_banner:before{background-size: 80%; background-position: right top; background-repeat: no-repeat}
+    .inner_default_navigation li a{font-size: 12px; line-height: 18px}
+    .default_dd_menu{margin: 10px 0}
+    .default_dd_menu{padding: 10px 0 15px !important;}
+    a.navbar-brand.header01_logo{padding: 15px}
+    .header01_top_bar{padding: 0; display: none}
+    .header01_navigation{bottom: auto}
+    .hide_on_mobile{display: none}
+    .outer_header01_logo{border: none; text-align: left}
+    .header02_mobile_toggle{position: absolute; right: 10px; top: 10px; padding: 0}
+    .index02_hero_banner{padding-top: 120px}
+    .outer_header01_navbar{padding: 10px 0 20px}
+    .header02_dd li a{font-size: 12px !important;; line-height: 18px; padding: 5px 30px !important; position: relative}
+    .header02_dd li:first-child a{padding-left: 30px !important;}
+    .header02_dd li a:before{position: absolute; content: ""; background-color: #fd5481; border-radius: 100%; width: 6px; height: 6px; left: 18px; top: 11px}
+    .header01_navbar li.default_header_dd .default_dd_menu a{color: #fff}
+    .header02_mobile_logo{display: block}
+    .header_02_logo{display: none}
+    .header02_mobile_logo figure img{width: 130px}
+    .header_02{background-color: #fff; position: relative; z-index: 9; padding: 10px 0}
+    .header03_nav li a{line-height: 18px; font-size: 12px; text-transform: uppercase}
+    .header03_nav li.default_header_dd a{padding: 5px 15px !important;}
+    .header03_nav li.default_header_dd:first-child a{padding-left: 15px !important;}
+    .mobile_row{padding: 10px 0}
+    .header03_right_side{float: none !important;}
+    .header03_right_side li a{padding: 5px 15px !important; line-height: 18px; font-size: 12px; }
+    .header03_nav li a{padding: 5px 15px !important;}
+    .header03_nav li.default_header_dd .header03_dd a, .header03_right_side li.default_header_dd .header03_dd a{color: #fff}
+    .header03_nav li.default_header_dd .header03_dd a:before, .header03_right_side li.default_header_dd .header03_dd a:before{display: none}
+    .header03_nav li.default_header_dd .header03_dd a, .header03_right_side li.default_header_dd .header03_dd a{padding: 5px 15px !important;}
+    .header03_mobile_toggle{position: absolute; right: 0; top: 15px; z-index: 9}
+    .header03_contact_info{display: none}
+    .padding_bottom_20{padding-bottom: 10px}
+    .padding_top_20{padding-top: 10px}
+    .navigation .menubar_header03 li a{color: #5a5f69; font-size: 12px; line-height: 18px; padding: 5px 15px !important;}
+    .menubar_header03{padding: 10px 0}
+    .navigation .menubar_header03 li > a:first-child{padding-left: 15px !important;}
+    .navigation .menubar_header03 .header03_dropdown a{color: #fff}
+    .header05_toggle{position: absolute; right: 0; top: -40px}
+    .header03_top_navigation{margin-top: 0}
+    .header04_top_bar{display: none}
+    .header04_navbar li a{color: #5a5f69}
+    .header04_navbar{padding: 10px 0}
+    .header04_outer_box{top: 10px}
+    .header04_dropdown{background-color: #4f4b6c; box-shadow: none;}
+    .header04_navbar .header04_dropdown a{color: #fff !important; font-size: 12px; line-height: 18px}
+    .footer03_first_box{display: none}
+
+
+}
+@media only screen and (max-width: 767px){
+    .order_2{order: 2}
+    .order_1{order: 1}
+    .default_navigation{padding: 10px}
+    .navbar-toggler{padding: 0}
+    .navbar-collapse{width: 50%}
+    .bg_home_banner figure img{width: 80%}
+    .bg_home_banner figure{text-align: center}
+    .bg_home_banner{padding-top: 90px}
+    .mobile_text_center{text-align: center}
+    h1, .h1{font-size: 24px; line-height: 24px}
+    .margin_bottom_20{margin-bottom: 10px}
+    body{font-size: 14px; line-height: 20px}
+    .btn_home_banner{font-size: 14px; line-height: 14px; padding: 10px 20px}
+    .partner_section div.container{padding-top: 35px; padding-bottom: 35px}
+    .padding_top_95{padding-top: 40px}
+    .padding_bottom_95{padding-bottom: 40px}
+    .section_heading_box h2{font-size: 24px; line-height: 30px}
+    .search_domain{margin-right: 0; margin-bottom: 10px}
+    .popular_tlds_list li{padding: 5px 10px 0}
+    .popular_tlds_list{margin-top: 10px}
+    .mobile_margin{margin-bottom: 30px !important;}
+    .coa_section figure{text-align: center; margin-bottom: 20px}
+    .coa_section figure img{width: 80%}
+    .coa_content_box h2{font-size: 24px; line-height: 30px; margin-bottom: 10px}
+    .mobile_hide{display: none}
+    .padding_top_30{padding-top: 20px}
+    .padding_bottom_30{padding-bottom: 20px}
+    .bg_sub_banner{padding-top: 120px}
+    .bg_sub_banner p{font-size: 14px; line-height: 20px}
+    .cpanel_section h2{font-size: 24px; line-height: 30px}
+    .cpanel_content_box{margin-top: 30px}
+    .cpanel_section_img figure{text-align: center}
+    .cpanel_section_img figure img{width: 80%}
+    .dedicate_server_table tbody tr td{padding: 20px}
+    .technical_specs_list li{font-size: 12px}
+    .addons_content_box h2{font-size: 24px; line-height: 30px; margin-bottom: 15px}
+    .outer_domain_tlds_box{width: 80%; margin: 0 auto}
+    .coa_content_box{margin-top: 10px}
+    .slider_detail{padding: 30px 0 !important;}
+    .price-slider-section, .vps_discount_price, .vps_slider_coupon_code{display: none !important;}
+    .inner_price_content{padding: 15px 0 !important;}
+    .slider_price_box .inner_slider_price_box{padding: 0 25px !important;}
+    .vps_discount_price{font-size: 18px !important; line-height: 24px !important;}
+    .vps_slider_coupon_code{font-size: 18px !important; line-height: 20px !important;}
+    .vps_slider_coupon_code small{font-size: 12px !important; line-height: 20px !important;}
+    .price_txt .numeric1{font-size: 30px !important; line-height: 30px !important;}
+    .price_txt{font-size: 18px !important; line-height: 30px !important;}
+    .vps_btn{font-size: 14px !important; line-height: 14px !important; padding: 12px 25px !important;}
+    .inner_default_navigation li.default_header_dd .default_dd_menu a{padding: 5px 30px !important;}
+    .bg_home_banner:before, .bg_sub_banner:before{z-index: -1}
+    .padding_bottom_100{padding-bottom: 50px}
+    .search_domain{width: 100%; padding: 15px 20px}
+    .btn_search_domain{padding: 15px 38px}
+    .btn_cpanel{font-size: 14px; line-height: 14px; padding: 12px 28px}
+    .btn_coa{font-size: 14px; line-height: 14px; padding: 15px 30px;}
+    .search_domain_heading h2{font-size: 24px; line-height: 28px}
+    .bg_search_domain{background: none}
+    .outer_hosting_plan_box, .outer_why_choose_box{padding: 0 30px}
+    .why_choose_box figure{text-align: center}
+    .why_choose_box figure img{width: 25%}
+    .banner_content_box{padding-top: 40px}
+    .bg_home_banner:before, .bg_sub_banner:before{background-size: 60%; background-position: right top; background-repeat: no-repeat}
+    .banner_content_box p{margin-bottom: 20px}
+    .hosting_plan_box{padding: 20px 30px 0}
+    .margin_bottom_80{margin-bottom: 50px}
+    .coa_section:before, .hosting_feature_section:before{display: none}
+    .bg_home_banner{background: none}
+    .mobile_space{margin-bottom: 10px}
+    .coa_section{background-color: #c5dce4}
+    .technical_specs_box{padding-left: 25px}
+    .technical_specs_box h6{font-size: 16px; line-height: 24px; margin-bottom: 15px}
+    .technical_specs_list li:before{width: 7px; height: 7px; top: 7px}
+    .add_on_price{margin: 5px 0}
+    .add_ons_box{padding: 0 20px}
+    .bg_sub_banner{background: none}
+    .price_rangetxt div.icon span{font-size: 14px !important;}
+    .inner_price_content{box-shadow: 10px 0 20px rgba(0,0,0,.1);}
+    .price_content .value{margin: 10px 0 0 !important; padding: 10px 0 0 !important; font-size: 16px !important;}
+    .header02_banner{float: left}
+    .header_02_top_bar{display: none}
+    .header_02_top_navigation{border-top: none; margin-top: 0}
+    .footer01_links_mobile{display: none}
+    .mobile_footer05{text-align: center !important;}
+    .email_submit_btn{top: 33px}
+    .mobile_center{text-align: center}
+    .footer03_social_links{float: none; text-align: center; margin-top: 10px}
+    .footer02_subscribe_email_btn{top: 40px}
+    .footer02_links{text-align: center}
+    .padding_bottom_60{padding-bottom: 30px}
+    .padding_top_60{padding-top: 30px}
+}
+@media only screen and (max-width: 480px){
+
+}

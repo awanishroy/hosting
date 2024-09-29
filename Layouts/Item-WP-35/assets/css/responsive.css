@@ -1,0 +1,206 @@
+@media only screen and (max-width: 1199px){
+    .bg_home_banner h1{font-size: 42px; line-height: 48px}
+    .price_box{font-size: 50px; line-height: 50px; margin-bottom: 30px}
+    .section_padding{padding: 80px 0}
+    .hosting_plan_price{font-size: 40px; line-height: 50px}
+    .dedicate_server_table tbody td{padding: 20px 10px}
+    .price_rangetxt div.icon{padding: 25px 0 15px}
+}
+@media only screen and (max-width: 991px) {
+    .side_nav_button{display: none}
+    .menu_navigation_list{background-color: #13ceed; width: 30%; top: 100%; right: 0; padding: 10px 0}
+    .default_navigation .menu_navigation_list > li > a{padding: 5px 20px !important; position: relative}
+    .navigation_social_icon, .openBtn{display: none}
+    .dropdown-toggle::after{right: 20px; position: absolute; top: 13px}
+    .dropdown-menu{background-color: rgba(255,255,255,.80); border-radius: 0; box-shadow: none; border: none}
+    .outer_mega_menu{display: none}
+
+
+    /*Toggle Menu*/
+    .cmn-toggle-switch {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        width: 35px;
+        height: 35px;
+        font-size: 0;
+        text-indent: -9999px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        box-shadow: none;
+        border-radius: none;
+        border: none;
+        cursor: pointer;
+        -webkit-transition: background 0.3s;
+        transition: background 0.3s;
+    }
+
+    .cmn-toggle-switch:focus {
+        outline: none;
+    }
+
+
+    .cmn-toggle-switch span {
+        display: block;
+        position: absolute;
+        top: 17px;
+        left: 9px;
+        right: 18px;
+        width: 50%;
+        height: 2px;
+        background: #fff
+    }
+
+    .cmn-toggle-switch span::before,
+    .cmn-toggle-switch span::after {
+        position: absolute;
+        display: block;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        content: "";
+    }
+
+    .cmn-toggle-switch span::before {
+        top: -7px;
+    }
+
+    .cmn-toggle-switch span::after {
+        bottom: -7px;
+    }
+
+
+
+    .cmn-toggle-switch__htx {
+        background-color: transparent
+    }
+
+    .cmn-toggle-switch__htx span {
+        -webkit-transition: background 0 0.3s;
+        transition: background 0 0.3s;
+    }
+
+    .cmn-toggle-switch__htx span::before,
+    .cmn-toggle-switch__htx span::after {
+        -webkit-transition-duration: 0.3s, 0.3s;
+        transition-duration: 0.3s, 0.3s;
+        -webkit-transition-delay: 0.3s, 0;
+        transition-delay: 0.3s, 0;
+    }
+
+    .cmn-toggle-switch__htx span::before {
+        -webkit-transition-property: top, -webkit-transform;
+        transition-property: top, transform;
+    }
+
+    .cmn-toggle-switch__htx span::after {
+        -webkit-transition-property: bottom, -webkit-transform;
+        transition-property: bottom, transform;
+    }
+
+    /* active state, i.e. menu open */
+    .cmn-toggle-switch__htx.active {
+        background-color: transparent;
+    }
+
+    .cmn-toggle-switch__htx.active span {
+        background: none;
+    }
+
+    .cmn-toggle-switch__htx.active span::before {
+        top: 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .cmn-toggle-switch__htx.active span::after {
+        bottom: 0;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .cmn-toggle-switch__htx.active span::before,
+    .cmn-toggle-switch__htx.active span::after {
+        -webkit-transition-delay: 0, 0.3s;
+        transition-delay: 0, 0.3s;
+    }
+
+    .bg_home_banner h1{font-size: 30px; line-height: 36px; margin-bottom: 10px}
+    .bg_home_banner p{font-size: 14px; line-height: 24px}
+    .price_box{font-size: 40px; line-height: 40px; margin-bottom: 20px}
+    .banner_btn, .banner_btn.active{font-size: 12px; line-height: 14px; width: 150px}
+    .inner_banner_content{padding-top: 145px}
+    .bg_home_banner{height: 630px}
+    .popular_domains_list li{padding: 0 5px}
+    .custom_margin_box{margin-bottom: 30px}
+    .coa_section h3{font-size: 20px}
+    .bg_sub_banner{height: 300px}
+    .data_center_content_box div.text-left{text-align: center !important;}
+    .st-head-row{background-color: #0d2781 !important; color: #fff !important;}
+    .popular_domain_box{padding: 30px 0}
+    .domain_name{font-size: 40px; line-height: 38px}
+    .popular_domain_name{font-size: 30px; line-height: 40px}
+    .popular_domain_name small{font-size: 18px; line-height: 40px}
+    .price_rangetxt div.icon{padding: 5px 0 15px}
+    .original_cut_price{width: 35%; margin-bottom: 20px}
+    .package_price{margin-right: 0; margin-bottom: 20px}
+    .price_content .value{font-size: 14px}
+    .inner_price_content{padding: 15px 0}
+    .domain_transfer_list li{font-size: 14px; line-height: 28px}
+    .margin_bottom_100{margin-bottom: 50px}
+    .padding_top_100{padding-top: 50px}
+    .padding_bottom_100{padding-bottom: 50px}
+
+}
+@media only screen and (max-width: 767px){
+    .price_box small{font-size: 18px}
+    .price_box{font-size: 30px; line-height: 36px}
+    h2, .h2{font-size: 24px; line-height: 36px}
+    .search_box p, .plan_box p{font-size: 14px; line-height: 20px}
+    .mobile_margin{margin-bottom: 20px}
+    .coa_section h3{text-align: center}
+    .coa_section div.text-right{text-align: center !important;}
+    .mobile_hide{display: none}
+    .footer_links{text-align: center}
+    .section_padding{padding: 50px 0}
+    .padding_top_60{padding-top: 40px}
+    .padding_bottom_60{padding-bottom: 40px}
+    .padding_top_100{padding-top: 50px}
+    .padding_bottom_100{padding-bottom: 50px}
+    .menu_navigation_list{width: 50%}
+    .bg_sub_banner .banner_inner_content h1{font-size: 30px}
+    .border_top{border-top: none}
+    .vps_plan_list li:before{display: none}
+    .vps_plan_list li{font-size: 14px; line-height: 28px}
+    .price_rangetxt{display: none}
+    .price-slider-section{width: 100%}
+    .slider-container{padding: 40px 15px}
+    .padding_top_45{padding-top: 0}
+    .original_cut_price, .coupon_code_box{display: none}
+    .slider_price_box{padding: 10px 0}
+    .sliderbox{margin: 100% 0}
+    .default_navigation{padding: 15px}
+    .domain_transfer_list li{text-align: center}
+    .domain_transfer_list li:before{display: none}
+    .affiliates_banner .banner_inner_content h1{font-size: 24px}
+    .affiliates_banner .banner_inner_content p{font-size: 14px}
+}
+@media only screen and (max-width: 667px){
+
+}
+@media only screen and (max-width: 480px){
+
+}
+@media only screen and (max-width: 375px){
+
+}
+
+
+
+

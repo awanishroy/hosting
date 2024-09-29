@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 76.6 99" style="enable-background:new 0 0 76.6 99;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E73747;}
+	.st1{fill:#E8CB4A;}
+	.st2{fill:#FFFFFF;}
+</style>
+<g>
+	<circle class="st0" cx="38.3" cy="24.8" r="13.9"/>
+	<polygon class="st1" points="4.7,34.7 16.6,34.7 16.6,22.8 12.7,22.8 	"/>
+	<polygon class="st1" points="72.6,35.7 60.7,35.7 60.7,23.8 64.6,23.8 	"/>
+	<path d="M38.3,8c-8.8,0-16,7.2-16,16s7.2,16,16,16s16-7.2,16-16S47.1,8,38.3,8z M38.3,36.7c-7,0-12.8-5.7-12.8-12.8
+		s5.7-12.8,12.8-12.8S51.1,16.9,51.1,24S45.4,36.7,38.3,36.7z"/>
+	<path class="st2" d="M36.7,14.4h3.2v12.8h-3.2V14.4z"/>
+	<path class="st2" d="M36.7,30.3h3.2v3.2h-3.2V30.3z"/>
+	<path d="M62.3,20.1V0H14.4v20.1L0,34.5V75h12.8v11.2H16V71.9H5.5L27,50.3l11.3,9.3l11.3-9.3l21.6,21.6H60.7v14.4h3.2V75h12.8V34.5
+		L62.3,20.1z M71.2,33.5h-6.3l-2.6,2.2V24.6L71.2,33.5z M14.4,35.7l-2.6-2.2H5.5l8.9-8.9V35.7z M3.2,69.6V36.7h7.4l3.8,3.1v0.1h0.1
+		l10.1,8.3L3.2,69.6z M17.6,38.3V3.2h41.5v35.1L38.3,55.4L17.6,38.3z M62.2,39.9h0.1v-0.1l3.8-3.1h7.4v32.9L52.1,48.2L62.2,39.9z"/>
+	<path class="st0" d="M12.8,89.4H16v3.2h-3.2V89.4z"/>
+	<path class="st0" d="M12.8,95.8H16V99h-3.2V95.8z"/>
+	<path class="st0" d="M60.7,89.4h3.2v3.2h-3.2V89.4z"/>
+	<path class="st0" d="M60.7,95.8h3.2V99h-3.2V95.8z"/>
+	<path d="M19.2,62.3h3.2v3.2h-3.2V62.3z"/>
+	<path d="M19.2,68.7h3.2v3.2h-3.2V68.7z"/>
+	<path d="M19.2,75h3.2v24h-3.2V75z"/>
+	<path d="M25.5,62.3h3.2v14.4h-3.2V62.3z"/>
+	<path d="M25.5,79.8h3.2V83h-3.2V79.8z"/>
+	<path d="M25.5,86.2h3.2v3.2h-3.2V86.2z"/>
+	<path d="M31.9,62.3h3.2v3.2h-3.2V62.3z"/>
+	<path d="M31.9,68.7h3.2v3.2h-3.2V68.7z"/>
+	<path d="M31.9,75h3.2v24h-3.2V75z"/>
+	<path d="M41.5,62.3h3.2v3.2h-3.2V62.3z"/>
+	<path d="M41.5,68.7h3.2v3.2h-3.2V68.7z"/>
+	<path d="M41.5,75h3.2v24h-3.2V75z"/>
+	<path d="M47.9,62.3h3.2v14.4h-3.2V62.3z"/>
+	<path d="M47.9,79.8h3.2V83h-3.2V79.8z"/>
+	<path d="M47.9,86.2h3.2v3.2h-3.2V86.2z"/>
+	<path d="M54.3,62.3h3.2v3.2h-3.2V62.3z"/>
+	<path d="M54.3,68.7h3.2v3.2h-3.2V68.7z"/>
+	<path d="M54.3,75h3.2v24h-3.2V75z"/>
+</g>
+</svg>

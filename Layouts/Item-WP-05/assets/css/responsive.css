@@ -1,0 +1,826 @@
+@media only screen and (max-width: 1440px){
+    .banner_tabs li .shared_tab_link::after {right: -949px;}
+    .banner_tabs li .reseller_tab_link::after {right: -664px;}
+    .banner_tabs li .dedicated_tab_link::after {right: -379px;}
+    .banner_tabs li .vps_tab_link::after {right: -93px;}
+    .reviews_section .section_heading::after {right: 474px;}
+    .reviews_section .section_heading::before {left: 474px;}
+    .banner_heading h2 {width: 39%;}
+}
+@media only screen and (max-width: 1199px){
+    /*Header Responsive*/
+    .default_logo figure {line-height: 16px}
+    .header_02_navigation_links .menubar_header_02 .header02_dd_menu{top: 52px; left: -30px}
+    .default_dd_menu:before{display: none}
+    .header_02_navigation_links .menubar_header_02 .hosting_dd_menu{top: 54px}
+    .header_02_navigation_links .menubar_header_03 .header02_dd_menu{top: 54px;}
+    .footer03_box{padding-bottom: 40px}
+    .footer03_contact_box01 br{display: none}
+    .default_mega_menu{left: 0; width: 100%}
+    .footer02_links_list li a{font-size: 12px; padding: 0 15px}
+    .footer02_content_box p{font-size: 12px}
+    .footer02_contact_list h5{font-size: 18px}
+    .footer01_contact_list li{font-size: 12px; padding: 15px 0 15px 55px}
+    .footer01_links_list li a{font-size: 12px; line-height: 36px}
+    .header03_contact_info li{padding: 0 11%}
+    .header04_contact_info li {padding: 0 9%}
+    #footer01 .padding_top_65 {padding-top: 45px}
+    #footer01 .padding_bottom_65 {padding-bottom: 45px}
+    .footer01_links_list li a:before {top: 2px}
+    .header_02_navigation_links .menubar_header_03 .header02_dd_menu_last {left: -66px;}
+    .footer03_links li a, .footer03_social_links li {line-height: 30px;}
+    #footer03 .padding_top_75 {padding-top: 40px;}
+    .footer04_box .footer_heading {padding-top: 20px; margin-bottom: 10px;}
+    .footer_heading {font-size: 18px;}
+    .footer04_content_box  {padding: 0 20px 20px 40px;}
+    .footer_links01 {padding-left: 15px;}
+    .footer_links02 {padding-left: 45px;}
+    .footer03_contact_box03 {padding-left: 85px}
+    .footer03_contact_box03:before {left: 24px;}
+    .footer04_contact_box02, .footer04_contact_box03 {padding-left: 100px;}
+    .footer04_contact_box02:before {left: 50px}
+    .footer04_contact_box03:before {left: 40px}
+    .header_02_logo {max-width: 208px!important; width: 210px;}
+    /* ===================================
+             Index
+    ====================================== */
+    .default_logo figure img {width: 120px;}
+    .banner_content .banner_tab_content span {font-size: 14px; line-height: 20px; letter-spacing: 1px;}
+    .banner_content .banner_tab_content h1 {font-size: 38px; line-height: 48px; margin: 15px 0;}
+    .banner_content .banner_tab_content p {font-size: 18px; line-height: 28px; letter-spacing: 0px;}
+    .banner_content .banner_tab_content a {line-height: 18px; padding: 13px 28px;}
+    .tab_img01 figure img, .tab_img02 figure img, .tab_img03 figure img, .tab_img04 figure img {width: 84%;}
+    .tab_img01 figure, .tab_img02 figure, .tab_img03 figure, .tab_img04 figure {text-align: center;}
+    .banner_tabs li .shared_tab_link::before {left: 12px; width: 48px}
+    .banner_tabs li .vps_tab_link::before {width: 48px; left: 28px}
+    .banner_tabs li .reseller_tab_link::before, .banner_tabs li .dedicated_tab_link::before {width: 48px; left: 10px;}
+    .banner_tabs li a {font-size: 16px; line-height: 24px;}
+    .banner_tabs li .shared_tab_link {padding: 20px 5px 20px 75px; width: 210px; font-size: 16px; line-height: 22px;}
+    .banner_tabs li .vps_tab_link {padding: 20px 5px 20px 95px; width: 210px}
+    .banner_tabs li .reseller_tab_link, .banner_tabs li .dedicated_tab_link {padding: 20px 5px 20px 65px; width: 210px}
+    .banner_tabs li .shared_tab_link.active {padding: 30px 5px 30px 75px; width: 210px}
+    .banner_tabs li .vps_tab_link.active {padding: 30px 5px 30px 90px; width: 210px}
+    .banner_tabs li .reseller_tab_link.active, .banner_tabs li .dedicated_tab_link.active {padding: 30px 5px 30px 65px; width: 210px}
+    .banner_tabs li .shared_tab_link::after {right: -750px;}
+    .banner_tabs li .reseller_tab_link::after {right: -510px;}
+    .banner_tabs li .dedicated_tab_link::after {right: -270px;}
+    .banner_tabs li .vps_tab_link::after {right: -30px;}
+    .hero_banner {height: 750px;}
+    .banner_content .reseller_tab p, .banner_content .dedicated_tab p {padding-right: 0}
+    .banner_tabs li span {font-size: 14px; line-height: 20px}
+    /* <---------- ends here ----------> */
+    /* <---------- Domain Search Section ----------> */
+    .padding_tb_90 {padding: 80px 0;}
+    .section_heading {padding-bottom: 40px;}
+    .section_heading h2 {font-size: 30px; line-height: 36px;}
+    .section_heading p, .card_heading span {font-size: 16px; line-height: 22px;}
+    .btn_submit {right: 138px;}
+    .text_field {height: 66px; font-size: 14px;}
+    .search_btn {padding: 16px 25px}
+    /* <---------- ends here ----------> */
+    /* <---------- Price Plan Section ----------> */
+    .pplan_tab_pane {padding: 40px 30px 30px;}
+    .pplan_tab_pane:hover {padding: 36px 26px 26px;}
+    .card_heading {padding-bottom: 20px;}
+    .card_heading h5 {font-size: 18px; line-height: 24px}
+    .card_heading h1 {font-size: 40px; line-height: 46px; margin-bottom: 0}
+    .card_heading h5::after {right: -4px;}
+    .card_heading h5::before {left: -4px;}
+    .card_heading .shared_plan::before {left: 8px}
+    .card_heading .vps_plan::before {left: 24px}
+    .card_heading .shared_plan::after {right: 8px}
+    .card_heading .vps_plan::after {right: 24px}
+    .card_heading .margin_bottom_25 {margin-bottom: 20px;}
+    .price_plan_list {padding: 20px 0 20px 10px}
+    .plan_btn a {font-size: 16px; line-height: 22px; padding: 13px;}
+    .plan_gurantee p {font-size: 12px; line-height: 18px;}
+    .price_plan_list li {font-size: 14px; line-height: 26px}
+    /* <---------- ends here ----------> */
+    /* <---------- Feature Section ----------> */
+    .feature_card figure img {width: 24.5%;}
+    .card_content h5 {padding: 20px 0 35px; font-size: 18px; line-height: 24px;}
+    .card_content h5::before {width: 40px; height: 4px; top: 56px;}
+    .card_content p {font-size: 13px; line-height: 20px;}
+    .feature_card:hover .card_content h5::before {width: 160px;}
+    /* <---------- ends here ----------> */
+    /* <---------- Team Section ----------> */
+    .team_card {padding: 30px 30px 25px}
+    .team_card:hover {padding: 31px 28px;}
+    .team_card .margin_bottom_35 {margin-bottom: 25px;}
+    .team_card h5 {font-size: 18px; line-height: 24px;}
+    .team_card span {font-size: 14px; line-height: 20px;} 
+    .team_card p {font-size: 14px; line-height: 24px; margin: 13px 0 15px;}
+    .team_icons li:first-child, .team_icons li:nth-child(2), .team_icons li:last-child {width: 34px; height: 34px;}
+    /* <---------- ends here ----------> */
+    /* <---------- Reviews section ----------> */
+    .reviews_section .section_heading h2 {padding-bottom: 0px;}
+    .reviews_section .section_heading::after {right: 266px; top: 144px;}
+    .reviews_section .section_heading::before {left: 264px; top: 144px;}
+    .reviews_section .section_heading h2::before {top: 52px;}
+    .review_carousel div p {font-size: 16px; line-height: 28px;}
+    /* <---------- ends here ----------> */
+    /* <---------- Partner section ----------> */
+    .padding_tb_70 {padding: 60px 0 55px;}
+    /* <---------- ends here ----------> */
+    /* <---------- Footer section ----------> */
+    .default_footer_outer {padding: 55px;}
+    .footer_box h5 {margin-bottom: 25px;}
+    .copy_right {padding: 29px 0;}
+    .copy_right ul li {font-size: 20px; margin-left: 13px;}    
+    /* <---------- ends here ----------> */
+    /* <---------- Shared Hosting ----------> */
+    .banner_heading ul {width: 540px}
+    .view_sh_price_plan span {font-size: 24px; line-height: 30px}
+    .view_sh_price_plan a {font-size: 18px; line-height: 24px; padding: 18px 45px}
+    .cpanel_content h2 {font-size: 30px; line-height: 36px;}
+    .cpanel_content span {font-size: 16px; line-height: 22px;}
+    .cpanel_content p {font-size: 14px; line-height: 20px; margin: 20px 0 35px}
+    .cpanel_content a {font-size: 16px; line-height: 22px; padding: 11px 32px; letter-spacing: 0.7px}
+    .cpanel_img::after {width: 400px; bottom: -26px; right: 44px}
+    .banner_heading h2 {font-size: 30px; width: 44%}
+    .feature_section .card_content h5 {padding: 20px 0 35px; font-size: 16px; line-height: 22px}
+    .sh_feature .card_content h5::before {top: 54px}
+    /* <---------- ends here ----------> */
+    /* <---------- Shared Hosting ----------> */
+    .rh_price_plan .pplan_tab_pane {padding: 35px 20px 33px}
+    .rh_price_plan .pplan_tab_pane:hover {padding: 31px 16px 29px}
+    .rh_price_plan .plan_btn {margin-bottom: 0}
+    .whm_img::after {width: 458px; bottom: -56px; right: 10px}
+    .whm_section .whm_content a {padding: 11px 30px}
+    /* <---------- ends here ----------> */
+    /* <---------- About Us ----------> */
+    .story_card {padding: 25px}
+    .story_card h5 {font-size: 18px; line-height: 24px; margin-bottom: 35px;}
+    .story_card p {font-size: 14px; line-height: 20px}
+    .story_card h5::before {top: 34px}
+    .technology_img::before {background-size: 100%; width: 469px; right: 0px}
+    .story_section .padding_lr_100 {padding: 0;}
+    /* <---------- ends here ----------> */
+    /* <---------- Contact Us ----------> */
+    .support_section .story_card {padding: 20px 15px;}
+    .support_section .story_card:hover {padding: 16px 11px}
+    /* <---------- ends here ----------> */
+    /* <---------- Domain ----------> */
+    .tld_inner .font_size_50 {font-size: 42px; line-height: 48px}
+    .tld_inner {padding: 25px 45px}
+    .tld_content .font_size_40 {font-size: 36px; line-height: 42px}
+    .tld_content {padding: 25px 35px}
+    .tld_btn {line-height: 42px; margin-top: 20px}
+    /* <---------- ends here ----------> */
+    /* <---------- Dedicated Hosting ----------> */
+    .table_list td:first-child p {color: #252525; width: auto; font-weight: 700; margin: 15px 0; padding: 0 15px 0 25px; font-size: 20px; line-height: 30px}
+    .table_list td:nth-child(2) p {padding: 0 0px 0 30px; width: auto;}
+    .table_list td:nth-child(3) p, .table_list td:nth-child(4) p {width: auto; padding: 0 0px 0 30px;}
+    .table_list td p::before {left: 10px; top: 6px;}
+    .table_list td:first-child p {margin: 10px 0; padding: 0 0px 0 15px; font-size: 18px; line-height: 26px}
+    .table_list .table_price {font-size: 20px; line-height: 20px; padding: 15px 25px 15px 15px}
+    .table_list td a {padding: 12px 30px; margin: 0 7px 0 0}
+    .enterprise_inner h5 {padding-right: 70px}
+    .enterprise_inner {padding: 10px 0 0 15px; width: 200px; height: 218px;}
+    .enterprise_inner:hover {padding: 8px 0 0 13px;}
+    /* <---------- ends here ----------> */
+    /* <---------- VPS Server ----------> */
+    .os_list li {padding: 50px;}
+    .vps_advice_section {padding: 20px 0}
+    .technical_feature_card {padding: 15px;}
+    .price-slider-section {padding: 10px 25px 2px; width: 50%;}
+    .price_rangetxt {padding: 20px 0;}
+    .price_rangetxt div.icon {padding: 18px 30px;}
+    .inner_price_content {padding: 25px 40px 20px; height: 167px;}
+    .value_text {font-size: 16px;}
+    .coupon_code_box {font-size: 28px; line-height: 34px;}
+    .coupon_code_box_inner span> span {font-size: 26px; line-height: 26px;}
+    .vps_price span {font-size: 38px; line-height: 38px;}
+}
+@media only screen and (min-width: 992px){
+    .inner_default_navigation .default_header_dd:hover .default_dd_menu{display: block;}
+    .inner_default_navigation .outer_mega_menu:hover .default_mega_menu{display: block;}
+    .header01_navigation .header01_navbar li:hover .default_dd_menu{display: block; top: 54px; background-color: #3dc154; border-color: #71ce93; border-radius: 0}
+    .menubar_header_02 li:hover .default_dd_menu {display: block; top: 54px;}
+    .menubar_header03 li:hover .default_dd_menu {display: block; top: 52px;}
+    .menubar_header04 li:hover .default_dd_menu {display: block; top: 48px;}
+    .header01_navigation .header01_navbar li:hover .default_mega_menu{display: block;}
+    .menubar_header_02 li:hover .header02_dd_menu{display: block}
+    .menubar_header_02 li:hover .hosting_dd_menu{display: block}
+    .header02_right_side li:hover .header02_dd_menu{display: block}
+    .header03_navbar li:hover .header03_dropdown{display: block}
+    .header03_navbar li:hover .hosting_dd_menu{display: block; left: 0;}
+    .header03_navbar li:hover .mega_menu03{display: block}
+    .header04_navbar li:hover .header04_dropdown{display: block; top: 48px;}
+    .header04_navbar li:hover .hosting_dd_menu{display: block}
+    .header04_navbar li:hover .header04_mega_menu{display: block}
+}
+@media only screen and (max-width: 991px) {
+    /*Header Footer Responsive*/
+    .header03_logo img{width: 130px}
+    .default_toggle_btn .navbar-toggler-icon {background: url(../images/svg/mobile_toggle_button.svg) no-repeat;}
+    .header01_mobile_toggle .navbar-toggler-icon, .header04_toggle .navbar-toggler-icon {background: url(../images/svg/mobile_toggle_btn_header01.svg) no-repeat; position: relative;}
+    .default_toggle_btn .btn_toggle_cancel {background: url(../images/svg/btn_toggle_cancel.svg)no-repeat; position: relative; height: 30px; width: 15px; top: 7px; right: 6px; z-index: 12;}
+    .default_logo {width: 120px; padding-left: 0; line-height: 16px}
+    .default_toggle_btn:focus, .header01_mobile_toggle:focus {outline: none;}
+    .default_navigation .default_navigation_box {background: rgba(0, 0, 0, 0.8); width: 30%; right: 0; top: 100%; position: absolute; z-index: 1;}
+    .inner_default_navigation li .default_nav_link {padding: 5px 5px 5px 25px!important; line-height: 28px;}
+    .default_navigation {padding-top: 10px; padding-bottom: 10px}
+    .default_logo {padding-left: 15px;}
+    .top_bar_btn a {font-size: 12px; margin: 5px 0 5px 8px; padding: 7px 15px}
+    .top_bar_icon {margin-top: 7px;}
+    .top_bar_btn .log_in {padding: 7px 12px;}
+    .hide_on_tablet{display: none}
+    .mobile_navigation{display: block}
+    .header01_top_bar_content, .header01_top_bar_btn, .header01_contact_info_box{display: none}
+    .outer_header01_logo{text-align: left}
+    .outer_header01_logo a{padding: 10px 15px 12px}
+    .header01_navigation{top: 20px}
+    .header01_navigation .outer_header01_navbar .header01_navbar li a {color: #fff}
+    .header01_navigation .outer_header01_navbar .header01_navbar li a:hover {background-color: #0b889d;}
+    .outer_header01_navbar{position: absolute; width: 30%; top: 100%; right: 14px; background-color: #3dc154; box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);}
+    .header01_navbar li a{margin-left: 0; font-size: 14px; padding: 5px 25px; color: #000; text-transform: capitalize;}
+    .header01_dd_menu {margin: 0 2px; background-color: #3dc154}
+    .header01_navbar li.show a:hover{color: #f42267;}
+    .header01_navbar li .header01_dd_menu a{background-color: transparent !important; color: #333333 !important; text-transform: capitalize; padding: 5px 25px;}
+    .header01_navigation .outer_header01_navbar .header01_navbar li .default_dd_menu a {padding: 5px 5px 5px 30px}
+    .header01_navbar li .header01_dd_menu a:hover {background-color: #0b889d}
+    .header01_navbar .mobile_navigation li a{background-color: transparent !important; text-transform: capitalize; color: #000 !important; display: inline-block; padding: 5px 20px;}
+    .header01_navbar .header01_dd_menu04.show  a{background-color: transparent !important; text-transform: capitalize; color: #000 !important; padding: 5px 25px ;}
+    .footer01_links_list li{padding-left: 0}
+    .header04_toggle{position: absolute; right: 30px; top: 10px!important; padding: 0}
+    .header04_toggle:focus{outline: none}
+    .header03_outer{position: absolute; background-color: #3dc154; top: 53px; right: 16px; width: 30%; z-index: 1;}
+    .header03_outer .header03_navbar {padding: 10px 0;}
+    .header03_top_navigation .header03_navbar li a {color: #ffffff; line-height: 14px; padding: 8px 15px;}
+    .header03_top_navigation button {top: 13px;}
+    .header03_logo {padding-left: 0; line-height: 18px;}
+    .header03_navbar li a {color: #000;}
+    .padding_top_20{padding-top: 12px}
+    .padding_bottom_20{padding-bottom: 12px}
+    .header05_toggle{position: absolute; right: 0; top: -32px}
+    .header05_toggle:focus{outline: none}
+    .header04_outer_box{position: absolute; width: 30%; background-color: #fff; top: 10px; right: 0; z-index: 9}
+    .inner_header04_outer_box{padding: 10px 0; box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2); background-color: #3dc154;}
+    .default_footer_list li, .default_footer_list li a{font-size: 12px; line-height: 24px}
+    .default_footer_top_box{padding-bottom: 30px; margin-bottom: 30px}
+    .margin_bottom_60{margin-bottom: 30px}
+    .mobile_toggle_btn{padding: 0; border: none}
+    .footer01_social_links li a{font-size: 20px; padding: 0 5px}
+    .outer_logo_box{padding-bottom: 30px; float: left; width: 100%}
+    .outer_logo_box .footer01_logo {float: none!important; text-align: center; padding-bottom: 10px;}
+    .copyright_box {text-align: center; float: none!important; padding-left: 0;}
+    .footer01_content_box {border-bottom: 1px solid #e6e6e6;}
+    .footer01_social_links {margin-bottom: 30px;}
+    .outer_footer01_content_box{padding-top: 30px}
+    .copyright_box, .copyright_box a{font-size: 14px}
+    .footer02_links_list li a{font-size: 14px; padding: 0 10px}
+    .footer02_list_link .footer02_links_list{text-align: center}
+    .footer02_chat_btn{text-align: center !important; float: none !important; margin-top: 20px; margin-bottom: 10px}
+    .footer02_logo, .footer02_content_box p{margin-bottom: 20px}
+    .footer02_contact_list .footer_heading, .footer02_link_box .footer_heading {font-size: 18px}
+    .footer_heading {margin-bottom: 15px;}
+    .header02_mobile_logo{display: block}
+    .header_02_top_navigation{padding: 13px 1px}
+    .header03_mobile_toggle:focus, .header05_toggle:focus{outline: none}
+    .menubar_header_03{float: none !important;}
+    .header02_inner_navigation {position: absolute; background-color: #3dc154; right: 0; width: 30%; top: 100%; z-index: 9;}
+    .header02_inner_navigation .mobile_row {padding: 5px 0; background-color: #0b889d; border: 1px solid #0899b1;}
+    .header02_inner_navigation .menubar_header_02 li a, .header02_right_side li a {padding: 8px 20px!important;}
+    .menubar_header_02 li a, .header02_right_side li a{margin-left: 0; color: #000; padding: 8px 20px; font-size: 14px;}
+    .header02_inner_navigation .menubar_header_02 li a, .header02_right_side li a {color: #ffffff;}
+    .menubar_header_02 li.show a{background-color: #fff;}
+    .menubar_header_02 .header02_dd_menu a, .header_02_navigation_links .menubar_header_03 .header02_dd_menu a{background-color: transparent !important; padding-left: 20px;}
+    .menubar_header_02 .mobile_navigation li a{background-color: transparent !important; font-size: 14px; text-transform: capitalize; display: inline-block}
+    .menubar_header_03 li.show a{background-color: #fff}
+    .menubar_header_03 .header02_dd_menu{border-radius: 0 !important;}
+    .header03_mobile_toggle{padding: 0; z-index: 999}
+    .footer03_contact_box01, .footer03_contact_box02, .footer03_contact_box03{padding-left: 60px}
+    .footer03_contact_box01:before{top: 10px; left: 10px}
+    .footer03_contact_box02:before{top: 20px; left: 12px}
+    .footer03_contact_box03:before{top: 14px; left: 8px}
+    .footer03_contact_box01 div, .footer03_contact_box02 div, .footer03_contact_box03 div{font-size: 12px}
+    .header02_inner_navigation .menubar_header_02 li a:hover, .header02_right_side li a:hover {background-color: #3dc154; color: #ffffff;}
+    .header03_navbar li a{padding: 5px 20px !important; text-transform: capitalize; margin-left: 0;}
+    .header03_dropdown{margin: 0; background-color: #3dc154; border-radius: 0}
+    .header03_navbar .header03_dropdown a{background-color: transparent !important; color: #000 !important; padding: 5px 30px !important;}
+    .header03_navbar .mobile_navigation li a{display: inline-block; font-size: 14px; text-transform: capitalize; background-color: transparent !important; color: #333333!important; padding: 5px 20px !important;}
+    .header04_logo_box{margin-bottom: 0}
+    .header04_main_box{padding: 10px 0; background-color: #fff}
+    .header05_toggle{padding: 0}
+    .header04_navbar li a{padding: 5px 20px !important;}
+    .header04_navbar li.show a{background-color: #fff; text-transform: capitalize; color: #3dc154;}
+    .header04_dropdown{margin: 0; background-color: #3dc154; color: #ffffff; border-radius: 0}
+    .header04_navbar .header04_dropdown a{background-color: transparent !important;; color: #333333 !important;}
+    .header04_navbar .mobile_navigation li a{display: inline-block; font-size: 14px; text-transform: capitalize; background-color: transparent !important; color: #333333!important; padding: 5px 20px !important;}
+    .header04_navbar li a {color: #ffffff; text-transform: capitalize; margin-left: 0;}
+    .footer04_contact_box01 div, .footer04_contact_box02 div, .footer04_contact_box03 div{font-size: 12px; line-height: 22px}
+    .footer04_contact_box01:before, .footer04_contact_box03:before{top: 5px}
+    .footer04_contact_box02:before{top: 15px}
+    .footer04_copyright{margin-bottom: 25px}
+    .padding_bottom_75{padding-bottom: 40px}
+    .padding_top_75{padding-top: 40px}
+    .padding_left_40{padding-left: 0}
+    .one_page_navigation{padding: 10px}
+    .header04_main_box .margin_bottom_20{margin-bottom: 0;}
+    .nav_tablet_btn {display: block;}
+    .nav_contact_list li a::before, .header01_top_bar, .footer02_contact_list h5, .footer01_links_list, .footer04_contact_box01 div br, .header_02_logo, .footer02_link_box, .footer01_contact_list br, .outer_header03_contact_info, .header04_top_bar
+    {display: none;}
+    .footer01_contact_list li:first-child {padding-top: 15px}
+    .footer01_links_list li a{font-size: 12px; line-height: 32px}
+    #return-to-top {width: 36px; height: 36px}
+    #footer01 .margin_bottom_30 {margin-bottom: 25px}
+    .footer01_links_list {margin-top: 10px}
+    #return-to-top i {left: 10px; top: 6px}
+    .footer01_contact_list li {padding-bottom: 0; border: none; width: 33.33%; float: left;}
+    .footer04_content_box {padding: 0 20px; text-align: center;}
+    .footer04_box .footer_heading{padding-top: 30px; margin-bottom: 10px;}
+    .footer04_content_box p {padding-bottom: 30px}
+    .footer04_contact_box01 {padding-left: 60px; padding-right: 20px;}
+    .footer04_contact_box02, .footer04_contact_box03 {padding-left: 70px}
+    .footer04_contact_box01:before {top: 15px;}
+    .footer04_contact_box02:before {left: 25px; top: 20px;}
+    .footer04_contact_box03:before {top: 15px; left: 15px;}
+    .footer04_contact_box01:before {left: 16px;}
+    .footer_tablet_hide {display: none;}
+    .footer02_center_box {border-top: none; padding-top: 0; padding-bottom: 20px;}
+    .dropdown-menu.default_dd_menu.hosting_dd_menu.dropdown_hosting {width: auto;}
+    .header_02_navigation_links .menubar_header_02 .header02_dd_menu, .header_02_navigation_links .menubar_header_02 .hosting_dd_menu, .header_02_navigation_links .menubar_header_03 .header02_dd_menu, .header01_dd_menu, .header03_dropdown, .menubar_header03 .hosting_dd_menu, .header04_dropdown, .header04_navbar .hosting_dd_menu
+    {border-color: #f2f2f2; background-color: #f2f2f2; border-radius: 0;}
+    .header02_inner_navigation .menubar_header_02 li .default_dd_menu a, .header_02_navigation_links .menubar_header_03 .header02_dd_menu a, .header01_navigation .outer_header01_navbar .header01_navbar li .default_dd_menu a, .header01_navigation .outer_header01_navbar .header01_navbar li .default_dd_menu a 
+    {color: #333333;}
+    .left_box, .right_box {padding: 10px 0;}
+    #footer01 .padding_bottom_65 {padding-bottom: 15px}
+    .header01_navbar li:first-child {padding-top: 10px;}
+    .header01_navbar li:last-child {padding-bottom: 10px;}
+    .inner_default_navigation li .default_nav_link {display: block;}
+    .inner_default_navigation li .default_dd_menu {background-color: #f2f2f2; padding: 8px 0;}
+    .inner_default_navigation li .default_dd_menu a {color: #333333; padding: 3px 5px 3px 30px;}
+    .default_toggle_btn {position: relative;}
+    .header01_mobile_toggle {position: absolute; right: 0; top: 4px}
+    .default_toggle_btn::before{position: fixed; content: ''; top: 0; right: 0; bottom: 0; left: 0; opacity: 0; z-index: -1; visibility: hidden;}
+    .default_toggle_btn.show::before{background-color: rgba(0,0,0,.5); opacity: 1; transition: .3s ease-in-out; visibility: visible; z-index: 1;}
+    .inner_default_navigation {position: relative; z-index: 12; background-color: #0b889d; padding: 5px 0; border: 1px solid #0899b1;}
+    .inner_header01_nav li:first-child .default_nav_link {padding-left: 25px!important;}
+    .inner_header01_nav li .default_nav_link {color: #ffffff;}
+    .outer_header01_logo {border-right: none;}
+    .header01_navigation {padding: 2px 0;}
+    .header03_navigation_box {position: absolute; top: 57px; right: 0; width: 30%; z-index: 1;}
+    .header04_navigation {background-color: transparent; position: absolute; top: 0; right: 0;}
+    .header04_navigation_box {position: relative; top: 53px; width: 230px;}
+    .footer01_contact_list li:nth-child(1):before{top: 22px;}
+    .footer01_contact_list li:nth-child(2):before{top: 32px;}
+    .footer01_contact_list li:nth-child(3):before{top: 28px;}
+    .footer02_contact_list .footer01_contact_list li {padding-top: 20px; border-top: 1px solid #e6e6e6;}
+    .footer03_box .hide_on_mobile .footer_heading {font-size: 18px;}
+    .footer02_logo img, .footer04_logo img {width: 128px;}
+    /* ===================================
+             Index
+    ====================================== */
+    .tab_img01 figure img, .tab_img02 figure img, .tab_img03 figure img, .tab_img04 figure img {width: 76%}
+    .hero_banner {height: 660px;}
+    .banner_content .banner_tab_content {padding-top: 0}
+    .banner_content .banner_tab_content span {letter-spacing: 0.2px;}
+    .banner_content .banner_tab_content h1 {font-size: 30px; line-height: 40px; margin: 10px 0;}
+    .banner_content .banner_tab_content p {font-size: 16px; line-height: 26px; margin-bottom: 30px;}
+    .banner_content .banner_tab_content a {line-height: 20px; font-size: 14px; padding: 8px 20px;}
+    .banner_tabs li .shared_tab_link, .banner_tabs li .reseller_tab_link, .banner_tabs li .dedicated_tab_link, .banner_tabs li .vps_tab_link {padding: 10px 5px; width: 158px; text-align: center; font-size: 16px; line-height: 22px; margin-right: 20px}
+    .banner_tabs li .shared_tab_link.active, .banner_tabs li .reseller_tab_link.active, .banner_tabs li .dedicated_tab_link.active, .banner_tabs li .vps_tab_link.active {padding: 20px 5px 10px; width: 158px; text-align: center; margin-right: 20px}
+    .banner_tabs li .shared_tab_link::before, .banner_tabs li .reseller_tab_link::before, .banner_tabs li .dedicated_tab_link::before, .banner_tabs li .vps_tab_link::before {display: none}
+    .banner_tabs li .shared_tab_link.active::before, .banner_tabs li .reseller_tab_link.active::before, .banner_tabs li .dedicated_tab_link.active::before, .banner_tabs li .vps_tab_link.active::before {top: 16px;}
+    .banner_tabs li span {font-size: 16px; line-height: 22px;}
+    .banner_tabs li .shared_tab_link.active::after {top: -290px}
+    .banner_tabs li .shared_tab_link::after {right: -550px}
+    .banner_tabs li .reseller_tab_link.active::after {top: -265px}
+    .banner_tabs li .reseller_tab_link::after {right: -372px}
+    .banner_tabs li .dedicated_tab_link.active::after {top: -240px}
+    .banner_tabs li .dedicated_tab_link::after {right: -194px}
+    .banner_tabs li .vps_tab_link.active::after {top: -215px}
+    .banner_tabs li .vps_tab_link::after {right: -16px}
+    .info_btn, .get_support_btn {padding: 10px 20px;}
+    /* <---------- ends here ----------> */
+    /* <---------- Domain Search Section ----------> */
+    .padding_tb_90 {padding: 70px 0;}
+    .section_heading {padding-bottom: 30px;}
+    .section_heading h2 {font-size: 26px; line-height: 32px;}
+    .btn_submit {right: 37px}
+    .text_field {height: 58px; padding: 0px 20px; font-size: 14px;}
+    .search_btn {padding: 14px 20px; font-size: 14px; line-height: 20px;}
+    .search_area {width: 90%}
+    /* <---------- ends here ----------> */
+    /* <---------- Price Plan Section ----------> */
+    .pplan_tab_pane {padding: 30px 20px 20px;}
+    .pplan_tab_pane:hover {padding: 26px 16px 16px;}
+    .card_heading {padding-bottom: 10px;}
+    .card_heading h5 {font-size: 16px; line-height: 22px;}
+    .card_heading h1 {font-size: 30px; line-height: 36px;}
+    .card_heading h5::after {right: -8px; width: 20px; top: 10px}
+    .card_heading h5::before {left: -8px; width: 20px; top: 10px}
+    .card_heading .margin_bottom_25 {margin-bottom: 10px;}
+    .price_plan_list {padding: 25px 0 20px;}
+    .price_plan_list li {font-size: 14px; line-height: 26px; padding-left: 20px;}
+    .plan_btn a {font-size: 14px; line-height: 20px; padding: 12px;}
+    .plan_gurantee p {font-size: 13px; line-height: 18px!important; letter-spacing: 0px;}
+    .card_heading .vps_plan::before {left: 14px}
+    .card_heading .vps_plan::after {right: 14px}
+    .card_heading .shared_plan::before {left: 4px}
+    .card_heading .shared_plan::after {right: 4px}
+    /* <---------- ends here ----------> */
+    /* <---------- Feature Section ----------> */
+    .feature_card {text-align: center;}
+    .feature_card figure img {width: 31.5%;}
+    .feature_section .card_content h5 {padding: 20px 0 30px; font-size: 14px; line-height: 20px;}
+    .card_content h5::before {width: 40px; height: 4px; top: 50px; left: 0; right: 0; margin: 0 auto;}
+    .card_content p {line-height: 22px; font-size: 12px; padding: 0 6px}
+    .feature_card:hover .card_content h5::before {width: 120px;}
+    /* <---------- ends here ----------> */
+    /* <---------- Team Section ----------> */
+    .team_card {padding: 20px 20px 15px}
+    .team_card:hover {padding: 21px 16px;}
+    .team_card .margin_bottom_35 {margin-bottom: 20px;}
+    .team_card h5 {font-size: 16px; line-height: 22px;}
+    .team_card span {font-size: 12px; line-height: 18px;}
+    .team_card p {font-size: 12px; line-height: 22px; margin: 10px 0 13px; padding: 0 5px}
+    .team_icons li:first-child, .team_icons li:nth-child(2), .team_icons li:last-child {width: 26px; height: 26px; font-size: 12px;}
+    /* <---------- ends here ----------> */
+    /* <---------- Reviews section ----------> */
+    .reviews_section .section_heading::after {right: 136px; top: 128px;}
+    .reviews_section .section_heading::before {left: 138px; top: 128px;}
+    .reviews_section .section_heading h2::before {top: 46px;}
+    .review_carousel div p {font-size: 16px; line-height: 28px; padding: 0 80px;}
+    .review_carousel figure img {width: 72px; height: 72px;}
+    .review_carousel figure {margin-bottom: 10px;}
+    /* <---------- ends here ----------> */
+    /* <---------- Partner section ----------> */
+    .padding_tb_70 {padding: 40px 0 35px}
+    /* <---------- ends here ----------> */
+    /* <---------- Footer section ----------> */
+    .default_footer_outer {padding: 45px 25px;}
+    .footer_box h5 {margin-bottom: 25px;}
+    .copy_right {padding: 20px 0;}
+    .copy_right ul li {font-size: 20px; margin-left: 10px;}  
+    .footer_box .footer_getintouch li a {font-size: 13px; line-height: 28px;}
+    .footer_box .footer_getintouch li p {font-size: 13px; line-height: 26px;}      
+    /* <---------- ends here ----------> */
+    /* <---------- Shared Hosting ----------> */
+    .banner_heading h2 {font-size: 26px; width: 52%; border-bottom: 65px solid rgba(0,0,0,.4); line-height: 68px}
+    .banner_heading ul {width: 470px}
+    .sh_banner, .company_banner, .domain_banner {height: 230px}
+    .sh_price_plan .pplan_tab_pane {padding: 30px 20px 20px}
+    .sh_price_plan .pplan_tab_pane:hover {padding: 26px 16px 16px}
+    .view_sh_price_plan {margin-top: 50px}
+    .view_sh_price_plan span {font-size: 20px; line-height: 26px; padding: 15px 20px}
+    .view_sh_price_plan a {font-size: 14px; line-height: 22px; padding: 12px 15px; margin: 5px; letter-spacing: 0.3px}
+    .sh_feature .feature_card figure img {width: 36%}
+    .sh_feature .sh_feature_02 .card_content h5::before {top: 68px}
+    .cpanel_img::after {width: 330px; bottom: -46px; right: -6px}
+    .cpanel_content h2 {font-size: 26px; line-height: 32px}
+    .cpanel_content span {font-size: 14px; line-height: 20px}
+    .cpanel_content p {font-size: 14px; line-height: 20px; padding-right: 50px}
+    .cpanel_content a {font-size: 14px; line-height: 20px; padding: 10px 22px; letter-spacing: 0.3px}
+    /* <---------- ends here ----------> */
+    /* <---------- Reseller Hosting ----------> */
+    .rh_price_plan .pplan_tab_pane {padding: 35px 70px 33px}
+    .rh_price_plan .pplan_tab_pane:hover {padding: 31px 66px 29px}
+    .rh_price_plan .card_heading h5::before {left: -6px}
+    .rh_price_plan .card_heading h5::after {right: -6px}
+    .rh_pplan_tablet {margin-bottom: 30px}
+    .whm_img::after {width: 380px; bottom: -76px; right: -16px}
+    .whm_section .whm_content a {padding: 10px 25px}
+    .sh_banner .sh_nav_toggle::before, .company_banner .company_nav_toggle::before, .domain_banner .domain_nav_toggle::before, .blog_nav_toggle::before {display: none;}
+    /* <---------- ends here ----------> */
+    /* <---------- About Us ----------> */
+    .story_card h5 {font-size: 16px; line-height: 22px; margin-bottom: 25px}
+    .story_card figure img {width: 64px}
+    .story_card figure img {width: 54px}
+    .story_card figure {margin-bottom: 20px}
+    .story_card {padding: 20px}
+    .story_card:hover {padding: 16px}
+    .story_card h5::before {top: 28px}
+    .technology_img::before {top: 44px; width: 374px}
+    .technology_section .section_heading h2, .technology_section .section_heading p {text-align: center;}
+    .technology_section .section_heading .section_heading_content p {padding-left: 360px; padding-top: 10px; text-align: left; font-size: 14px; line-height: 22px;} 
+    /* <---------- ends here ----------> */
+    /* <---------- Contact Us ----------> */
+    .support_section .story_card {padding: 30px}
+    .support_section .story_card:hover {padding: 26px}
+    .support_section .story_card_tablet {margin-bottom: 30px}
+    .styled-select select, .form_input_field {font-size: 14px; padding: 12px 20px}
+    .mobile_center textarea {height: 126px; margin-bottom: 12px}
+    .form_submit_btn {padding: 13px 20px; font-size: 14px; line-height: 20px}
+    .msg_section .section_heading {padding-bottom: 40px}
+    .styled-select::before {top: 42%; right: 18px} 
+    /* <---------- ends here ----------> */   
+    /* <---------- Domain ----------> */
+    .tld_inner .font_size_50, .tld_content .font_size_40 {font-size: 24px; line-height: 30px}
+    .tld_inner {padding: 10px 35px}
+    .tld_content {padding: 15px 25px}
+    .tld_btn .font_size_18 {font-size: 14px; line-height: 20px; font-weight: 500;}
+    .tld_btn {line-height: 36px; margin-top: 10px}
+    .domain_table .st-head-row {background-color: #0c94ab; border-top-color: #fff; padding-left: 22px; font-size: 16px; line-height: 22px; letter-spacing: 0.3px; color:#fff}
+    .domain_table .st-head-row-main {background-color: #0c94ab; border-top: none; padding-left: 22px; font-size: 16px; line-height: 22px; letter-spacing: 0.3px; background-image: linear-gradient(270deg, #3dc154 00%, #0c94ab 100%);}
+    .domain_table .st-key, .domain_table .st-val {font-size: 14px; line-height: 20px;}
+    .table_list td p {border-right: hidden;}
+    /* <---------- ends here ----------> */
+    /* <---------- Dedicated Hosting ----------> */
+    .dedicate_server_table .st-head-row {background-color: #0c94ab;}
+    .dedicate_server_table .st-head-row p {font-size: 18px; line-height: 42px; padding-left: 15px; color: #fff}
+    .table_list .st-val br, .table_list .st-key br {display: none;}
+    .table_list .st-key p {font-size: 14px; line-height: 24px; color: #0b889d; font-weight: 700}
+    .st-val .dedicated_server_btn {text-align: center; display: inline-block; padding: 8px 45px; margin: 10px;}
+    .st-key .dedicated_server_btn {display: none;}
+    .dedi_feature_section .card_content h5 {font-size: 13px}
+    .enterprise_heading .margin_bottom_25 {margin-bottom: 10px;}
+    .enterprise_heading .margin_bottom_35 {margin-bottom: 20px;}
+    .advice_content h2 {font-size: 28px; line-height: 34px; margin-bottom: 20px;}
+    .br_ontablet {display: none;}
+    .enterprise_inner {padding: 15px 0 0 20px; width: 200px; height: 212px;}
+    .enterprise_inner:hover {padding: 13px 0 0 18px;}
+    .enterprise_list li {font-size: 14px;}
+    .enterprise_inner h5 {padding-right: 75px; margin-bottom: 30px;}
+    .enterprise_inner h5::before {top: 60px;}
+    .table_list td p {font-size: 14px;}
+    .table_list td a {font-size: 14px;}
+    .table_list td a {background-color: #3dc154; border: 2px solid #3dc154;}
+    .table_list td a:hover {background-color: transparent!important; border: 2px solid #3dc154!important; color: #3dc154!important;}
+    /* <---------- VPS Server ----------> */
+    .os_list li {padding: 30px;}
+    .os_list li:hover {padding: 26px;}
+    .vps_advice_section {margin-top: 0;}
+    .vps_advice_section span {padding: 15px 0px;}
+    .technical_feature_card h5::before {left: 0; right: 0; margin: 0 auto;}
+    .technical_feature_card ul li::before {display: none;}
+    .technical_feature_card ul li {padding-left: 0;}
+    .coupon_code_box {font-size: 28px; line-height: 34px; text-align: center;}
+    .coupon_code_box_inner span> span {font-size: 22px; line-height: 22px;}
+    .vps_price span {font-size: 30px; line-height: 30px;}
+    .vps_price.font_size_30 {font-size: 20px;}
+    .inner_price_content figure img {width: 60%}
+    .vps_btn {font-size: 14px; margin: 15px 0px 15px 5px;}
+    .price-slider-section {padding: 10px 20px 2px; width: 40%;}
+    .mobile_hide_vpsmeter {display: none;}
+}
+@media only screen and (max-width: 767px){
+    /*Header Footer Responsive*/
+    .default_logo {width: 110px; padding-left: 0; line-height: 16px}
+    .default_navigation .default_navigation_box {width: 43%; margin-right: 0px;}
+    .default_navigation {padding-top: 5px; padding-bottom: 5px}
+    .footer01_content_box p, .footer01_links_list{display: none}
+    .footer01_content_box .footer01_social_links{text-align: center}
+    .outer_footer01_content_box{padding-top: 20px}
+    .footer01_contact_list{padding: 0}
+    .header01_navigation{top: 15px}
+    .header01_top_bar{padding: 10px 0 60px}
+    .footer02_content_box, .footer02_link_box .footer_heading{display: none}
+    .footer02_logo img{width: 100px}
+    .footer02_logo{margin-bottom: 10px; text-align: center}
+    .footer02_contact_list .footer_heading{margin-bottom: 10px;}
+    .footer02_outer_copyright .copyright_box{float: none !important; text-align: center !important; width: 100%; margin-bottom: 10px; padding-left: 0;}
+    .footer02_outer_copyright .footer01_social_links{text-align: center; width: 100%}
+    .outer_footer01_social_links{margin: 0 auto}
+    .footer02_center_box{padding-bottom: 20px}
+    .left_box, .right_box{display: none}
+    .header02_inner_navigation{width: 60%}
+    .header02_mobile_logo img{width: 100px}
+    .footer03_logo{ text-align: center; margin-bottom: 5px; float: none !important;}
+    .footer03_box{display: none}
+    .footer03_contact_outer {padding: 20px 20px 5px; border-bottom: 1px solid #e6e6e6; background-color: #f2f2f2;}
+    .footer03_contact_box01 {text-align: center; padding: 60px 30px 10px 30px; line-height: 20px; width: 100%;}
+    .footer03_contact_box02, .footer03_contact_box03 {padding: 50px 15px 10px 15px;}
+    .header03_logo img{width: 100px}
+    .header04_toggle{right: 15px; top: 10px}
+    .outer_header03_logo{padding: 0}
+    .header05_toggle{top: -30px}
+    .footer04_copyright{font-size: 12px; line-height: 22px; margin-bottom: 0}
+    .footer04_logo img, .header01_logo img, .footer01_logo figure img{width: 110px}
+    .outer_header01_navbar{width: 50%}
+    .padding_bottom_75{padding-bottom: 30px}
+    .padding_top_75{padding-top: 30px}
+    .outer_logo_box{text-align: center}
+    .footer01_logo{float: none !important;}
+    .footer01_logo figure{margin-bottom: 5px}
+    .footer01_section .copyright_box{float: none !important;}
+    .footer01_section .copyright_box, .footer01_section .copyright_box a{font-size: 12px}
+    .header03_outer, .header04_outer_box{width: 50%}
+    .footer03_copyright{float: none !important; text-align: center; font-size: 12px}
+    .hide_on_mobile{display: none}
+    .footer04_contact_info_box{margin-bottom: 0; padding-left: 40px; margin-top: 20px}
+    .header01_navbar li a {padding: 5px 15px !important;}
+    .footer02_links_list {display: none;}
+    .footer02_chat_btn {margin-top: 0;}    
+    .padding_top_10 {padding-top: 0;}
+    .footer01_section .footer01_contact_list li:nth-child(1):before {top: 0px;}
+    .footer01_contact_list li:nth-child(1):before {top: 0px;}
+    .footer02_section .padding_top_75{padding-top: 0}
+    .footer02_section .padding_bottom_75{padding-bottom: 10px}
+    .footer03_contact_box01:before, .footer03_contact_box02:before, .footer03_contact_box03:before {top: 4px; right: 0; left: 0; margin: 0 auto}
+    .footer04_contact_box01:before {top: 0px}
+    .footer02_contact_list {padding-right: 15px}
+    #footer01 .padding_top_65 {padding-top: 30px}
+    #footer01 .padding_bottom_65 {padding-bottom: 30px}
+    .outer_footer01_content_box {padding-top: 8px!important}
+    .footer01_contact_list li, .footer01_contact_list li:first-child {text-align: center; padding: 60px 30px 10px; line-height: 20px; width: 100%;}
+    .footer01_contact_list li:nth-child(2) {padding-top: 50px;}
+    .footer01_contact_list li:last-child {padding-bottom: 10px;}
+    .footer01_contact_list li:nth-child(1):before, .footer01_contact_list li:nth-child(2):before, .footer01_contact_list li:nth-child(3):before {top: 6px; left: 0; right: 0; margin: 0 auto;}
+    .footer01_contact_list li:nth-child(1):before {top: 0;}
+    .footer01_content_box .footer01_social_links {text-align: center; padding-bottom: 10px; border-bottom: 1px solid #e6e6e6; margin-bottom: 25px;}
+    .outer_logo_box {padding-bottom: 0; border-bottom: none}
+    .footer04_contact_info_box {margin-bottom: 0; padding: 10px 20px 10px 30px; margin: 0 30px;}
+    .footer04_contact_box01, .footer04_contact_box02 {border: none;}
+    .footer04_contact_box01:before {left: 16px; top: 16px;}
+    .footer04_contact_box02:before {left: 16px; top: 24px;}
+    .footer04_copyright {font-size: 12px; line-height: 22px;}
+    .footer_box h5 {margin-bottom: 15px;}
+    .footer01_content_box {border-bottom: none;}
+    .header_banner {display: block; height: 470px!important;}
+    .footer01_content_box, .footer02_content_box, .footer03_content_box {text-align: center;}
+    #footer03 .padding_top_30 {padding: 20px 0;}
+    .dropdown-menu.default_dd_menu.hosting_dd_menu.dropdown_hosting {width: auto;}
+    .header03_navigation_box {top: 53px; width: 60%;}
+    .header04_navigation_box {top: 50px; width: 220px;}
+    .footer02_contact_list .footer01_contact_list li {border-top: none; padding-top: 50px;}
+    .footer01_social_links li a{font-size: 16px;}
+    /* ===================================
+             Index
+    ====================================== */
+    .order_1 {order: 1}
+    .order_2 {order: 2}
+    .tab_img01 figure img, .tab_img02 figure img, .tab_img03 figure img, .tab_img04 figure img {width: 36%}
+    .banner_content .banner_tab_content span {letter-spacing: 0px}
+    .banner_content .banner_tab_content h1 {font-size: 26px; line-height: 36px; margin: 5px 0}
+    .banner_content .banner_tab_content p {font-size: 14px; line-height: 22px; margin-bottom: 20px}
+    .banner_content .banner_tab_content .banner_btn01 {margin-right: 10px}
+    .banner_content .banner_tab_content a {padding: 6px 20px;}
+    .hero_banner {height: 570px}
+    .banner_tabs li .shared_tab_link, .banner_tabs li .reseller_tab_link, .banner_tabs li .dedicated_tab_link, .banner_tabs li .vps_tab_link {padding: 0; width: 0px}
+    .banner_tabs li .shared_tab_link.active, .banner_tabs li .reseller_tab_link.active, .banner_tabs li .dedicated_tab_link.active, .banner_tabs li .vps_tab_link.active {padding: 0; width: 0px}
+    .tab_link, .tab_link span {visibility: hidden}
+    .banner_tabs li .shared_tab_link::before, .banner_tabs li .reseller_tab_link::before, .banner_tabs li .dedicated_tab_link::before, .banner_tabs li .vps_tab_link::before {display: none}
+    .banner_tabs li .shared_tab_link.active::before, .banner_tabs li .reseller_tab_link.active::before, .banner_tabs li .dedicated_tab_link.active::before, .banner_tabs li .vps_tab_link.active::before {display: none}
+    .tab_link::after {visibility: visible}
+    .banner_tabs li .shared_tab_link::after, .banner_tabs li .reseller_tab_link::after, .banner_tabs li .dedicated_tab_link::after, .banner_tabs li .vps_tab_link::after, .banner_tabs li .shared_tab_link.active::after, .banner_tabs li .reseller_tab_link.active::after, .banner_tabs li .dedicated_tab_link.active::after, .banner_tabs li .vps_tab_link.active::after {top: auto; bottom: 20px; right: auto; left: 160px}
+    .banner_content .banner_tab_content {text-align: center}
+    .hero_banner_inner .banner_content {margin-top: 40px}
+    .info_btn, .get_support_btn {font-size: 14px; font-weight: 500;}
+    /* <---------- ends here ----------> */
+    /* <---------- Domain Search Section ----------> */
+    .padding_tb_90 {padding: 50px 0;}
+    .section_heading h2 {font-size: 24px; line-height: 30px;}
+    .section_heading p {font-size: 14px; line-height: 20px; padding: 0 10px}
+    .card_heading span {font-size: 14px; line-height: 20px;}
+    .search_area {width: 90%}
+    .text_field {height: 50px; padding: 0px 10px; font-size: 12px;}
+    .search_btn {padding: 11px 14px; font-size: 12px; line-height: 18px}
+    .btn_submit {right: 23px}
+    /* <---------- ends here ----------> */
+    /* <---------- Price Plan Section ----------> */
+    .pplan_tab_pane {padding: 30px 50px; margin: 0 30px 20px} 
+    .pplan_tab_mobile, .team_card_mobile {margin-bottom: 0!important}
+    .pplan_tab_pane:hover {padding: 26px 46px; margin: 0 30px 20px}
+    .price_plan_list {padding: 15px 0px 15px 10px}
+    .card_heading h5::before {left: 10px}
+    .card_heading h5::after {right: 10px}
+    .card_heading .shared_plan::before {left: 24px}
+    .card_heading .vps_plan::before {left: 34px}
+    .card_heading .shared_plan::after {right: 24px}
+    .card_heading .vps_plan::after {right: 34px}
+    /* <---------- ends here ----------> */
+    /* <---------- Feature Section ----------> */
+    .feature_card_mobile{margin-bottom: 30px;}
+    .card_content h5::before {height: 3px}
+    .card_content p {padding: 0 12px}
+    /* <---------- ends here ----------> */
+    /* <---------- Team Section ----------> */
+    .team_card {padding: 30px 30px 25px; margin: 0 30px 30px}
+    .team_card:hover {padding: 26px 26px 21px;}
+    .team_card p {padding: 0}
+    /* <---------- ends here ----------> */
+    /* <---------- Reviews section ----------> */
+    .reviews_section .section_heading h2::before {top: 40px}
+    .review_carousel div p {font-size: 14px; line-height: 26px; padding: 0 20px}
+    .reviews_section .section_heading::before {left: 44px; top: 102px; width: 100px}
+    .reviews_section .section_heading::after {right: 44px; top: 102px; width: 100px}
+    .review_carousel figure img {width: 68px; height: 68px}
+    .review_carousel figure {margin-bottom: 5px}
+    .review_carousel div span {font-size: 14px; line-height: 20px}
+    /* <---------- ends here ----------> */
+    /* <---------- Partner section ----------> */
+    .partner_mobile {margin-bottom: 20px}
+    .padding_tb_70 {padding: 35px 0 35px}
+    /* <---------- ends here ----------> */
+    /* <---------- Footer section ----------> */
+    .default_footer_outer {padding: 30px 25px}
+    .mobile_center {text-align: center}
+    .mobile_hide {display: none}
+    .copy_right p, .social_icons {text-align: center}
+    .copy_right ul {float: none}
+    .copy_right ul li {font-size: 16px;}
+    /* <---------- ends here ----------> */
+    /* <---------- Shared Hosting ----------> */
+    .sh_banner, .company_banner, .domain_banner {height: 200px}
+    .banner_heading h2 {font-size: 20px; width: 72%; border-bottom: 45px solid rgba(0,0,0,.4); line-height: 46px; border-left: 16px solid transparent; border-right: 16px solid transparent}
+    .banner_heading ul {width: 340px}
+    .sh_price_plan .pplan_tab_pane {padding: 30px 50px}
+    .sh_price_plan .pplan_tab_pane:hover {padding: 26px 46px}
+    .view_sh_price_plan span {font-size: 18px; line-height: 22px; padding: 18px 15px 60px; text-align: center; display: block;}
+    .view_sh_price_plan {margin-top: 30px}
+    .view_sh_price_plan a {font-size: 14px; line-height: 22px; padding: 9px 15px; top: 50px; left: 4px; right: 4px; margin: 5px auto; letter-spacing: 0px; text-align: center;}
+    .dedicated_price_plan .view_sh_price_plan a {padding: 10px;}
+    .sh_feature .sh_feature_02 .card_content h5::before {top: 54px}
+    .sh_feature .feature_card figure img {width: 32%}
+    .cpanel_section {padding-top: 240px;}
+    .cpanel_img::after {width: 300px; bottom: 160px; right: 0; left: 0; margin: 0 auto}
+    .cpanel_content {text-align: center}
+    .cpanel_content p {padding-right: 0px; margin: 15px 0 25px}
+    /* <---------- ends here ----------> */
+    /* <---------- Reseller Hosting ----------> */
+    .rh_price_plan .pplan_tab_pane {padding: 30px 50px}
+    .rh_price_plan .pplan_tab_pane:hover {padding: 26px 46px}
+    .rh_pplan_mobile {margin-bottom: 20px}
+    .rh_price_plan .view_sh_price_plan a {padding: 10px 10px}
+    .whm_section {padding-top: 240px}
+    .whm_img::after {width: 300px; bottom: 114px; right: 0; left: 0; margin: 0 auto}
+    /* <---------- ends here ----------> */
+    /* <---------- About Us ----------> */
+    .technology_section .section_heading .section_heading_content {padding-top: 245px;}
+    .technology_section .section_heading .section_heading_content p {text-align: center; padding: 0;}
+    .technology_img::before {top: 50px; left: 12px; width: 400px}
+    /* <---------- ends here ----------> */
+    /* <---------- Contact Us ----------> */
+    .story_card {padding: 25px; margin: 0 30px 20px}
+    .story_card:hover {padding: 21px; margin: 0 30px 20px}
+    .info_box {margin-left: 0}
+    .mobile_center textarea {width: 100%; margin-top: 15px}
+    .styled-select, .form_input_field {margin-bottom: 15px}
+    .form_submit_btn {padding: 12px 20px; width: 50%;}
+    .styled-select::before {width: 10px; height: 6px; top: 42%; right: 18px}
+    .story_card_mobile {margin-bottom: 0;}
+    /* <---------- ends here ----------> */
+    /* <---------- Domain ----------> */
+    .tld_outer_mobile {margin-bottom: 30px}
+    .tld_outer02 {margin-right: 15px;}
+    .tld_outer01 {margin-left: 15px;}
+    /* <---------- ends here ----------> */
+    /* <---------- Dedicated Hosting ----------> */
+    .dedi_feature_section .card_content h5 {font-size: 14px}
+    .enterprise_list li::before {display: none;}
+    .enterprise_list li, .enterprise_inner, .enterprise_inner:hover {padding-left: 0px;}
+    .enterprise_inner {width: 240px; height: 188px;}
+    .enterprise_inner h5 {padding-right: 0px; margin-bottom: 40px;}
+    .enterprise_inner h5::before {right: 0; top: 40px; margin: auto;}
+    .advice_section::after {display: none;}
+    .advice_content p {padding-right: 0px; margin-bottom: 20px;}
+    .advice_section {background-image: linear-gradient(270deg, #0c94ab 10%, #3dc154 100%);}
+    .advice_section p {font-size: 14px;}
+    .advice_content h2 {font-size: 22px; line-height: 28px; margin-bottom: 15px;}
+    .table_list td a {margin: 0 3px;}
+    /* <---------- VPS Server ----------> */
+    .os_list {display: block;}
+    .os_list li {padding: 34px; margin-right: 0px; margin-bottom: 10px; display: inline-block;}
+    .os_list li:first-child, .os_list li:nth-child(2), .os_list li:nth-child(4) {margin-right: 12px;}
+    .os_list li:nth-child(4) {margin-left: 60px; margin-bottom: 0;}
+    .os_list li:hover {padding: 24px; border: 3px solid #3dc154;}
+    .os_list li figure img {width: 50px;}
+    .vps_advice_section {margin-top: 0;}
+    .vps_advice_section {padding: 0px;}
+    .price-slider-section {display: none;}
+    .price_rangetxt div.icon {padding: 10px 0;}
+    .price_rangetxt {padding: 13px 0;}
+    .inner_price_content figure img {width: 40%}
+    .inner_price_content {padding: 15px 0px; height: 120px;}
+    .value_text {font-size: 14px; line-height: 20px;}
+    .vps_price span {font-size: 34px; line-height: 34px;}
+    .vps_price.font_size_30 {font-size: 18px; padding: 18px 0px; border-left: 10px solid #242424; border-bottom: 10px solid #242424;}
+    .coupon_code_box {font-size: 38px; line-height: 38px; padding: 24px 0; background-color: #242424;}
+    .coupon_code_box_inner span> span {font-size: 32px; line-height: 32px;}
+    .coupon_code_box_inner .font_size_14 {font-size: 16px; line-height: 26px;}
+    .vps_btn {margin: 9px 10px 9px 28px; padding: 0; font-size: 14px; line-height: 48px;}
+    .slider_price_box div:last-child {padding-left: 0; padding-right: 0px; border-bottom: 10px solid #242424; border-right: 10px solid #242424;}
+    .slider-container {padding: 10px;}
+    .slider-container:last-child {padding-right: 15px; padding-left: 0;}
+    .technical_feature_card ul li {font-size: 14px; line-height: 24px;}
+    .slider_price_box>div {display: inline-block;}
+}
+@media only screen and (max-width: 425px){
+    
+}
+@media only screen and (max-width: 375px){
+    .banner_tabs li .shared_tab_link::after, .banner_tabs li .reseller_tab_link::after, .banner_tabs li .dedicated_tab_link::after, .banner_tabs li .vps_tab_link::after, .banner_tabs li .shared_tab_link.active::after, .banner_tabs li .reseller_tab_link.active::after, .banner_tabs li .dedicated_tab_link.active::after, .banner_tabs li .vps_tab_link.active::after {left: 138px}   
+    .btn_submit {right: 20px}
+    .pplan_tab_pane {padding: 30px 38px; margin: 0 20px 20px}
+    .pplan_tab_pane:hover {padding: 26px 34px; margin: 0 20px 20px}
+    .banner_heading ul {width: 300px}
+    .sh_feature .card_content h5 {padding: 15px 0 25px; font-size: 13px}
+    .sh_feature .card_content h5::before, .sh_feature .sh_feature_02 .card_content h5::before {top: 44px}
+    .cpanel_img::after {width: 270px; bottom: 180px}
+    .cpanel_section {padding-top: 220px}
+    .cpanel_content span, .cpanel_content p {padding: 0 20px}
+    .rh_price_plan .view_sh_price_plan a {padding: 21px 15px}
+    .whm_img::after {bottom: 160px}
+    .reviews_section .section_heading::after {right: 24px}
+    .reviews_section .section_heading::before {left: 24px}
+    .card_content p {padding: 0}
+    .banner_content .banner_tab_content span {font-size: 12px}
+    .technology_img::before {top: 34px; left: 10px; width: 356px}
+    .technology_section .section_heading .section_heading_content {padding-top: 220px;}
+    .footer01_section .footer01_contact_list li:nth-child(1):before {top: 10px}
+    .os_list li {padding: 26px;}
+    .os_list li:nth-child(4) {margin-left: 60px;}
+    .default_navigation .default_navigation_box {width: 54%;}
+}

@@ -1,0 +1,361 @@
+@media screen and (max-width: 1440px) {
+    .company-img-3 img { position: absolute; right: -25px; top: 76px;}
+    .banner-img-1 { padding-top: 115px; right: 0; left: -79px; position: absolute; }
+  
+  }
+  @media screen and (max-width: 1199px) {
+      .navbar li { padding: 0; margin: 0 12px; }
+      .top-social li a:hover{
+        color: var(--global--color-yellow);
+         }
+         .banner-img-1 img { max-width: 100%; vertical-align: middle; border-style: none;}
+         .banner-img-2 img, .banner-img-3 img{ width: 80%;}
+         .Banner-section h1 { margin-top: 160px;}
+         .Unique-section { padding: 30px; }
+         .Unique-section p { padding-top: 10px;}
+         .card-style { padding-top: 18px; }
+         .card { padding: 30px 15px; }
+         .video { padding-top: 0px; }
+         .Company-section { padding: 27px 0 65px 0; }
+         .company-img-1 img { position: absolute; left: 60px; top: 55px; }
+         .company-img-2 img { position: absolute; left: 38px; top: 444px; }
+         .company-img-4 img { position: absolute; left: 15px; bottom: -106px; }
+         .company-img-3 img { position: absolute; right: 0px; top: 76px; }
+         .small-text { padding-top: 5px; }
+         .payment-img-7 img { position: absolute; left: 39px; top: -45px; }
+         .Payment-section { background: var(--global--color-light); padding: 35px; position: relative; }
+         .Payment-section p { padding-top: 5px; }
+         .payment-card-style { padding-top: 15px; }
+         .payment-img-5 img { position: absolute; top: 270px; right: 0px; }
+         .payment-img-4 img { position: absolute; bottom: -11px; left: 47px; }
+         .payment-img-2 img { position: absolute; top: 459px; left: 2px; }
+         .payment-img-6 img { position: absolute; bottom: 36px; right: 0px; }
+         .payment-card h6 { position: relative; z-index: 2; }
+         .Hostiko-section { padding: 100px 0 65px 0; }
+         .hostiko-text { padding-top: 20px; }
+         .hostiko-text p { padding-bottom: 20px; }
+         .news-img-4 img { position: absolute; left: 46px; top: 196px; width: 80px;}
+         .News-section { padding: 35px 0 55px 0; }
+         .News-card-style { padding-top: 35px; position: relative; }
+         .news-img-7 img { position: absolute; right: 5px; bottom: 30px; width: 80px;}
+         .news-card h4 { padding: 5px 14px; }
+         .news-text { padding-left: 15px; padding-top: 20px; }
+         .news-button { padding: 15px 0px 35px 15px; }
+         .news-img-8 img { left: 40px; }
+         .subscribe-setting { padding-left: 23px; }
+         .partner-img-1 img { width: 120px; text-align: center;}
+         .partner-img-2 img { padding-left: 0px; width: 120px; text-align: center;}
+         .partner-img-3 img { padding-left: 0px; width: 120px; text-align: center;}
+         .partner-img-4 img { padding-left: 0px; width: 120px; text-align: center;}
+         .partner-img-5 img { padding-left: 0px; width: 120px; text-align: center;}
+         .partner-img-6 img { padding-left: 0px; width: 120px; text-align: center;}
+         .partner-img-1 { text-align: center;}
+         .partner-img-2 { text-align: center;}
+         .partner-img-3 { text-align: center;}
+         .partner-img-4 { text-align: center;}
+         .partner-img-5 { text-align: center;}
+         .partner-img-6 { text-align: center;}
+         .partners { padding: 50px; }
+         .subscribe-img-1 { top: -5px; }
+         .subscribe-section { padding: 40px 0 40px 0; }
+         .reviews-section   { padding: 64px 0 64px 0; }
+         .review-img-3{ position: absolute; top: 179px; left: 28px; }
+         .stars { padding: 15px 0 0 7px; }
+         .review-card { padding: 30px 30px 30px 30px; }
+         .review-card:before { left: 432px; }
+         .review-card:after { left: 403px; }
+         .owl-next:after { display: none;}
+         .owl-prev:before { display: none;}
+  
+    }
+  
+  
+  
+  
+    @media screen and (max-width: 991px) {
+        .navbar li.active:before, .navbar li:hover:before { display: none;}
+      .navbar li a{font-size: 14px; line-height: 16px; padding: 15px 30px!important;}
+      .top-social li {padding: 10px 10px;}
+      .top-social li a  { padding: 0;}
+      header .container{max-width:initial!important;}
+      .navbar-toggler{ margin-left: auto;border: none !important; width: 50px; height: 40px; padding: 0;}
+      .navbar-collapse {background:var(--global--color-mehroon); position: absolute; right: 0; width: 30%; top: 56px; padding: 8px 0; z-index: 1;  box-shadow: 20px 20px 10px 0px rgba(0, 0, 0, 0.1);}
+      .navbar .dropdown-menu li a {background: var(--global--color-white); color: var(--global--color-black) !important; padding: 8px 0px 2px 30px !important; font-size: 13px; line-height: 20px;}
+      .navbar li.active:before { display: none;}
+      .dropdown-menu { padding: 5px 0px 11px 0px;}
+      .navbar .dropdown-menu { border-radius: 0px; }
+      .navbar .search-icon { display: none;}
+      .navbar { margin-top: 0px;}
+      .navbar-brand {margin-bottom: 0px; }
+      .navbar li { padding: 0; margin: 0; }
+      .navbar-toggler-icon { background: url(../images/toggler-image.svg) !important; }
+      .navbar-toggler:focus { outline: none;}
+      .navbar .dropdown-menu {border: none; }
+      .navbar-nav { z-index: 2; position: relative; }
+      .Banner-section h1 { font-size: 63px; margin-top: 0px;}
+      .banner-img-4 img {width: 100%; }
+      .banner-img-2  { top: 0px; right: -24px; width: 55%;}
+      .banner-img-3  { top: 100px; left: 6px;  width: 55%;}
+      .banner-img-1  { padding-top: 0px; right: 0; left: 0px;}
+      .Banner-section { height: 550px;}
+      .social-icons li:last-child { border: none;}
+      .social { padding-right: 0px;}
+      .navbar-toggler { width: auto;}
+      .Unique-section h1 { font-size: 60px; }
+      .Unique-section p { font-size: 19px; padding-top: 0px; }
+      .Unique-section { padding: 70px 0; }
+      .card-style { padding-top: 10px; }
+      .card { padding: 20px 14px; }
+      .card-responsive { margin-bottom: 25px;}
+      .card small { padding-top: 10px; line-height: 22px; }
+      .heading-text { padding: 0 0; }
+      .Company-section { padding: 1px 0 59px 0; }
+      .Company-section p { padding-bottom: 15px; }
+      .company-img-1 img { display: none; }
+      .video { width: 100%; margin: 0px auto;  }
+      .company-img-4 img { position: absolute; left: 15px; bottom: -98px; }
+      .company-img-3 img { position: absolute; right: -22px; top: 76px; }
+      .payment-img-7 img {  position: absolute; left: 45px; top: -45px; }
+      .Payment-section { padding: 11px; }
+      .Payment-section p { padding-top: 0px; padding-bottom: 10px;}
+      .payment-card-style { padding-top: 5px; }
+      .payment-card { padding: 20px 20px; }
+      .payment-card h6 { padding: 0 0 25px 0;}
+      .payment-card .list { font-size: 16px; line-height: 35px; padding: 7% 10% 7% 10%; }
+      .payment-card h1 { font-size: 44px; line-height: 48px;}
+      .payment-btn { padding: 15px 30px; font-size: 14px;}
+      .Hostiko-section { padding: 60px 0 60px 0; }
+      .hostiko-text h5 { font-size: 18px; line-height: 16px; padding-bottom: 6px; padding-top: 8px;}
+      .hostiko-text p { padding-bottom: 8px; }
+      .hostiko-text .plan-text { padding-top: 15px; }
+      .hostiko-text h2 { font-size: 55px; }
+      .hostiko-text img { width: 80%; }
+      .line-shape img { position: absolute; top: 415px; max-width: 100%; }
+      .news-img-6 { display: none;}
+      .news-text { padding-top: 4px; padding-left: 10px;}
+      .news-card h4 { font-size: 16px; line-height: 20px; padding: 0px 10px; }
+      .news-btn { padding: 8px 16px;}
+      .news-button { padding: 15px 0px 30px 10px; }
+      .News-section { padding: 35px 0 18px 0; }
+      .news-img-5 img { position: absolute; left: 5px; top: 357px; width: 80px; }
+      .news-img-7 img { position: absolute; right: 5px; bottom: 30px; width: 80px; }
+      .subscribe-img-1 { top: -15px; right: -18px; z-index: 2; }
+      .subscribe-section h1 { padding: 9px 0 30px 0; }
+      .subscribe-btn { top: 231px; right: 19px;}
+      .partners { padding: 40px 0 40px 0; }
+      .footer-section { padding: 40px 0 25px 0; }
+      .sitemap { padding-left: 10px; }
+      .footer-section p { font-size: 14px; line-height: 25px; }
+      .footer-get-in-touch li a { font-size: 14px; line-height: 16px; }
+      .footer-social-setting { padding-left: 33px; }
+      .sitemap h5 { font-size: 18px; line-height: 18px; }
+      .footer-social-setting h5 { font-size: 18px; line-height: 18px; }
+      .footer-social-setting p { font-size: 12px; line-height: 18px; }
+      .footer-links li a { font-size: 12px; line-height: 16px; }
+      .footer-links-2 li a { font-size: 12px; line-height: 16px; }
+      .footer-links-2 { padding-top: 47px; padding-left: 0px; }
+      .footer-social .facebook { height: 24px; width: 24px; border-radius: 100%; padding: 5px 0 0 7px;}
+      .footer-social .twitter { height: 24px; width: 24px; border-radius: 100%; padding: 5px 0 0 5px;}
+      .footer-social .linkedin { height: 24px; width: 24px; border-radius: 100%; padding: 5px 0 0 5px;}
+      .footer-social .pinterest { height: 24px; width: 24px; border-radius: 100%; padding: 5px 0 0 7px;}
+      .footer-social li { margin-right: 2px; }
+      .footer-social-setting h5 { padding: 3px 0 22px 0;}
+      .footer-social { padding-bottom: 4px; }
+      .reviews-section { padding: 30px 0 30px 0; }
+      .reviews-section p { padding: 0px 0%; }
+      .review-img-3 { position: absolute; top: 125px; left: 28px; }
+      .review-img-4 { display: none;}
+      .review-card:after { left: 289px; }
+      .review-card:before { left: 313px; }
+      .stars { padding: 0px 0 0 5px; }
+      .review-img-1 { width: 78px; }
+      .review-img-2 { width: 78px; }
+      .stars li { font-size: 14px; }
+      .review-text p { font-size: 18px; line-height: 25px; }
+      .banner-img-5 { display: none; }
+    }
+  
+  
+    @media screen and (max-width: 767px) {
+      .navbar li a{font: size 10px;}
+      header .container{max-width:initial!important;}
+     .navbar-toggler{ margin-left: auto;border-color:#ffffff !important;}
+     .navbar-collapse { width: 50%; }
+     .Banner-section h1 { text-align: center; font-size: 55px; line-height: 54px;}
+     .Banner-section p { font-size: 16px; text-align: center; padding-top: 12px;}
+     .primary-btn { padding: 10px 30px; font-size: 14px;}
+     .Banner-section .primary-btn { margin-top: 0px;}
+     .Banner-section { height: 920px; }
+      .banner-img-1{ position: relative; left:0;}
+      .Banner-section .banner-text { order: 2;}
+      .Banner-section .banner { order: 1;}
+      .banner-btn { text-align: center;}
+      .banner-img-3 { top: 62px; left: 58px; width: 40%; }
+      .banner-img-2 { top: -24px; right: 2px; width: 40%; }
+      .Banner-section { height: auto; padding-bottom: 50px;}
+      .banner-img-6 img { width: 40% ;}
+      .banner-img-5 img { width: 40% ;}
+      .Unique-section h1 { font-size: 45px; }
+      .Unique-section p { font-size: 16px; }
+      .card small { padding-top: 6px; }
+      .card h5 {font-size: 18px; padding-top: 0px; margin-top: 5px; }
+      .Company-section h1 { font-size: 45px; line-height: 40px; }
+      .Company-section p { font-size: 18px; line-height: 25px; padding-top: 7px; }
+      .Company-section { padding: 1px 0 10px 0; }
+      .company-img-1 img { display: none;}
+      .company-img-3 img { display: none;}
+      .company-img-2 img { display: none;}
+      .company-img-4 img { display: none;}
+      .video { width: 100%; margin: 0px auto;  }
+      .payment-img-7 img { position: absolute; left: 10px; top: -39px; width: 61px; }
+      .Payment-section h1 { font-size: 45px; line-height: 50px; }
+      .Payment-section p { font-size: 18px; line-height: 25px; }
+      .payment-img-2 img { display: none; }
+      .payment-img-5 img { display: none; }
+      .payment-img-6 img { display: none; }
+      .payment-img-4 img { display: none; }
+      .payment-img-1 img { display: none; }
+      .payment-card { margin-bottom: 20px; }
+      .payment-card .list { padding: 5% 8% 5% 8%; }
+      .main-heading { font-size: 45px; line-height: 50px; }
+      .hostiko-text { padding-top: 0px; }
+      .Hostiko-section p { font-size: 18px;  padding-top: 0px; line-height: 26px; font-weight: 400; }
+      .hostiko-text h2 { font-size: 50px; }
+      .hostiko-text h5 { padding-bottom: 0px; padding-top: 0px;}
+      .hostiko-text img { width: 25%; }
+      .hostiko-text p { font-size: 14px; line-height: 18px;}
+      .Hostiko-section { padding: 30px 0 30px 0; }
+      .hostiko-text h2 { order: 1; width: 100%;}
+      .hostiko-text .plan-text { width: 100%; order: 2;}
+      .hostiko-text p { width: 100%; order: 3; padding-top: 5px;}
+      .hostiko-feature-img2 { width: 100%; order: 4;  padding-top: 0px;}
+      .featured-2 { display: flex; flex-wrap: wrap;}
+      .hostiko-text .plan-text { padding-top: 5px; }
+      .hostiko-feature-img4 { width: 100%; order: 4;  padding-top: 0px;}
+      .line-shape img { top: 639px; }
+      .line-shape img { display: none;}
+      .hostiko-text img { box-shadow: 0 5px 30px 0px rgba(42,45,60,0.2); }
+      .News-card-style { padding-top: 7px; position: relative; }
+      .News-section p { font-size: 18px; padding-top: 0px; line-height: 26px;}
+      .news-img-7 img { display: none;}
+      .news-img-5 img { display: none;}
+      .news-img-4 img { display: none;}
+      .News-section { padding: 15px 0 15px 0; }
+      .news-img-8 img { display: none;}
+      .news-card { margin-bottom: 25px; }
+      .news-button { padding: 12px 0px 25px 10px; }
+      .news-text { padding-top: 0px; }
+      .subscribe-section h1 { font-size: 45px; font-weight: 400; line-height: 50px; padding: 40px 0 40px 0; }
+      .subscribe-section { padding: 30px 0 30px 0; }
+      .subscribe-btn { padding: 10px 20px; top: 192px; }
+      .subscribe-img-1 { top: -107px; right: 400px; z-index: 2; width: 45%; }
+      .partners { padding: 25px; }
+      .sitemap h5 { display: none; }
+      .footer-links { display: none; }
+      .footer-get-in-touch { display: none; }
+      .footer-links-2 { display: none; }
+      .sitemap-links { display: none; }
+      .sitemap { display: none; }
+      .footer { text-align: center;}
+      .footer-social-setting { text-align: center;}
+      .footer-social-setting p { text-align: center; padding: 0px 0% 0 0;}
+      .footer-social-setting h5 { font-size: 20px; }
+      .footer-social .facebook { padding: 5px 0 0 2px; }
+      .footer-social .twitter { padding: 5px 0 0 2px; }
+      .footer-social .linkedin { padding: 5px 0 0 2px; }
+      .footer-social .pinterest { padding: 5px 0 0 2px; }
+      .footer-section p { padding: 23px 0px 6px 0; }
+      .footer-section p { padding: 4px 0px 6px 0; }
+      .footer-logo img{ padding-bottom: 20px; }
+      .footer-social-setting h5 { padding: 3px 0 15px 0; }
+      .footer-social { padding-bottom: 0px; }
+      .footer-social-setting { padding-left: 15px; }
+      .review-img-3 { display: none;}
+      .review-img-4 { display: none;}
+      .review-img-5 { display: none;}
+      .review-img-6 { display: none;}
+      .carousel-row { padding-top: 10px; }
+      .reviews-section p { font-size: 18px; line-height: 26px; }
+      .stars li { padding: 24px 0px 0 4px; }
+      .review-card { padding: 20px 13px 20px 13px; }
+      .reviews-section p { font-size: 16px; line-height: 22px; }
+      .review-text span { font-size: 16px; line-height: 20px; }
+      .review-text small { font-size: 12px; line-height: 16px; }
+      .stars { padding: 0 0 0 4px; max-width: 100%; width: 145px; }
+      .review-card:after { left: 202px; }
+      .review-card:before { left: 224px; }
+  }
+  
+  
+  
+    @media screen and (max-width: 576px) {
+      .navbar li a{font: size 10px;}
+      header .container{max-width:initial!important;}
+      .top-social { text-align: center; width: 100%;}
+      .social-icons { display: none;}
+      .navbar-toggler{ margin-left: auto;border-color:#ffffff !important; width: 50px; height: 40px; padding: 0; margin-bottom: 0px; padding-bottom: 0px;}
+      .navbar-brand { margin-bottom: 0px;}
+      .navbar-collapse { position: absolute; right: 0px; width: 50%; top: 56px;}
+      .Banner-section { height: 920px; }
+      .banner-img-1{ position: relative; left:0; width: 90%; margin: 0 auto;}
+      .Banner-section .banner-text { order: 2;}
+      .Banner-section .banner { order: 1;}
+      .banner-btn { text-align: center;}
+      .banner-img-3 { top: 82px; left: 28px; width: 40%; }
+      .banner-img-2 { top: 35px; right: 32px; width: 40%; }
+      .Banner-section p { font-size: 14px; text-align: center; padding-top: 12px; margin-bottom: 30px;}
+      .banner-img-6 img { width: 40%;}
+      .Banner-section h1 { text-align: center; font-size: 36px; line-height: 40px;}
+      .Banner-section { height: auto; padding-bottom: 50px;}
+      .banner-img-5 img { width: 40%;}
+      .Unique-section h1 { font-size: 36px; line-height: 40px; }
+      .Unique-section p  { font-size: 14px; line-height: 20px; margin-bottom: 5px; }
+      .Unique-section { padding: 30px 0; }
+      .card small { font-size: 12px; line-height: 20px; }
+      .card h5 { font-size: 18px; }
+      .card-responsive { margin-bottom: 20px; }
+      .card img { width: 50px }
+      .Company-section { padding: 0px 0 35px 0; }
+      .Company-section h1 { font-size: 36px; line-height: 30px; }
+      .Company-section p {font-size: 14px; line-height: 19px; padding-top: 5px; }
+      .video { padding-top: 5px; }
+      .Company-section small { font-size: 14px; line-height: 20px; }
+      .small-text { padding: 0px 4%;}
+      .Company-section { padding: 1px 0 25px 0; }
+      .Company-section span { font-size: 14px; line-height: 20px; }
+      .Payment-section { padding: 1px; }
+      .payment-img-7 img { display: none;}
+      .Payment-section h1 { font-size: 36px; line-height: 40px; padding-bottom: 0px;}
+      .Payment-section p { font-size: 16px; line-height: 20px; }
+      .payment-card-style { padding-top: 0px; }
+      .payment-card .list { padding: 0% 0% 0% 0%; font-size: 14px; line-height: 30px;}
+      .payment-card h6 { padding: 0px 0 20px 0; }
+      .payment-card { margin-bottom: 20px; }
+      .payment-btn { padding: 13px 26px; font-size: 12px; }
+      .main-heading { font-size: 36px; line-height: 45px; }
+      .Hostiko-section p { font-size: 16px; line-height: 22px; }
+      .Hostiko-section { padding: 30px 0 20px 0; }
+      .hostiko-text h2 { font-size: 40px; }
+      .hostiko-text .plan-text { padding-top: 0px; }
+      .hostiko-text h5 { font-size: 16px; line-height: 14px; }
+      .hostiko-text p { font-size: 12px; line-height: 16px; padding-top: 5px;}
+      .line-shape img { top: 554px; }
+      .News-section { padding: 10px 0 0px 0; }
+      .News-section p { font-size: 16px; line-height: 22px;}
+      .main-heading { font-size: 36px; line-height: 40px; }
+      .News-card-style { padding-top: 0px; }
+      .news-text { font-size: 10px; line-height: 14px; margin-bottom: 10px;}
+      .news-card h4 { font-size: 18px; line-height: 20px; }
+      .news-btn { padding: 6px 12px; }
+      .news-button { padding: 10px 0px 20px 10px; }
+      .subscribe-img-1 { top: -337px; right: 376px; z-index: 2; width: 80px; }
+      .subscribe-btn { padding: 10px 20px; top: 149px; }
+      .subscribe-section { padding: 32px 0 20px 0; }
+      .subscribe-section h1 { font-size: 30px; font-weight: 400; line-height: 36px; padding: 40px 0 25px 0; }
+      .subscribe-img-1 { top: -406px;   width: 72%; }
+      .footer-section p { line-height: 21px; padding: 4px 12px 6px 12px; }
+      .owl-next { display: none; }
+      .reviews-section { padding: 20px 20px 5px 20px; }
+      .review-card:after { left: 82%; }
+      .review-card:before { left: 89%; }
+    }

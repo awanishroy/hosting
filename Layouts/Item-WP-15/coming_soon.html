@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Title-->
+    <title>Hostiko</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <!--description-->
+    <meta name="description" content="HOSTIKO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose hosting portfolio HTML5 template with ready home page demos.">
+    <!--Key Words-->
+    <meta name="keywords" content="">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--fontawesome style-->
+    <!--<link rel="stylesheet" href="assets/css/fonts-awesome.min.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!--style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" href="assets/images/favicon.png">
+
+
+</head>
+<body>
+
+<!--Coming Soon-->
+<section class="coming_soon bg_coming_soon container-fluid">
+    <div class="inner_coming_soon">
+        <div class="coming_soon_logo">
+            <a href="index.html"><figure><img src="assets/images/svg/logo.svg" alt=""></figure></a>
+        </div>
+        <div class="small_text">Our website is</div>
+        <h1>Coming soon</h1>
+        <div class="count counter_outer_box">
+            <div class="counter_box">
+                <div class="inner_counter_box">
+                    <div class="countd">
+                        <div id="days" class="counter">00</div>
+                        <div>days</div>
+                    </div>
+                </div>
+            </div>
+            <div class="counter_box">
+                <div class="inner_counter_box">
+                    <div class="countd">
+                        <div id="hours" class="counter">00</div>
+                        <div>hours</div>
+                    </div>
+                </div>
+            </div>
+            <div class="counter_box">
+                <div class="inner_counter_box">
+                    <div class="countd">
+                        <div id="mins" class="counter">00</div>
+                        <div>minutes</div>
+                    </div>
+                </div>
+            </div>
+            <div class="counter_box">
+                <div class="inner_counter_box">
+                    <div class="countd">
+                        <div id="secs" class="counter">00</div>
+                        <div>seconds</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="coming_soon_tag_line margin_top_40 margin_bottom_10">We’re Doing our Best to Launch <span class="color_3e7ccc">ASAP</span></div>
+        <p>We're redesigning our website to make it more convenient and safe for you. We'll be <br> back with new features and amazing experiences. See you soon!</p>
+        <div class="subscribe_text">Subscribe to Get Notified!</div>
+        <div class="subscribe_email_box">
+            <input type="text" class="name subscribe_email_field" placeholder="Enter Your Email">
+            <input type="submit" class="subscribe_btn" value="Subscribe">
+        </div>
+        <ul class="coming_soon_social_links">
+            <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+        </ul>
+    </div>
+</section>
+<!--Ends Here-->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script>
+
+
+
+</script>
+<script>
+    var count = new Date("feb 15,2020 00:00:00").getTime();
+    var x = setInterval( function() {
+        var now = new Date().getTime();
+        var d = count - now;
+        var days = Math.floor(d/(1000*60*60*24));
+        var hours = Math.floor((d%(1000*60*60*24))/(1000*60*60));
+        var minutes = Math.floor((d%(1000*60*60))/(1000*60));
+        var seconds = Math.floor((d%(1000*60))/1000);
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("mins").innerHTML = minutes;
+        document.getElementById("secs").innerHTML = seconds;
+    },1000);
+</script>
+
+</body>
+</html>

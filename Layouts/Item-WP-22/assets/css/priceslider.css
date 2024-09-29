@@ -1,0 +1,269 @@
+/*
+ * jQuery UI Slider 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Slider#theming
+ */
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+.ui-slider-horizontal {
+	height: .8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.6em;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+.ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}
+.slider-container {
+	float: left;
+	width: 100%;
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,.15);
+	border-radius: 6px;
+}
+.slider-container h3 {
+	margin:0 0 10px;
+	padding:0;
+	color:#000;
+	font-size:30px;
+	line-height:30px;
+	font-weight:normal;
+}
+.slider-container h3 span {
+	color:#ff9226;
+	font-weight:700;
+}
+.slider-container p {
+	margin:0;
+	padding:0;
+}
+.sliderbox {
+	display:inline-block;
+	width: 100%;
+	padding: 0 95px 15px;
+	margin:0;
+}
+/*.slider-container #slider {*/
+	/*margin:0 auto 20px;*/
+	/*width: 94%;*/
+	/*height: 4px;*/
+	/*padding: 0;*/
+	/*border: 0;*/
+	/*background:#fff*/
+/*}*/
+/*.slider-container #slider .ui-slider-range {*/
+	/*height: 4px;*/
+	/*background: #d7263d;*/
+/*}*/
+.slider-container #slider .ui-slider-handle {
+	outline: none;
+	background: url(../images/handle.png) no-repeat left top;
+	border-radius: 0;
+	border: 0;
+	width: 28px;
+	height: 28px;
+	margin: -9px 0 0 -7px;
+}
+.slider-container #slider .ui-slider-handle:hover {
+	cursor: pointer;
+}
+.price_rangetxt {
+	margin: 0 auto 39px;
+	width: 100%;
+	padding: 0;
+	float: left;
+}
+.price_rangetxt div.icon {
+	width: 20%;
+	height: 142px;
+	font-size: 16px;
+	line-height: 23px;
+	cursor: pointer;
+	font-weight: 400;
+	float: left;
+	background:url(../images/vps_01.svg) no-repeat center top;
+}
+.heading{
+	width: 18%;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	font-size: 20px;
+	font-weight: 700;
+
+}
+.price_rangetxt div.icon span{
+	/*margin:38px 0 0;*/
+	/*display:block;*/
+	/*text-transform: uppercase;*/
+}
+.price_rangetxt div.current {
+	color:#fff;
+	background:url(../images/vps_02.svg) no-repeat center top;
+
+}
+.heading div.current1{
+	background-color: #080245; border-radius: 6px; color: #3fd7d7; position: relative}
+.heading div.current1:before{
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid #080245;
+	bottom: -10px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.price_content {
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+	float: left;
+	background-color: #fff;
+	padding: 0 95px;
+}
+.price_content .smallbox {
+	float:left;
+	width:20%;
+	height: 95px;
+	background: #fff;
+	padding: 35px 0 0;
+}
+.price_content .smallbox:last-child{
+	border: none;
+}
+.price_content .image_holder {
+
+margin-bottom: 22px;
+
+}
+.price_content .value_text {
+	font-size: 18px;
+	line-height: 20px;
+	color:#666;
+	text-align: left;
+	font-weight: 300;
+	padding-left: 65px;
+}
+.top_heading .text_value{
+
+	line-height: 36px;
+	padding:7px 0;
+	color:#fff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+}
+.price_content .value {
+	display: block;
+	color:#080245;
+	margin: 3px 0 0;
+	line-height:18px;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.price_txt {
+	color:#666;
+	font-size:18px;
+	line-height:24px;
+	font-weight: 400;
+	padding: 30px 27% 60px;
+	float: left;
+	width: 100%;
+}
+.price_txt .numeric1 {
+	line-height:54px;
+	font-size:72px;
+	font-weight: 700;
+	color: #080245;
+	display: inline-block;
+	min-width: 180px;
+	float: left;
+}
+.vps_btn:hover{background-color: #080245; border: 1px solid #080245; color: #3fd7d7; transition-duration: 0.5s}
+.vps_btn {
+	color:#080245;
+	display:inline-block;
+	font-size:18px;
+	line-height:46px;
+	background:#fff;
+	text-decoration:none;
+	font-weight: 400;
+	border-radius: 6px;
+	padding: 5px 45px;
+	border: 1px solid #080245;
+	margin-left: 30px;
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,.15);
+}
+.tag{
+	position:absolute;
+	right:0;
+	top:0;
+}
+.price-slider-section{
+	padding: 0;
+	float: left;
+	width: 100%;
+	border-radius: 6px;
+}
+.bg_slider{background: linear-gradient(#3dd0d1, #090446); border-radius: 6px 6px 0 0; padding: 60px 0 0}
+.nomargin_rt{
+	margin-right: 0 !important;
+}
+.price-box-section{
+	background: #fff;
+	float: left;
+	width: 100%;
+	border-radius: 6px
+}

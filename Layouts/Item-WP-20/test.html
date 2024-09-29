@@ -1,0 +1,166 @@
+<form method="POST" id="contact_form">
+    <div id="step1" style="display: block">
+        <ul class="informative_ul">
+            <li>
+                <div class="pstnumber">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <label for="postNumber"><input type="text" id="pstnumber" placeholder="Postnr*" name="pstnumber*" class="numeric"></label>
+                </div>
+            </li>
+            <li>
+                <div class="kvm">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <label for="KVM"><input type="text" id="kvm" placeholder="Kvm*" name="kvm*" class="numeric"></label>
+                </div>
+            </li>
+            <li>
+                <div class="kvm">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <label for="KVM"> <input id="start-date" placeholder="Choose the data" class="dateselect numeric" data-provide="datepicker" required="require"></label>
+                </div>
+            </li>
+            <li>
+                <select class="options" name="services" id="services">
+                    <option value=5>Hemstädning</option>
+                    <option value=10>Storstädning</option>
+                    <option value=15>Kontorsstädning</option>
+                    <option selected value=20>Flyttstädning</option>
+                    <option value=25>Fönsterputsning</option>
+                    <option value=30>Handyman</option>
+                </select>
+
+
+            </li>
+        </ul>
+
+        <div class="estimated_price_box">
+            <div class="estimated_price_heading">Uppskattatpris</div>
+            <div class="outer_estimated_price_list">
+                <ul class="estimated_price_list">
+                    <li>20kvm-65kvm = 53kr/kvm</li>
+                    <li>70kvm-120kvm = 45kr/kvm</li>
+                    <li>130kvm-170kvm = 40kr/kvm</li>
+                    <li>180kvm-300kvm = 36kr/kvm</li>
+                    <li>+ 395kr per flyttstädning i framkörningsavgift som läggs på priset.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="Checkboxes" style="display: none;">
+            <div class="form_option_selection3 text-center">
+                <div class="row2">
+                    <input type="radio" name="duration" value="1"  checked="checked" > <label> Varje vecka </label>
+                    <input type="radio" name="duration" value="2"> <label> Varannan vecka</label>
+                    <input type="radio" name="duration" value="4"> <label> Var 4:e vecka </label>
+                </div>
+            </div>
+            <div class="form_option_selection form_option_selection2 text-center">
+                <div id=""  class="row2">
+                    <input type="checkbox" name="monday" value="Måndag" > <label> Måndag
+                    <span class="price_box">190 kr/tim  </span>
+
+                </label>
+                    <input type="checkbox" name="tuesday" value="Tisdag"> <label> Tisdag
+                    <span class="price_box">190 kr/tim  </span>
+
+                </label>
+                    <input type="checkbox" name="wednesday" value="Onsdag"> <label> Onsdag
+                    <span class="price_box">210 kr/tim  </span>
+
+                </label>
+                    <input type="checkbox" name="thursday" value="Torsdag"> <label> Torsdag
+                    <span class="price_box">210 kr/tim  </span>
+                </label>
+                    <input type="checkbox" name="friday" value="Fredag"> <label> Fredag
+                    <span class="price_box">210 kr/tim  </span>
+
+                </label>
+                </div>
+            </div>
+        </div>
+        <div style="display:flex;">
+            <div id="pricing_chart" class="margin_top35 margin_bottom25 text-center" style="display:none;" ><p class="font_size23 line_height30 color_555" style="margin-left:212px;">
+                Uppskattad månadskostnad Måndag - Tisdag
+                <label id="indPrice" style="color:#4e9191"></label>
+            </p> </div>
+
+            <div id="pricing_chart1" class="margin_top35 margin_bottom25 text-center" style="display:none;" ><p class="font_size23 line_height30 color_555" style="margin-left:25px;">
+                Uppskattad månadskostnad Onsdag - Fredag
+                <label id="indPrice1" style="color:#4e9191"></label>
+            </p> </div> </div>
+
+        <div class="form_submit_btn_cont text-center"><a id="form1" style="display: none" class="custom_submit_form">Boka din provstädning här!</a></div>
+
+    </div>
+
+    <div id="step2" style="display: none">
+        <div class="form_group">
+            <div class="form_group_inner">
+                <label for="First Name">
+                    <input type="text" id="fname" placeholder="Förnamn*" name="fname"></label>
+            </div>
+        </div>
+        <div class="form_group">
+            <div class="form_group_inner">
+                <label for="Last Name">
+                    <input type="text" id="lname" placeholder="Efternamn*" name="lname"></label>
+
+            </div>
+        </div>
+        <div class="form_group">
+            <div class="form_group_inner">
+                <label for="Email">
+                    <input type="text" id="email" placeholder="Mail*" name="email"></label>
+
+            </div>
+        </div>
+        <div class="form_group">
+            <div class="form_group_inner">
+                <label for="Mobilnummer">
+                    <input type="text" id="mobilnummer" placeholder="Mobilnummer*" name="mobilnummer"></label>
+            </div>
+        </div>
+        <div class="form_group">
+            <div class="form_group_inner">
+                <label for="address">
+                    <input type="text" id="address" placeholder="Gatuadress*" name="address"></label>
+            </div>
+        </div>
+        <div class="form_group">
+            <div class="form_group_inner">
+                <label for="city">
+                    <input type="text" id="city*" placeholder="Postort*" name="city"></label>
+            </div>
+        </div>
+        <div class="form_group">
+            <div class="form_group_inner">
+                <label for="port_code">
+                    <input type="text" id="port_code*" placeholder="Eventuell portkod" name="port_code"></label>
+            </div>
+        </div>
+        <div class="form_group">
+            <div class="form_group_inner">
+                <label for="prom_code">
+                    <input type="text" id="prom_code*" placeholder="Eventuell kampanjkod" name="prom_code"></label>
+            </div>
+        </div>
+        <div class="term_condi">
+            <h3>Godkännande</h3>
+
+
+            <div class="form-group">
+                <input type="checkbox" id="confermation" name="confermation">
+                <label for="confermation">Ja, jag samtycker till att ni, baserat på de uppgifter som jag har delat, skickar <a href="#">anpassade erbjudanden </a></label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Jag har tagit del av Hemfrids <a href="#">Integritetspolicy </a></label>
+            </div>
+
+        </div>
+        <div class="form_submit_btn_cont text-center margin_top30">
+            <button type="submit"  class="custom_submit_form">Bekräfta & boka</button> </div>
+    </div>
+
+
+</form>

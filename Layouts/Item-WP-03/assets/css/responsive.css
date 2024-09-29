@@ -1,0 +1,432 @@
+@media only screen and (max-width: 1199px){
+    .banner_search_box{padding: 0 50px}
+    .btn_submit{right: 50px}
+    .available_domains li{padding: 0 35px}
+    .why_hosting_box, .premium_hosting_box, .inner_contact_info_box{font-size: 24px}
+    .product_box h3{font-size: 20px}
+    .footer_section:after{top: -178px}
+    .footer_section:before{top: -315px}
+    .dedicated_stack_table thead th{font-size: 14px; padding: 15px 20px}
+    .dedicated_stack_table tbody tr td{padding: 25px 15px; font-size: 14px}
+    .operating_system_box{margin: 0 18px; width: 150px; height: 150px}
+    .price_rangetxt div.current span{margin: 0 30px}
+    .slider_detail{padding: 0 30px !important;}
+    .vps_btn{margin-left: 70px !important;}
+    .popular_tlds_box{width: 17%}
+    .btn-primary{padding: 13px 135px}
+    .contact_info_box p{font-size: 16px}
+    .bg_home_page:before{bottom: -150px}
+    .padding_top_200{padding-top: 100px}
+    .font_size_80{font-size: 60px}
+    .line_height_82{line-height: 68px}
+    .price_tag{font-size: 18px}
+    .price_tag .dollar_sign{font-size: 24px}
+    .price_tag .price_amount{font-size: 36px}
+    .font_size_30{font-size: 24px}
+    .line_height_30{line-height: 26px}
+    .top_navigation .navigation .menubar li a{padding: 40px 15px; margin: 0}
+    .dd_bg_01:before, .dd_bg_02:before, .dd_bg_03:before, .dd_bg_04:before{right: 130px}
+    .top_navigation{padding: 0}
+}
+@media only screen and (max-width: 991px) {
+    .bg_home_page h1{font-size: 42px !important; line-height: 48px !important;}
+    .bg_home_page, .bg_shared_hosting_page, .bg_dedicated_hosting_page, .bg_reseller_hosting_page, .bg_vps_hosting_page {height: 800px}
+    .bg_home_page:before, .bg_shared_hosting_page:before, .bg_reseller_hosting_page:before, .bg_dedicated_hosting_page:before, .bg_vps_hosting_page:before{bottom: -100px; background-position: center; height: 435px}
+    .padding_top_200{padding-top: 50px}
+    .search_domain_section p{font-size: 20px}
+    .banner_search_box{padding:  0 15px}
+    .btn_submit{right: 15px}
+    .available_domains li{padding: 0 20px}
+    .why_hosting_box, .premium_hosting_box, .inner_contact_info_box{font-size: 20px; line-height: 20px}
+    .padding_bottom_100{padding-bottom: 60px}
+    .padding_top_100{padding-top: 60px}
+    h2{font-size: 28px !important; line-height: 36px !important;}
+    .bg_web_hosting p{font-size: 14px; line-height: 24px}
+    .web_hosting_box h3{padding: 25px 0; font-size: 16px}
+    .hosting_price .hosting_amount{font-size: 36px}
+    .hosting_price{font-size: 18px}
+    .web_hosting_list{padding-left: 0}
+    .web_hosting_list li{font-size: 14px; line-height: 24px; text-align: center}
+    .btn_hosting_box{padding: 0 30px; font-size: 16px}
+    .cloud_product_section p{font-size: 20px}
+    .product_box h3{font-size: 14px}
+    .product_box p{font-size: 14px}
+    .bg_build_website p{font-size: 16px}
+    .btn_get_started{padding: 10px 40px; font-size: 16px}
+    .padding_lr_95{padding: 0 25px}
+    .footer_section:after{top: -160px}
+    .footer_section:before{top: -290px; background-position: center}
+    .top_navigation{padding: 20px 30px; background-color: rgba(23,48,58,1)}
+    .navbar-toggler:focus{outline: none}
+    .banner_search_box .search_btn{font-size: 16px !important; padding: 27px 35px !important;}
+    .navbar-toggler-icon{height: 25px}
+    .navbar-toggler{background-color: #f40076; border: 1px solid #f40076; padding: 2px 3px}
+    a.logo img{width: 125px}
+    .top_navigation .navigation .menubar li a{padding: 5px 20px}
+    .hosting_advanced_features_list li{font-size: 16px; line-height: 28px}
+    .hosting_advanced_features_list li:before{display: none}
+    .padding_bottom_400{padding-bottom: 300px}
+    .shared_advanced_feature_section p{font-size: 18px}
+    .web_hosting_box{margin-bottom: 20px}
+    .reseller_hosting_section p{font-size: 14px}
+    .reseller_hosting_section p br{display: none}
+    .btn-link{font-size: 16px; white-space: normal}
+    .st-head-row{background-color: #5c43bc; color: #fff}
+    .operating_system_box{width: 125px; height: 125px; margin: 0 6px}
+    .btn_different_package{font-size: 14px; padding: 10px 20px}
+    .margin_bottom_40{margin-bottom: 20px}
+    .faq_section p{font-size: 14px}
+    .faq_section p br{display: none}
+    .price_rangetxt div.current span{margin: 0 !important;}
+    .price_content .value_text{padding-left: 20px}
+    .price_content .image_holder{min-width: 70px}
+    .promotion_area{text-align: center !important;}
+    .vps_why_hosting p br{display: none}
+    .bg_operating_system p br{display: none}
+    .popular_tlds_box{width: 16%}
+    .popular_tlds_box span{font-size: 18px; line-height: 24px}
+    .popular_tlds_box .tlds_price span{font-size: 16px; line-height: 24px}
+    .btn_domain_tlds{font-size: 14px; padding: 5px 15px}
+    .tlds_section p br{display: none}
+    .bg_domain_page div.padding_top_150{padding-top: 100px}
+    .bg_domain_page:before{background-position: center}
+    .about_hosting_box .hosting_count{font-size: 36px}
+    .about_hosting_box .hosting_name{font-size: 20px; line-height: 28px}
+    .hosting_team_rank{font-size: 14px}
+    .name_team_member{font-size: 18px}
+    .inner_contact_info_box figure{margin-bottom: 20px}
+    .contact_info_box p{margin-top: 20px}
+    .menu_advertise_box{display: none}
+    .navigation .dropdown_company{width: 100%; top: 0; left: 0; position: relative !important;}
+    .navigation .dropdown_company:before{display: none}
+    .btn_top_nav{display: none}
+    .menubar li{padding: 0 20px; position: relative; border-bottom: 1px solid rgba(255,255,255,.1)}
+    .menubar li:last-child{border-bottom: none}
+    .top_navigation .navigation .menubar li a{margin: 0}
+    .dd_bg_01:before, .dd_bg_02:before, .dd_bg_03:before, .dd_bg_04:before{display: none}
+    .dropdown_menu{padding: 10px 0 !important;}
+    .btn_banner01, .btn_banner02{padding: 14px 40px; font-size: 16px}
+    .font_size_80{font-size: 40px}
+    .line_height_82{line-height: 48px}
+    .menubar li{padding: 0; position: relative; border-bottom: 1px solid rgba(255,255,255,.1)}
+    .menubar li:last-child{border-bottom: none}
+    .top_navigation .navigation .menubar li a{margin: 0}
+    .dd_bg_01, .dd_bg_02,.dd_bg_03, .dd_bg_04{background: none}
+    .menu_content{width: 100%; margin-left: 0}
+    .dropdown_menu_list{padding: 0}
+    div.dropdown_menu a{padding: 0 !important;}
+    div.dropdown_submenu a:before, .dropdown_company a:before{display: none}
+    .navigation .dropdown_company{background-color: transparent; border: none; box-shadow: none; margin-top: -10px; margin-bottom: 10px}
+    .navigation .dropdown_company a .submenu_text span{color: #fff; font-weight: 400; padding-left: 0; font-size: 13px}
+    .menu_content{font-size: 0; line-height: 0}
+    .navigation .dropdown_company a{padding: 5px !important;}
+    .navigation .dropdown_menu a span{font-size: 13px !important; color: #fff !important; font-weight: 400 !important; text-transform: uppercase; margin-bottom: 0; padding: 5px}
+    .navigation .dropdown_menu{background-color: transparent; border-top: 0; box-shadow: none}
+    .navigation .dropdown_menu a>.menu_content{position: relative}
+    .sb_dd_01, .sb_dd_02, .sb_dd_03, .sb_dd_04, .sb_dd_05, .sb_dd_06, .sb_dd_07, .sb_dd_08{background: none}
+    div.dropdown_submenu a:after{display: none}
+    .menu_text{width: 100%; margin: 0; font-size: 13px; font-weight: 400; color: #fff}
+    .navigation .dropdown_submenu{background: transparent; border-top: none; box-shadow: none; padding: 0}
+    div.dropdown_submenu a{padding: 5px 0 !important;}
+    div.dropdown_submenu a>.menu_text{position: relative}
+    div.dropdown_submenu{padding: 0 0 15px}
+    .top_navigation ,.navigation{margin-top: 0; z-index: 10}
+    .navbar-brand{padding-top: 0; padding-bottom: 0}
+    .padding_r{padding: 0 !important;}
+    .top_navigation{position: absolute; width: 100%}
+    .top_navigation .navigation .menubar>li:hover a{color: #fff}
+
+
+    /*Toggle Menu*/
+    .cmn-toggle-switch {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        width: 35px;
+        height: 35px;
+        font-size: 0;
+        text-indent: -9999px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        box-shadow: none;
+        border-radius: none;
+        border: none;
+        cursor: pointer;
+        -webkit-transition: background 0.3s;
+        transition: background 0.3s;
+    }
+
+    .cmn-toggle-switch:focus {
+        outline: none;
+    }
+
+
+    .cmn-toggle-switch span {
+        display: block;
+        position: absolute;
+        top: 17px;
+        left: 9px;
+        right: 18px;
+        width: 50%;
+        height: 2px;
+        background: #fff
+    }
+
+    .cmn-toggle-switch span::before,
+    .cmn-toggle-switch span::after {
+        position: absolute;
+        display: block;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        content: "";
+    }
+
+    .cmn-toggle-switch span::before {
+        top: -7px;
+    }
+
+    .cmn-toggle-switch span::after {
+        bottom: -7px;
+    }
+
+
+
+    .cmn-toggle-switch__htx {
+        background-color: transparent
+    }
+
+    .cmn-toggle-switch__htx span {
+        -webkit-transition: background 0 0.3s;
+        transition: background 0 0.3s;
+    }
+
+    .cmn-toggle-switch__htx span::before,
+    .cmn-toggle-switch__htx span::after {
+        -webkit-transition-duration: 0.3s, 0.3s;
+        transition-duration: 0.3s, 0.3s;
+        -webkit-transition-delay: 0.3s, 0;
+        transition-delay: 0.3s, 0;
+    }
+
+    .cmn-toggle-switch__htx span::before {
+        -webkit-transition-property: top, -webkit-transform;
+        transition-property: top, transform;
+    }
+
+    .cmn-toggle-switch__htx span::after {
+        -webkit-transition-property: bottom, -webkit-transform;
+        transition-property: bottom, transform;
+    }
+
+    /* active state, i.e. menu open */
+    .cmn-toggle-switch__htx.active {
+        background-color: transparent;
+    }
+
+    .cmn-toggle-switch__htx.active span {
+        background: none;
+    }
+
+    .cmn-toggle-switch__htx.active span::before {
+        top: 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .cmn-toggle-switch__htx.active span::after {
+        bottom: 0;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .cmn-toggle-switch__htx.active span::before,
+    .cmn-toggle-switch__htx.active span::after {
+        -webkit-transition-delay: 0, 0.3s;
+        transition-delay: 0, 0.3s;
+    }
+
+    .navigation{    width: 30%;
+        position: absolute;
+        background-color: rgba(244, 0, 118,.95);
+        right: 0px;
+        top: 100%; padding: 15px 0
+    }
+    .dropdown-toggle::after{position: absolute; right: 20px; top: 15px}
+    .top_navigation .navigation .menubar li.active a{color: #fff}
+    .navigation .dropdown_menu, .navigation .dropdown_company, .navigation .dropdown_submenu{background-color: rgba(0,0,0,.1);
+        border: none;
+        box-shadow: none;
+        padding: 15px 20px !important;
+        margin: 10px 0; border-radius: 0}
+
+
+}
+@media only screen and (max-width: 767px){
+    .bg_home_page, .bg_shared_hosting_page, .bg_reseller_hosting_page, .bg_dedicated_hosting_page, .bg_vps_hosting_page{height: auto; background-position: center; padding-bottom: 100px}
+    .bg_home_page:before, .bg_shared_hosting_page:before, .bg_reseller_hosting_page:before, .bg_dedicated_hosting_page:before, .bg_vps_hosting_page:before, .bg_domain_page:before, .bg_about_page:before, .bg_contact_page:before{display: none}
+    .bg_home_page:after, .bg_shared_hosting_page:after, .bg_reseller_hosting_page:after, .bg_dedicated_hosting_page:after, .bg_vps_hosting_page:after, .bg_domain_page:after, .bg_about_page:after, .bg_contact_page:after{display: none}
+    .bg_domain_page, .bg_about_page, .bg_contact_page{height: 300px}
+    h1{font-size: 34px !important; line-height: 36px !important;}
+    .padding_top_150{padding-top: 100px}
+    .bg_home_page p, .bg_shared_hosting_page p, .bg_reseller_hosting_page p, .bg_dedicated_hosting_page p, .bg_vps_hosting_page p ,.bg_about_page p, .bg_contact_page p {font-size: 18px !important; margin-bottom: 10px}
+    .price_tag{font-size: 20px}
+    .price_tag .dollar_sign{font-size: 24px}
+    .price_tag .price_amount{font-size: 36px}
+    .btn_banner01{padding: 10px 20px; font-size: 16px}
+    .btn_banner02{padding: 10px 25px; font-size: 16px}
+    .padding_bottom_100{padding-bottom: 30px}
+    .padding_top_100{padding-top: 30px}
+    .padding_top_200{padding-top: 50px}
+    h2{font-size: 20px !important; line-height: 30px !important;}
+    .search_domain_section p{font-size: 14px}
+    .search_domain_section p br{display: none}
+    .search_area{height: 49px}
+    .banner_search_box .text_field{height: 100%; padding: 0 5px}
+    .banner_search_box .search_btn{padding: 16px 10px !important; font-size: 12px !important;}
+    .available_domains{display: none}
+    .why_choose_hosting p{font-size: 14px }
+    .why_choose_hosting p br{display: none}
+    .margin_bottom_60{margin-bottom: 10px}
+    .why_hosting_box{margin-bottom: 20px}
+    .bg_web_hosting p{font-size: 14px; padding: 0 15px}
+    .bg_web_hosting p br{display: none}
+    .web_hosting_box{margin-bottom: 20px}
+    .product_box{margin-bottom: 20px}
+    .testimonial_section p{font-size: 14px; line-height: 24px}
+    .footer_section:before{display: none}
+    .footer_section:after{display: none}
+    .footer_logo:before{display: none}
+    .padding_top_180{display: none}
+    .footer_column{display: none}
+    .footer_logo{text-align: center}
+    .padding_bottom_400{padding-bottom: 100px}
+    .carousel-indicators{bottom: -60px}
+    .cloud_product_section p{font-size: 14px}
+    .cloud_product_section p br{display: none}
+    .bg_build_website p br{display: none}
+    .high_quality_section p{font-size: 14px}
+    .why_hosting_section p{font-size: 14px}
+    .why_hosting_section p br{display: none}
+    .hosting_advanced_features_list li{text-align: center; padding-left: 0}
+    .faq_section p{font-size: 14px}
+    .faq_section p br{display: none}
+    .btn-link{font-size: 14px; white-space: normal}
+    .reseller_advanced_feature p, .why_dedicated_hosting p, .dedicated_advanced_feature p, .vps_why_hosting p{font-size: 14px}
+    .reseller_advanced_feature p br, .why_dedicated_hosting p br, .dedicated_advanced_feature p br{display: none}
+    .operating_system_box{width: 100%; margin-bottom: 20px}
+    .different_hosting_text{text-align: center; margin-top: 20px}
+    .different_hosting{text-align: center}
+    .popular_tlds_box{width: 100%; margin: 0 0 15px 0}
+    .btn_domain_tlds{font-size: 16px; padding: 8px 25px}
+    .popular_tlds_box .tlds_price span{font-size: 26px; line-height: 36px}
+    .popular_tlds_box span{font-size: 30px; line-height: 40px}
+    .tlds_section p{font-size: 14px}
+    .tlds_table tbody tr td{font-size: 16px}
+    .sliderbox{display: none}
+    .price_rangetxt{padding: 0}
+    .price_rangetxt div.icon span{font-size: 14px !important;}
+    .slider_detail{padding: 0 !important;}
+    .history_overview_section p{font-size: 14px; line-height: 24px}
+    .about_hosting_box, .hosting_team_box{margin-bottom: 20px}
+    .contact_info_box{margin-bottom: 20px}
+    .btn_get_started{margin-top: 20px; padding: 7px 30px; font-size: 14px}
+    .footer_site_link h6 br{display: none}
+    .navbar-toggler:focus{outline: none !important;}
+    .why_hosting_box figure{margin-bottom: 10px}
+    .price_content .value{font-size: 16px}
+    .price_content .value_text{padding: 0; font-size: 14px}
+    .slider_btn_box{padding: 0}
+    .cutted_price{text-align: center}
+    .price_txt{text-align: center}
+    .slider_btn_box div{width: 100%}
+    .vps_btn{margin: 15px 0 0 0 !important;}
+    .menubar li{padding: 0; position: relative; border-bottom: 1px solid rgba(255,255,255,.1)}
+    .menubar li:last-child{border-bottom: none}
+
+    .top_navigation .navigation .menubar li a{margin: 0}
+    .dd_bg_01, .dd_bg_02,.dd_bg_03, .dd_bg_04{background: none}
+    .menu_content{width: 100%; margin-left: 0}
+    .dropdown_menu_list{padding: 0}
+    div.dropdown_menu a{padding: 5px !important;}
+    div.dropdown_submenu a:before{display: none}
+    .navigation .dropdown_company{background-color: rgba(0,0,0,.1); border: none; box-shadow: none;}
+    .navigation .dropdown_company a .submenu_text span{color: #fff; font-weight: 400}
+    .dropdown_company a:before{width: 8px; height: 8px; background-color: #f40076; border-radius: 100px; border: 2px solid #f40076; top: 12px}
+    .menu_content{font-size: 0; line-height: 0}
+    .navigation .dropdown_company a{padding: 5px !important; line-height: 13px}
+    .navigation .dropdown_menu a span{font-size: 13px !important; color: #fff !important; font-weight: 400 !important; text-transform: uppercase; line-height: 13px; padding: 0}
+    .navigation .dropdown_menu{background-color: rgba(0,0,0,.1); border-top: 0; box-shadow: none}
+    .navigation .dropdown_menu a>.menu_content{position: relative}
+
+    .dropdown_menu{padding: 10px 0 10px 10px !important;}
+    .sb_dd_01, .sb_dd_02, .sb_dd_03, .sb_dd_04, .sb_dd_05, .sb_dd_06, .sb_dd_07, .sb_dd_08{background: none}
+    div.dropdown_submenu a:after{display: none}
+    .menu_text{width: 100%; margin: 0; font-size: 13px; font-weight: 400; color: #fff; line-height: 13px}
+    .navigation .dropdown_submenu{background: rgba(0,0,0,.1); border-top: none; box-shadow: none; padding: 0 40px 15px}
+    div.dropdown_submenu a{padding: 5px!important;}
+    div.dropdown_submenu a>.menu_text{position: relative}
+
+    div.dropdown_submenu{padding: 0 0 15px}
+    .top_navigation ,.navigation{margin-top: 0}
+    .navbar-brand{padding-top: 0; padding-bottom: 0}
+    .web_hosting_list li{text-align: center}
+    .bg_home_page h1{font-size: 30px !important; line-height: 34px !important;}
+    .padding_bottom_70{padding-bottom: 30px}
+    .padding_top_70{padding-top: 30px}
+    div .get_started_price_tag{font-size: 18px}
+    div .get_started_price_tag .price_amount{font-size: 36px}
+    .reseller_hosting_list li{font-size: 16px; line-height: 24px}
+    .margin_top_30{margin-top: 0}
+    .padding_tb_40{padding: 20px 0}
+    .vps_btn{font-size: 16px; line-height: 24px; padding: 10px 40px}
+    .mobile_margin{margin-bottom: 20px}
+    .bg_domain_page div.padding_top_150, .bg_about_page div.padding_top_150, .bg_contact_page div.padding_top_150{padding-top: 130px}
+    .bg_network_page div.padding_top_150{padding-top: 150px; text-align: center}
+    .bg_domain_page:after, .bg_about_page:after, .bg_network_page:after, .bg_contact_page:after, .bg_domain_page:before, .bg_about_page:before, .bg_network_page:before, .bg_contact_page:before{display: none}
+    .bg_network_page{height: 300px}
+    .margin_on_mobile{margin-bottom: 20px}
+}
+@media only screen and (max-width: 480px){
+    .web_hosting_list li{text-align: center}
+    .why_hosting_box, .premium_hosting_box, .inner_contact_info_box{font-size: 16px; line-height: 20px}
+    h2{font-size: 20px; line-height: 22px}
+    .bg_web_hosting p{line-height: 20px}
+    .mobile_margin{margin-bottom: 20px}
+    .dedicated_stack_table tbody tr td{text-align: center !important;}
+    h1{font-size: 20px !important; line-height: 28px !important;}
+    .padding_bottom_400{padding-bottom: 100px}
+    .card-header{padding: 10px 5px}
+    .panel-title > button:before{text-align: right}
+    body{font-size: 14px}
+    .bg_domain_page p{font-size: 18px !important; line-height: 18px !important; margin-bottom: 0}
+    .discounted_price span{font-size: 20px; line-height: 30px}
+    .coupon_code span{font-size: 18px; line-height: 20px}
+    .price_txt{font-size: 20px; line-height: 30px; text-align: left !important; }
+    .price_txt .numeric1{font-size: 30px; line-height: 36px}
+    .vps_btn{font-size: 14px; line-height: 18px; padding: 5px 20px}
+    .promotion_area{padding: 35px 0}
+    .discounted_price, .coupon_code{text-align: left}
+    .image_holder img{width: 50%}
+    .price_content{text-align: left}
+    .price_content .value{font-size: 14px}
+    .margin_mobile_top{margin-top: 30px}
+    .font_size_24{font-size: 16px}
+    .margin_left_100{margin-left: 60px}
+    .margin_top_60{margin-top: 30px}
+    .padding_top_40{padding-top: 0}
+    .comment_box_02 div.margin_left_100{margin-left: 0 !important;}
+    .comment_box_02 div.padding_left_25{padding-left: 85px; padding-top: 0}
+    .margin_left_60{margin-left: 0}
+    .navigation{width: 40%}
+
+}
+@media only screen and (max-width: 425px){
+    .navigation{width: 50%}
+}

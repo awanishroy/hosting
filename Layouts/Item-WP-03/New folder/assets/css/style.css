@@ -1,0 +1,668 @@
+@charset "utf-8";
+
+/* ----------------------------------
+
+Name: style.css
+Version: 1.0
+
+-------------------------------------
+Table of contents
+
+    01. Google font
+    02. Reset
+    03. Typography
+    04. Hover
+    05. Height
+    06. Width
+    07. Float
+    08. Bottom
+    09. Margin
+    10. Color
+    11. Padding
+    12. Border
+    13. Font Size
+    14. Line Height
+    15. Banner
+    16. Button
+    17. Position
+    18. Top Social Link
+    19. Navigation Bar
+    20. Counter Section
+    21. Transition
+    22. OverFlow
+    23. Shape Box
+    24. Z Index
+    25. Display Block
+    26. Volunteer
+    27. Footer Section
+
+*/
+
+/* ===================================
+    Google font
+====================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900');
+
+/* ===================================
+    Reset
+====================================== */
+body{color:#777; font-size: 16px;}
+.carousel-inner {overflow: hidden}
+.navbar {margin-bottom: 0}
+ul{margin: 0; padding: 0; list-style-type:none}
+a:hover{text-decoration: none}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{margin: 0}
+p{margin-bottom: 0;}
+a{text-decoration: none; color: #777}
+figure{margin: 0}
+/* ===================================
+    Typography
+====================================== */
+/*font family*/
+.rubik_font {font-family: 'Rubik', sans-serif;}
+/* ===================================
+    Border
+====================================== */
+.border_tb{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc}
+/* ===================================
+    Margin
+====================================== */
+.margin_0_auto{margin: 0 auto}
+/*margin*/
+.margin_lr_30       {margin: 0 30px}
+/*Margin Bottom*/
+.margin_bottom_5    {margin-bottom: 5px}
+.margin_bottom_10   {margin-bottom: 10px}
+.margin_bottom_15   {margin-bottom: 15px}
+.margin_bottom_20   {margin-bottom: 20px}
+.margin_bottom_25   {margin-bottom: 25px}
+.margin_bottom_26   {margin-bottom: 26px}
+.margin_bottom_30   {margin-bottom: 30px}
+.margin_bottom_35   {margin-bottom: 35px}
+.margin_bottom_40   {margin-bottom: 40px}
+.margin_bottom_50   {margin-bottom: 50px}
+.margin_bottom_53   {margin-bottom: 53px}
+.margin_bottom_60   {margin-bottom: 60px}
+.margin_bottom_65   {margin-bottom: 65px}
+.margin_bottom_70   {margin-bottom: 70px}
+.margin_bottom_75   {margin-bottom: 75px}
+.margin_bottom_80   {margin-bottom: 80px}
+.margin_bottom_85   {margin-bottom: 85px}
+.margin_bottom_90   {margin-bottom: 90px}
+.margin_bottom_95   {margin-bottom: 95px}
+.margin_bottom_100  {margin-bottom: 100px}
+
+/*Margin Right*/
+.margin_right_14   {margin-right: 14px}
+.margin_right_10   {margin-right: 10px}
+.margin_right_15  {margin-right: 15px}
+.margin_right_20   {margin-right: 20px}
+.margin_right_60   {margin-right: 60px}
+
+/*Margin Left*/
+.margin_left_14    {margin-left: 14px}
+.margin_left_10   {margin-left: 10px}
+.margin_left_15   {margin-left: 15px}
+.margin_left_20   {margin-left: 20px}
+.margin_left_30   {margin-left: 30px}
+.margin_left_50   {margin-left: 50px}
+.margin_left_60   {margin-left: 60px}
+.margin_left_100  {margin-left: 100px}
+
+/*Margin Top*/
+.margin_top-2   {margin-top: -2px}
+.margin_top_10  {margin-top: 10px}
+.margin_top_15  {margin-top: 15px}
+.margin_top_20  {margin-top: 20px}
+.margin_top_25  {margin-top: 25px}
+.margin_top_30  {margin-top: 30px}
+.margin_top_40  {margin-top: 40px}
+.margin_top_35  {margin-top: 35px}
+.margin_top_50  {margin-top: 50px}
+.margin_top_60  {margin-top: 60px}
+.margin_top_80  {margin-top: 80px}
+.margin_top_90  {margin-top: 90px}
+.margin_top_95  {margin-top: 95px}
+.margin_top_100 {margin-top: 100px}
+
+/* ===================================
+     Color
+====================================== */
+/*Colors*/
+.color_fff{color: #fff}
+.color_f40076{color: #f40076}
+.color_212529{color: #212529}
+.color_454545{color: #454545}
+.color_5c43bc{color: #5c43bc}
+.color_bfbfbf{color: #bfbfbf}
+/*Background Colors*/
+.bg_color_212529{background-color: #212529}
+.bg_color_f3f3f3{background-color: #f3f3f3}
+.bg_transparent{background-color: transparent}
+/* ===================================
+    padding
+====================================== */
+
+/*padding*/
+.no_padding{padding: 0}
+.padding_30  {padding: 30px}
+.padding_lr_95  {padding: 0 95px}
+.padding_tb_20  {padding: 20px 0}
+.padding_tb_40  {padding: 40px 0}
+
+/*padding top*/
+.padding_top_5  {padding-top: 5px}
+.padding_top_8  {padding-top: 8px}
+.padding_top_10 {padding-top: 10px}
+.padding_top_13 {padding-top: 13px}
+.padding_top_15	{padding-top: 15px}
+.padding_top_20 {padding-top: 20px}
+.padding_top_21 {padding-top: 21px}
+.padding_top_25 {padding-top: 25px}
+.padding_top_30 {padding-top: 30px}
+.padding_top_35 {padding-top: 35px}
+.padding_top_40 {padding-top: 40px}
+.padding_top_45	{padding-top: 45px}
+.padding_top_50 {padding-top: 50px}
+.padding_top_60 {padding-top: 60px}
+.padding_top_70 {padding-top: 70px}
+.padding_top_80 {padding-top: 80px}
+.padding_top_90 {padding-top: 90px}
+.padding_top_95 {padding-top: 95px}
+.padding_top_100{padding-top: 100px}
+.padding_top_105{padding-top: 105px}
+.padding_top_150{padding-top: 150px}
+.padding_top_130{padding-top: 130px}
+.padding_top_180{padding-top: 180px}
+.padding_top_200{padding-top: 200px}
+.padding_top_300{padding-top: 300px}
+
+/*padding bottom*/
+.padding_bottom_5   {padding-bottom: 5px}
+.padding_bottom_8   {padding-bottom: 8px}
+.padding_bottom_10	{padding-bottom: 10px}
+.padding_bottom_13  {padding-bottom: 13px}
+.padding_bottom_15	{padding-bottom: 15px}
+.padding_bottom_17  {padding-bottom: 17px}
+.padding_bottom_20  {padding-bottom: 20px}
+.padding_bottom_21  {padding-bottom: 21px}
+.padding_bottom_25  {padding-bottom: 25px}
+.padding_bottom_30  {padding-bottom: 30px}
+.padding_bottom_35  {padding-bottom: 35px}
+.padding_bottom_40  {padding-bottom: 40px}
+.padding_bottom_50  {padding-bottom: 50px}
+.padding_bottom_45	{padding-bottom: 45px}
+.padding_bottom_55  {padding-bottom: 55px}
+.padding_bottom_60  {padding-bottom: 60px}
+.padding_bottom_65  {padding-bottom: 65px}
+.padding_bottom_70  {padding-bottom: 70px}
+.padding_bottom_75  {padding-bottom: 75px}
+.padding_bottom_80  {padding-bottom: 80px}
+.padding_bottom_85  {padding-bottom: 85px}
+.padding_bottom_85  {padding-bottom: 85px}
+.padding_bottom_90  {padding-bottom: 90px}
+.padding_bottom_100 {padding-bottom: 100px}
+.padding_bottom_200 {padding-bottom: 200px}
+.padding_bottom_300 {padding-bottom: 300px}
+.padding_bottom_400 {padding-bottom: 400px}
+
+/*padding left*/
+.padding_left_0     {padding-left: 0}
+.padding_left_10    {padding-left: 10px}
+.padding_left_15    {padding-left: 15px}
+.padding_left_20    {padding-left: 20px}
+.padding_left_25    {padding-left: 25px}
+.padding_left_30	{padding-left: 30px}
+.padding_left_40    {padding-left: 40px}
+.padding_left_50    {padding-left: 50px}
+.padding_left_55    {padding-left: 55px}
+.padding_left_58    {padding-left: 58px}
+.padding_left_60    {padding-left: 60px}
+.padding_left_70    {padding-left: 70px}
+.padding_left_75    {padding-left: 75px}
+.padding_left_80    {padding-left: 80px}
+.padding_left_85    {padding-left: 85px}
+.padding_left_95    {padding-left: 95px}
+.padding_left_100   {padding-left: 100px}
+
+/*padding right*/
+.padding_right_0    {padding-right: 0}
+.padding_right_10   {padding-right: 10px}
+.padding_right_15   {padding-right: 15px}
+.padding_right_20   {padding-right: 20px}
+.padding_right_30	{padding-right: 30px}
+.padding_right_40   {padding-right: 40px}
+.padding_right_50   {padding-right: 50px}
+.padding_right_55   {padding-right: 55px}
+.padding_right_58   {padding-right: 58px}
+.padding_right_60   {padding-right: 60px}
+.padding_right_70   {padding-right: 70px}
+.padding_right_75   {padding-right: 75px}
+.padding_right_80   {padding-right: 80px}
+
+/* ===================================
+     Font Size
+====================================== */
+/*Font Size*/
+.font_size_12   {font-size: 12px}
+.font_size_14   {font-size: 14px}
+.font_size_16   {font-size: 16px}
+.font_size_18   {font-size: 18px}
+.font_size_20   {font-size: 20px}
+.font_size_22   {font-size: 22px}
+.font_size_24   {font-size: 24px}
+.font_size_26   {font-size: 26px}
+.font_size_28   {font-size: 28px}
+.font_size_30   {font-size: 30px}
+.font_size_32   {font-size: 32px}
+.font_size_34   {font-size: 34px}
+.font_size_36   {font-size: 36px}
+.font_size_40   {font-size: 40px}
+.font_size_42   {font-size: 42px}
+.font_size_44   {font-size: 44px}
+.font_size_48   {font-size: 48px}
+.font_size_60   {font-size: 60px}
+.font_size_64   {font-size: 64px}
+.font_size_50   {font-size: 50px}
+.font_size_70   {font-size: 70px}
+.font_size_80   {font-size: 80px}
+.font_size_90   {font-size: 90px}
+
+/*Font weight*/
+.font_weight_100{font-weight: 100}
+.font_weight_300{font-weight: 300}
+.font_weight_400{font-weight: 400}
+.font_weight_500{font-weight: 500}
+.font_weight_600{font-weight: 600}
+.font_weight_700{font-weight: 700}
+.font_weight_900{font-weight: 900}
+/* ===================================
+     Line Height
+====================================== */
+/*Line Height*/
+.line_height_18    {line-height: 18px}
+.line_height_22    {line-height: 22px}
+.line_height_24    {line-height: 24px}
+.line_height_25    {line-height: 25px}
+.line_height_28    {line-height: 28px}
+.line_height_30    {line-height: 30px}
+.line_height_34    {line-height: 34px}
+.line_height_36    {line-height: 36px}
+.line_height_40    {line-height: 40px}
+.line_height_42    {line-height: 42px}
+.line_height_48    {line-height: 48px}
+.line_height_54    {line-height: 54px}
+.line_height_65    {line-height: 65px}
+.line_height_80    {line-height: 80px}
+.line_height_82    {line-height: 82px}
+
+/*Height*/
+.height_24{height: 24px}
+
+/* ===================================
+     Button
+====================================== */
+.btn_banner01{display:inline-block; font-size: 20px; font-family: 'Rubik', sans-serif; font-weight: 400; color: #f40076; padding: 18px 60px; border-radius: 10px; background-color: #fff; border: 2px solid #fff; margin-right: 15px; transition: all ease-in-out 0.4s; z-index: 9 !important; position: relative}
+.btn_banner02{display:inline-block; font-size: 20px; font-family: 'Rubik', sans-serif; font-weight: 400; color: #fff; padding: 18px 60px; border-radius: 10px; background-color: transparent; border: 2px solid #fff; transition: all ease-in-out 0.4s; z-index: 9 !important; position: relative}
+.btn_hosting_box{display: inline-block; color: #f40076; background-color: #fff;border: 2px solid #fff; border-radius: 10px; padding: 10px 60px; margin-bottom: 30px; font-size: 20px; line-height: 48px; font-weight: 400}
+.btn_reseller_hosting_box{display: inline-block; color: #f40076; background-color: #fff; border: 2px solid #fff; border-radius: 10px; padding: 5px 40px; margin-bottom: 30px; font-size: 20px; line-height: 48px; font-weight: 400; transition: all ease-in-out 0.4s}
+.btn_get_started{display: inline-block; font-size: 20px; font-weight: 400; color: #fff; background-color: #f40076; border: 2px solid #f40076; padding: 20px 60px; border-radius: 10px; transition: all ease-in-out 0.4s}
+.btn_top_nav{display: inline-block; font-size: 16px; font-weight: 400; color: #fff; border: 2px solid #fff; background-color: transparent; padding: 10px 30px; border-radius: 10px; transition: all ease-in-out 0.4s}
+.btn_different_package{display: inline-block;font-size: 20px; font-weight: 400; color: #f40076; background-color: #fff; border-radius: 10px; padding: 20px 34px; transition: all ease-in-out 0.4s; border: 2px solid #fff}
+/* ===================================
+         Hover
+====================================== */
+.btn_banner01:hover{background-color: #f40076; color: #fff; border: 2px solid #f40076}
+.btn_banner02:hover{background-color: #5c43bc; color: #fff; border: 2px solid #5c43bc}
+.web_hosting_box:hover{background-color: #fff; border: none; border: 2px solid #fff}
+.web_hosting_box:hover h3{background-color: #f40076}
+.web_hosting_box:hover .hosting_price{color: #5c43bc}
+.web_hosting_box:hover .web_hosting_list li{color: #212529}
+.web_hosting_box:hover .btn_hosting_box{background-color: #f40076; border: 2px solid #f40076; color: #fff}
+.btn_top_nav:hover{background-color: #fff; border: 2px solid #fff; color: #f40076; font-weight: 400}
+.product_box:hover{border: 2px solid #f40076}
+.product_box:hover h3{color: #f40076}
+.dd_bg_01:hover{background: url("../images/web_hosting_hover.png") no-repeat 5px center}
+.dd_bg_02:hover{background: url("../images/reseller_hosting_hover.png") no-repeat 5px center}
+.dd_bg_03:hover{background: url("../images/vps_hosting_hover.png") no-repeat 5px center}
+.dd_bg_04:hover{background: url("../images/dedicated_hosting_hover.png") no-repeat 5px center}
+.sb_dd_01:hover{background: url("../images/announcement_hover.png") no-repeat 5px center}
+.sb_dd_02:hover{background: url("../images/service_hover.png") no-repeat 5px center}
+.sb_dd_03:hover{background: url("../images/update_detailhover.png") no-repeat 5px center}
+.sb_dd_04:hover{background: url("../images/update_creaditcardhover.png") no-repeat 5px center}
+.sb_dd_05:hover{background: url("../images/domain-hover.png") no-repeat 5px center}
+.sb_dd_06:hover{background: url("../images/submit_tickethover.png") no-repeat 5px center}
+.sb_dd_07:hover{background: url("../images/deposit_fundhover.png") no-repeat 5px center}
+.sb_dd_08:hover{background: url("../images/manage_contacthover.png") no-repeat 5px center}
+.dd_bg_01:hover .menu_content span, .dd_bg_02:hover .menu_content span, .dd_bg_03:hover .menu_content span, .dd_bg_04:hover .menu_content span{color: #f40076; transition-duration: 0.4s}
+.sb_dd_01:hover .menu_text span, .sb_dd_02:hover .menu_text span, .sb_dd_03:hover .menu_text span, .sb_dd_04:hover .menu_text span, .sb_dd_05:hover .menu_text span, .sb_dd_06:hover .menu_text span, .sb_dd_07:hover .menu_text span, .sb_dd_08:hover .menu_text span{color: #f40076}
+.card-header:hover{background-color: #f40076; cursor: pointer}
+.card-header:hover .btn-link{color: #fff; text-decoration: none}
+.btn_get_started:hover{background-color: #5c43bc; border: 2px solid #5c43bc; color: #fff}
+.web_hosting_box:hover .btn_reseller_hosting_box{background-color: #f40076; border: 2px solid #f40076; color: #fff}
+.bg_menu_hosting>.btn_hosting_location:hover{background-color: #fff !important;border: 2px solid #fff !important; color: #5c43bc !important; border-radius: 10px !important;}
+.web_hosting_box:hover .reseller_hosting_list li{color: #212529}
+.btn_register:hover{background-color: #f40076; color: #fff}
+.web_hosting_box.active .btn_hosting_box:hover{background-color: transparent; border: 2px solid #f40076; color: #f40076}
+
+/* ===================================
+      Navigation Bar
+====================================== */
+a.logo img{width: 125px}
+.top_navigation{padding: 0 100px}
+.top_navigation .navigation .menubar li a{font-size: 14px; color: #fff; font-family: 'Rubik', sans-serif; font-weight: 400; text-transform: uppercase; padding: 40px 0; margin:0 15px; transition: all ease-in-out 0.4s}
+.top_navigation .navigation .menubar li.active a{color: #f40076}
+.top_navigation .navigation .menubar>li:hover a{color: #f40076}
+.nav_contact{margin-left: 100px}
+.nav_contact li{display: inline-block; padding: 0 10px}
+.nav_contact li i{font-size: 14px; color: #f40076; font-weight: 400; padding-right: 10px}
+.nav_contact li a{font-size: 14px; color: #fff; font-weight: 400}
+/*Drop-Down Menu*/
+
+/*Drop-Down Menu*/
+.navigation .dropdown_menu{width: 100%; background-color: #fff; float: left; border-radius: 10px; box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3); border-top: 4px solid #f40076; top: 86px; left: 0; right: 0; margin: 0 auto; border-left: none; border-right: none; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out}
+.navigation .dropdown_submenu {width: 100%; background-color: #fff; float: left; border-radius: 10px; box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3); border-top: 4px solid #f40076; top: 86px; left: 0; right: 0; margin: 0 auto; border-left: none; border-right: none}
+.navigation .dropdown_company {width: 250px; background-color: #fff; float: left; border-radius: 10px; box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3); border-bottom: 4px solid #f40076; top: 86px; left: -60px; right: 0; margin: 0 auto; border-left: none; border-right: none; position: absolute !important; position: relative}
+.navigation .dropdown_company:before{position: absolute; content: ""; 	width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #fff; top: -10px; left:0; right: 40px; margin: 0 auto;}
+.navigation .dropdown_menu li{margin: 0; padding-bottom: 0; list-style: none; width: 100%; background: none; float: left; font-size: 14px}
+div.dropdown_menu a{font-size: 14px; font-weight: normal; line-height: 18px; margin: 0; color: #777; transition: all ease-in-out 0.6s; float: left; width: 100%; padding: 20px 0 !important;}
+.menu_content{font-size: 12px; float: left; width: 70%; text-align: left; margin-left: 30%; line-height: 18px; color: #777; font-weight: 400; text-transform: none}
+.navigation .dropdown_menu a span{font-size: 20px; display: block; line-height: 20px; transition: all ease-in-out 0.6s; color: #5c43bc; margin-bottom: 5px; font-weight: 500}
+.dd_bg_01{background: url("../images/web_hosting.png") no-repeat 5px center; position: relative; transition: all ease-in-out 0.6s}
+.dd_bg_01:before, .dd_bg_02:before, .dd_bg_03:before, .dd_bg_04:before{position: absolute; content: ""; height: 70px; width: 1px; background-color: #c0c3ce; left: 0; right: 175px; margin: 0 auto;}
+.dd_bg_02{background: url("../images/reseller_hosting.png") no-repeat 5px center; position: relative; transition: all ease-in-out 0.6s; }
+.dd_bg_03{background: url("../images/vps_hosting.png") no-repeat 5px center; position: relative; transition: all ease-in-out 0.6s;}
+.dd_bg_04{background: url("../images/dedicated_hosting.png") no-repeat 5px center; position: relative; transition: all ease-in-out 0.6s;}
+div.dropdown_submenu a{font-size: 14px; font-weight: normal; line-height: 18px; margin: 0; color: #777; transition: all ease-in-out 0.6s; float: left; width: 100%; padding: 30px 0 !important; position: relative}
+div.dropdown_submenu a:after{position: absolute; content: ""; height: 1px; width: 80%; bottom: 0; left: 15px; background-color: #ccc}
+div.dropdown_submenu a:last-child:after{display: none}
+div.dropdown_submenu a:before{content: ""; position: absolute; border: 1px solid #dadada; height: 40px; left: 58px; top: 0; bottom: 0; margin: auto}
+div.dropdown_submenu{padding: 20px 0}
+.sb_dd_01{background: url("../images/announcement.png") no-repeat 5px center}
+.sb_dd_02{background: url("../images/service_icon.png") no-repeat 5px center}
+.sb_dd_03{background: url("../images/update_detail.png") no-repeat 5px center}
+.sb_dd_04{background: url("../images/update_creditcard.png") no-repeat 5px center}
+.sb_dd_05{background: url("../images/domain.png") no-repeat 5px center}
+.sb_dd_06{background: url("../images/submitticket.png") no-repeat 5px center}
+.sb_dd_07{background: url("../images/deposit_fund.png") no-repeat 5px center}
+.sb_dd_08{background: url("../images/manage_contact.png") no-repeat 5px center}
+.menu_text{float: left; width: 75%; text-align: left; margin-left: 25%; line-height: 18px; color: #5c43bc; font-size: 14px; font-weight: 500}
+.local_listing{position: relative; display: table-cell; vertical-align: middle}
+.local_listing ul{padding: 0; margin: 0; list-style-type: none}
+.local_listing ul li{float: none; position: relative; color: #fff; padding-left: 40px; display: block; text-align: left}
+.local_listing .local_listing_inner{position: absolute; right: 0; top: 0; width: 65%; padding: 30px 0; display: block}
+.local_listing_inner h6{font-size: 26px; line-height: 28px; color: #fff; text-transform: uppercase; margin-left: 35px; font-weight: 600}
+.local_listing_inner p{font-size: 14px; line-height: 16px; font-weight: 600; text-transform: uppercase; color: #fff; margin-bottom: 20px; margin-left: 30px}
+.dropdown, .dropup{position: inherit}
+.company_dropdown, .dropdown_company a{position: relative}
+/*.bg_submenu{background: url("../images/hostiko_whmcs.png") no-repeat center; background-size: cover; width: 346px; height: 268px; text-align: center; border-radius: 10px; margin: 0 auto}*/
+.bg_submenu h2{color: #fff; font-size: 36px; font-weight: 600; line-height: 34px; padding-top: 30px}
+.bg_submenu h2 .small_color_text{color: #1699e5; font-weight: 600; font-size: 24px}
+.navigation .dropdown_company a{padding: 10px 20px !important; margin: 0 !important;}
+.navigation .dropdown_company a .submenu_text span{color: #5c43bc; font-size: 14px; text-transform: uppercase; font-weight: 500; padding-left: 30px}
+.navigation .dropdown_company a div.submenu_text span{transition: all ease-in-out 0.4s}
+.dropdown-item:focus, .dropdown-item:hover{background-color: transparent}
+.bg_menu_hosting{background: url("../images/hosting_maping.png")no-repeat center; background-size: cover; width: 100%; height: 185px; padding: 30px 0; border-radius: 10px}
+.bg_menu_hosting h5{color: #fff; line-height: 28px; font-size: 24px; margin-bottom: 15px; font-weight: 500; text-align: center}
+.bg_menu_hosting>.btn_hosting_location{background: #f40076; color: #fff !important; padding: 18px 28px !important; display: inline-block; font-size: 16px; line-height: 16px; font-weight: 500; border-radius: 10px; border: solid 2px #fff; width: auto !important; float: none !important;}
+.dropdown_company a:before{position: absolute; content: ""; width: 12px; height: 12px; background-color: transparent; border: 2px solid #5c43bc; border-radius: 100%; left: 30px; top: 14px}
+.dropdown_company a:hover div.submenu_text span{color: #f40076 !important;}
+.dropdown_company a:hover:before{border: 2px solid #f40076}
+.navbar-toggler-icon{background-image: url("../images/toogle_button.svg")}
+.btn_different_package:hover{background-color: #f40076; border: 2px solid #f40076; color: #fff}
+/* ===================================
+     Banner
+====================================== */
+.bg_home_page{background: url("../images/banner.jpg") no-repeat center; background-size: cover; width: 100%; height: 940px; position: relative}
+.bg_shared_hosting_page{background: url("../images/shared_banner.jpg") no-repeat center; background-size: cover; width: 100%; height: 940px; position: relative}
+.bg_reseller_hosting_page{background: url("../images/reseller_banner.jpg") no-repeat center; background-size: cover; width: 100%; height: 940px; position: relative}
+.bg_dedicated_hosting_page{background: url("../images/dedicated_banner.jpg") no-repeat center; background-size: cover; width: 100%; height: 940px; position: relative}
+.bg_vps_hosting_page{background: url("../images/vps_banner.jpg") no-repeat center; background-size: cover; width: 100%; height: 940px; position: relative}
+.bg_domain_page{background: url("../images/domain_banner.jpg") no-repeat center; background-size: cover; width: 100%; height: 600px; position: relative}
+.bg_about_page, .bg_network_page{background: url("../images/about_us.jpg") no-repeat center; background-size: cover; width: 100%; height: 600px; position: relative}
+.bg_contact_page{background: url("../images/contact_usbg.jpg") no-repeat center; background-size: cover; width: 100%; height: 600px; position: relative}
+.bg_home_page:before{position: absolute; content: ""; background: url("../images/subbanner_wave.png");width: 100%; height: 565px; bottom: -265px; z-index: 1}
+.bg_shared_hosting_page:before, .bg_reseller_hosting_page:before,.bg_dedicated_hosting_page:before, .bg_vps_hosting_page:before {position: absolute; content: ""; background: url("../images/subbanner_wave.png");width: 100%; height: 565px; bottom: -265px; z-index: 1}
+.bg_home_page:after,.bg_shared_hosting_page:after, .bg_reseller_hosting_page:after,.bg_dedicated_hosting_page:after, .bg_vps_hosting_page:after{position: absolute; content: ""; background: url("../images/homebanner_curve.png") no-repeat center; width: 100%; height: 234px; bottom: -15px; background-size: cover}
+.bg_domain_page:before, .bg_about_page:before,.bg_network_page:before, .bg_contact_page:before{position: absolute; content: ""; background: url("../images/subbanner_wave.png");width: 100%; height: 565px; bottom: -235px; z-index: 1}
+.bg_domain_page:after, .bg_about_page:after,.bg_network_page:after, .bg_contact_page:after{position: absolute; content: ""; background: url("../images/homebanner_curve.png") no-repeat center; width: 100%; height: 234px; bottom: -15px; background-size: cover}
+.price_tag{font-size: 24px; font-weight: 300; font-family: 'Rubik', sans-serif; margin-bottom: 15px}
+.price_tag .dollar_sign{font-size: 30px}
+.price_tag .price_amount{font-size: 50px}
+.bg_home_page p, .bg_shared_hosting_page p, .bg_reseller_hosting_page p, .bg_dedicated_hosting_page p{letter-spacing: 1px}
+/* ===================================
+      Search Domain Section
+====================================== */
+.banner_search_box{width: 100%; position: relative; display: inline-block; text-align: center; padding: 0 90px}
+.search_area{width: 100%; position: relative}
+.btn_submit{position: absolute; right: 90px}
+.domain_listing li:first-child{padding-left: 0}
+.banner_search_box .text_field{width: 100%; font-size: 16px; line-height: 36px; height: 74px; padding: 0 20px; box-shadow: 0 0 5px 0 rgba(0,0,0,.0); border: 3px solid #dddae7; background-color: #fff; font-weight: 300; color: #777; border-radius: 14px; margin: 0 auto; float: none;}
+.banner_search_box .search_btn{right: 8px; top: 8px; padding: 25px 35px !important; font-size: 20px !important; font-weight: 400; color: #fff !important; transition-duration: 0.4s; line-height: 1; border: 2px solid #f40076; background-color: #f40076 !important; border-radius: 0 15px 15px 0; transition: all ease-in-out 0.4s}
+.banner_search_box .search_btn:hover{background-color: #5c43bc !important; border: 2px solid #5c43bc}
+.banner_search_box .text_field:focus{outline: none; border: 3px solid #dddae7}
+.available_domains{margin-top: 40px}
+.available_domains li{display: inline-block; padding: 0 45px; border-right: 1px solid #cfd4dc}
+.available_domains li:last-child{border-right: 0}
+.domain_price{font-size: 20px; color: #f40076; font-weight: 300; font-family: 'Rubik', sans-serif}
+.domain_price .amount{font-size: 30px}
+/* ===================================
+      Why Hosting Section
+====================================== */
+.why_hosting_box, .premium_hosting_box, .inner_contact_info_box{font-size: 26px; font-weight: 400; color: #454545; font-family: 'Rubik', sans-serif; line-height: 50px}
+.why_hosting_box figure, .premium_hosting_box figure{min-height: 100px; transition: all ease-in-out 0.4s}
+.why_hosting_box:hover figure, .premium_hosting_box:hover figure{transform: translateY(-10px)}
+.premium_hosting_box p, .why_hosting_box p{padding: 0 15px}
+.margin_box{margin-bottom: 40px}
+/* ===================================
+      Web Hosting Section
+====================================== */
+.bg_web_hosting{background: url("../images/web_hotingproducts_bg.jpg") no-repeat center; background-size: cover; width: 100%}
+.web_hosting_box{border: 2px solid #fff; border-radius: 25px; transition: all ease-in-out 0.4s}
+.web_hosting_box.active h3{background-color: #f40076}
+.web_hosting_box.active{background-color: #fff; border: none}
+.web_hosting_box.active .hosting_price{color: #5c43bc}
+.web_hosting_box.active .web_hosting_list li{color: #454545}
+.web_hosting_box.active .btn_hosting_box{background-color: #f40076; color: #fff; border: 2px solid #f40076}
+.web_hosting_box h3{background-color: #a49295; border-radius: 25px 25px 0 0; padding: 35px 0; font-size: 26px; font-weight: 400; font-family: 'Rubik', sans-serif; text-transform: capitalize}
+.hosting_price{font-size: 30px; font-weight: 400; padding: 20px 0 0; text-transform: uppercase; margin-bottom: 10px}
+.hosting_price .hosting_amount{font-size: 60px}
+.web_hosting_list li{font-size: 20px; line-height: 38px; font-weight: 400; text-align: left}
+.reseller_hosting_list{margin-bottom: 20px}
+.reseller_hosting_list li{font-size: 18px; line-height: 38px; font-weight: 400; text-align: center; transition: all ease-in-out 0.4s}
+.web_hosting_list{margin-bottom: 25px; padding: 0 0 0 80px}
+.shared_hosting_list{padding: 0 0 0 40px}
+/* ===================================
+      Cloud Products Section
+====================================== */
+.product_box{border: 2px solid #e3e3e3; border-radius: 10px; transition: all ease-in-out 0.4s}
+.product_box figure{padding: 45px 0}
+.product_box h3{font-size: 24px; color: #212529; font-weight: 500; margin-bottom: 15px; transition: all ease-in-out 0.4s}
+.product_box p{font-size: 16px; font-weight: 300; line-height: 26px; padding: 0 25px; margin-bottom: 45px}
+/* ===================================
+      Build your Website Section
+====================================== */
+.bg_build_website{background: url("../images/call_ofaction.jpg") no-repeat center; background-size: cover; width: 100%}
+div .get_started_price_tag{display: inline-block; font-size: 24px; line-height: 30px; font-weight: 300}
+div .get_started_price_tag .price_amount{font-size: 50px}
+.bg_build_website p{margin-bottom: 5px}
+/* ===================================
+      Testimonial Section
+====================================== */
+.testimonial_rating span{font-size: 46px; line-height: 52px; font-weight: 300; color: #5c43bc}
+.carousel-indicators li{width: 10px; height: 10px; border-radius: 100%; background-color: #bababa; margin: 0 15px}
+.carousel-indicators li.active{background-color: #5c43bc}
+.carousel-indicators li.active:before {border: 2px solid #5c43bc}
+.carousel-indicators li:before{position: absolute; top: -12px; display: inline-block; width: 34px; height: 34px; content: ""; border-radius: 100%; background-color: transparent; border: 2px solid #bababa; right: -12px; left: inherit}
+.carousel-indicators{bottom: -100px}
+/* ===================================
+  Footer Section
+====================================== */
+.footer_section{position: relative}
+.footer_section:before{position: absolute; content: ""; background: url("../images/subbanner_wave.png"); width: 100%; height: 565px; top: -365px; left: 0; right: 0; margin: 0 auto; z-index: 1}
+.footer_section:after{position: absolute; content: ""; background: url("../images/footer_curveshap.png") no-repeat center; width: 100%; height: 234px; top: -212px; background-size: cover}
+.footer_logo{position: relative}
+.footer_logo:before{position: absolute; content: ""; background: url("../images/footer_logo.png"); width: 564px; height: 100px; top: 0; left: 0; right: 0; margin: 0 auto}
+.footer_pages_link h4{margin-bottom: 10px; font-size: 18px; line-height: 20px; font-weight: 400; text-transform: uppercase}
+.footer_pages_link ul li a{font-size: 14px; line-height: 24px; font-weight: 300; color: #bfbfbf}
+.footer_pages_link_list li a:hover{color: #5c43bc}
+.footer_contact_info h4{margin-bottom: 10px; font-size: 18px; line-height: 20px; font-weight: 400; text-transform: uppercase}
+.footer_contact_info ul li{padding-bottom: 15px}
+.footer_contact_info ul li:last-child{padding-bottom: 0}
+.footer_contact_info ul li:first-child{line-height: 20px}
+.footer_contact_info ul li a{color: #5c43bc}
+.footer_contact_info ul li span{color: #bfbfbf; font-size: 14px; font-weight: 300}
+.footer_pages_link ul li i{padding-right: 10px; min-width: 30px}
+.footer_site_link h6 a{color: #f40076}
+.footer_site_link h6 a:hover{color: #5c43bc}
+.footer_site_link h4 {margin-bottom: 10px}
+.footer_pages_link ul li:hover i{color: #5c43bc}
+.footer_pages_link ul li:hover a{color: #5c43bc}
+.address_box{display: inline-block; color: #5c43bc}
+.footer_contact_info ul li a:hover span{color: #5c43bc}
+/* ===================================
+          Shared Hosting Features
+====================================== */
+.hosting_advanced_features_list li{position: relative; text-align: left; font-size: 18px; font-weight: 400; color: #212529; line-height: 50px; padding-left: 40px}
+.hosting_advanced_features_list li:before{position: absolute; content: ""; background: url("../images/tick_mark.png"); width: 22px; height: 17px; top: 15px; left: 0}
+
+/* ===================================
+      FAQ Accordion Section
+====================================== */
+.btn-link{font-size: 20px; font-weight: 300; color: #fff; display: inline-block; width: 100%; text-align: left}
+.panel-title > button:before {float: right !important; font-family: FontAwesome; content:"\f068"; padding-top: 3px; width: 30px; text-align: center; background-color: transparent; color: #fff}
+.panel-title > button:hover:before{background-color: transparent}
+.panel-title > button.collapsed:before {float: right !important; content:"\f067"}
+.panel-title > button:hover, .panel-title > button:active, .panel-title > button:focus  {text-decoration:none}
+.card{margin-bottom: 20px; border: none; border-radius: 0}
+.card-header{border-bottom: none; background-color: #5c43bc; border-radius: 10px !important; transition: all ease-in-out 0.4s}
+.card-body{text-align: justify}
+#accordion .card.active .card-header{background-color: #f40076}
+/* ===================================
+      Stack Table Section
+====================================== */
+.dedicated_stack_table thead th{font-size: 20px; line-height: 24px; font-weight: 500; color: #fff; background-color: #f40076; text-transform: uppercase; padding: 25px 20px; text-align: left}
+.dedicated_stack_table tbody tr td{text-align: left; padding: 25px 20px; font-size: 16px; font-weight: 300; color: #212529; vertical-align: middle; transition: all ease-in-out 0.4s}
+.dedicated_stack_table tbody tr:nth-child(odd){background-color: #f3f3f3}
+.dedicated_stack_table tbody tr td:nth-child(6){color: #f40076; font-weight: 500; font-size: 20px}
+.btn_register{font-size: 14px; font-weight: 400; color: #fff; background-color: #5c43bc; border-radius: 10px; padding: 14px 22px; transition: all ease-in-out 0.4s}
+.dedicated_stack_table tbody tr:hover td{color: #f40076}
+.dedicated_stack_table tbody tr:hover{background-color: #ffecf5}
+.dedicated_stack_table tbody tr:hover .btn_register{background-color: #f40076}
+    /* ===================================
+          Feature Section
+    ====================================== */
+.bg_operating_system{background: url("../images/web_hotingproducts_bg.jpg") no-repeat center; background-size: cover; width: 100%}
+.operating_system_box{border: 2px solid #fff; border-radius: 10px; background-color: transparent; width: 200px; height:200px; display: table; float: left; margin: 0 11px; transition: all ease-in-out 0.4s}
+.operating_system_img01{background: url("../images/cpanl.png") no-repeat center; width: 101px; height: 67px; vertical-align: middle; display: table-cell}
+.operating_system_img02{background: url("../images/ortagone.png") no-repeat center; width: 101px; height: 67px; vertical-align: middle; display: table-cell}
+.operating_system_img03{background: url("../images/rounded_shape.png") no-repeat center; width: 101px; height: 67px; vertical-align: middle; display: table-cell}
+.operating_system_img04{background: url("../images/circle.png") no-repeat center; width: 101px; height: 67px; vertical-align: middle; display: table-cell}
+.operating_system_img05{background: url("../images/window_icon.png") no-repeat center; width: 101px; height: 67px; vertical-align: middle; display: table-cell}
+.operating_system_box:hover{background-color: #fff; border: 2px solid #fff; transform: translateY(-15px)}
+.operating_system_box:hover .operating_system_img01{background: url("../images/cpanl_hover.png") no-repeat center;}
+.operating_system_box:hover .operating_system_img02{background: url("../images/ortagone_hover.png") no-repeat center;}
+.operating_system_box:hover .operating_system_img03{background: url("../images/rounded_shape_hover.png") no-repeat center;}
+.operating_system_box:hover .operating_system_img04{background: url("../images/circle_hover.png") no-repeat center;}
+.operating_system_box:hover .operating_system_img05{background: url("../images/window_icon_hover.png") no-repeat center;}
+/* ===================================
+          Domain TLD's Section
+====================================== */
+.popular_tlds_box{box-shadow: 0 0 0 2px #fff inset; border-radius: 10px; background-color: transparent;width: 18%; float: left; margin: 0 11px; transition: all ease-in-out 0.4s}
+.popular_tlds_box span{font-size: 30px; line-height: 40px; font-weight: 400; text-transform: uppercase}
+.popular_tlds_box .tld_name{padding: 20px 0; border-bottom: 2px solid #fff}
+.popular_tlds_box .tlds_price{padding: 20px 0; font-size: 16px; line-height: 40px;font-weight: 400}
+.popular_tlds_box .tlds_price span{font-size: 26px; line-height: 40px; font-weight: 400}
+.btn_domain_tlds{display: inline-block; font-size: 16px; font-weight: 400; color: #fff; border: 2px solid #fff; padding: 8px 25px; border-radius: 10px; margin-bottom: 30px}
+.popular_tlds_box:hover{background-color: #fff; border: none}
+.popular_tlds_box:hover .tld_name{background-color: #f40076; border-radius: 10px 10px 0 0}
+.popular_tlds_box:hover .btn_domain_tlds{background-color: #f40076; border: 2px solid #fff; color: #fff}
+.popular_tlds_box:hover .tlds_price{color: #212529}
+/* ===================================
+   Stack TLD's Table Section
+====================================== */
+.tlds_table thead th{font-size: 20px; line-height: 24px; font-weight: 500; color: #fff; background-color: #f40076; text-transform: uppercase; padding: 25px 15px 25px 50px; text-align: left}
+.tlds_table tbody tr td{padding: 25px 15px 25px 50px; font-size: 20px; font-weight: 300; color: #212529; vertical-align: middle; transition: all ease-in-out 0.4s; text-align: left}
+.tlds_table tbody tr td:first-child{text-transform: uppercase}
+.tlds_table tbody tr:nth-child(odd){background-color: #f3f3f3}
+.tlds_table tbody tr:hover td{color: #f40076}
+.tlds_table tbody tr:hover{background-color: #ffecf5; transition: 0.4s}
+.table td{border-top: none}
+/* ===================================
+   Hosting Team Member Section
+====================================== */
+.team_social_links li{display: inline-block}
+.name_team_member{font-size: 20px; line-height: 24px; font-weight: 400; color: #212529; margin-top: 20px}
+.hosting_team_rank{font-size: 16px; font-weight: 400; color: #212529}
+.team_social_links{margin-top: 25px}
+.team_social_links li{display: inline-block; padding: 0 5px}
+.team_social_links li a i{font-size: 14px; color: #fff}
+.team_social_links li a{display: table; width: 30px; height: 30px; border-radius: 100%; background-color: #5277cb}
+.team_social_links li a i{display: table-cell; vertical-align: middle}
+.team_social_links li.facebook a{background-color: #5277cb}
+.team_social_links li.twitter a{background-color: #38b8f4}
+.team_social_links li.google_plus a{background-color: #e85342}
+.hosting_team_box{background-color: #fff; padding-bottom: 20px; transition: all ease-in-out 0.4s}
+.hosting_team_box figure{position: relative}
+.hosting_team_box:hover{box-shadow: 0 0 0 3px #f40076}
+.hosting_team_box:hover figure:before{content: ""; position: absolute; z-index: 2; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(213,95,159,0.4)}
+/* ===================================
+   Contact Box Section
+====================================== */
+.contact_info_box{padding: 40px 10px 40px; border: 3px solid #eee; transition: all ease-in-out 0.4s}
+.contact_info_box:hover{border: 3px solid #f40076}
+.contact_info_box a{font-size: 18px; font-weight: 400; line-height: 26px; color: #f40076}
+.form-control{padding: 15px 20px}
+.btn-primary{background-color: #f40076; padding: 13px 170px; border: 2px solid #f40076}
+.btn-primary:focus{outline: none; background-color: #5c43bc !important; border: 2px solid #5c43bc !important; color: #fff !important;}
+.btn-primary:hover{background-color: #5c43bc !important; border: 2px solid #5c43bc !important; color: #fff !important;}
+/* ===================================
+   Blog Section
+====================================== */
+.container-3 input#search{width: 100%; height: 50px; background: #2b303b; border: none; font-size: 18px; float: right; padding-left: 20px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; color: #ffffff; margin-bottom: 40px; padding-top: 5px;}
+.border_bottom{border-bottom: 1px solid #ccc}
+.side_links li{padding: 5px 0}
+.side_links li a{font-size: 14px; color: #000; font-weight: 400; line-height: 18px; transition: all ease-in-out 0.4s}
+.side_links li a span{float: right}
+.side_links li a:hover{color: #f40076}
+.tag_buttons li{background-color: #5c43bc; padding: 10px; margin: 5px; float: left; font-size: 12px; transition: all ease-in-out 0.4s}
+.tag_buttons li a{color: #fff}
+.tag_buttons li:hover{background-color: #f40076}
+
+.submit_button{padding: 6px 32px; float: right; font-size: 14px; font-weight: 500; background-color: #f40076; border: 2px solid #f40076; color: #fff; border-radius: 10px; display: inline-block; cursor: pointer; transition: all ease-in-out 0.4s}
+.submit_button:hover{background-color: #5c43bc; border: 2px solid #5c43bc}
+.btn_feature_box{background-color: #5c43bc; border: 2px solid #5c43bc; border-radius: 10px; box-shadow: 0 10px 15px 0 rgba(0,0,0,.15); padding: 11px 40px}
+.btn_feature_box a{color: #fff}
+/* ===================================
+            About Section
+====================================== */
+.about_hosting_box:hover{border: 3px solid #f40076}
+.about_hosting_box{border: 3px solid #eee; padding: 50px 0; transition: all ease-in-out 0.4s}
+.about_hosting_box figure{margin-bottom: 15px}
+.about_hosting_box .hosting_count{font-size: 50px; font-weight: 400; line-height: 40px; color: #212529; margin-bottom: 10px}
+.about_hosting_box .hosting_name{font-size: 26px; line-height: 40px; font-weight: 400; color: #454545}
+
+.form-control:focus{border-color: #f40076; outline: 0; box-shadow: 0 0 0 2px rgba(244,0,118,0.2)}
+.hover01{overflow: hidden}
+.hover01 figure img{-webkit-transform: scale(1); transform: scale(1); -webkit-transition: .3s ease-in-out; transition: .3s ease-in-out}
+.hover01 figure:hover img{-webkit-transform: scale(1.3); transform: scale(1.3)}
+.card{background-color: transparent}
+
+.input_fields{padding: 10px; font-size: 14px; margin-bottom: 20px; border-radius: 10px; border: 1px solid #ccc}
+.blog_social_links li{display: inline-block; padding: 0 5px}
+.blogpost_input_fields{padding: 10px; font-size: 14px; border: none; border: 1px solid #ccc; border-radius: 10px}
+textarea{border: none}
+.post_comment_button{border: none; font-size: 16px; background-color: #5c43bc; color: #fff; padding: 10px 40px; border-radius: 10px}
+
+.footer_site_link figure img{width: 125px; margin-bottom: 10px}
+
+
+
+
+@media only screen and (min-width: 992px){
+    .menubar li:hover .dropdown_menu {display: block}
+    .menubar li:hover .dropdown_submenu {display: block}
+    .menubar li:hover .dropdown_company {display: block}
+
+}

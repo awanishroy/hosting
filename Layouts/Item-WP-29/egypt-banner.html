@@ -1,0 +1,77 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://yugo.pk/assets/css/bootstrap.min.css">
+    <link href="https://yugo.pk/assets/css/custom-style.css" rel="stylesheet" />
+    <link href="https://yugo.pk/assets/css/responsive.css" rel="stylesheet" />
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+        .primary_font{font-family: 'Poppins', sans-serif;}
+        .egypt_banner{
+            background: url("assets/images/egypt_banner.jpg") no-repeat right top;
+            background-size: cover;
+        }
+        .location_name{
+            font-size: 100px; font-weight: 400; line-height: 100px; text-transform: uppercase; font-style: italic;
+        }
+        .tour_type{
+            font-size: 24px; line-height: 24px; color: #000; font-weight: 600; text-transform: uppercase; background-color: #f8a517; transform: skewX(-20deg); width: max-content; margin: 0 auto 25px; padding: 0 20px;
+        }
+        .tour_type span{display: block; transform: skewX(20deg)}
+        .egypt_tour_box{position: relative}
+        .egypt_tour_deal_box{position: absolute; content: ""; width: 252px; height: 252px; background-color: #f32e73; border-radius: 100%; left: 0; right: 0; margin: 0 auto; top: 20px; text-align: center; padding: 35px 0 20px; box-shadow: 0 0 0 50px rgb(255,255,255,.03)}
+        .egypt_tour_deal_box .price_box{font-size: 42px; line-height: 42px; color: #fff; font-weight: 400; margin-bottom: 5px; text-shadow: 0 4px 2px rgba(0,0,0,.86);}
+        .egypt_tour_deal_box .tour_details{font-size: 14px; line-height: 14px; font-weight: 600; color: #fff; text-transform: uppercase; margin-bottom: 5px; text-shadow: 0 1px 2px rgb(0,0,0,.38)}
+        .egypt_tour_deal_box .departure_date{font-size: 12px; line-height: 12px; color: #fff; font-weight: 500}
+        .egypt_tour_deal_box figure {position: relative; bottom: -20px}
+        .tour_days{background-color: #2d6cca; font-size: 24px; line-height: 24px; color: #fff; font-weight: 600; text-transform: uppercase; transform: skewX(-20deg); width: max-content; margin: 0 auto 25px; padding:  20px 35px; position: relative; bottom: -15px}
+        .tour_days span{display: block; transform: skewX(20deg); text-shadow: 0 2px 5px rgba(0,0,0,.86);}
+
+        @media only screen and (max-width: 1199px){
+            .egypt_tour_deal_box{left: 250px}
+        }
+        @media only screen and (max-width: 991px){
+            .call-action-contbox h2.location_name{font-size: 66px; line-height: 66px}
+            .call-action-contbox p.tour_type{padding-right: 20px}
+
+        }
+        @media only screen and (max-width: 991px){
+            .egypt_tour_deal_box{position: relative}
+        }
+    </style>
+</head>
+<body>
+<div class="col-xs-12 egypt_banner">
+    <div class="container">
+        <div class="egypt_tour_box col-xs-12">
+            <div class="call-action-contbox padding-tb40 col-lg-4 col-md-6 col-sm-3 col-xs-12 text-center">
+                <h2 class="color_ffffff margin_top0 margin_bottom5 location_name primary_font">
+                    Egypt
+                </h2>
+                <p class="color_ffffff tour_type primary_font">
+                    <span>Group Tour</span>
+                </p>
+                <div class="booknow_btn">
+                    <a data-toggle="modal" href="#hong-kong-with-disneyland-1547116864">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+            <!--Tour Deal Box -->
+
+            <div class="egypt_tour_deal_box">
+                <div class="price_box primary_font">PKR <br> 159,000</div>
+                <div class="tour_details">(Double Sharing)</div>
+                <div class="departure_date">DEPARTURE DATE: 23RD MARCH 2020</div>
+                <p class="color_ffffff tour_days primary_font">
+                    <span>7 Days Tour</span>
+                </p>
+            </div>
+        </div>
+        <!--container-->
+    </div>
+    <!--call-of-action-->
+</div>
+</body>
+
+</html>

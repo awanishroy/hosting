@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Title-->
+    <title>Hostiko</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <!--description-->
+    <meta name="description" content="HOSTIKO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose hosting portfolio HTML5 template with ready home page demos.">
+    <!--Key Words-->
+    <meta name="keywords" content="">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--fontawesome style-->
+    <!--<link rel="stylesheet" href="assets/css/fonts-awesome.min.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!--style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/typography.css">
+</head>
+<body>
+<div id="header"></div>
+<!--Hero Banner Section-->
+<section class="bg_sub_banner text-center color_fff affiliates_banner">
+    <div class="banner_inner_content padding_top_50">
+        <div class="container">
+            <h1>Order List</h1>
+        </div>
+    </div>
+</section>
+<!--End Banner Section-->-->-->
+<!--Typography Start Here -->
+<div class="col-xs-12 padding_top_100 padding_bottom_100">
+    <div class="container">
+        <h2>Basic List Group</h2>
+        <ul class="list-group">
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
+        </ul>
+
+        <h2>Active Item in a List Group</h2>
+        <ul class="list-group">
+            <li class="list-group-item active">Active item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
+        </ul>
+
+        <h2>List Group With Linked Items</h2>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">First item</a>
+            <a href="#" class="list-group-item list-group-item-action">Second item</a>
+            <a href="#" class="list-group-item list-group-item-action">Third item</a>
+        </div>
+
+        <h2>List Group With a Disabled Item</h2>
+        <p>The disabled class adds a lighter text color to the disabled item. And if used on links, it will remove the default hover effect.</p>
+        <div class="list-group">
+            <a href="#" class="list-group-item disabled">Disabled item</a>
+            <a href="#" class="list-group-item disabled">Disabled item</a>
+            <a href="#" class="list-group-item">Third item</a>
+        </div>
+
+    </div>
+    <!-- col -->
+</div>
+<!--End Here-->
+<div id="footer"></div>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script>
+
+
+    // Side Nav
+    function openNav() {
+        document.getElementById("mySidenav").style.right = "0";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.right = "-250px";
+    }
+    // Search Bar
+    function openSearch() {
+        document.getElementById("myOverlay").style.display = "block";
+    }
+    function closeSearch() {
+        document.getElementById("myOverlay").style.display = "none";
+    }
+</script>
+<script>
+    $(function(){
+        $("#header").load("include/header.html");
+        $("#testimonial").load("include/testimonial.html");
+        $("#footer").load("include/footer.html");
+    });
+</script>
+
+
+
+
+</body>
+</html>

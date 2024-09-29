@@ -1,0 +1,831 @@
+
+@media screen and (max-width:1335px){
+    /* .left-pos{
+        margin-left: -21em !important;
+    }
+    .main-pos{
+        margin-left: -5em !important;
+    }
+    .right-pos{
+        margin-left: 11em !important;
+    } */
+    .price-carousel {
+        right: -117px;
+    }
+}
+@media screen and (max-width:1260px){
+    .price-carousel {
+        right: -90px;
+    }
+}
+@media screen and (max-width:1097px){
+    
+    .tab-logos{
+        display: block;
+    }
+    .tab-logos img{
+        margin: 20px 0;
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+.carousel.price-carousel {
+    right: auto;
+    width: 100%;
+    float: left;
+}
+
+.pricing-tp{
+    flex: unset;
+    max-width: 100% !important;
+}
+
+.carousel.price-carousel li.items  {
+    margin: 0;
+    width: 30%;
+    float: left;
+    position: unset;
+}
+.responsive-btn {
+    flex: unset;
+    max-width: 15%;
+}
+}
+
+
+@media screen and (max-width:991px)
+{
+    .navbar-collapse{
+    padding: 12px;
+    background-color: rgb(253, 253, 254);
+    z-index: 1;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    margin-top:15px;
+    }  
+    li.nav-item:first-child {
+        margin: 0 15px;
+    } 
+    .ml-auto.nav-btn {
+    margin: 0 15px !important;
+    }
+    a.nav-link {
+        line-height: 12pt;
+        font-size: 14px;
+    }
+    a.dropdown-item{
+        font-size: 12px;
+    }
+    .dropdown-menu{
+        border: none;
+    }
+    a.dropdown-item {
+        line-height: 13pt;
+    }
+    .dropdown-menu.dropdown-primary.show{
+        background-color: #00ccc5;
+    }
+    button.navbar-toggler:focus {
+    outline: none;
+    }
+    a.dropdown-item{
+        color: white;
+    }
+ 
+    a.nav-link-btn {
+        font-weight: 500;
+        background-color: unset;
+        padding: 0;
+        border-radius: 0;
+        color: #00ccc5;
+    }
+    a.nav-link-btn:hover{
+        background-color: transparent;
+        color: #00ccc5 !important;
+        text-decoration: underline !important;
+    }
+    .dropdown-item{
+        padding: 0.25rem 1rem;
+    }
+    .serv-card{
+        margin: 0 0 35px 0!important;
+    }
+    .service-cards{
+        margin: 0;
+    }
+    .about-heading{
+        order: 2;
+        padding-left: 13.8%;
+    }
+    .about-heading h1{
+        padding: 0 52px 0 0;
+    }
+    .about-content {
+        margin: 15px 0;
+    }
+    .about-cn p{
+    padding: 0 50px 0 0;
+    }
+    .readbtn {
+        width: 142px;
+    }
+    .stats-col{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .seo-url {
+        margin-left: 50px;
+    }
+    .seo-section .form-group input[type="text"]{
+        width: 105%;
+    }
+    .testimonial-image img{
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+    .testimonial-1, .testimonial-text{
+        text-align: center;
+    }
+    .testimonial-text{
+        padding-left: unset;
+    }
+    .carousel-arrow{
+        text-align: center !important;
+        margin-top: 30px;
+    }
+    .test-cn{
+        margin-left: unset !important;
+    }
+    .pricing-section{
+        padding: 120px 0;
+    }
+    .news-section{
+        padding: 50px 0 0 0;
+    }
+    .news-card-cn{
+        text-align: center;
+        padding-bottom: 35px;
+        width: 50%;
+    }
+    .news-cards h2{
+        text-align: unset;
+    }
+    .footer-cn{
+        margin-top: 30px;
+        text-align: center !important;
+        margin-right: 0 !important;
+    }
+    .footer-social{
+        padding-top: 20px;
+        margin: auto;
+    }
+    .footer-copy-sec{
+        text-align: center !important;
+    }
+    .news-cards{
+        flex-flow: row wrap;
+    }
+    .ft-cr{
+        margin: auto;
+    }
+    .logos-row{
+        flex-flow: row wrap;
+    }
+    .logos-row .col-md-12{
+        margin-bottom: 35px;
+    }
+    .we-do-cards {
+        padding: 40px 0 0 0;
+    }
+    .cards-cn {
+        padding: 40px 15px;
+    }
+    .responsive-btn {
+        max-width: 20% !important;
+    }
+    .heading h1{
+        font-size: 32px;
+    }
+    .pricing-section {
+        padding: 80px 0 55px 0 !important;
+    }
+    .featuredserv-section{
+        padding: 20px 0 !important;
+    }
+    .seo-section {
+        padding: 52px 0 !important;
+    }
+    .stats-inner{
+        width: 190px;
+        height: 190px;
+    }
+    .stats-inner::before{
+        left: 50px;
+    }
+    .row-mrg {
+        margin-top: 30px;
+    }
+    .stats-section{
+        padding: 0;
+    }
+    .testimonial-1{
+        padding: 0 25px;
+    }
+    .testimonial-section{
+        padding: 50px 0 60px 0 !important;
+    }
+    .logos-section{
+        padding: 30px 0 20px 0;
+    }
+    .footer-nav{
+        padding: 50px 0;
+    }
+    .carousel.price-carousel li.items{
+        width: 31%;
+    }
+    .get-started-btn{
+        padding: 8px 28px;
+    }
+   
+}
+    
+@media screen and (min-device-width:767px) and (max-device-width:991px)
+{
+.banner-section{
+    height: 720px;
+}
+.bn-sec{
+    padding: 0;
+}
+ .bn-content {
+    padding: 208px 0 0 0;
+}
+.bn-content h1{
+    font-size: 44px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.bn-content p
+.bn-content p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.btn-links {
+    margin: 27px 0;
+}
+.create-btn{
+    letter-spacing: 1pt;
+}
+.link-btn{
+    letter-spacing: 1pt;
+}
+.serv-card h5, .serv-card p{
+    text-align: left;
+}
+}
+
+@media screen and (max-width:1024px)
+{
+    li.nav-item {
+        margin: 0 15px;
+    }
+    .news-card-cn img{
+        width: 100%;
+    }
+    .pricing-tp{
+        flex: unset;
+        max-width: 100% !important;
+    }
+    .cr-check{
+        padding: 25px 0 0 0;
+        height: 40em;
+    }
+    .price-carousel {
+        right: -95px;
+    }
+    .do-sec{
+        padding: 100px 30px 50px 30px !important;
+    }
+    .we-do-cards{
+        padding: 40px 0;
+    }
+    .about-heading{
+        order: 2;
+        flex: unset;
+        max-width: 100%;
+        padding-top: 50px;
+    }
+    .about-bg-img{
+        flex: unset;
+        max-width: 100%;
+    }
+    .about-bg-img img{
+        width: 100%;
+        position: unset;
+    }
+    .seo-section {
+        padding: 70px 0 70px 0;
+    }
+    .testimonial-section{
+        padding: 50px 0 100px 0;
+    }
+    .pricing-section{
+        padding: 80px 0 150px 0;
+    }
+    .pricing-text{
+        padding: 15px 0 10px 0;
+    }
+    .footer-social i{
+        margin-right: 12px;
+    }
+    .news-cards{
+        padding: 50px 0 0 0;
+    }
+    .responsive-btn{
+        flex: unset;
+        max-width: 15%;
+    }
+    .featuredserv-section{
+        padding: 50px 0;
+    }
+}
+@media screen and (min-device-width:991px) and (max-device-width:1440px){
+    .banner-section{
+    height: 730px;
+    }
+     .bn-content {
+        padding: 190px 0 0 0;
+    } 
+    .bn-content h1 {
+        font-size: 50px;
+        line-height: 63px;
+        margin-bottom: 1rem;
+    }
+    .bn-content p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .btn-links {
+        margin: 30px 0;
+    }
+    .about-heading {
+        padding-left: 8.5%;
+        padding-right: 2% !important;
+    }
+    .about-bg-img img{
+        width: 100%;
+    }
+    .about-cn .btn-links{
+        margin: 35px 0;
+    }
+    .about-cn h5{
+        margin-bottom: 30px;
+    }
+    .about-content {
+        margin: 30px 0;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .serv-btn{
+        float: left;
+    }
+    .services-btn{
+        padding-top:25px;
+    }
+    .serv-card img{
+        display: block;
+        margin: auto;
+    }
+    .serv-card h5, .serv-card p{
+        text-align: center;
+    }
+    .serv-card .col-md-9
+    {
+        padding: 0 !important;
+    }
+    .serv-card .col-md-3
+    {
+        padding: 0 !important;
+    }
+    .seo-section .row{
+        display: block;
+    }
+    .seo-section .form-group {
+        display: block;
+        margin: auto;
+    }
+    .seo-section button {
+        margin-top: 20px;
+    }
+    .seo-section .row {
+        margin-top: 32px;
+    }
+    .heading h1{
+        font-size: 32px;
+    }
+    .get-started-btn{
+        margin: 20px 0 54px 0;
+        padding: 10px 35px;
+    }
+    .price-card{
+        padding: 50px 0 20px 0 !important;
+    }
+    .carousel.price-carousel li.items{
+        position: absolute;
+        width: 45% !important;
+        right: 27%;
+    }
+    .pricing-tp{
+        text-align: center !important
+    }
+    .container {
+        max-width: 100% !important;
+        padding: 0 30px;
+    }
+    .seo-section .form-group input[type="text"]{
+        width: 100%;
+    }
+    .responsive-btn {
+        flex: 0 0 100%;
+        max-width: 100% !important;
+    }
+    .see-abt{
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .nav-dots {
+        width: 100%;
+        height: 14px;
+        left: 0;
+        bottom: 25px;
+        display: block;
+        position: absolute;
+        text-align: center;
+    }
+    
+    .nav-dots .nav-dot {
+        top: -5px;
+        width: 11px;
+        height: 11px;
+        margin: 0 4px;
+        position: relative;
+        border-radius: 100%;
+        border: 1px solid #00ccc5;
+        display: inline-block;
+        background: transparent;
+    }
+    
+    .nav-dots .nav-dot:hover {
+        cursor: pointer;
+        background-color: #00ccc5;
+    }
+
+
+    
+
+.price-slide {
+	height: auto;
+	float: left;
+}
+.slide-nav {
+	position: absolute;
+	width: 100%;
+	height: 20px;
+	left: 0;
+	bottom: 10px;
+	text-align: center;
+	z-index: 30000000;
+}
+.slide-nav-bt0, .slide-nav-bt1, .slide-nav-bt2 {
+	width: 9px;
+	height: 9px;
+	border: 1px solid #00ccc5;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+}
+.navdot_active{
+		background-color:  #00ccc5;;
+		border: 1px solid #00ccc5;
+	}
+    .slide-display{
+        display: none !important;
+    }
+}
+@media screen and (min-device-width:426px) and (max-device-width:767px)
+{
+    .banner-section{
+        background-position: -790px;
+        height: 820px;
+    }
+    .bn-content {
+        padding: 261px 42px 0 83px;
+    }
+    .bn-content{
+        text-align: center;
+    }
+    .bn-content h1{
+        font-size: 42px;
+        line-height: 51px;
+        margin-bottom: 1rem;
+    }
+    .bn-content p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .btn-links{
+        margin: 25px 0;
+    }
+    .bg-overlay {
+        position: relative;
+    }
+    .bg-overlay:before {
+        content: " ";
+        background-color: rgba(222, 205, 187,0.89);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .we-do-cards {
+        padding: 45px 0 0 0;
+    }
+}
+@media screen and (max-width:530px)
+{
+    .banner-section{
+        background-position: -896px;
+        height: 820px;
+    }
+    .bn-content {
+        padding: 285px 52px 0 53px;
+    }
+    .bn-content{
+        text-align: center;
+    }
+    .bn-content h1{
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .bn-content p{
+        font-size: 14px;
+        line-height: 17pt;
+    }
+    .create-btn{
+        width: 170px;
+        height: 44px;
+        padding: 12px;
+        letter-spacing: 1pt;   
+    }
+    .do-sec {
+        padding: 100px 0;
+    }
+    .we-do-cards {
+        padding: 25px 0 0 0;
+        margin: 0;
+    }
+    .cards-cn {
+        padding: 30px 35px;
+    }
+    .cards-cn h3 {
+        font-size: 18px;
+    }
+    .cards-cn span {
+        font-size: 12px;
+    }
+    .carousel.price-carousel li.items{
+        position: absolute;
+        width: 55% !important;
+        right: 20%;
+    }
+}
+
+@media screen and (min-device-width:991px) and (max-device-width:1200px)
+{
+    .link-btn{
+        margin-left: 40px;
+    }
+    .see-abt{
+        margin-left: 70px;
+    }
+    .readbtn{
+        width: 160px;
+    }
+    .testimonial-image img{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:1200px){
+    
+    .serv-card h5 {
+        font-size: 18px;
+    }
+    
+    .serv-card p {
+    font-size: 12px;
+    }
+
+    .services-heading h1{
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .testimonial-1 p{
+        font-size: 16px;
+        line-height: 35px;
+    }
+    
+    .testimonial-row img{
+        margin-right: 0;
+    }
+    .test-cn{
+        margin-left: 30px;
+    }
+    .testimonial-1 span{
+        padding: unset;
+    }
+}
+@media screen and (max-width:425px)
+{
+    .banner-section{
+        background-position: -917px;
+    }
+    .btn-links{
+        margin: 20px 0;
+    }
+    .btn{
+        font-size: 12px;
+    }
+    .bn-content h1{
+        line-height: 40px;
+        margin-bottom: 0.5rem;
+    }
+    .bn-content p{
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .bg-overlay {
+        position: relative;
+    }
+    .bg-overlay:before {
+        content: " ";
+        background-color: rgba(222, 205, 187,0.89);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .create-btn{
+        width: 170px;
+        height: 44px;
+        padding: 12px;
+    }
+    .heading h1{
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .about-bg-img img{
+        width: 100%;
+    }
+    .about-bg-img{
+        height: 290px;
+    }
+    .see-abt{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .seo-section .form-group input[type="text"]{
+        width: 100%;
+    }
+    .check-btn{
+        margin-left: unset;
+    }
+    .news-cards h2{
+        font-size: 16px;
+    }
+    .more-details{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .news-card-cn{
+        width: 70%;
+    }
+    .main-pos{
+        margin-left: 5em !important;
+    }
+    .right-pos{
+        margin-left: 13em !important;
+    }
+    .left-pos{
+        margin-left: -3em !important;
+    }
+    .get-started-btn{
+        padding: 8px 8px;
+    }
+    .price-carousel{
+        right: 0;
+    }
+    .do-sec
+    {
+        padding: 100px 0 50px 0;
+    }
+    .about-cn{
+        padding: 0;
+    }
+    .about-cn h5{
+        margin-bottom: 30px;
+        line-height: 32px;
+    }
+    .responsive-btn{
+        max-width: 100% !important;
+    }
+    a.btn.link-btn{
+        margin-top: 15px;
+    }
+    .about-cn .btn-links {
+        margin: 40px 0;
+    }
+    .about-cn p{
+        line-height: 28px;
+    }
+    .featuredserv-section{
+        padding: 20px 0;
+    }
+    .carousel.price-carousel li.items{
+        position: absolute;
+        width: 70% !important;
+        right: 14%;
+    }
+    .more-details .fa-long-arrow-right{
+        font-size: 12px;
+    }
+}
+@media screen and (min-device-width:379px) and (max-device-width:425px)
+{
+    .bn-content {
+        padding: 283px 20px 0 40px;
+    }
+}
+@media screen and (max-width:380px){
+    .bn-content {
+        padding: 290px 10px 0 10px;
+    }
+}
+@media screen and (max-width:375px){
+    .banner-section{
+        background-position: -950px;
+    }
+    .left-pos {
+        margin-left: -4em !important;
+    }
+    .main-pos {
+        margin-left: 3em !important;
+    }
+    .right-pos {
+        margin-left: 10em !important;
+    }
+    .pricing-section h2
+    {
+        font-size: 50px;
+        margin: unset;
+    }
+    .price-subtext{
+        font-size: 32px !important;
+    }
+    .pricing-section h4, .price-card span{
+        font-size: 16px;
+    }
+    .pricing-subtext
+    {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:320px){
+    .banner-section{
+        background-position: -961px;
+    }
+    .bn-content {
+        padding: 270px 10px 0 20px;
+    }
+    .left-pos {
+        margin-left: -4em !important;
+    }
+    .main-pos {
+        margin-left: 1em !important;
+    }
+    .right-pos {
+        margin-left: 6em !important;
+    }
+}
+@media screen and (max-width:575px)
+{
+    
+}

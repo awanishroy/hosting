@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <!--Title-->
+    <title>Hostiko</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <!--description-->
+    <meta name="description" content="HOSTIKO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose hosting portfolio HTML5 template with ready home page demos.">
+    <!--Key Words-->
+    <meta name="keywords" content="">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--fontawesome style-->
+    <!--<link rel="stylesheet" href="assets/css/fonts-awesome.min.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!--style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" href="assets/images/favicon.png">
+</head>
+<body>
+<div id="header"></div>
+<!--Hero Banner Section-->
+<section class="about_banner_img container-fluid">
+    <div class="inner_banner_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7">
+                    <div class="row">
+                        <h1>Contact Us</h1>
+                        <p>Got questions or suggestions? Want to report a bug? Write it in our forums and our awesome moderator team will be glad to assist.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Slider Section-->
+<!--About Section-->
+<section class="section_padding text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-xl-10">
+                <div class="section_heading">
+                    <h2 class="margin_bottom_10">Get in Touch with us!</h2>
+                    <p>When you have a question, you want to speak to a real person. At Hostiko, we offer REAL support. We hand-pick
+
+                        our support team and only choose the most knowledgeable, friendly and patient technicians.</p>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+
+            <div class="col-xl-6 col-lg-6 col-md-6">
+
+                <form action="#">
+
+                    <input type="text" name="text" class="contact_fields w-100 margin_bottom_30" placeholder="Name">
+
+                    <input type="email" name="email" class="contact_fields w-100 margin_bottom_30" placeholder="Email">
+
+                    <input type="text" name="subject" class="contact_fields w-100 box_margin mobile_margin" placeholder="Subject:">
+
+                </form>
+
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-6">
+
+                <textarea name="comments"  cols="30" rows="5" class="w-100 contact_fields margin_bottom_30" placeholder="Your Comment..."></textarea>
+
+                <input type="submit" value="Send Message" class="btn_submit w-100">
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--End Here-->
+<!--Map Location-->
+<div class="map_location padding_top_50 padding_bottom_50 bg_f5f5f5">
+
+    <div class="container">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8102731743493!2d144.96287631550416!3d-37.81791274205421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3e495e32dc26749f!2sEnvato!5e0!3m2!1sen!2s!4v1543558566699" width="100%" height="450" frameborder="0" allowfullscreen class="location_on_map"></iframe>
+
+    </div>
+
+</div>
+<!--Ends Here-->
+<div id="footer"></div>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script>
+
+
+    // Side Nav
+    function openNav() {
+        document.getElementById("mySidenav").style.right = "0";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.right = "-250px";
+    }
+    // Search Bar
+    function openSearch() {
+        document.getElementById("myOverlay").style.display = "block";
+    }
+    function closeSearch() {
+        document.getElementById("myOverlay").style.display = "none";
+    }
+</script>
+<script>
+    $(function(){
+        $("#header").load("include/header.html");
+        $("#testimonial").load("include/testimonial.html");
+        $("#footer").load("include/footer.html");
+    });
+</script>
+</body>
+
+</html>

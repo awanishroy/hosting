@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Title-->
+    <title>Hostiko</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <!--description-->
+    <meta name="description" content="HOSTIKO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose hosting portfolio HTML5 template with ready home page demos.">
+    <!--Key Words-->
+    <meta name="keywords" content="">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--fontawesome style-->
+    <!--<link rel="stylesheet" href="assets/css/fonts-awesome.min.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!--style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" href="assets/images/favicon.png">
+
+
+</head>
+<body>
+
+<!--Coming Soon-->
+<section class="section_padding text-center bg_coming_soon">
+    <div class="inner_box_coming_soon">
+        <div class="container">
+            <figure><img src="assets/images/default_logo.svg" alt=""></figure>
+            <div class="row">
+                <div class="col"></div>
+                <div class="middle coming_soon_box col-xl-8 col-lg-8 bg_f5f5f5">
+                    <h1>WE ARE COMING SOON</h1>
+                    <div class="count margin_bottom_50">
+                        <div class="countd">
+                            <span id="days">00</span><br>
+                            days
+                        </div>
+                        <div class="countd">
+                            <span id="hours">00</span><br>
+                            hours
+                        </div>
+                        <div class="countd">
+                            <span id="mins">00</span><br>
+                            minutes
+                        </div>
+                        <div class="countd">
+                            <span id="secs">00</span><br>
+                            seconds
+                        </div>
+                    </div>
+                    <h4 class="color_fff margin_bottom_20 text-uppercase">Sign up for early Access</h4>
+                    <div class="email_box">
+                        <form action="#">
+                            <input type="email" class="subscribe_email_box" placeholder="Your Email Address">
+                            <input type="submit" value="Notify Me" class="btn_notify_me">
+                        </form>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Ends Here-->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script>
+
+
+    // Side Nav
+    function openNav() {
+        document.getElementById("mySidenav").style.right = "0";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.right = "-250px";
+    }
+    // Search Bar
+    function openSearch() {
+        document.getElementById("myOverlay").style.display = "block";
+    }
+    function closeSearch() {
+        document.getElementById("myOverlay").style.display = "none";
+    }
+</script>
+<script>
+    $(function(){
+        $("#header").load("include/header.html");
+        $("#testimonial").load("include/testimonial.html");
+        $("#footer").load("include/footer.html");
+    });
+
+    var count = new Date("oct 2,2019 00:00:00").getTime();
+    var x = setInterval( function() {
+        var now = new Date().getTime();
+        var d = count - now;
+        var days = Math.floor(d/(1000*60*60*24));
+        var hours = Math.floor((d%(1000*60*60*24))/(1000*60*60));
+        var minutes = Math.floor((d%(1000*60*60))/(1000*60));
+        var seconds = Math.floor((d%(1000*60))/1000);
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("mins").innerHTML = minutes;
+        document.getElementById("secs").innerHTML = seconds;
+    },1000);
+</script>
+
+</body>
+</html>

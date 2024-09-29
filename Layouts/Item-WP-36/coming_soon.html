@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Title-->
+    <title>Hostiko</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <!--description-->
+    <meta name="description" content="HOSTIKO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose hosting portfolio HTML5 template with ready home page demos.">
+    <!--Key Words-->
+    <meta name="keywords" content="">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--fontawesome style-->
+    <!--<link rel="stylesheet" href="assets/css/fonts-awesome.min.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!--style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" href="assets/images/favicon.png">
+
+
+</head>
+<body>
+
+<!--Coming Soon-->
+<section class="coming_soon bg_coming_soon">
+    <div class="inner_coming_soon">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6">
+                <figure class="coming_soon_main_img margin_bottom_50"><img src="assets/images/coming_soon_banner_img.png" alt=""></figure>
+                <ul class="coming_soon_social_links">
+                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-xl-6 col-lg-6 coming_soon_content_box text-left">
+                <div class="coming_soon_heading margin_bottom_40">
+                    <small>Our website is</small>
+                    <br>
+                    Coming soon
+                </div>
+                <div class="count counter_outer_box">
+                    <div class="countd">
+                        <span id="days">00</span><br>
+                        days
+                    </div>
+                    <div class="countd">
+                        <span id="hours">00</span><br>
+                        hours
+                    </div>
+                    <div class="countd">
+                        <span id="mins">00</span><br>
+                        minutes
+                    </div>
+                    <div class="countd">
+                        <span id="secs">00</span><br>
+                        seconds
+                    </div>
+                </div>
+                <p>We’re Doing our Best to <br>
+                    Lauch <span class="color_fd5481 font_weight_700">Asap</span>
+                </p>
+                <div class="heading_coming_soon_subscribe_email">Subscribe to get notified!</div>
+                <div class="outer_coming_soon_subscribe_email margin_bottom_50">
+                    <input type="text" class="coming_soon_subscribe_email" placeholder="Enter Your Email">
+                    <input type="Submit" value="Subscribe" class="submit_email_subscribe">
+                </div>
+                <div class="heading_coming_soon_subscribe_email">Get in touch with us</div>
+                <div>
+                    <div class="w-50 float-left coming_soon_contact_us">
+                        <strong>Visit Us:</strong>121 King Street, Melbourne
+                        Victoria 3000 Australia
+                    </div>
+                    <div class="w-50 float-left">
+                        <ul class="coming_soon_contact_us_list">
+                            <li><strong>Call:</strong> +1-212-732-46-19</li>
+                            <li><strong>Email:</strong> info@hostiko.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Ends Here-->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script>
+
+
+
+</script>
+<script>
+    var count = new Date("oct 2,2019 00:00:00").getTime();
+    var x = setInterval( function() {
+        var now = new Date().getTime();
+        var d = count - now;
+        var days = Math.floor(d/(1000*60*60*24));
+        var hours = Math.floor((d%(1000*60*60*24))/(1000*60*60));
+        var minutes = Math.floor((d%(1000*60*60))/(1000*60));
+        var seconds = Math.floor((d%(1000*60))/1000);
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("mins").innerHTML = minutes;
+        document.getElementById("secs").innerHTML = seconds;
+    },1000);
+</script>
+
+</body>
+</html>

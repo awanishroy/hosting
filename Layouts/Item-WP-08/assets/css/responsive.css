@@ -1,0 +1,181 @@
+@media only screen and (max-width: 1199px) {
+ .datacenter_content {height: auto; padding-bottom: 0}
+ .price_tag:after {border-left: 105px solid transparent; border-right: 105px solid transparent;}
+ .nav_bar li {padding: 0}
+ h4, h5{font-size: 16px !important;}
+}
+
+@media only screen and (max-width: 991px){
+ .nav>li>a {padding: 10px 15px}
+  h1 {font-size: 46px !important; padding-bottom: 5px !important;}
+  h4{font-size: 26px !important;}
+ .heading_feature_box{font-size: 18px !important; padding-bottom: 10px}
+ .padding_bottom_80 {padding-bottom: 50px;}
+ .padding_top_80    {padding-top: 50px;}
+ .domain-search {width: 75%}
+ .padding_bottom_100 {padding-bottom: 50px}
+ .padding_top_100 {padding-top: 50px}
+ .guarantee_box {padding-bottom: 50px}
+ .footer_box {display: none}
+ .footer_social_links_box {float: right; text-align: center;}
+ .footer_logo_box {text-align: center}
+ .footer_social_links li {margin: 0 5px}
+ .footer_social_links li:first-child {margin-left: 0}
+ .footer_social_links li:last-child {margin-right: 0}
+ .footer_links_heading {padding-top: 15px}
+ .footer_logo_box figure {padding-bottom: 15px}
+ .price_tag:after {border-left: 172.5px solid transparent; border-right: 172.5px solid transparent;}
+ .vision_img figure {padding-top: 80px}
+ .vision_box {float: left; padding-bottom: 30px}
+ .vision_img figure {padding-top: 0}
+ .vision_img {width: 200px; height: 200px; margin-bottom: 30px;}
+ .hosting_bluebox{width: 100px; height: 100px; padding: 25px 0; top: -50px}
+ .domain_box {padding-top: 70px}
+ .search_box .text_field {height: 80%}
+ br{display: none}
+ .logo_box{width: 100%; margin-bottom: 15px}
+ .navigation_bar{width: 100%; text-align: center}
+ .nav_bar{width: 100%;}
+ .nav_bar li{float: none; display: inline-block}
+ .home_page_banner_content{height: 450px}
+ hr{width: 65%; margin-top: 5px; margin-bottom: 5px}
+ .testimonial_box{margin-bottom: 15px}
+ .second_box{display: none}
+ .padding_bottom_70{padding-bottom: 50px}
+ .padding_top_70{padding-top: 50px}
+ .price_box, .feature_box{margin-bottom: 20px}
+ .footer_first_section{padding-bottom: 0}
+ .main_text p{font-size: 18px}
+ .banner_para{font-size: 16px !important; padding-bottom: 10px}
+ .menu_navigation{padding-top: 15px; padding-bottom: 15px}
+ .logo_box{margin-bottom: 0}
+ h2{font-size: 30px !important;}
+ .search_btn{padding: 18px 36px !important;}
+ label{top: 16px}
+ .webhosting_page_banner_content{height: 220px}
+ #sub_menu, #sub_menu_01, #sub_menu_02, #sub_menu_03{top: 54px}
+ .guarantee_box h4{font-size: 20px !important;}
+ .guarantee_box{margin-bottom: 20px}
+ .vision_img, .vision_img_01, .vision_img_02{height: 200px; width: 200px;}
+ .content_box h4{font-size: 18px !important;}
+ .panel-heading h4{font-size: 16px !important;}
+ .feature_box p{padding:  0 15px}
+ .sub-menu li a{margin: 5px 11px}
+ #sub_menu li, #sub_menu_01 li, #sub_menu_02 li, #sub_menu_03 li{float: left; width: 90%; text-align: left}
+ .header_logo{display: block; text-align: center}
+ .header_logo img{width: 25%}
+}
+@media only screen and (max-width: 767px) {
+ .dropdown-menu{padding: 0}
+ .sub-menu:before{display: none}
+ .feature_box{margin-bottom: 20px}
+ .menu_navigation{padding-bottom: 0 !important; padding-top: 0}
+ .top_bar {display: none}
+ .logo_box {padding-left: 30px}
+ .navbar-toggle{margin: 0}
+ .banner_image {height: 600px}
+ .banner_content {height: 600px}
+  h1 {font-size: 32px !important;}
+  .banner_text p{font-size: 14px; line-height: 22px}
+  h2  {font-size: 20px !important;}
+ .main_text h2 span{font-size: 30px}
+ .banner_btn_01{padding: 14px}
+ .domain-search {width: 65%; height: 60px}
+ .domain-search input[type="text"] {width: 80%; height: 45px}
+ .domain-search select {width: 20%; height: 45px}
+ .search_btn{padding: 20px 24px !important; top: 8px !important;}
+ .core_feature_box {padding-bottom: 50px}
+ h4 {font-size: 32px !important;}
+ .heading_feature_box{font-size: 16px !important;}
+ .content_box h4 {padding-top: 15px; padding-bottom: 10px; font-size: 14px !important;}
+ .content_box p span {display: none}
+ .banner_text figure {padding-bottom: 25px}
+ .feature_box {padding-bottom: 25px}
+ .footer_logo_box h6 br {display: none}
+ .price_tag:after {border-left: 225px solid transparent; border-right: 225px solid transparent;}
+ .padding_bottom_50 {padding-bottom: 25px}
+ .portfolio_box {padding-bottom: 40px}
+ .new_domain_box {padding-bottom: 75px}
+ .hostingplan_btn {margin-top: 20px; margin-bottom: 20px}
+ .padding_bottom_30 {padding-bottom: 20px}
+ br{display: none}
+ .feature_box_04 {padding-bottom: 25px}
+ .footer_social_links_box {display: none}
+ .search_box .text_field {height: 75%}
+ label{top: 16px}
+ .search_btn {line-height: 1px; border-radius: 3px}
+ .vision_box{border-bottom: none}
+ .nav_bar li{display: block; text-align: left; float: left; width: 100%}
+ .navbar-default .navigation_bar{background-color: #0197f6; z-index: 1; position: absolute; border-color: #0197f6; top: 56px; right:15px; width: 30%; padding: 15px 0}
+ .logo_box a img{margin: 0}
+ .navbar-default .collapse_btn{background-color: #0197f6; border-color: #0197f6}
+ .navbar-default .collapse_btn .icon-bar{background-color: #fff}
+ .navbar-default .collapse_btn:hover{background-color: #0197f6}
+ .functions span{padding-right: 10px}
+ .vision_box_img{float: none !important;}
+ .padding_top_50{padding-top: 30px}
+ .st-head-row{background-color: #d7263d; font-size: 20px}
+ .st-head-row-main{background-color: #038ce4}
+ .st-val{background-color: #243049}
+ .webhosting_page_banner_content{height: 250px}
+ .banner_para{font-size: 14px !important;}
+ .navigation_bar .navbar-nav .open .dropdown-menu>li>a{color: #fff}
+ .navbar-toggle{padding: 8px 10px; background-color: transparent; border-color: transparent !important; border: none}
+ .navbar-default .navbar-toggle .icon-bar{background-color: #fff}
+ .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background-color: transparent; border-color: transparent !important;}
+ #sub_menu, #sub_menu_01, #sub_menu_02, #sub_menu_03{width: 100%; float: left; background-color: #007cd7; border-radius: 0; padding: 15px 20px}
+ .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a{padding: 5px}
+ .navbar-nav{margin: 0}
+ .sub-menu li a{margin: 0 0; width: 100%}
+ .sub-menu li:first-child > a{margin-top: 5px}
+ .sub-menu li:last-child > a{margin-bottom: 5px}
+ .sub-menu li a{background-color: transparent}
+ .menu_navigation .navbar-nav>.active>a, .menu_navigation .navbar-nav>.active>a:hover{background-color: #007cd7; color: #fff}
+ #sub_menu>.active>a, #sub_menu>.active>a:focus, #sub_menu>.active>a:hover{background-color: #007cd7; color: #fff}
+ .nav_bar li:first-child{padding-top: 0}
+ .nav_bar li:last-child{padding-bottom: 0}
+ .header_logo{display: inherit; text-align: inherit}
+ .header_logo img{width: 25%}
+ #sub_menu>li>a, #sub_menu_01>li>a, #sub_menu_02>li>a, #sub_menu_03>li>a{text-transform: capitalize}
+ .menu_navigation .navbar-nav>.active>a, .menu_navigation .navbar-nav>.active>a:hover{background-color: transparent}
+ #sub_menu li, #sub_menu_01 li, #sub_menu_02 li, #sub_menu_03 li{margin: 0; width: 100%}
+ .navigation_bar .navbar-nav>.open>a, .navigation_bar .navbar-nav>.open>a:hover{background-color: transparent}
+}
+@media only screen and (max-width: 425px) {
+
+ h1{font-size: 28px !important;}
+ h2{font-size: 20px !important;}
+ .banner_text p {font-size: 14px}
+ .banner_btn {margin-bottom: 15px}
+ .domain-check-box p {font-size: 14px; margin-bottom: 15px}
+ .domain-search {width: 60%; height: 45px}
+ .footer_social_links_box {display: none}
+ .domain-search select {height: 25px}
+ .domain-search input[type="text"] {height: 30px}
+ .banner_btn_01 {margin-right: 0; margin-bottom: 15px}
+ .padding_bottom_50 {padding-bottom: 15px}
+ h4 {font-size: 24px !important;}
+ .search_btn{padding: 22px 24px !important; top: 5px !important;}
+ .core_feature_box {padding-bottom: 15px}
+ .vision_img{width: 140px; height: 140px}
+ .vision_img figure img{width: 60% }
+ .navigation_bar .navbar-nav>.open>a{background-color: #0197f6; color: #fff}
+ .logo_box a img{width: 45%}
+
+ .guarantee_box{margin-bottom: 20px}
+ .guarantee_box h4{font-size: 20px !important;}
+ .guarantee_box p{font-size: 18px !important;}
+ .image_box{height: 95px; width: 95px}
+ .vision_img, .vision_img_01, .vision_img_02{height: 165px; width: 165px}
+ .bg_pattern h2{margin-bottom: 5px !important;}
+ .bg_pattern p{margin-bottom: 0}
+ .core_feature_box, .core_box, .client_reviews{width: 100%}
+ .third_blog_post_box{margin-bottom: 25px}
+ #sub_menu, #sub_menu_01, #sub_menu_02, #sub_menu_03{width: 100%}
+ .header_logo{display: inherit; text-align: inherit}
+ .navbar-default .navigation_bar{width: 50%}
+}
+
+@media only screen and (max-width: 424px){
+ h1{font-size: 26px !important;}
+}

@@ -1,0 +1,230 @@
+/*
+ * jQuery UI Slider 1.8.18
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Slider#theming
+ */
+.ui-slider {
+	position: relative;
+	text-align: left;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+}
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+.ui-slider-horizontal {
+	height: .8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.6em;
+}
+.ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+.ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+.ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+.ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+.ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+.ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}
+.slider-container {
+	float: left;
+	width: 100%;
+}
+.slider-container h3 {
+	margin:0 0 10px;
+	padding:0;
+	color:#000;
+	font-size:30px;
+	line-height:30px;
+	font-weight:normal;
+}
+.slider-container h3 span {
+	color:#ff9226;
+	font-weight:700;
+}
+.slider-container p {
+	margin:0;
+	padding:0;
+}
+.sliderbox {
+	display:inline-block;
+	width: 100%;
+	padding: 0 35px;
+	margin:0;
+}
+.slider-container #slider {
+	margin: 0 auto 20px;
+	width: 60%;
+	height: 24px;
+	padding: 0;
+	border: 8px solid #501864;
+	background: #fff;
+	border-radius: 32px;
+}
+
+.slider-container #slider .ui-slider-handle {
+	outline: none;
+	background: url(../images/handel.png) no-repeat left top;
+	border-radius: 0;
+	border: 0;
+	width: 65px;
+	height: 65px;
+	margin: -28px 0 0 -7px;
+}
+.slider-container #slider .ui-slider-handle:hover {
+	cursor: pointer;
+}
+.price_rangetxt {
+	margin: 0 auto 39px;
+	width: 100%;
+	padding: 0;
+	float: left;
+}
+.price_rangetxt div.icon {
+	width: 60px;
+	height: 52px;
+	color: #74bdff;
+	margin: 0 118px 0 0;
+	font-size: 16px;
+	line-height: 23px;
+	cursor: pointer;
+	font-weight: 400;
+	float: left;
+	background:url(../image/ssd-image2.png) no-repeat center top;
+}
+.price_rangetxt div.icon span{
+	margin:34px 0 0;
+	display:block;
+	text-transform: uppercase;
+}
+.price_rangetxt div.current {
+	color:#fff;
+	background:url(../image/ssd-image1.png) no-repeat center top;
+}
+.price_content {
+	margin:0 auto;
+	width:100%;
+	text-align:center;
+}
+.price_content .smallbox {
+	display: inline-block;
+	width: 20%;
+	padding: 25px 3%;
+
+}
+.price_content .smallbox:last-child{
+	border: none;
+}
+/*.price_content .image_holder {*/
+
+	/*margin:0 25px 0 0;*/
+
+/*}*/
+.price_content .value_text {
+	font-size: 16px;
+	line-height: 20px;
+	color:#fff;
+	background: rgba(0,0,0,0.10);
+	padding: 40px 0;
+	margin-bottom: 20px;
+}
+.price_content .value {
+	display: block;
+	color:#fff;
+	margin: 3px 0 0;
+	font-size: 20px;
+	line-height:14px;
+	font-family: 'proxima_novasemibold';
+}
+
+.price_txt {
+	color:#fff;
+	font-size:14px;
+	line-height:30px;
+	text-transform: uppercase;
+	font-family: 'proxima_novasemibold';
+	display: inline-block;
+	vertical-align: middle;
+	padding: 7px 25px;
+	background-color: #ff9600;
+	border-radius: 5px;
+}
+.price_txt .numeric1 {
+	line-height:30px;
+	font-size:24px;
+	margin: 4px 0 0;
+}
+.vps_btn {
+	display:inline-block;
+	/*margin: 26px 0 0;*/
+}
+.vps_btn a {
+	color:#fff;
+	display:block;
+	font-size:14px;
+	line-height:46px;
+	background:transparent;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-radius:5px;
+	min-width: 200px;
+	font-family: 'proxima_nova_rgbold';
+	border: 1px solid #fff;
+}
+.vps_btn a:hover {
+	opacity:0.8;
+}
+
+.tag{
+	position:absolute;
+	right:0;
+	top:0;
+}
+.price-slider-section{
+
+	padding: 60px 0 0;
+}
+.nomargin_rt{
+	margin-right: 0 !important;
+}
+.price-box-section{
+
+	margin-top: -45px;
+
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="ICONS_1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="54px" height="64px" viewBox="0 0 54 64" enable-background="new 0 0 54 64" xml:space="preserve">
+<g id="_x32_4_x5F_vending_x5F_machine">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="32" x2="54" y2="32">
+		<stop  offset="0" style="stop-color:#9D1F60"/>
+		<stop  offset="1" style="stop-color:#EC1E28"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M0,0v64h54V0H0z M52,8H38V2h14V8z M36,14H2V6h34V14z M36,16v8H2v-8H36z M36,26v8H2v-8H36z M36,36v8
+		H2v-8H36z M38,10h14v30H38V10z M36,2v2H2V2H36z M2,46h34v16H2V46z M38,62V42h14v20H38z M42,14h-2v-2h2V14z M46,14h-2v-2h2V14z
+		 M50,12v2h-2v-2H50z M40,20h4v2h-4V20z M46,20h4v2h-4V20z M40,16h4v2h-4V16z M46,16h4v2h-4V16z M40,24h4v2h-4V24z M46,24h4v2h-4V24
+		z M40,28h4v2h-4V28z M46,28h4v2h-4V28z M40,32h4v2h-4V32z M46,32h4v2h-4V32z M40,36h4v2h-4V36z M46,36h4v2h-4V36z M40,50h10v-6H40
+		V50z M42,46h6v2h-6V46z M40,52h10v2H40V52z M6,50v6h26v-6H6z M30,54H8v-2h22V54z M6,42v-4h2v4H6z M12,42h-2v-4h2V42z M16,42h-2v-4
+		h2V42z M20,42h-2v-4h2V42z M24,42h-2v-4h2V42z M28,42h-2v-4h2V42z M32,42h-2v-4h2V42z M6,32v-4h2v4H6z M12,32h-2v-4h2V32z M16,32
+		h-2v-4h2V32z M20,32h-2v-4h2V32z M24,32h-2v-4h2V32z M28,32h-2v-4h2V32z M32,32h-2v-4h2V32z M6,22v-4h2v4H6z M12,22h-2v-4h2V22z
+		 M16,22h-2v-4h2V22z M20,22h-2v-4h2V22z M24,22h-2v-4h2V22z M28,22h-2v-4h2V22z M32,22h-2v-4h2V22z M6,12V8h2v4H6z M12,12h-2V8h2
+		V12z M16,12h-2V8h2V12z M20,12h-2V8h2V12z M24,12h-2V8h2V12z M28,12h-2V8h2V12z M32,12h-2V8h2V12z"/>
+</g>
+</svg>

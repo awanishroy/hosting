@@ -1,0 +1,2346 @@
+@media only screen and (max-width: 1440px) {
+    .domain-main-con .generic-title {
+        padding: 0 90px;
+        margin-bottom: 30px;
+    }
+    .hosting-plan-inner-con {
+        margin-bottom: 60px;
+    }
+    .padding-top {
+        padding-top: 90px;
+    }
+    .padding-bottom {
+        padding-bottom: 90px;
+    }
+    .web-hosting-feature-box figure {
+        margin: 0 auto 24px;
+    }
+    .web-hosting-feature-box h4 {
+        margin-bottom: 12px;
+    }
+    .web-hosting-feature-box p {
+        margin-bottom: 26px;
+    }
+    .hosting-statistic-box {
+        padding: 50px 30px;
+    }
+    .web-hosting-statistics-con .generic-title {
+        margin-bottom: 40px;
+    }
+    .web-hosting-features-main-con .generic-title {
+        margin-bottom: 40px;
+    }
+    .wordpress-main-con .generic-title {
+        margin-bottom: 80px;
+    }
+    .wordpress-inner-con {
+        margin-bottom: 120px;
+    }
+    .easy-wordpress-inner-con {
+        gap: 122px;
+        margin-bottom: 100px;
+    }
+    .client-review-slider .generic-title {
+        margin-bottom: 40px;
+    }
+    .footer-main-con {
+        padding: 80px 0 50px;
+    }
+    .client-review-outer-con .btn-wrap .prev-btn, 
+    .client-review-outer-con .btn-wrap .next-btn {
+        position: unset;
+    }
+    .client-review-outer-con .btn-wrap .prev-btn{
+        left: unset;
+    }
+    .client-review-outer-con .btn-wrap .next-btn {
+        right: unset;
+    }
+    .client-review-outer-con .owl-carousel{
+        margin-bottom: 50px;
+    }
+    .client-review-outer-con .btn-wrap {
+        position: relative;
+        left: unset;
+        width: 160px;
+        top: unset;
+        z-index: 1;
+        transform: unset;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu.sub-menu {
+        left: -230px;
+    }
+    .shared-hosting-plans-main-con .generic-title {
+        margin-bottom: 46px;
+    }
+    .faq-main-con .generic-title {
+        margin-bottom: 44px;
+    }
+    .shared-hosting-fatures-main-con .shared-hosting-features-inner-con {
+        margin-bottom: 54px;
+    }
+    /* contact page start */
+    .contact-inner-con h3 {
+        margin-bottom: 30px;
+    }
+    /* about page start */
+    .welcome-main-con .generic-title {
+        margin-bottom: 44px;
+    }
+    .qualities-con ul {
+        margin-bottom: 50px;
+    }
+    .about-hostiko-video-con {
+        margin-bottom: 45px;
+    }
+    .vision-and-mission-con .generic-title {
+        margin-bottom: 44px;
+    }
+    .vision-and-mission-box {
+        padding: 40px 40px 44px;
+    }
+    .vision-and-mission-box figure {
+        padding: 14px;
+        margin: 0 auto 24px;
+    }
+    .vision-and-mission-box h4 {
+        margin-bottom: 12px;
+    }
+    .vision-and-mission-box p {
+        margin-bottom: 20px;
+    }
+    .hostiko-milestone-main-con .generic-title {
+        padding: 0 170px;
+        margin-bottom: 54px;
+    }
+    .milestone-timeline-con .timeline-content {
+        padding: 0px 0 0 19px;
+        gap: 30px;
+    }
+    /* 404 page styling start here*/
+    .error-con h2 {
+        font-size: 120px;
+        line-height: 125px;
+        margin-bottom: 30px;
+        color: var(--primary-color);
+    }
+
+    .error-con p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* 404 page styling end here */
+    /* coming soon page styling start here */
+    .coming-soon-con h2 {
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 30px;
+    }
+    .coming-soon-social-links ul li a {
+        width: 55px;
+        height: 55px;
+    }
+    /* coming soon page styling end here */
+}
+@media only screen and (max-width: 1199px) {
+    .header-main-con .navbar .navbar-nav {
+        gap: 32px;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .sub-banner-img-con figure {
+        position: absolute;
+        right: -124px;
+        top: -210px;
+    }
+    .generic-title {
+        padding: 0 80px;
+    }
+    .hosting-plan-con {
+        padding: 30px 29px 40px;
+    }
+    .hosting-feature-btn-con p {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .web-hosting-features-main-con .generic-title {
+        margin-bottom: 35px;
+        padding: 0 50px;
+    }
+    .web-hosting-features-inner-con {
+        gap: 26px;
+    }
+    .web-hosting-feature-box {
+        padding: 39px 25px 43px;
+    }
+    .web-hosting-statistics-inner-con {
+        gap: 24px;
+    }
+    h5 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .hosting-statistic-box {
+        padding: 40px 20px;
+    }
+    .wordpress-main-con .generic-title {
+        margin-bottom: 70px;
+        padding: 0 100px;
+    }
+    .wordpress-img-con figure img{
+        width: 100%;
+    }
+    .wordpress-inner-con {
+        margin-bottom: 100px;
+        gap: 102px;
+    }
+    .easy-wordpress-img-con figure img{
+        width: 100%;
+    }
+    .easy-wordpress-inner-con {
+        gap: 102px;
+        margin-bottom: 80px;
+    }
+    .partners-logo-inner-con ul {
+        gap: 25px;
+    }
+    .partners-logo-inner-con ul li img {
+        width: 90%;
+    }
+    .footer-main-con {
+        padding: 70px 0 50px;
+    }
+    /* reseller tabel start here */
+    .reseller-inner-con tfoot td {
+        padding: 10px 13px 24px;
+    }
+    .reseller-inner-con tbody td:first-child {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .reseller-price-plan .price_txt span {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .reseller-price-plan .month-title {
+        margin-left: 4px;
+    }
+    .reseller-price-plan span.numeric1 {
+        font-size: 34px;
+        line-height: 34px;
+    }
+    .reseller-price-plan span.dollar {
+        top: 1px;
+        left: -4px;
+    }
+    .reseller-price-plan p {
+        margin-bottom: 8px;
+    }
+    .reseller-features-con .security-feature-box {
+        padding: 26px 25px 23px;
+    }
+    /* reseller tabel end here */
+    /* resller page start here */
+    h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .shared-hosting-fatures-main-con .web-hosting-feature-box {
+        padding: 39px 10px 42px;
+    }
+    .faq-main-con .generic-title {
+        margin-bottom: 44px;
+    }
+    .faq-inner-con .card-header button.btn-link {
+        padding: 20px 20px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .faq-inner-con .card-body {
+        padding: 0 20px 19px 20px;
+    }
+    /* resller page end here */
+    .shared-hosting-plans-main-con .generic-title {
+        margin-bottom: 40px;
+        padding: 0 100px;
+    }
+    .shared-hosting-plans .hostiko-special-plan {
+        outline-offset: 6px;
+    }
+    .shared-hosting-plans-main-con .shared-hosting-plans {
+        grid-template-columns: 48% 48%;
+    }
+    /* vps */
+    h1 {
+        font-size: 44px;
+        line-height: 60px;
+    }
+    .vps-con .generic-title {
+        margin-bottom: 40px;
+    }
+    .sliderbox {
+        padding: 50px 54px 0;
+        margin-bottom: 30px;
+    }
+    .product-con {
+        padding: 24px 20px;
+        margin-bottom: 30px;
+    }
+    .price_content .value {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .vps-management-main-con .generic-title {
+        margin-bottom: 38px;
+    }
+    .vps-management-box {
+        padding: 33px 30px 44px;
+    }
+    /* domain */
+    .popular-domain-box {
+        padding: 26px 20px 32px;
+    }
+    .popular-domain-box span {
+        font-size: 30px;
+        line-height: 34px;
+        margin-bottom: 12px;
+    }
+    .popular-domain-box > p {
+        margin-bottom: 15px;
+    }
+    .popular-domain-box .hosting-price-box span.numeric1 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .hosting-price-box span.dollar {
+        top: 4px;
+        left: 0;
+        font-size: 22px;
+        line-height: 22px;
+        padding-right: 3px;
+    }
+    .popular-domain-box .hosting-price-box .month-title {
+        padding-left: 8px;
+    }
+    .popular-domain-box .hosting-price-box {
+        margin-bottom: 20px;
+    }
+    .popular-domain-box .generic-btn a {
+        padding: 10px 14px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .popular-domains-con .generic-title {
+        margin-bottom: 36px;
+    }
+    .registration-main-con .generic-title {
+        margin-bottom: 55px;
+    }
+    .registration-left-con figure img{
+        width: 100%;
+    }
+    .registration-inner-con {
+        gap: 60px;
+        grid-template-columns: 48.5% 45%;
+    }
+    .registration-right-con {
+        margin-top: 0;
+    }
+    .reasons-text-con h4 {
+        margin-bottom: 10px;
+    }
+    .domain-price-main-con .generic-title {
+        margin-bottom: 40px;
+    }
+    .domain-price-main-con .table tbody tr td:first-child {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .domain-price-main-con .table tbody tr td {
+        padding: 18px 12px 18px;
+    }
+    .domain-price-main-con .table tbody tr:last-child td {
+        padding-bottom: 24px;
+    }
+    .domain-price-main-con .table thead th:first-child, .domain-price-main-con .table tbody tr td:first-child {
+        width: 20%;
+        padding-left: 24px;
+    }
+    .domain-price-main-con .table {
+        margin-bottom: 35px;
+    }
+    /* dedicated start*/
+    .dedicated-server-box {
+        padding: 35px 36px 32px 36px;
+        margin: 0 auto 30px;
+    }
+    .dedicated-list-con ul {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .dedicated-list-con ul li {
+        padding-left: 25px;
+        margin-bottom: 14px;
+    }
+    .dedicated-server-heading {
+        margin-bottom: 24px;
+    }
+    .dedicated-list-con {
+        grid-template-columns: 26% 26.7% 25.5% 22%;
+    }
+    .dedicated-btn-box {
+        gap: 20px;
+    }
+    .solution-comparison-main-con .generic-title {
+        padding: 0 80px;
+        margin-bottom: 30px;
+    }
+    .solution-comparison-inner-con {
+        padding: 30px 30px 36px;
+    }
+    .solution-comparison-inner-con ul {
+        gap: 0 28px;
+    }
+    /* contact page start here */
+    .contact-inner-con {
+        gap: 26px;
+        grid-template-columns: 34% 63%;
+    }
+    .contact-info-con > ul li a i {
+        left: 22px;
+        font-size: 22px;
+    }
+    .contact-info-con > ul li a {
+        padding: 16px 30px 16px 56px;
+    }
+    .contact-form-con ul {
+        gap: 22px;
+        grid-template-columns: 48% 48%;
+        margin-bottom: 22px;
+    }
+    .contact-form-con ul li input {
+        height: 56px;
+        padding: 14px 20px;
+    }
+    .contact-form-con ul li textarea {
+        padding: 14px 20px;
+        height: 150px;
+    }
+    .contact-social-box h5 {
+        margin-bottom: 20px;
+    }
+    .contact-social-box ul li a {
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+    }
+    .report-box {
+        padding: 30px 25px 33px;
+    }
+    .report-box figure {
+        padding: 10px;
+        margin: 0 auto 20px;
+    }
+    .report-box h4 {
+        margin-bottom: 12px;
+    }
+    h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    /* about page start */
+    .reviewer-social-links {
+        margin-bottom: 14px;
+    }
+    .about-client-review-slider .client-review-hover-content figure.reviewer-img-box {
+        width: 140px;
+        height: 140px;
+        margin: 0 auto 20px;
+    }
+    .welcome-main-con .generic-title {
+        margin-bottom: 30px;
+        padding: 0 40px;
+    }
+    .qualities-con ul li {
+        padding: 16px 18px;
+    }
+    .qualities-con ul {
+        margin-bottom: 40px;
+        gap: 18px;
+        grid-template-columns: 30% 36% 30%;
+    }
+    .video-play-icon a {
+        width: 140px;
+        height: 140px;
+        background-size: contain;
+    }
+    .about-hostiko-video-con {
+        margin-bottom: 40px;
+    }
+    .vision-and-mission-con-inner-con {
+        gap: 25px;
+        grid-template-columns: 48.6% 48.6%;
+    }
+    .vision-and-mission-box {
+        padding: 30px 30px 34px;
+    }
+    .vision-and-mission-box p {
+        margin-bottom: 14px;
+    }
+    .timeline-heading h3 {
+        margin-bottom: 14px;
+    }
+    .milestone-timeline-con .timeline-content span {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .timeline-discription {
+        padding: 20px 24px 20px 29px;
+    }
+    .milestone-timeline-con .timeline-content {
+        grid-template-columns: 20% 74%;
+    }
+    .hostiko-milestone-main-con .generic-title {
+        padding: 0 60px;
+        margin-bottom: 44px;
+    }
+    .client-review-slider .generic-title {
+        margin-bottom: 30px;
+    }
+    .client-review-outer-con .owl-carousel {
+        margin-bottom: 40px;
+    }
+    .client-review-outer-con .btn-wrap .prev-btn img,
+    .client-review-outer-con .btn-wrap .next-btn img{
+        width: 40px;
+    }
+    .client-review-outer-con .btn-wrap {
+        width: 110px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .header-main-con ul li.nav-item.dropdown.show .dropdown-menu.sub-menu.show{
+        display: block;
+    }
+    .login-btn a {
+        padding: 11px 24px;
+    }
+    .chat-btn a {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+    /* cross-button */
+    .navbar-toggler {
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        padding: 0px;
+        width: 40px;
+        position: absolute;
+    }
+    .header-main-con .collapse.navbar-collapse {
+        margin-right: 0;
+    }
+    .navbar-collapse {
+        background: var(--secondary-color);
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 56px;
+        width: 300px;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+    .navbar-toggler .navbar-toggler-icon:nth-child(1),
+    .navbar-toggler .navbar-toggler-icon:nth-child(3) {
+        -webkit-transition: transform .35s ease-in-out;
+        -moz-transition: transform .35s ease-in-out;
+        -o-transition: transform .35s ease-in-out;
+        transition: transform .35s ease-in-out;
+    }
+    .navbar-toggler:not(.collapsed) .navbar-toggler-icon:nth-child(1) {
+        position: absolute;
+        top: 8px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+        left: 0px;
+    }
+    .navbar-toggler:not(.collapsed) .navbar-toggler-icon:nth-child(2) {
+        height: 12px;
+        visibility: hidden;
+        background-color: transparent;
+    }
+    .navbar-toggler:not(.collapsed) .navbar-toggler-icon:nth-child(3) {
+        position: absolute;
+        top: 8px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+        left: 0px;
+    }
+    .navbar-toggler-icon {
+        float: left;
+        width: 90%;
+        height: 3px;
+        margin: 3px 0px;
+        background: var(--primary-color);
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+    .navbar-btn {
+        clip-path: none;
+        padding: 15px 20px 15px 20px;
+        text-align: center;
+        left: 0;
+    }
+    /* cross button */
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: relative;
+        padding-top: 1px;
+        width: 100%;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul {
+        padding: 3px 0 0;
+        border-top: 0;
+        background: transparent;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul li a.dropdown-item {
+        padding: 4px 25px;
+        margin-bottom: 1px;
+        font-size: 15px;
+        line-height: 19px;
+        color: var(--primary-color);
+    }
+    .header-main-con .navbar .navbar-nav li.dropdown-item {
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu.sub-menu {
+        position: relative;
+        padding: 1px 0 0;
+        background: transparent;
+        width: 100%;
+        left: 0;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu.sub-menu li a.dropdown-item{
+        padding: 4px 35px;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav li a.dropdown-item:hover,
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul li a:hover{
+        background:  var(--primary-color);
+        color: var(--secondary-color);
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul li a.dropdown-item:active,
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul li a.dropdown-item.active,
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul li a.dropdown-item:focus{
+        color: var(--primary-color);
+        background-color: transparent;
+        background: var(--secondary-color);
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav li ul li.dropdown-item a.dropdown-toggle:active,
+    .header-main-con .navbar-expand-lg .navbar-nav li ul li.dropdown-item a.dropdown-toggle.active{
+        background: transparent;
+    }
+    .header-main-con .navbar .navbar-nav li.dropdown-item:hover{
+        background: transparent;
+        color: var(--secondary-color);
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav li ul li.dropdown-item a.dropdown-toggle:hover{
+        background: var(--secondary-color);
+        color: var(--primary-color);
+    }
+    .header-main-con .navbar {
+        padding: 2px 2px 2px 65px;
+        max-width: 960px;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav li ul li.dropdown-item a.dropdown-toggle {
+        padding: 4px 24px;
+        font-size: 15px;
+        color: var(--primary-color);
+    }
+    .header-main-con ul li.nav-item.dropdown.show a.dropdown-toggle ul.dropdown-menu.sub-menu {
+        padding-left: 20px;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav li.nav-item.dropdown ul li.dropdown-item.dropdown.show ul.dropdown-menu.sub-menu.show{
+        display: block;
+    }
+    .header-main-con ul li.nav-item.dropdown.show .dropdown-item.dropdown.show .dropdown-menu.sub-menu {
+        padding-left: 20px;
+    }
+    .header-main-con .navbar .navbar-nav .nav-link:hover, .header-main-con .navbar .navbar-nav .nav-link.active{
+        color: var(--secondary-color);
+        background: var(--primary-color);
+    }
+    .header-main-con .navbar .navbar-nav {
+        gap: 0;
+        padding: 20px 20px;
+    }
+    .header-main-con .navbar .navbar-nav .nav-link {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 6px 16px !important;
+    }
+    .header-main-con .navbar .navbar-nav li{
+        margin-bottom: 1px;
+    }
+    .header-main-con .navbar .navbar-nav li:last-child{
+        margin-bottom: 0;
+    }
+    .nav-btns {
+        padding: 0;
+        padding-right: 60px;
+    }
+    /*  */
+    .banner-img-con {
+        display: none;
+    }
+    .sub-banner-img-con {
+        display: none;
+    }
+    .sub-banner-inner-con {
+        text-align: center;
+        grid-template-columns: 100%;
+    }
+    .sub-banner-main-con {
+        height: auto;
+        padding: 70px 0;
+    }
+    .sub-banner-text-con .breadcrumb {
+        justify-content: center;
+    }
+    .banner-inner-con {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .banner-text-con {
+        margin-top: 0;
+        padding: 0 70px;
+    }
+    .banner-main-con {
+        height: auto;
+        padding: 90px 0;
+    }
+    h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+    .banner-text-con h1 {
+        margin-bottom: 14px;
+    }
+    .banner-text-con p {
+        margin-bottom: 22px;
+    }
+    .padding-bottom {
+        padding-bottom: 70px;
+    }
+    .padding-top {
+        padding-top: 70px;
+    }
+    .domain-main-con .generic-title {
+        padding: 0 30px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .domain-search-btns button {
+        width: 130px;
+    }
+    .domains-price-con ul li {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .domains-price-con a {
+        width: 140px;
+    }
+    .domains-price-con ul li img{
+        margin-bottom: 10px;
+    }
+    .domain-serach-con input, .domain-search-btns button {
+        height: 52px;
+        padding: 8px 16px;
+    }
+    .generic-title {
+        padding: 0 30px;
+    }
+    .hosting-plan-inner-con {
+        margin-bottom: 50px;
+        gap: 18px;
+    }
+    h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .hosting-plan-con ul li {
+        padding-left: 23px;
+        font-size: 15px;
+    }
+    .hosting-plan-con {
+        padding: 26px 20px 30px;
+    }
+    .hostiko-plan-btn a {
+        height: 52px;
+        font-size: 15px;
+        padding: 8px 15px;
+        gap: 10px;
+    }
+    .hosting-plan-heading {
+        gap: 12px;
+        margin-bottom: 10px;
+    }
+    .hosting-price-box .month-title {
+        padding-left: 8px;
+    }
+    .hosting-plan-con > p {
+        margin-bottom: 15px;
+    }
+    .hosting-plan-price-con p{
+        margin-bottom: 10px;
+    }
+    .web-hosting-feature-box p {
+        margin-bottom: 16px;
+    }
+    .web-hosting-feature-box figure {
+        margin: 0 auto 16px;
+    }
+    .web-hosting-feature-box p {
+        margin-bottom: 12px;
+    }
+    .web-hosting-feature-box h4 {
+        margin-bottom: 10px;
+    }
+    .web-hosting-statistics-inner-con {
+        gap: 14px;
+        grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    }
+    h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .web-hosting-feature-box {
+        padding: 30px 14px 30px;
+    }
+    .web-hosting-features-main-con .generic-title {
+        margin-bottom: 30px;
+        padding: 0 20px;
+    }
+    .web-hosting-statistics-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .hosting-statistic-box h5 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .hosting-statistic-box {
+        padding: 30px 20px;
+    }
+    .hosting-statistic-box figure {
+        margin-bottom: 16px;
+    }
+    .wordpress-main-con .generic-title {
+        margin-bottom: 50px;
+        padding: 0 50px;
+    }
+    .wordpress-inner-con {
+        margin-bottom: 70px;
+        gap: 30px;
+        grid-template-columns: 49% 46%;
+    }
+    .wordpress-content-con span {
+        margin-bottom: 10px;
+    }
+    .wordpress-content-con h4 {
+        margin-bottom: 10px;
+    }
+    .wordpress-content-con p {
+        margin-bottom: 12px;
+    }
+    .wordpress-content-con ul li {
+        padding-left: 27px;
+        margin-bottom: 4px;
+    }
+    .wordpress-content-con ul li i {
+        top: 4px;
+    }
+    .wordpress-content-con ul {
+        margin-bottom: 24px;
+    }
+    .generic-btn a {
+        height: 52px;
+        padding: 13px 26px;
+        font-size: 15px;
+        line-height: 21px;
+        min-width: 200px;
+        text-align: center;
+    }
+    .easy-wordpress-content-con span {
+        margin-bottom: 10px;
+    }
+    .easy-wordpress-content-con h4 {
+        margin-bottom: 10px;
+    }
+    .easy-wordpress-inner-con {
+        gap: 30px;
+        margin-bottom: 50px;
+        grid-template-columns: 47% 48%;
+    }
+    .easy-wordpress-content-con p {
+        margin-bottom: 20px;
+    }
+    .hosting-feature-btn-con p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .client-review-slider .generic-title {
+        margin-bottom: 30px;
+    }
+    .client-review-outer-con .btn-wrap button img{
+        width: 40px;
+    }
+    .client-review-outer-con .btn-wrap {
+        width: 100px;
+    }
+    .client-review-box {
+        padding: 30px 20px 33px;
+    }
+    .client-review-box figure.stars-img {
+        margin: 0 auto 14px;
+        width: 116px;
+    }
+    .client-review-outer-con .owl-carousel {
+        margin-bottom: 40px;
+    }
+    .partners-logo-inner-con ul li img {
+        width: 100%;
+    }
+    .get-started-inner-con {
+        gap: 50px;
+    }
+    .get-started-con {
+        padding: 45px 0;
+    }
+    .footer-box.footer-logo-box p br{
+        display: none;
+    }
+    .footer-inner-links {
+        gap: 16px;
+        grid-template-columns: 29% 24% 25% 15%;
+    }
+    .footer-logo-box a figure {
+        margin-bottom: 22px;
+    }
+    .footer-box h5 {
+        margin-bottom: 22px;
+    }
+    .footer-box.footer-comunity-links {
+        padding-left: 0;
+    }
+    .footer-box ul li {
+        padding-left: 16px;
+        margin-bottom: 8px;
+    }
+    .footer-box.footer-logo-box p {
+        margin-bottom: 20px;
+    }
+    .footer-box.footer-logo-box ul li a {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    /* resller page start here */
+    .reseller-inner-con .hide {
+        padding: 0;
+    }
+    .reseller-inner-con tbody td,
+    .reseller-inner-con tbody td:not(:last-child) {
+        border-right: 1px solid var(--secondary-color);
+    }
+    .reseller-inner-con tbody tr:first-child td:not(:first-child){
+        border-top: 1px solid var(--secondary-color);
+    }
+    .reseller-inner-con button{
+        border-top: 1px solid var(--secondary-color);
+    }
+    .reseller-inner-con ul li button{
+        border-top: 1px solid var(--border-color);
+    }
+    .reseller-inner-con tfoot a {
+        width: 140px;
+        margin: 0 auto;
+    }
+    .reseller-inner-con tfoot td:not(:last-child) {
+        border-right: 1px solid var(--secondary-color);
+    }
+    .reseller-inner-con tfoot td:first-child{
+        border: 0;
+    }
+    .reseller-inner-con button:focus{
+        outline: none;
+    }
+    .reseller-inner-con button:hover{
+        background: var(--secondary-color);
+        color: var(--primary-color);
+    }
+    .reseller-inner-con li.active button {
+        color: var(--primary-color);
+        background: var(--secondary-color);
+        border-bottom: 1px solid var(--secondary-color);
+        border-top: 1px solid var(--secondary-color);
+    }
+    .reseller-features-con .security-feature-box p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .reseller-inner-con table tfoot tr td:not(:first-child) {
+        border: 1px solid var(--secondary-color);
+        border-top: 0;
+    }
+    .shared-hosting-fatures-main-con .shared-hosting-features-inner-con {
+        grid-template-columns: 48% 48%;
+    }
+    .faq-inner-con {
+        gap: 19px;
+    }
+    .faq-inner-con .card-header button.btn-link {
+        padding: 16px 20px;
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .faq-main-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .hosting-statistic-box:hover {
+        outline: 3px solid var(--secondary-color);
+        outline-offset: 3px;
+    }
+    /* reseller page end here */
+    .shared-hosting-plans-main-con .generic-title {
+        margin-bottom: 36px;
+        padding: 0 30px;
+    }
+    .shared-hosting-extra-features-inner-con ul {
+        gap: 19px;
+    }
+    .shared-hosting-extra-features-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .shared-hosting-fatures-main-con .shared-hosting-features-inner-con {
+        margin-bottom: 34px;
+    }
+    /*  */
+    .vps-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .sliderbox {
+        padding: 40px 34px 0;
+    }
+    .price_content .smallbox {
+        justify-content: center;
+    }
+    .product-con {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 48% 48%;
+        align-items: center;
+    }
+    .vps-management-main-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .vps-management-box {
+        padding: 26px 24px 36px;
+    }
+    .vps-management-box p {
+        margin-bottom: 14px;
+    }
+    /* domain */
+    .popular-domains-inner-con {
+        gap: 27px;
+        grid-template-columns: 48% 48%;
+    }
+    .reasons-con {
+        gap: 23px;
+        margin-bottom: 22px;
+        grid-template-columns: 20% 73%;
+    }
+    .registration-main-con .generic-title {
+        margin-bottom: 45px;
+    }
+    .registration-inner-con {
+        gap: 30px;
+        grid-template-columns: 48.5% 47%;
+    }
+    .popular-domains-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .popular-domain-box > p {
+        margin-bottom: 10px;
+    }
+    .domain-price-main-con .generic-title {
+        margin-bottom: 30px;
+    }
+    /* dedicated start */
+    .dedicated-server-box {
+        padding: 30px 20px 30px;
+        margin: 0 auto 26px;
+    }
+    .dedicated-list-con ul:nth-child(odd)::after {
+        content: "";
+        background: var(--border-color);
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        right: -20px;
+        top: 0;
+    }
+    .dedicated-list-con ul:nth-child(even)::after{
+        display: none;
+    }
+    .dedicated-list-con ul:nth-child(even){
+        padding-left: 50px;
+    }
+    .dedicated-list-con ul:nth-child(odd){
+        padding-right: 50px;
+    }
+    .dedicated-list-con {
+        grid-template-columns: 36% 39%;
+        gap: 6px 38px;
+        justify-content: center;
+    }
+    .dedicated-list-con ul {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .dedicated-list-con ul:first-child {
+        padding-left: 0px;
+    }
+    .dedicated-list-con ul li {
+        margin-bottom: 6px;
+    }
+    .hosting-price-box span.numeric1 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .dedicated-server-heading {
+        margin-bottom: 20px;
+    }
+    .solution-comparison-main-con .generic-title {
+        padding: 0 20px;
+        margin-bottom: 26px;
+    }
+    .dedicated-server-main-con .generic-title {
+        padding: 0 50px;
+        margin-bottom: 26px;
+    }
+    .solution-comparison-inner-con ul li {
+        padding: 6px 22px;
+    }
+    .solution-comparison-inner-con ul li i {
+        top: 11px;
+    }
+    .solution-comparison-inner-con {
+        padding: 26px 17px 26px;
+    }
+    .solution-comparison-box h5 {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    /* contact page start */
+    .contact-inner-con h3 {
+        margin-bottom: 26px;
+    }
+    .contact-info-con > ul li a {
+        padding: 14px 14px 14px 49px;
+    }
+    .contact-info-con > ul li a i {
+        left: 18px;
+        font-size: 20px;
+    }
+    .contact-info-con > ul li {
+        margin-bottom: 14px;
+    }
+    .contact-social-box h5 {
+        margin-bottom: 16px;
+    }
+    .contact-social-box ul li a {
+        width: 50px;
+        height: 50px;
+    }
+    .contact-social-box ul {
+        gap: 12px;
+    }
+    .contact-inner-con {
+        gap: 20px;
+    }
+    .contact-form-con ul {
+        gap: 14px;
+        margin-bottom: 20px;
+    }
+    .form-box .submit-btn button {
+        height: 52px;
+        font-size: 15px;
+        width: 210px;
+    }
+    .contact-form-con ul li input,
+    .contact-form-con ul li textarea{
+        font-size: 15px;
+    }
+    .report-box figure {
+        margin: 0 auto 16px;
+    }
+    .report-box h4 {
+        margin-bottom: 9px;
+    }
+    .report-inner-con {
+        gap: 27px;
+        grid-template-columns: 48% 48%;
+    }
+    /* about page start here */
+    .welcome-main-con .generic-title {
+        margin-bottom: 26px;
+        padding: 0 30px;
+    }
+    .qualities-con ul {
+        margin-bottom: 36px;
+        gap: 14px;
+        grid-template-columns: 30% 36% 30%;
+    }
+    .about-hostiko-video-con .video-inner-con {
+        height: 300px;
+    }
+    .vision-and-mission-con-inner-con {
+        gap: 18px;
+    }
+    .video-play-icon a {
+        width: 100px;
+        height: 100px;
+    }
+    .vision-and-mission-box {
+        padding: 30px 20px 30px;
+    }
+    .vision-and-mission-box figure {
+        padding: 14px;
+        margin: 0 auto 16px;
+    }
+    .milestone-timeline-con .timeline-content {
+        padding: 0px 0 0 10px;
+        gap: 20px;
+    }
+    .milestone-timeline-con .timeline-content h3 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 8px;
+    }
+    .milestone-timeline-con .timeline-content span {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .milestone-timeline-con .marker {
+        width: 25px;
+        height: 25px;
+        margin-top: 4px;
+    }
+    .milestone-timeline-con .timeline-content {
+        grid-template-columns: 23% 72%;
+    }
+    .timeline-discription {
+        padding: 14px 16px;
+    }
+    .milestone-timeline-con .timeline-block {
+        margin-bottom: 30px;
+    }
+    .hostiko-milestone-main-con .generic-title {
+        padding: 0 50px;
+        margin-bottom: 34px;
+    }
+    /*  */
+    #button {
+        bottom: 30px;
+        right: 30px;
+    }
+    /* coming soon */
+    .coming-soon-con {
+        position: relative;
+        padding: 0;
+    }
+    .error-con .generic-btn a {
+        font-size: 16px;
+        padding: 20px 30px;
+    }
+    .coming-soon-con h2 {
+        font-size: 60px;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+    /*  */
+}
+@media only screen and (max-width: 767px) {
+    body{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .chat-btn a {
+        width: 38px;
+        height: 38px;
+        font-size: 14px;
+    }
+    .login-btn a {
+        padding: 10px 18px 10px;
+    }
+    .navbar-collapse {
+        top: 47px;
+    }
+    .padding-bottom {
+        padding-bottom: 60px;
+    }
+    .padding-top {
+        padding-top: 60px;
+    }
+    .banner-main-con {
+        padding: 60px 0;
+    }
+    .banner-text-con {
+        padding: 0 30px;
+    }
+    h1 {
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .banner-text-con p {
+        margin-bottom: 18px;
+    }
+    .domain-main-con .generic-title {
+        padding: 0;
+    }
+    h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .domain-main-con .generic-title {
+        margin-bottom: 20px;
+    }
+    .domain-search-btns button {
+        width: 100px;
+    }
+    .domain-search-btns {
+        gap: 8px;
+    }
+    .domain-serach-con {
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    .domain-serach-con input, .domain-search-btns button {
+        height: 50px;
+        padding: 8px 16px;
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .domains-price-con {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .domains-price-con ul li span {
+        margin-left: 0;
+    }
+    .generic-title {
+        padding: 0;
+    }
+    .hosting-plan-inner-con {
+        margin-bottom: 30px;
+        gap: 30px;
+        grid-template-columns: 100%;
+    }
+    .partners-logo-con {
+        padding: 20px;
+    }
+    .generic-title {
+        margin-bottom: 25px;
+    }
+    .hosting-plan-con {
+        padding: 26px 30px 30px;
+    }
+    .web-hosting-features-main-con .generic-title {
+        margin-bottom: 25px;
+        padding: 0;
+    }
+    .web-hosting-features-inner-con {
+        gap: 14px;
+    }
+    h4 {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .web-hosting-feature-box figure {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto 12px;
+    }
+    .web-hosting-statistics-con .generic-title {
+        margin-bottom: 25px;
+    }
+    .web-hosting-statistics-inner-con {
+        gap: 14px;
+        grid-template-columns: 48.5% 48.5%;
+    }
+    .hosting-statistic-box h5 {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .wordpress-main-con .generic-title {
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    .wordpress-inner-con {
+        margin-bottom: 40px;
+        gap: 40px;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .wordpress-content-con ul {
+        margin-bottom: 16px;
+        display: inline-block;
+        text-align: left;
+    }
+    h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .wordpress-img-con{
+        order: 2;
+    }
+    .wordpress-img-con figure {
+        width: 280px;
+        margin: 0 auto;
+    }
+    .easy-wordpress-inner-con {
+        gap: 30px;
+        margin-bottom: 40px;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .easy-wordpress-img-con figure{
+        width: 280px;
+        display: inline-block;
+    }
+    .easy-wordpress-content-con {
+        margin-top: 0;
+    }
+    .client-review-box {
+        padding: 30px 30px 33px;
+    }
+    .client-review-slider .generic-title {
+        margin-bottom: 25px;
+    }
+    .client-review-outer-con .owl-carousel {
+        margin-bottom: 30px;
+    }
+    .get-started-inner-con {
+        gap: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-main-con {
+        padding: 60px 0 40px;
+    }
+    .footer-box.footer-logo-box {
+        padding-top: 0;
+    }
+    .footer-box.footer-logo-box{
+        grid-column: 1/-1;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer-box.footer-logo-box p {
+        margin-bottom: 16px;
+    }
+    .footer-logo-box ul {
+        justify-content: center;
+    }
+    .footer-logo-box a figure {
+        margin-bottom: 16px;
+    }
+    .footer-inner-links {
+        gap: 16px;
+        grid-template-columns: 35% 35% 23%;
+    }
+    .footer-box h5 {
+        margin-bottom: 16px;
+    }
+    .footer-box ul li {
+        margin-bottom: 6px;
+    }
+    /* reseller page start here */
+    .reseller-features-con .security-feature-box {
+        padding: 20px 10px 20px;
+    }
+    .reseller-features-con .security-feature-box p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .reseller-inner-con button {
+        height: 50px;
+    }
+    .reseller-inner-con ul {
+        padding-bottom: 0;
+    }
+    .reseller-inner-con tbody td:first-child {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .reseller-inner-con td, .reseller-inner-con th {
+        padding: 15px 20px 13px;
+    }
+    .shared-hosting-fatures-main-con .shared-hosting-features-inner-con {
+        grid-template-columns: 48.5% 48.5%;
+    }
+    .faq-inner-con {
+        gap: 20px;
+        grid-template-columns: 100%;
+    }
+    /* reseller page end here */
+    .shared-hosting-plans .hosting-plan-heading {
+        gap: 13px;
+        margin-bottom: 12px;
+    }
+    .shared-hosting-plans .hosting-plan-con > p {
+        margin-bottom: 8px;
+    }
+    .shared-hosting-extra-features-inner-con ul {
+        gap: 0;
+        grid-template-columns: 100%;
+    }
+    .shared-hosting-extra-features-inner-con ul:last-child li {
+        border-bottom: 1px solid #dfdfdf;
+    }
+    .shared-hosting-extra-features-inner-con ul:last-child li:last-child{
+        border-bottom: 0;
+    }
+    .shared-hosting-fatures-main-con .shared-hosting-features-inner-con {
+        margin-bottom: 24px;
+    }
+    /*  */
+    .product-con {
+        gap: 15px;
+        grid-template-columns: 49% 47%;
+    }
+    .product-con {
+        margin-bottom: 26px;
+    }
+    .month-title {
+        padding-left: 8px;
+    }
+    .vps-price-plan {
+        width: 130px;
+    }
+    .vps-management-inner-con {
+        gap: 20px;
+        grid-template-columns: 100%;
+    }
+    .vps-management-main-con .generic-title {
+        margin-bottom: 26px;
+    }
+    .vps-con .generic-title {
+        margin-bottom: 26px;
+    }
+    /* domain */
+    .popular-domains-con .generic-title {
+        margin-bottom: 26px;
+    }
+    .popular-domain-box {
+        padding: 20px 19px 28px;
+    }
+    .popular-domains-inner-con {
+        gap: 19px;
+    }
+    .registration-main-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .registration-left-con figure img {
+        width: 300px;
+    }
+    .registration-left-con figure{
+        text-align: center;
+    }
+    .registration-inner-con {
+        gap: 40px;
+        grid-template-columns: 100%;
+    }
+    .reasons-con {
+        gap: 20px;
+        grid-template-columns: auto auto;
+    }
+    .domain-price-main-con .generic-title {
+        margin-bottom: 26px;
+    }
+    .domain-price-main-con .table thead th {
+        padding: 14px 12px 14px;
+    }
+    .domain-price-main-con .table tbody tr td:first-child {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .domain-price-main-con .table tbody tr td {
+        padding: 12px 10px 12px;
+        font-size: 15px;
+    }
+    .domain-price-main-con .table {
+        margin-bottom: 25px;
+    }
+    .domain-price-main-con .table tbody tr:last-child td {
+        padding-bottom: 14px;
+    }
+    .popular-domain-box .hosting-price-box span.numeric1 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .popular-domain-box .hosting-price-box .numeric2 {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .hosting-price-box span.dollar {
+        top: 2px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .popular-domain-box > p {
+        margin-bottom: 6px;
+    }
+    /* dedicated start */
+    .dedicated-server-main-con .generic-title {
+        padding: 0 20px;
+    }
+    .dedicated-list-con {
+        grid-template-columns: 46% 46%;
+    }
+    .dedicated-server-heading {
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 25px;
+    }
+    .dedicated-btn-box {
+        gap: 15px;
+        flex-direction: column;
+    }
+    .dedicated-list-con ul:nth-child(odd) {
+        padding-right: 20px;
+    }
+    .dedicated-list-con ul:nth-child(even) {
+        padding-left: 20px;
+    }
+    .dedicated-list-con {
+        grid-template-columns: 42% 42%;
+    }
+    .dedicated-server-heading h5 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .dedicated-server-main-con .hosting-price-box .numeric2 {
+        line-height: 14px;
+        margin-bottom: 2px;
+    }
+    .dedicated-server-main-con .hosting-price-box span.numeric1 {
+        font-size: 30px;
+        line-height: 28px;
+    }
+    .dedicated-server-main-con .hosting-price-box span.dollar {
+        font-size: 18px;
+        line-height: 18px;
+        left: -3px;
+    }
+    .dedicated-btn-box .generic-btn a {
+        height: 40px;
+        padding: 9px 26px 10px;
+        display: inline-flex;
+    }
+    .solution-comparison-inner-con ul {
+        grid-template-columns: 100%;
+        margin-bottom: 14px;
+    }
+    .solution-comparison-box h5 {
+        font-size: 22px;
+    }
+    /* contact page start */
+    .contact-inner-con {
+        gap: 30px;
+        grid-template-columns: 100%;
+    }
+    .contact-social-box {
+        text-align: center;
+    }
+    .contact-social-box ul {
+        gap: 10px;
+        justify-content: center;
+    }
+    .contact-social-box ul li a {
+        width: 44px;
+        height: 44px;
+    }
+    .contact-form-con{
+        text-align: center;
+    }
+    .contact-inner-con h3 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .contact-info-con ul{
+        margin-bottom: 4px;
+    }
+    .contact-form-con ul {
+        gap: 12px;
+        grid-template-columns: 48.6% 48.6%;
+    }
+    .contact-form-con ul li textarea {
+        padding: 12px 18px;
+        height: 110px;
+    }
+    .contact-form-con ul li input {
+        height: 50px;
+        padding: 12px 18px;
+    }
+    .report-inner-con {
+        gap: 19px;
+        grid-template-columns: 48% 48%;
+    }
+    .report-box {
+        padding: 26px 20px 28px;
+    }
+    .report-box figure {
+        width: 70px;
+        height: 70px;
+    }
+    .contact-info-con > ul li {
+        margin-bottom: 12px;
+    }
+    /* about page start here */
+    .welcome-main-con .generic-title {
+        padding: 0;
+    }
+    .qualities-con ul li {
+        padding: 10px 12px;
+    }
+    .about-hostiko-video-con .video-inner-con {
+        height: 220px;
+    }
+    .video-play-icon a {
+        width: 70px;
+        height: 70px;
+    }
+    .about-hostiko-video-con {
+        margin-bottom: 30px;
+    }
+    .vision-and-mission-con-inner-con {
+        gap: 14px;
+    }
+    .vision-and-mission-con .generic-title {
+        margin-bottom: 26px;
+    }
+    .vision-and-mission-box figure {
+        width: 70px;
+        height: 70px;
+    }
+    .milestone-timeline-con .timeline-content {
+        padding: 0px 0 0 16px;
+    }
+    .milestone-timeline-con .timeline-content {
+        width: 94%;
+        grid-template-columns: 31% 62%;
+    }
+    .about-client-review-slider .client-review-hover-content figure.reviewer-img-box {
+        width: 120px;
+        height: 120px;
+    }
+    .about-hostiko-video-con iframe {
+        width: 470px;
+        height: 260px;
+    }
+    /* coming soon page  */
+    .error-con .generic-btn a {
+        padding: 16px 20px;
+        font-size: 15px;
+    }
+    .coming-soon-con h2 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .coming-soon-social-links ul li a {
+        width: 45px;
+        height: 45px;
+    }
+    .coming-soon-social-links ul {
+        margin-bottom: 26px;
+    }
+    .error-con {
+        padding: 0 20px;
+    }
+    /* coming soon page  */
+    .contact-form-con .form-box span.error {
+        top: 0px;
+        left: 18px;
+    }
+    /*  */
+    .hosting-plan-con:hover {
+        outline: 2px solid var(--secondary-color);
+        outline-offset: 4px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .nav-btns {
+        padding: 0;
+        padding-right: 40px;
+    }
+    .chat-btn a {
+        width: 34px;
+        height: 34px;
+        font-size: 12px;
+    }
+    .navbar-toggler {
+        width: 33px;
+    }
+    .navbar-collapse {
+        top: 44px;
+    }
+    .header-main-con .navbar-light .navbar-brand figure img{
+        width: 100px;
+    }
+    .login-btn a {
+        padding: 8px 18px 8px;
+    }
+    .header-main-con .navbar-light .navbar-brand {
+        margin-right: 14px;
+        margin-top: -4px;
+    }
+    .banner-text-con {
+        padding: 0;
+    }
+    .sub-banner-main-con {
+        padding: 50px 0;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .banner-text-con h1 {
+        margin-bottom: 10px;
+    }
+    .banner-main-con {
+        padding: 50px 0;
+    }
+    h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .padding-bottom {
+        padding-bottom: 50px;
+    }
+    .padding-top {
+        padding-top: 50px;
+    }
+    .domain-serach-con {
+        margin-bottom: 24px;
+        flex-direction: column;
+    }
+    .domain-search-btns {
+        justify-content: center;
+    }
+    .domain-search-btns button {
+        width: 120px;
+    }
+    .domains-price-con {
+        gap: 15px;
+    }
+    .generic-title {
+        margin-bottom: 20px;
+    }
+    h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .hosting-plan-con {
+        padding: 26px 26px 28px;
+    }
+    .hosting-plan-con > p {
+        margin-bottom: 10px;
+    }
+    .hosting-plan-con ul li {
+        padding: 4px 0;
+        padding-left: 23px;
+    }
+    .hosting-plan-con ul li i {
+        top: 10px;
+        font-size: 12px;
+    }
+    .hosting-plan-con ul {
+        margin-bottom: 18px;
+    }
+    .hosting-price-box span.dollar {
+        left: 0;
+        top: -3px;
+        font-size: 20px;
+        padding-right: 5px;
+    }
+    .hosting-price-box span.numeric1 {
+        font-size: 34px;
+        line-height: 36px;
+    }
+    .hosting-price-box {
+        align-items: center;
+    }
+    .hosting-price-box .numeric2 {
+        line-height: 16px;
+    }
+    .hosting-price-box {
+        margin-bottom: 16px;
+    }
+    .hostiko-plan-btn a {
+        height: 50px;
+    }
+    .hosting-feature-btn-con p {
+        font-size: 16px;
+        margin-bottom: 14px;
+        line-height: 24px;
+    }
+    .hosting-feature-btn-con .generic-btn a {
+        gap: 10px;
+        height: 50px;
+        padding: 8px 26px;
+    }
+    .web-hosting-features-main-con .generic-title {
+        margin-bottom: 20px;
+    }
+    .web-hosting-features-inner-con {
+        gap: 16px;
+        grid-template-columns: 100%;
+    }
+    .web-hosting-feature-box {
+        padding: 20px 24px 20px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .web-hosting-statistics-inner-con {
+        grid-template-columns: 48.2% 48.2%;
+    }
+    .hosting-statistic-box {
+        padding: 24px 14px;
+    }
+    .web-hosting-statistics-con .generic-title {
+        margin-bottom: 20px;
+    }
+    .wordpress-main-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .wordpress-content-con span {
+        margin-bottom: 6px;
+    }
+    .generic-btn a {
+        height: 50px;
+        min-width: 190px;
+    }
+    .wordpress-content-con {
+        margin-top: 0;
+    }
+    .wordpress-img-con figure {
+        width: 240px;
+    }
+    .easy-wordpress-content-con span {
+        margin-bottom: 6px;
+    }
+    .wordpress-inner-con {
+        margin-bottom: 30px;
+        gap: 25px;
+    }
+    .easy-wordpress-img-con figure {
+        width: 240px;
+    }
+    .easy-wordpress-inner-con {
+        gap: 25px;
+        margin-bottom: 30px;
+    }
+    .client-review-slider .generic-title {
+        margin-bottom: 20px;
+    }
+    .client-review-box > span {
+        margin-bottom: 12px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    h5 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .client-review-box figure.stars-img {
+        margin: 0 auto 12px;
+        padding: 7px 10px;
+    }
+    .client-review-outer-con .btn-wrap button img {
+        width: 33px;
+    }
+    .client-review-outer-con .btn-wrap {
+        width: 90px;
+    }
+    .client-review-outer-con .owl-carousel {
+        margin-bottom: 20px;
+    }
+    .partners-logo-inner-con ul {
+        gap: 16px;
+        display: grid;
+        grid-template-columns: 38% 38%;
+    }
+    .partners-logo-inner-con ul li:last-child {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+    .partners-logo-inner-con ul li:last-child img {
+        width: 150px;
+    }
+    .get-started-con {
+        padding: 35px 0;
+    }
+    .footer-main-con {
+        padding: 50px 0 30px;
+    }
+    .footer-box.footer-logo-box {
+        text-align: left;
+    }
+    .footer-logo-box ul {
+        justify-content: start;
+    }
+    .footer-inner-links {
+        grid-template-columns: 100%;
+    }
+    .footer-box h5 {
+        margin-bottom: 10px;
+    }
+    .footer-box ul li {
+        margin-bottom: 4px;
+    }
+    /* reseller page start */
+    .reseller-inner-con tbody td:first-child i {
+        font-size: 12px;
+        margin-right: 0;
+        position: absolute;
+        top: 20px;
+        left: 15px;
+    }
+    .reseller-inner-con tbody td:first-child {
+        padding: 10px 16px 10px 36px;
+        position: relative;
+    }
+    .reseller-inner-con tfoot a {
+        width: 130px;
+    }
+    .shared-hosting-fatures-main-con .shared-hosting-features-inner-con {
+        grid-template-columns: 100%;
+    }
+    .shared-hosting-fatures-main-con .web-hosting-feature-box {
+        padding: 29px 20px 24px;
+    }
+    .shared-hosting-fatures-main-con .web-hosting-feature-box figure {
+        margin: 0 auto 16px;
+    }
+    /* reseller page end */
+    .faq-inner-con .card {
+        margin-bottom: 12px;
+    }
+    .faq-main-con .generic-title {
+        margin-bottom: 20px;
+    }
+    .shared-hosting-plans-main-con .shared-hosting-plans {
+        grid-template-columns: 100%;
+    }
+    .shared-hosting-plans-main-con .generic-title {
+        margin-bottom: 24px;
+        padding: 0;
+    }
+    .shared-hosting-plans .hosting-plan-con {
+        padding: 26px 26px 28px;
+    }
+    .shared-hosting-extra-features-con .generic-title {
+        margin-bottom: 20px;
+    }
+    /*  */
+    .sliderbox {
+        margin-bottom: 22px;
+        padding: 30px 18px 0;
+    }
+    .price_rangetxt span {
+        font-size: 13px;
+        margin-bottom: 2px;
+    }
+    .price_rangetxt small {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .ui-slider-horizontal .ui-slider-range {
+        top: -1px;
+        height: 10px;
+    }
+    .slider-container #slider {
+        margin: 0 auto 20px;
+        height: 10px;
+    }
+    .slider-container #slider .ui-slider-handle {
+        width: 20px;
+        height: 20px;
+        margin-top: -2px;
+        margin-left: -10px;
+        background-size: contain;
+    }
+    .product-con {
+        gap: 13px;
+        grid-template-columns: 100%;
+    }
+    .product-con {
+        gap: 10px;
+        margin-bottom: 24px;
+        padding: 16px 20px;
+    }
+    .price_content .value {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .vps_btn.generic-btn a {
+        padding: 14px 28px;
+        min-width: 130px;
+    }
+    .price_txt .numeric1 {
+        line-height: 38px;
+        font-size: 30px;
+    }
+    .price_txt .dollar {
+        line-height: 26px;
+        font-size: 20px;
+    }
+    .price_txt .numeric2 {
+        line-height: 23px;
+        font-size: 15px;
+    }
+    .vps-price-plan {
+        max-width: 110px;
+        width: auto;
+    }
+    .slider-outer {
+        margin-bottom: 22px;
+    }
+    /* domain */
+    .popular-domains-inner-con {
+        gap: 16px;
+        grid-template-columns: 100%;
+    }
+    .popular-domain-box .hosting-price-box span.dollar {
+        top: 4px;
+    }
+    .registration-main-con .generic-title {
+        margin-bottom: 26px;
+    }
+    .registration-left-con figure img {
+        width: 220px;
+    }
+    .reasons-text-con h4 {
+        margin-bottom: 8px;
+    }
+    .reasons-con figure img{
+        height: 30px;
+        object-fit: contain;
+    }
+    .reasons-con figure {
+        width: 55px;
+        height: 55px;
+    }
+    .registration-inner-con {
+        gap: 30px;
+    }
+    .reasons-con {
+        margin-bottom: 20px;
+    }
+    .domain-price-main-con .table tbody tr td:first-child {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .domain-price-main-con .table thead th:first-child, .domain-price-main-con .table tbody tr td:first-child {
+        width: auto;
+        padding-left: 12px;
+    }
+    .domain-price-main-con .table tbody tr td {
+        padding: 10px 8px 10px;
+        font-size: 14px;
+    }
+    .domain-price-main-con .table thead th {
+        padding: 12px 8px 12px;
+    }
+    .popular-domain-box span {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+    /* dedicated start */
+    .dedicated-server-main-con .generic-title {
+        padding: 0;
+    }
+    .dedicated-server-heading h5 {
+        font-size: 20px;
+    }
+    .dedicated-server-main-con .hosting-price-box span.numeric1 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .dedicated-server-main-con .hosting-price-box .numeric2 {
+        margin-bottom: 0;
+    }
+    .dedicated-btn-box .hosting-price-box {
+        align-items: flex-start;
+    }
+    .dedicated-server-main-con .hosting-price-box span.dollar {
+        left: -3px;
+        top: 0;
+    }
+    .dedicated-server-box {
+        padding: 26px 20px 26px;
+        margin: 0 auto 22px;
+    }
+    .dedicated-server-box:hover {
+        outline-offset: 4px;
+    }
+    .dedicated-list-con ul:nth-child(even) {
+        padding-left: 0;
+    }
+    .dedicated-list-con ul:nth-child(odd) {
+        padding-right: 0;
+    }
+    .dedicated-list-con {
+        grid-template-columns: 100%;
+    }
+    .dedicated-list-con ul {
+        margin: 0 auto;
+        width: 173px;
+    }
+    .dedicated-list-con ul:nth-child(odd)::after{
+        display: none;
+    }
+    .dedicated-server-heading {
+        margin-bottom: 20px;
+    }
+    .dedicated-server-main-con .generic-title {
+        margin-bottom: 20px;
+    }
+    .solution-comparison-main-con .generic-title {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .solution-comparison-inner-con ul li:nth-last-child(2) {
+        border-bottom: 1px solid var(--border-color);
+    }
+    .solution-comparison-inner-con .generic-btn a {
+        padding: 10px 20px;
+    }
+    /* contact page start */
+    .contact-info-con > ul li a i {
+        left: 18px;
+        font-size: 18px;
+    }
+    .contact-info-con > ul li a {
+        padding: 14px 14px 14px 46px;
+    }
+    .contact-social-box h5 {
+        margin-bottom: 14px;
+    }
+    .contact-social-box ul li a {
+        width: 40px;
+        height: 40px;
+    }
+    .contact-inner-con {
+        gap: 20px;
+    }
+    .contact-form-con ul {
+        grid-template-columns: 100%;
+    }
+    .report-inner-con {
+        gap: 16px;
+        grid-template-columns: 100%;
+    }
+    /* about page start here */
+    .qualities-con ul {
+        margin-bottom: 30px;
+        gap: 10px;
+        grid-template-columns: 100%;
+    }
+    .about-hostiko-video-con {
+        margin-bottom: 26px;
+    }
+    .vision-and-mission-con-inner-con {
+        gap: 14px;
+        grid-template-columns: 100%;
+    }
+    .hostiko-milestone-main-con .generic-title {
+        padding: 0;
+        margin-bottom: 26px;
+    }
+    .milestone-timeline-con .timeline-content {
+        width: 100%;
+        gap: 30px;
+        grid-template-columns: 100%;
+    }
+    .timeline-discription::before {
+        left: 15px;
+        top: -11px;
+        transform: rotate(135deg);
+    }
+    .client-review-outer-con .btn-wrap .prev-btn img, .client-review-outer-con .btn-wrap .next-btn img {
+        width: 33px;
+    }
+    .client-review-box {
+        justify-content: center;
+    }
+    .about-hostiko-video-con iframe {
+        width: 320px;
+        height: 190px;
+    }
+    /* 404 page */
+    .error-con h2 {
+        font-size: 70px;
+        line-height: 70px;
+        margin-bottom: 15px;
+    }
+    .error-con p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+    .error-con .generic-btn a {
+        padding: 16px 28px;
+        font-size: 14px;
+    }
+    /* 404 page */
+    /* coming soon page */
+    .coming-soon-con h2 {
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    /* coming soon page */
+    #button {
+        bottom: 26px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    #button::after {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

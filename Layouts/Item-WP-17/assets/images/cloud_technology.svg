@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M50,41h1c6.627,0,12-5.373,12-12c0-5.947-4-11-10-11
+	c0-5-3-9-9-9h-1c-2.728-4.924-7.972-8-14-8c-8.836,0-16,7.164-16,16C6.373,17,1,22.373,1,29s5.373,12,12,12h1"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M19,18c0-6.075,5-11,10-11"/>
+<path fill="#FFFFFF" d="M32,43c-9.237,0-14-2.104-14-3v-9.415C20.921,32.228,26.599,33,32,33c5.4,0,11.079-0.772,14-2.415V40
+	C46,40.896,41.236,43,32,43z"/>
+<ellipse fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="32" cy="29" rx="15" ry="4"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M47,29v10c0,2.209-6.716,4-15,4s-15-1.791-15-4V29"
+	/>
+<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" d="M47,43v6
+	c0,2.209-6.716,4-15,4s-15-1.791-15-4v-6"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" d="M47,53v6
+	c0,2.209-6.716,4-15,4s-15-1.791-15-4v-6"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="31" y1="39" x2="32.9999" y2="37.0001">
+	<stop  offset="0" style="stop-color:#811B56"/>
+	<stop  offset="1" style="stop-color:#5D57A5"/>
+</linearGradient>
+<line fill="none" stroke="url(#SVGID_1_)" stroke-width="2" stroke-miterlimit="10" x1="31" y1="38" x2="33" y2="38"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="27.0005" y1="39" x2="29.0004" y2="37.0001">
+	<stop  offset="0" style="stop-color:#811B56"/>
+	<stop  offset="1" style="stop-color:#5D57A5"/>
+</linearGradient>
+<line fill="none" stroke="url(#SVGID_2_)" stroke-width="2" stroke-miterlimit="10" x1="27" y1="38" x2="29" y2="38"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="35.001" y1="39.001" x2="37.0009" y2="37.001">
+	<stop  offset="0" style="stop-color:#811B56"/>
+	<stop  offset="1" style="stop-color:#5D57A5"/>
+</linearGradient>
+<line fill="none" stroke="url(#SVGID_3_)" stroke-width="2" stroke-miterlimit="10" x1="35" y1="38" x2="37" y2="38"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="31" y1="48" x2="33" y2="48"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="27" y1="48" x2="29" y2="48"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="35" y1="48" x2="37" y2="48"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="31" y1="58" x2="33" y2="58"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="27" y1="58" x2="29" y2="58"/>
+<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="35" y1="58" x2="37" y2="58"/>
+</svg>

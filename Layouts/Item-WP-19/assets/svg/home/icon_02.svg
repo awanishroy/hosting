@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="ICONS_1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g id="_x30_8_x5F_funds_x5F_protection">
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="31" y1="55" x2="33" y2="55">
+			<stop  offset="0" style="stop-color:#9D1F60"/>
+			<stop  offset="1" style="stop-color:#EC1E28"/>
+		</linearGradient>
+		<rect x="31" y="54" fill="url(#SVGID_1_)" width="2" height="2"/>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="31" y1="51" x2="33" y2="51">
+			<stop  offset="0" style="stop-color:#9D1F60"/>
+			<stop  offset="1" style="stop-color:#EC1E28"/>
+		</linearGradient>
+		<rect x="31" y="50" fill="url(#SVGID_2_)" width="2" height="2"/>
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="31" y1="59" x2="33" y2="59">
+			<stop  offset="0" style="stop-color:#9D1F60"/>
+			<stop  offset="1" style="stop-color:#EC1E28"/>
+		</linearGradient>
+		<rect x="31" y="58" fill="url(#SVGID_3_)" width="2" height="2"/>
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="37" y1="53" x2="45" y2="53">
+			<stop  offset="0" style="stop-color:#9D1F60"/>
+			<stop  offset="1" style="stop-color:#EC1E28"/>
+		</linearGradient>
+		<rect x="37" y="52" fill="url(#SVGID_4_)" width="8" height="2"/>
+		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="0" y1="32" x2="64" y2="32">
+			<stop  offset="0" style="stop-color:#9D1F60"/>
+			<stop  offset="1" style="stop-color:#EC1E28"/>
+		</linearGradient>
+		<path fill="url(#SVGID_5_)" d="M32,0C14.355,0,0,14.355,0,32s14.355,32,32,32s32-14.355,32-32S49.645,0,32,0z M32,2
+			c16.542,0,30,13.458,30,30c0,6.545-2.113,12.602-5.684,17.539c-1.144-1.858-3.945-5.683-8.042-6.5l-6.929-1.979
+			C40.365,40.605,39,39.636,39,39v-4.892c0.024-0.035,0.046-0.073,0.07-0.108H44c1.654,0,3-1.346,3-3v-3.11
+			c1.235-1.263,2-2.988,2-4.89c0-2.373-1.189-4.47-3-5.736V17c0-6.065-4.935-11-11-11c-0.552,0-1,0.448-1,1v0.613l-4.684-1.562
+			C29.214,6.017,29.107,6,29,6c-6.065,0-11,4.935-11,11v0.264c-1.811,1.267-3,3.364-3,5.736c0,3.86,3.14,7,7,7v-2
+			c-2.757,0-5-2.243-5-5s2.243-5,5-5v-2c-0.682,0-1.34,0.103-1.964,0.286c0.362-4.578,4.156-8.204,8.806-8.284l5.842,1.947
+			c0.305,0.101,0.639,0.051,0.901-0.138C35.846,9.623,36,9.321,36,9V8.055c4.26,0.473,7.627,3.933,7.966,8.231
+			C43.342,16.103,42.683,16,42,16v2c2.757,0,5,2.243,5,5s-2.243,5-5,5v2c1.075,0,2.089-0.25,3-0.685V31c0,0.551-0.449,1-1,1h-3.806
+			C41.413,29.344,42,26.122,42,23v-3c0-2.206-1.794-4-4-4h-5.764l-5.789-2.895c-0.31-0.154-0.678-0.138-0.973,0.044
+			C25.18,13.332,25,13.653,25,14v2.126c-1.723,0.445-3,2.013-3,3.874v3c0,4.009,0.968,8.183,3,11.108V39
+			c0,0.579-1.224,1.538-2.348,2.06l-6.849,1.96c-4.158,0.832-6.973,4.661-8.12,6.52C4.113,44.603,2,38.545,2,32
+			C2,15.458,15.458,2,32,2z M40,23c0,3.198-0.658,6.515-2.029,9H33c-0.551,0-1-0.449-1-1h-2c0,1.654,1.346,3,3,3h3.519
+			c-1.187,1.236-2.682,2-4.519,2c-5.497,0-8-6.739-8-13v-3c0-1.103,0.897-2,2-2c0.552,0,1-0.448,1-1v-1.382l4.553,2.276
+			C31.691,17.964,31.845,18,32,18h6c1.103,0,2,0.897,2,2V23z M27,39v-2.743C28.371,37.343,30.026,38,32,38s3.629-0.657,5-1.743V39
+			c0,0.774,0.376,1.453,0.884,2.023c-0.221,0.027-0.432,0.111-0.591,0.27L33.586,45h-3.172l-3.707-3.707
+			c-0.159-0.159-0.37-0.243-0.591-0.27C26.624,40.453,27,39.774,27,39z M32,62c-9.225,0-17.487-4.188-22.995-10.759
+			c0.549-0.997,3.213-5.465,7.27-6.279L23.14,43h2.446l3.707,3.707C29.48,46.895,29.735,47,30,47h4c0.265,0,0.52-0.105,0.707-0.293
+			L38.414,43h2.446l6.943,1.98c3.97,0.794,6.639,5.262,7.19,6.261C49.487,57.812,41.225,62,32,62z"/>
+	</g>
+</g>
+</svg>

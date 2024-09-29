@@ -1,0 +1,2271 @@
+@media only screen and (max-width: 1800px) {
+    h1 {
+        font-size: 46px;
+        line-height: 50px;
+    }
+    .banner-main-con::after {
+        width: 680px;
+        height: 795px;
+        background-size: contain;
+    }
+    .banner-main-con::before {
+        width: 801px;
+        height: 700px;
+        bottom: -60px;
+        left: -70px;
+        background-size: contain;
+    }    
+    .banner-inner-con {
+        grid-template-columns: 45% 52%;
+    }
+    .banner-img-con figure img{
+        width: 100%;
+    }
+    .banner-social-con {
+        left: -100px;
+    }
+    .hosting-type-box figure {
+        margin-bottom: 20px;
+    }
+    .hosting-type-box {
+        padding: 46px 30px 40px;
+    }
+    .domain-inner-con {
+        grid-template-columns: 51% 48%;
+    }
+    .domain-img-con figure img{
+        width: 100%;
+    }
+    .domain-img-con figure {
+        margin-left: 0;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .generic-title h2 {
+        margin-bottom: 10px;
+    }
+    .hosting-slider-main-con .generic-title {
+        margin-bottom: 40px;
+    }
+    .hosting-benefit-content-con p {
+        padding-right: 0;
+    }
+    .hosting-benefit-inner-con {
+        gap: 30px;
+        grid-template-columns: 44% 53%;
+    }
+    .hosting-benefit-img-con figure img{
+        width: 100%;
+    }
+    /*  */
+    .shared-hosting-types-con .hosting-type-box {
+        padding: 36px 30px;
+    }
+    .shared-hosting-types-con .hosting-type-box h6 {
+        margin-bottom: 19px;
+    }
+    .hosting-price-box span.numeric1 {
+        font-size: 44px;
+        line-height: 38px;
+    }
+    .shared-hosting-types-con .hosting-type-box ul {
+        width: 180px;
+        margin: 0 auto 26px;
+    }
+    .hosting-feature-box {
+        padding: 40px 45px;
+    }
+    .hostiko-guarantee-content-con h2 {
+        margin-bottom: 30px;
+    }
+    .hostiko-guarantees-text-outer i {
+        font-size: 26px;
+    }
+    .hostiko-guarantees-text-outer {
+        gap: 18px;
+        margin-bottom: 20px;
+    }
+    .hostiko-guarantee-img-con figure{
+        margin: 0;
+    }
+    .hostiko-guarantee-img-con figure img{
+        width: 100%;
+    }
+    .hostiko-guarantee-content-con .generic-btn {
+        margin-top: 26px;
+    }
+    .scripts-main-con .generic-title {
+        margin-bottom: 40px;
+    }
+    .scripts-main-con {
+        padding-bottom: 200px;
+    }
+    /*  */
+    .map-outer-con {
+        margin-bottom: 80px;
+    }
+    .map-and-form-main-con {
+        padding-bottom: 190px;
+    }
+    .contact-form-con .form-box ul {
+        margin-bottom: 40px;
+    }
+    .contact-form-con .generic-title {
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .banner-social-con {
+        display: none;
+    }
+    .banner-main-con {
+        padding: 140px 0 270px;
+    }
+    .hosting-types-inner-con {
+        margin-top: -170px;
+        margin-bottom: 50px;
+    }
+    .padding-top {
+        padding-top: 120px;
+    }
+    .padding-bottom {
+        padding-bottom: 120px;
+    }
+    .hosting-slide-box {
+        padding: 30px 25px;
+    }
+    .map-location-main-con::after {
+        width: 680px;
+        height: 785px;
+        background-size: contain;
+    }
+    .map-location-main-con::before {
+        width: 670px;
+        height: 530px;
+        bottom: -30px;
+        left: -40px;
+        background-size: contain;
+    }
+    h2 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .hosting-benefit-content-con p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 16px;
+    }
+    .hosting-benefit-content-con ul {
+        margin-bottom: 26px;
+    }
+    .client-review-slider .generic-title {
+        margin-bottom: 40px;
+    }
+    .client-review-outer-con {
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+    .client-review-outer-con .btn-wrap .prev-btn {
+        left: -50px;
+    }
+    .client-review-outer-con .btn-wrap .next-btn {
+        right: -50px;
+    }
+    .client-review-box {
+        padding: 30px 30px;
+    }
+    .global-partners-main-con .generic-title {
+        margin-bottom: 40px;
+    }
+    .global-partners-inner-con ul li {
+        height: 100px;
+    }
+    .global-partners-main-con {
+        padding-bottom: 236px;
+    }
+    .builder-main-con {
+        padding: 30px 38px;
+        min-height: 180px;
+        margin-bottom: 80px;
+        margin-top: -89px;
+    }
+    h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .builder-content h3 {
+        margin-bottom: 8px;
+    }
+    /*  */
+    .sub-banner-main-con::after {
+        width: 670px;
+        height: 585px;
+        background-size: contain;
+        top: -70px;
+        right: 0px;
+    }
+    .sub-banner-main-con::before {
+        width: 770px;
+        background-size: contain;
+        height: 620px;
+        bottom: -30px;
+        left: -40px;
+    }
+    .sub-banner-main-con {
+        padding: 130px 0 235px;
+    }
+    .hosting-empowered-inner-con {
+        padding: 50px;
+        margin-top: -160px;
+        grid-template-columns: 29% 23.4% 42%;
+    }
+    .hosting-empowered-heading-con h2 {
+        margin-bottom: 12px;
+        line-height: 40px;
+    }
+    .hosting-trust-con {
+        padding: 30px 30px 35px;
+    }
+    .mission-content-con h2 {
+        margin-bottom: 16px;
+    }
+    .mission-content-con .generic-btn {
+        margin-top: 20px;
+    }
+    .mission-con {
+        margin-bottom: 50px;
+    }
+    .mission-image-con figure img{
+        width: 100%;
+    }
+    .sub-banner-img-con figure img{
+        width: 100%;
+    }
+    /*  */
+    .sub-banner-content-con p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .sub-banner-content-con h1 {
+        margin-bottom: 14px;
+    }
+    /*  */
+    .map-and-form-main-con {
+        padding-bottom: 180px;
+    }
+    /*  */
+    .blog-banner-con {
+        padding: 150px 0 100px;
+    }
+    .blog-footer-con {
+        padding-top: 80px;
+    }
+    /*  */
+    /* 404 page styling start here*/
+    .error-con h2 {
+        font-size: 120px;
+        line-height: 125px;
+        margin-bottom: 10px;
+        color: var(--primary-color);
+    }
+    .error-con p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    /* 404 page styling end here */
+    /* coming soon page styling start here */
+    .coming-soon-con h2 {
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 30px;
+    }
+    .coming-soon-social-links ul li a {
+        width: 55px;
+        height: 55px;
+    }
+    /* coming soon page styling end here */
+    #button {
+        bottom: 101px;
+        right: 101px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .banner-inner-con {
+        grid-template-columns: 51% 46%;
+    }
+    .login-btn a {
+        padding: 10px 28px;
+        font-size: 12px;
+        height: 44px;
+    }
+    h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .banner-inner-con {
+        grid-template-columns: 50% 46%;
+        gap: 40px;
+    }
+    .banner-text-con {
+        padding-top: 0;
+    }
+    .header-main-con .navbar .navbar-nav {
+        gap: 30px;
+        margin-bottom: 0;
+    }
+    .banner-text-con span {
+        margin-bottom: 16px;
+    }
+    .banner-text-con p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 24px;
+    }
+    .hosting-type-box figure img{
+        width: 130px;
+    }
+    .hosting-type-box figure img {
+        height: 120px;
+        object-fit: contain;
+    }
+    .hosting-type-box figure {
+        margin-bottom: 20px;
+        min-height: auto;
+    }
+    .hosting-price-box {
+        margin-bottom: 16px;
+    }
+    .hosting-type-box p {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .hosting-types-inner-con {
+        margin-top: -150px;
+        margin-bottom: 40px;
+    }
+    .banner-main-con {
+        padding: 140px 0 240px;
+    }
+    .domain-inner-con {
+        grid-template-columns: 42% 57%;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .hosting-slider-main-con .generic-title {
+        margin-bottom: 30px;
+        padding: 0 90px;
+    }
+    .hosting-slide-box {
+        padding: 24px 18px;
+    }
+    .hosting-slider-main-con .owl-carousel .owl-item .hosting-slide-box figure {
+        margin-bottom: 18px;
+    }
+    .hosting-slide-box span {
+        line-height: 22px;
+        margin-bottom: 6px;
+    }
+    .hosting-slide-box p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 10px;
+    }
+    .map-location-main-con::after {
+        width: 510px;
+        height: 435px;
+        top: -50px;
+    }
+    .map-img-con figure img{
+        width: 100%;
+    }
+    .map-location-main-con::before {
+        width: 510px;
+        height: 450px;
+    }
+    .hosting-benefit-inner-con {
+        gap: 30px;
+        grid-template-columns: 47% 50%;
+    }
+    .padding-top {
+        padding-top: 100px;
+    }
+    .padding-bottom {
+        padding-bottom: 100px;
+    }
+    .client-review-outer-con {
+        max-width: 880px;
+    }
+    .client-review-outer-con .owl-nav,
+    .client-review-outer-con .owl-dots{
+        display: none;
+    }
+    .client-review-box p {
+        margin-bottom: 16px;
+    }
+    .generic-title {
+        padding: 0 100px;
+    }
+    .global-partners-inner-con ul {
+        gap: 24px;
+    }
+    .global-partners-inner-con ul li figure img {
+        width: 80%;
+    }
+    .global-partners-inner-con ul li {
+        height: 90px;
+    }
+    .global-partners-inner-con ul li figure{
+        text-align: center;
+    }
+    .hosting-slider-main-con .owl-carousel .owl-stage-outer {
+        margin-bottom: 30px;
+    }
+    .hosting-slider-main-con .owl-dots {
+        gap: 8px;
+    }
+    .footer-box h6 {
+        margin-bottom: 20px;
+    }
+    .client-review-outer-con .btn-wrap {
+        position: relative;
+        left: unset;
+        width: 120px;
+        top: unset;
+        z-index: 1;
+        transform: unset;
+        justify-content: center;
+        margin: 0 auto;
+        display: flex;
+        gap: 15px;
+    }
+    .client-review-outer-con .btn-wrap .prev-btn, .client-review-outer-con .btn-wrap .next-btn {
+        position: relative;
+        left: unset;
+        right: unset;
+    }
+    .client-review-slider .owl-carousel{
+        margin-bottom: 30px;
+    }
+    .reviewer-info-box {
+        gap: 12px;
+    }
+    .global-partners-main-con {
+        padding-bottom: 190px;
+    }
+    .builder-main-con {
+        min-height: 160px;
+        margin-bottom: 70px;
+    }
+    /*  */
+    .about-banner-con .sub-banner-inner-con {
+        gap: 64px;
+    }
+    .sub-banner-main-con::after {
+        width: 370px;
+        height: 315px;
+        top: -20px;
+    }
+    .sub-banner-content-con h1 {
+        margin-bottom: 8px;
+    }
+    .sub-banner-content-con p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .sub-banner-main-con::before {
+        width: 480px;
+        height: 490px;
+        bottom: -50px;
+        left: -20px;
+    }
+    .sub-banner-main-con {
+        padding: 130px 0 230px;
+    }
+    .hosting-empowered-inner-con {
+        padding: 40px;
+        gap: 23px;
+    }
+    .hosting-empowered-heading-con h2 {
+        margin-bottom: 10px;
+        line-height: 38px;
+    }
+    .hosting-trust-con span {
+        font-size: 34px;
+        line-height: 38px;
+        margin-bottom: 6px;
+    }
+    .hosting-trust-con {
+        padding: 25px 20px;
+    }
+    .hosting-empowered-inner-con p {
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .mission-con {
+        gap: 73px;
+        grid-template-columns: 45% 47%;
+    }
+    .mission-content-con h2 {
+        margin-bottom: 12px;
+    }
+    .mission-content-con p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .hostiko-team-inner-con {
+        gap: 24px;
+    }
+    /*  */
+    .dedicated-banner-con .sub-banner-inner-con {
+        gap: 73px;
+    }
+    .dedicated-pricing-inner-con {
+        padding: 9px 30px;
+    }
+    .dedicated-details-box {
+        padding-left: 0;
+    }
+    .dedicated-details-box ul {
+        gap: 17px 16px;
+        grid-template-columns: 53% 42%;
+    }
+    .dedicated-price-box .hosting-price-box span.numeric1 {
+        font-size: 50px;
+        line-height: 36px;
+    }
+    .dedicated-price-box .hosting-price-box .numeric2 {
+        font-size: 26px;
+        margin-bottom: 4px;
+    }
+    .dedicated-price-box {
+        gap: 31px;
+        grid-template-columns: 14% 40% 17% 18%;
+        padding: 34px 0 36px;
+    }
+    /*  */
+    .sub-banner-inner-con {
+        gap: 129px;
+    }
+    .reseller-hosting-types-con .hosting-types-inner-con {
+        gap: 18px;
+    }
+    .domain-hosting-types-con .hosting-type-box {
+        padding: 30px 24px 35px;
+    }
+    .hosting-price-box .month-title {
+        padding-left: 5px;
+    }
+    .domain-hosting-types-con .hosting-type-box figure {
+        margin-bottom: 12px;
+    }
+    .domain-hosting-types-con .hosting-type-box p {
+        margin-bottom: 12px;
+    }
+    .hosting-price-box .numeric2 {
+        font-size: 18px;
+    }
+    .hosting-price-box span.numeric1 {
+        font-size: 40px;
+        line-height: 38px;
+    }
+    .hosting-price-box span.dollar {
+        left: 0;
+        font-size: 22px;
+        line-height: 22px;
+        padding-right: 3px;
+    }
+    .domain-hosting-types-con .hosting-price-box {
+        margin-bottom: 20px;
+    }
+    .domain-price-main-con .table tbody tr td {
+        padding: 16px 12px;
+    }
+    .domain-price-main-con .table tbody tr:last-child td {
+        padding-bottom: 20px;
+    }
+    /*  */
+    .reseller-banner-con .sub-banner-inner-con {
+        gap: 130px;
+    }
+    .shared-hosting-types-con .hosting-type-box {
+        padding: 30px 24px;
+    }
+    .shared-hosting-types-con .hosting-type-box h6 {
+        margin-bottom: 14px;
+    }
+    .reseller-hosting-types-con .hosting-price-box {
+        padding-bottom: 18px;
+        margin-bottom: 18px;
+    }
+    .hosting-type-box ul li {
+        padding-left: 24px;
+        margin-bottom: 8px;
+    }
+    .shared-hosting-types-con .hosting-type-box ul {
+        margin: 0 auto 20px;
+    }
+    .hosting-features-con .generic-title {
+        margin-bottom: 40px;
+    }
+    .hosting-fatures-inner-con {
+        gap: 26px;
+    }
+    .hosting-feature-box {
+        padding: 30px 25px;
+        gap: 20px;
+    }
+    .hosting-feature-box p {
+        margin-bottom: 6px;
+    }
+    .hostiko-guarantee-inner-con {
+        gap: 60px;
+        grid-template-columns: 48% 45%;
+    }
+    .hostiko-guarantees-text-outer i {
+        font-size: 22px;
+        line-height: 18px;
+    }
+    .hostiko-guarantee-content-con h2 {
+        margin-bottom: 20px;
+    }
+    .hostiko-guarantees-text h6{
+        margin-bottom: 2px;
+    }
+    .hostiko-guarantees-text-outer {
+        gap: 16px;
+        margin-bottom: 14px;
+    }
+    .hostiko-guarantee-content-con .generic-btn {
+        margin-top: 20px;
+    }
+    .scripts-inner-con ul li figure {
+        width: 129px;
+        height: 129px;
+    }
+    .scripts-inner-con ul li figure img{
+        width: 62px;
+        object-fit: contain;
+    }
+    .scripts-inner-con ul {
+        gap: 20px;
+        grid-template-columns: 15% 15% 15% 15% 15% 14%;
+    }
+    .scripts-main-con {
+        padding-bottom: 170px;
+    }
+    /*  */
+    .vps-banner-con .sub-banner-inner-con {
+        gap: 73px;
+    }
+    .vps-con .price_content .smallbox {
+        padding: 16px 12px;
+    }
+    .vps-con .price_content .value {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .vps-con .product-calculations {
+        gap: 8px;
+    }
+    .vps-con .price_rangetxt {
+        grid-template-columns: 13% 13% 13% 13% 13%;
+        margin-bottom: 25px;
+    }
+    .vps-con .slider-outer {
+        margin-bottom: 24px;
+    }
+    .vps-con .price_txt .numeric1 {
+        line-height: 44px;
+        font-size: 50px;
+    }
+    .vps-con .price_txt .numeric2 {
+        line-height: 26px;
+        font-size: 26px;
+    }
+    .vps-con .vps-inner-con {
+        margin-bottom: 90px;
+        margin-top: -128px;
+    }
+    .hostiko-vpn-benefits ul {
+        gap: 18px 15px;
+        grid-template-columns: 21% 22% 24% 22%;
+    }
+    /*  */
+    .contact-main-con .hosting-type-box figure img {
+        height: 90px;
+    }
+    .contact-main-con .hosting-type-box figure {
+        margin-bottom: 16px;
+    }
+    .contact-main-con .hosting-type-box h6 {
+        margin-bottom: 6px;
+    }
+    .contact-main-con .hosting-type-box ul {
+        margin-bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    .map-outer-con iframe {
+        height: 400px;
+    }
+    .map-outer-con {
+        margin-top: -200px;
+    }
+    .contact-main-con {
+        padding-bottom: 300px;
+    }
+    .contact-banner-con .sub-banner-inner-con {
+        grid-template-columns: 51% 35%;
+    }
+    /*  */
+    .blog-banner-con {
+        padding: 140px 0 100px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    /* cross-button */
+    .navbar-toggler {
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        padding: 0px;
+        width: 40px;
+        position: absolute;
+    }
+    .header-main-con .collapse.navbar-collapse {
+        margin-right: 0;
+    }
+    .navbar-collapse {
+        background: var(--secondary-color);
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top: 49px;
+        width: 300px;
+        padding: 14px 10px;
+        border-radius: 15px;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+    .navbar-toggler .navbar-toggler-icon:nth-child(1),
+    .navbar-toggler .navbar-toggler-icon:nth-child(3) {
+        -webkit-transition: transform .35s ease-in-out;
+        -moz-transition: transform .35s ease-in-out;
+        -o-transition: transform .35s ease-in-out;
+        transition: transform .35s ease-in-out;
+    }
+    .navbar-toggler:not(.collapsed) .navbar-toggler-icon:nth-child(1) {
+        position: absolute;
+        top: 8px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+        left: 0px;
+    }
+    .navbar-toggler:not(.collapsed) .navbar-toggler-icon:nth-child(2) {
+        height: 12px;
+        visibility: hidden;
+        background-color: transparent;
+    }
+    .navbar-toggler:not(.collapsed) .navbar-toggler-icon:nth-child(3) {
+        position: absolute;
+        top: 8px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+        left: 0px;
+    }
+    .navbar-toggler-icon {
+        float: left;
+        width: 90%;
+        height: 3px;
+        margin: 3px 0px;
+        background: var(--primary-color);
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+    .navbar-btn {
+        clip-path: none;
+        padding: 15px 20px 15px 20px;
+        text-align: center;
+        left: 0;
+    }
+    /* cross button */
+    .header-main-con .navbar .navbar-nav {
+        gap: 4px;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu {
+        left: -250px;
+        top: 0;
+        padding: 0;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul, .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu.sub-menu {
+        padding: 14px 10px;
+        margin-top: 1px;
+    }
+    .header-main-con ul li.nav-item.dropdown.show .dropdown-menu.sub-menu.show{
+        display: block;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu.sub-menu{
+        left: 219px;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul li a.dropdown-item {
+        padding: 4px 16px;
+        font-size: 15px;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul li.dropdown-item a.dropdown-toggle {
+        padding: 4px 16px;
+    }
+    .header-main-con .navbar .navbar-nav .nav-link {
+        font-size: 16px;
+        line-height: 20px;
+        border-radius: 10px;
+        padding: 6px 14px !important;
+    }
+    .header-main-con .navbar .navbar-nav .nav-link:hover,
+    .header-main-con .navbar .navbar-nav .nav-link:active{
+        background: var(--primary-color);
+        color: var(--secondary-color);
+    }
+    .login-btn {
+        margin-top: 0;
+    }
+    .nav-btns.d-flex.align-items-center {
+        gap: 0;
+        margin-right: 60px;
+    }
+    .banner-inner-con {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .banner-btns {
+        gap: 10px;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .banner-text-con h1 {
+        margin-bottom: 12px;
+    }
+    .banner-text-con span {
+        margin-bottom: 12px;
+    }
+    .banner-text-con{
+        padding: 0 50px;
+    }
+    .banner-img-con figure{
+        width: 360px;
+        margin: 0 auto;
+    }
+    .banner-main-con::before {
+        width: 400px;
+        height: 400px;
+        bottom: -60px;
+        left: -10px;
+    }
+    .banner-main-con::after {
+        width: 400px;
+        height: 400px;
+        right: 0;
+        top: -70px;
+    }
+    .banner-main-con {
+        padding: 130px 0 230px;
+    }
+    .hosting-types-inner-con{
+        gap: 19px;
+    }
+    .hosting-type-box {
+        padding: 36px 20px 30px;
+    }
+    .hosting-type-box figure img {
+        height: 100px;
+    }
+    .hosting-price-box span.numeric1 {
+        font-size: 40px;
+        line-height: 36px;
+    }
+    .hosting-price-box span.dollar {
+        top: 2px;
+        left: 0;
+        font-size: 22px;
+        line-height: 22px;
+        padding-right: 3px;
+    }
+    .hosting-type-box h6 {
+        margin-bottom: 16px;
+    }
+    .hosting-price-box .month-title {
+        padding-left: 5px;
+    }
+    .hosting-price-box .numeric2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .hosting-type-box figure {
+        margin-bottom: 16px;
+    }
+    .hosting-type-box p {
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+    }
+    .hosting-type-box ul li {
+        padding-left: 24px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .hosting-type-box ul {
+        margin: 0 auto 18px;
+    }
+    .generic-btn a, .generic-btn button,
+    .domain-serach-con button {
+        height: 48px;
+    }
+    .hosting-types-inner-con {
+        margin-bottom: 30px;
+    }
+    .domain-serach-con input {
+        padding: 10px 20px;
+        height: 48px;
+    }
+    .domain-serach-con {
+        gap: 10px;
+        grid-template-columns: 57% 40%;
+        margin-bottom: 25px;
+    }
+    .domain-text-con .generic-title p br{
+        display: none;
+    }
+    .generic-title h2 {
+        margin-bottom: 8px;
+    }
+    .domain-inner-con .generic-title {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .domain-serach-con button i {
+        margin-right: 0;
+    }
+    .hosting-slider-main-con .generic-title {
+        margin-bottom: 30px;
+        padding: 0 70px;
+    }
+    .hosting-slider-main-con .owl-carousel .owl-item .hosting-slide-box img {
+        height: 120px;
+        object-fit: contain;
+    }
+    .hosting-slider-main-con .owl-carousel .owl-item .hosting-slide-box figure {
+        margin-bottom: 14px;
+    }
+    .generic-title {
+        padding: 0 80px;
+        margin-bottom: 30px;
+    }
+    .map-img-con {
+        width: 47%;
+        height: 100%;
+    }
+    .map-content-details-con {
+        width: 53%;
+        height: 100%;
+        padding: 0 9px;
+    }
+    .map-and-content-con{
+        padding: 30px 10px;
+    }
+    .hosting-benefit-inner-con {
+        gap: 30px;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .hosting-benefit-content-con ul {
+        margin-bottom: 8px;
+        display: inline-block;
+        text-align: left;
+    }
+    .hosting-benefit-content-con h2 {
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .hosting-benefit-img-con figure{
+        width: 360px;
+        margin: 0 auto;
+    }
+    .client-review-slider .generic-title {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .global-partners-main-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .global-partners-inner-con ul {
+        gap: 18px;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .builder-main-con {
+        min-height: auto;
+        margin-bottom: 60px;
+        margin-top: -72px;
+    }
+    .global-partners-main-con {
+        padding-bottom: 156px;
+    }
+    .footer-inner-con {
+        grid-template-columns: 22% 13% 22% 29%;
+        padding-bottom: 50px;
+    }
+    .padding-bottom {
+        padding-bottom: 80px;
+    }
+    .padding-top {
+        padding-top: 80px;
+    }
+    .map-location-main-con::after {
+        width: 320px;
+        height: 335px;
+    }
+    .map-location-main-con::before {
+        width: 430px;
+        height: 390px;
+    }
+    /*  */
+    .about-banner-con .sub-banner-inner-con {
+        gap: 30px;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .sub-banner-img-con figure {
+        width: 330px;
+        margin: 0 auto;
+    }
+    .sub-banner-content-con {
+        padding: 0 70px;
+    }
+    .sub-banner-main-con {
+        padding: 120px 0 210px;
+    }
+    .hosting-empowered-inner-con {
+        grid-template-columns: 48% 47.4%;
+    }
+    .hosting-empowered-content {
+        padding-left: 0;
+        grid-column: 1/-1;
+    }
+    .sub-banner-content-con .breadcrumb {
+        padding: 4px 35px;
+        height: 48px;
+    }
+    .mission-con {
+        gap: 33px;
+        grid-template-columns: 45% 50%;
+    }
+    .vision-con {
+        grid-template-columns: 50% 45%;
+    }
+    .hostiko-team-inner-con {
+        gap: 18px;
+        grid-template-columns: 28% 28%;
+        justify-content: center;
+    }
+    .hostiko-team-member-con ul {
+        gap: 6px;
+    }
+    .sub-banner-content-con {
+        padding: 0 70px;
+    }
+    /*  */
+    .dedicated-banner-con .sub-banner-inner-con {
+        gap: 40px;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .dedicated-price-box .generic-btn a {
+        height: 48px;
+    }
+    .dedicated-price-box {
+        gap: 18px;
+        grid-template-columns: 100%;
+        padding: 26px 0;
+        text-align: center;
+    }
+    .dedicated-details-box ul {
+        grid-template-columns: 29% 23%;
+        justify-content: center;
+        text-align: left;
+    }
+    .dedicated-price-heading small {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .dedicated-price-box .generic-btn {
+        text-align: center;
+    }
+    .dedicated-price-box .hosting-price-box span.numeric1 {
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .dedicated-price-box .hosting-price-box .numeric2 {
+        font-size: 22px;
+        margin-bottom: 2px;
+    }
+    .dedicated-price-box .hosting-price-box span.dollar {
+        top: 0;
+        left: 0;
+        font-size: 24px;
+        line-height: 20px;
+    }
+    .dedicated-price-heading::after{
+        display: none;
+    }
+    /*  */
+    .sub-banner-inner-con {
+        gap: 40px;
+        text-align: center;
+        grid-template-columns: 100%;
+    }
+    .reseller-hosting-types-con .hosting-types-inner-con {
+        grid-template-columns: 48% 48%;
+    }
+    .domain-price-main-con .table thead th:first-child, .domain-price-main-con .table tbody tr td:first-child {
+        padding-left: 30px;
+    }
+    /*  */
+    .reseller-banner-con .sub-banner-inner-con {
+        gap: 40px;
+        text-align: center;
+        grid-template-columns: 100%;
+    }
+    .reseller-banner-con .sub-banner-img-con figure{
+        width: 280px;
+    }
+    .reseller-banner-con .sub-banner-content-con {
+        padding: 0 90px;
+    }
+    .hosting-feature-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hostiko-guarantee-inner-con {
+        gap: 46px;
+        grid-template-columns: 48% 45%;
+    }
+    .hosting-features-con figure img {
+        height: 100px;
+    }
+    h6 {
+        font-size: 19px;
+    }
+    .scripts-inner-con ul li figure {
+        width: 110px;
+        height: 110px;
+    }
+    .scripts-inner-con ul li figure img {
+        width: 54px;
+    }
+    .scripts-inner-con ul {
+        grid-template-columns: 25% 25% 25%;
+        justify-content: center;
+    }
+    .scripts-inner-con ul li figure {
+        width: 110px;
+        height: 110px;
+        margin: 0 auto 12px;
+    }
+    .scripts-main-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .scripts-main-con {
+        padding-bottom: 140px;
+    }
+    .hosting-features-con .generic-title {
+        margin-bottom: 30px;
+    }
+    /*  */
+    .vps-banner-con .sub-banner-inner-con {
+        gap: 40px;
+        grid-template-columns: 100%;
+    }
+    .sliderbox {
+        grid-template-columns: 100%;
+    }
+    .vps-con .price_txt {
+        margin-bottom: 4px;
+    }
+    .vps-con #backup_val {
+        padding: 30px 40px;
+    }
+    .vps-con .price_txt .numeric1 {
+        line-height: 34px;
+        font-size: 40px;
+    }
+    .vps-con .price_txt .dollar {
+        line-height: 26px;
+        font-size: 26px;
+        padding-right: 5px;
+    }
+    .vps-con .price_txt .numeric2 {
+        line-height: 18px;
+        font-size: 22px;
+    }
+    .vps-con .slider-box-inner-con {
+        padding: 40px 30px;
+    }
+    .vps-con .price_rangetxt {
+        grid-template-columns: 17% 17% 17% 17% 16%;
+        gap: 0 18px;
+    }
+    .hostiko-vpn-benefits ul {
+        gap: 14px 15px;
+        grid-template-columns: 31% 31% 31%;
+    }
+    .vps-con .product-con {
+        gap: 12px;
+        grid-template-columns: 48% 48%;
+    }
+    .vps-con .slider-box-inner-con {
+        padding: 30px 25px;
+    }
+    .vps-con #backup_val {
+        padding: 25px 30px;
+    }
+    .vps-con #backup_val {
+        padding: 25px 30px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .vps-con .price_txt {
+        margin-bottom: 0;
+    }
+    .vps-con .vps-inner-con {
+        margin-bottom: 70px;
+    }
+    /*  */
+    .contact-banner-con .sub-banner-inner-con {
+        grid-template-columns: 100%;
+    }
+    .contact-banner-con .sub-banner-img-con figure {
+        width: 280px;
+    }
+    .contact-main-con .hosting-type-box figure img {
+        height: 70px;
+    }
+    .contact-main-con .hosting-type-box ul {
+        margin-bottom: 6px;
+    }
+    .contact-main-con.shared-hosting-types-con .hosting-type-box {
+        padding: 25px 18px;
+    }
+    .contact-main-con {
+        padding-bottom: 280px;
+    }
+    .map-outer-con {
+        margin-bottom: 70px;
+    }
+    .contact-form-con .generic-title {
+        margin-bottom: 30px;
+    }
+    .contact-form-con .form-box ul {
+        margin-bottom: 20px;
+        gap: 20px 20px;
+    }
+    .map-and-form-main-con {
+        padding-bottom: 140px;
+    }
+    .map-outer-con iframe {
+        height: 320px;
+    }
+    .map-outer-con {
+        margin-top: -150px;
+    }
+    .contact-main-con {
+        padding-bottom: 240px;
+    }
+    /*  */
+    .blog-banner-con {
+        padding: 120px 0 80px;
+    }
+    .blog-footer-con {
+        padding-top: 70px;
+    }
+    /*  */
+    #button {
+        bottom: 110px;
+        right: 80px;
+    }
+    /* coming soon */
+    .coming-soon-con {
+        position: relative;
+        padding: 0;
+    }
+    .error-con .generic-btn a {
+        font-size: 16px;
+        padding: 20px 30px;
+    }
+    .coming-soon-con h2 {
+        font-size: 60px;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+    /*  */
+}
+@media only screen and (max-width: 767px) {
+    .banner-text-con {
+        padding: 0;
+    }
+    .navbar-collapse {
+        top: 45px;
+    }
+    .login-btn a {
+        padding: 10px 24px;
+    }
+    .banner-main-con {
+        padding: 110px 0 90px;
+    }
+    .hosting-types-inner-con {
+        grid-template-columns: 100%;
+        margin-top: 0;
+        gap: 26px;
+    }
+    .hosting-types-main-con{
+        padding-top: 70px;
+    }
+    .banner-img-con figure {
+        width: 320px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .banner-text-con span {
+        margin-bottom: 10px;
+    }
+    .banner-text-con span i {
+        margin-right: 8px;
+        font-size: 18px;
+    }
+    .banner-text-con h1 {
+        margin-bottom: 10px;
+    }
+    .banner-text-con p {
+        line-height: 24px;
+        margin-bottom: 18px;
+    }
+    .generic-btn a, .generic-btn button {
+        height: 46px;
+    }
+    .banner-inner-con {
+        gap: 30px;
+    }
+    .hosting-type-support-con ul {
+        gap: 12px;
+        flex-direction: column;
+        width: 220px;
+        margin: 0 auto;
+    }
+    .padding-top {
+        padding-top: 70px;
+    }
+    .padding-bottom {
+        padding-bottom: 70px;
+    }
+    .domain-inner-con {
+        gap: 30px;
+        text-align: center;
+        grid-template-columns: 100%;
+    }
+    .domain-img-con figure {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .domain-text-con > ul {
+        gap: 20px;
+        justify-content: center;
+    }
+    .domain-serach-con {
+        grid-template-columns: 62% 36%;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .generic-title h2 {
+        margin-bottom: 6px;
+    }
+    .hosting-type-box {
+        padding: 30px 40px 30px;
+    }
+    .hosting-slider-main-con .generic-title {
+        margin-bottom: 30px;
+        padding: 0 30px;
+    }
+    .hosting-slide-box {
+        padding: 24px 30px;
+    }
+    .hosting-slide-box p {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 6px;
+    }
+    .hosting-slide-box span {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 6px;
+    }
+    .hosting-slider-main-con .owl-carousel .owl-stage-outer {
+        margin-bottom: 20px;
+    }
+    .hosting-slider-main-con .owl-dots {
+        gap: 4px;
+    }
+    .generic-title {
+        padding: 0;
+        margin-bottom: 25px;
+    }
+    .map-content-details-con {
+        padding: 0 14px;
+    }
+    h6 {
+        font-size: 19px;
+        line-height: 21px;
+    }
+    .country-details h6{
+        margin-bottom: 4px;
+    }
+    .country-details {
+        margin-bottom: 18px;
+    }
+    .map-location-inner-con .nav-pills .nav-link {
+        padding: 10px 20px;
+    }
+    .hosting-benefit-img-con figure {
+        width: 330px;
+    }
+    .client-review-box {
+        text-align: center;
+    }
+    .reviewer-info-box {
+        justify-content: center;
+        text-align: left;
+    }
+    .client-review-box > figure{
+        margin: 0 auto 12px;
+        width: 31px;
+    }
+    .client-review-slider .owl-carousel {
+        margin-bottom: 20px;
+    }
+    .global-partners-inner-con ul {
+        gap: 13px;
+    }
+    .global-partners-inner-con ul {
+        gap: 20px;
+        grid-template-columns: 36% 36%;
+        justify-content: center;
+    }
+    .global-partners-main-con {
+        padding-bottom: 176px;
+    }
+    .builder-main-con {
+        text-align: center;
+        grid-template-columns: 100%;
+        gap: 18px;
+        margin-bottom: 50px;
+        margin-top: -104px;
+    }
+    .builder-content h3 {
+        margin-bottom: 6px;
+    }
+    .footer-inner-con {
+        grid-template-columns: 100%;
+        padding-bottom: 30px;
+        text-align: center;
+        gap: 20px;
+    }
+    .footer-box h6 {
+        margin-bottom: 8px;
+        color: var(--accent);
+    }
+    .footer-contact-info ul{
+        width: 208px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .footer-box ul li {
+        padding-left: 0;
+        margin-bottom: 4px;
+    }
+    .footer-contact-info ul li{
+        padding-left: 27px;
+    }
+    .footer-copyright-con {
+        gap: 30px;
+        grid-template-columns: 100%;
+    }    
+    .copyright-logo-con {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .copyright-logo-con a {
+        margin-right: 0;
+        padding-right: 0;
+        border-right: 0;
+    }
+    .footer-copyright-con {
+        gap: 14px;
+        grid-template-columns: 100%;
+    }
+    .social-links-con ul {
+        justify-content: center;
+    }
+    /*  */
+    .sub-banner-main-con {
+        padding: 110px 0 200px;
+    }
+    .hosting-trust-con span {
+        font-size: 30px;
+        line-height: 34px;
+        margin-bottom: 3px;
+    }
+    .hosting-empowered-heading-con h2 {
+        margin-bottom: 6px;
+        line-height: 30px;
+    }
+    .hosting-empowered-inner-con {
+        padding: 30px 22px;
+        gap: 20px;
+    }
+    .hosting-empowered-inner-con p {
+        line-height: 24px;
+    }
+    .mission-con {
+        gap: 20px;
+        grid-template-columns: 100%;
+        text-align: center;
+        position: relative;
+    }
+    .mission-content-con h2 {
+        margin-bottom: 8px;
+    }
+    .mission-image-con figure{
+        width: 330px;
+        margin: 0 auto;
+    }
+    .mission-con .mission-content-con{
+        order: 2;
+    }
+    .mission-content-con .generic-btn {
+        margin-top: 16px;
+    }
+    .sub-banner-img-con figure {
+        width: 280px;
+    }
+    .sub-banner-content-con .breadcrumb {
+        padding: 4px 25px;
+        height: 44px;
+    }
+    .sub-banner-content-con p {
+        margin-bottom: 15px;
+    }
+    .sub-banner-content-con h1 {
+        margin-bottom: 6px;
+    }
+    .sub-banner-main-con::before {
+        width: 360px;
+        height: 360px;
+        bottom: -40px;
+        left: -10px;
+    }
+    .sub-banner-main-con::after {
+        width: 300px;
+        height: 300px;
+        top: -40px;
+    }
+    .hostiko-team-inner-con {
+        grid-template-columns: 38% 38%;
+    }
+    .hostiko-team-member-con figure {
+        margin-bottom: 10px;
+    }
+    /*  */
+    .sub-banner-content-con {
+        padding: 0;
+    }
+    .dedicated-details-box ul {
+        grid-template-columns: 42% 33%;
+        gap: 8px;
+    }
+    .dedicated-price-box .hosting-price-box span.numeric1 {
+        font-size: 33px;
+        line-height: 26px;
+    }
+    .dedicated-price-box .hosting-price-box .numeric2 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .dedicated-price-box .hosting-price-box span.dollar {
+        font-size: 20px;
+        line-height: 19px;
+    }
+    .dedicated-price-heading span {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 6px;
+    }
+    .dedicated-price-heading small {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .dedicated-price-box .generic-btn a {
+        height: 44px;
+    }
+    .domain-serach-con input {
+        padding: 8px 20px;
+        height: 44px;
+    }
+    .generic-btn a, .generic-btn button, .domain-serach-con button {
+        height: 44px;
+    }
+    /*  */
+    .domain-hosting-types-con .hosting-type-box figure img {
+        height: 40px;
+    }
+    .domain-hosting-types-con .hosting-type-box {
+        padding: 30px 24px;
+    }
+    .domain-price-main-con .table thead th {
+        padding: 12px 12px;
+        font-size: 15px;
+    }
+    .domain-price-main-con .table thead th:first-child, .domain-price-main-con .table tbody tr td:first-child {
+        padding-left: 20px;
+    }
+    .domain-price-main-con .table tbody tr td {
+        padding: 12px 12px;
+    }
+    .domain-price-main-con .table thead th, .domain-price-main-con .table tbody tr:not(:last-child) td {
+        font-size: 15px;
+    }
+    .domain-price-main-con .table tbody tr:last-child td {
+        padding-bottom: 12px;
+    }
+    .reseller-banner-con .sub-banner-content-con {
+        padding: 0 60px;
+    }
+    .reseller-banner-con .sub-banner-inner-con {
+        gap: 30px;
+    }
+    .reseller-banner-con .sub-banner-img-con figure {
+        width: 220px;
+    }
+    .reseller-banner-con.sub-banner-main-con {
+        padding: 110px 0 140px;
+    }
+    .reseller-hosting-types-con .hosting-price-box {
+        padding-bottom: 14px;
+        margin-bottom: 14px;
+    }
+    .hosting-price-box span.numeric1 {
+        font-size: 34px;
+        line-height: 30px;
+    }
+    .hosting-price-box .numeric2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .shared-hosting-types-con .hosting-type-box h6 {
+        margin-bottom: 10px;
+    }
+    .shared-hosting-types-con .hosting-type-box ul {
+        margin: 0 auto 15px;
+    }
+    .hosting-type-box ul li {
+        padding-left: 23px;
+        margin-bottom: 6px;
+    }
+    .hosting-fatures-inner-con {
+        gap: 14px;
+    }
+    .hosting-feature-box {
+        padding: 25px 15px;
+        gap: 14px;
+    }
+    .hosting-features-con figure img {
+        height: 90px;
+    }
+    .hostiko-guarantees-text-outer {
+        gap: 12px;
+        flex-direction: column;
+    }
+    .hostiko-guarantee-inner-con {
+        gap: 30px;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .hostiko-guarantee-img-con figure {
+        width: 330px;
+        margin: 0 auto;
+    }
+    h6 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .country-details ul li a {
+        font-size: 15px;
+        line-height: 18px;
+    }    
+    .scripts-inner-con ul li figure {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 10px;
+    }
+    .scripts-inner-con ul li figure img {
+        width: 46px;
+    }
+    .scripts-main-con {
+        padding-bottom: 170px;
+    }
+    /*  */
+    .hostiko-vpn-benefits ul {
+        gap: 14px 15px;
+        grid-template-columns: 42% 40%;
+    }
+    .vps-con .vps-inner-con {
+        margin-bottom: 60px;
+    }
+    /*  */
+    .contact-main-con {
+        padding-bottom: 220px;
+    }
+    .map-outer-con {
+        margin-bottom: 60px;
+    }
+    .contact-form-con .form-box ul {
+        gap: 14px;
+    }
+    .contact-form-con .form-box ul li input {
+        height: 50px;
+        padding: 10px 20px;
+    }
+    .contact-form-con .form-box ul li textarea {
+        height: 120px;
+        padding: 16px 20px;
+    }
+    .map-and-form-main-con {
+        padding-bottom: 160px;
+    }
+    .contact-main-con .hosting-type-box ul {
+        width: 100%;
+    }
+    /*  */
+    .blog-banner-con {
+        padding: 110px 0 70px;
+    }
+    .blog-footer-con {
+        padding-top: 60px;
+    }
+    /* coming soon page  */
+    .error-con .generic-btn a {
+        padding: 16px 20px;
+        font-size: 15px;
+    }
+    .coming-soon-con h2 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .coming-soon-social-links ul li a {
+        width: 45px;
+        height: 45px;
+    }
+    .coming-soon-social-links ul {
+        margin-bottom: 26px;
+    }
+    .error-con {
+        padding: 0;
+    }
+    /* coming soon page  */
+    .contact-form-con .form-box ul li span.error {
+        font-size: 13px;
+        margin-left: 22px;
+    }
+    .footer-contact-info ul li i {
+        top: 6px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu {
+        left: 0;
+        top: 0;
+        padding: 0;
+        width: 100%;
+        position: relative;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul li a.dropdown-item,
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul li a.dropdown-toggle {
+        padding: 4px 26px !important;
+    }
+    .header-main-con ul li.nav-item.dropdown.show .dropdown-menu.sub-menu.show {
+        width: 100%;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul li ul.sub-menu li a.dropdown-item{
+        padding: 4px 40px !important;
+    }
+    .header-main-con .navbar .navbar-nav {
+        gap: 1px;
+    }
+    .navbar-collapse {
+        top: 40px;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu ul, .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu.sub-menu {
+        padding: 0;
+    }
+    .header-main-con .navbar-expand-lg .navbar-nav .dropdown-menu.sub-menu{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .hosting-types-inner-con {
+        z-index: unset;
+    }
+    .header-main-con .navbar-light .navbar-brand figure img{
+        width: 140px;
+        object-fit: contain;
+    }
+    .header-main-con .navbar-light .navbar-brand {
+        margin-right: 0;
+    }
+    .nav-btns.d-flex.align-items-center {
+        margin-right: 50px;
+    }
+    .login-btn a {
+        padding: 7px 14px;
+        height: 40px;
+    }
+    .navbar-toggler {
+        width: 34px;
+    }
+    .sub-banner-content-con .breadcrumb li, .sub-banner-content-con .breadcrumb li a {
+        font-size: 12px;
+        font-weight: 600;
+    }    
+    .sub-banner-content-con p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 12px;
+    }
+    body {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .builder-content p {
+        font-size: 15px;
+    }
+    .banner-main-con {
+        padding: 100px 0 70px;
+    }
+    .banner-main-con::before {
+        width: 280px;
+        height: 330px;
+    }
+    .banner-main-con::after {
+        width: 280px;
+        height: 350px;
+    }
+    h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .banner-text-con h1 {
+        margin-bottom: 8px;
+    }
+    .generic-btn a, .generic-btn button {
+        height: 44px;
+        padding: 8px 25px;
+    }
+    .banner-img-con figure {
+        width: 280px;
+    }
+    .padding-bottom {
+        padding-bottom: 50px;
+    }
+    .hosting-types-main-con {
+        padding-top: 50px;
+    }
+    .padding-top {
+        padding-top: 50px;
+    }
+    .domain-img-con figure {
+        width: 280px;
+    }
+    .domain-serach-con {
+        grid-template-columns: 100%;
+        margin-bottom: 18px;
+    }
+    .domain-text-con > ul {
+        gap: 17px;
+    }
+    .domain-serach-con button,
+    .domain-serach-con input{
+        height: 45px;
+    }
+    h2 {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .hosting-slider-main-con .generic-title {
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .hosting-slider-main-con button.owl-dot {
+        width: 8px;
+        height: 8px;
+    }
+    .hosting-slider-main-con button.owl-dot.active {
+        width: 14px;
+        height: 14px;
+    }
+    .map-location-main-con::after {
+        width: 270px;
+        height: 270px;
+    }
+    .generic-title {
+        margin-bottom: 20px;
+    }
+    .map-location-inner-con {
+        width: 330px;
+        margin: 0 auto;
+    }
+    .map-img-con {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .map-and-content-con {
+        height: 100%;
+    }
+    .map-content-details-con {
+        width: 100%;
+    }
+    .country-details:last-child{
+        margin-bottom: 0;
+    }
+    .map-location-main-con::before {
+        width: 270px;
+        height: 270px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .builder-main-con {
+        padding: 24px 18px;
+        margin-bottom: 40px;
+        margin-top: -104px;
+        gap: 14px;
+    }
+    .copyright-logo-con p {
+        text-align: center;
+    }
+    .global-partners-main-con {
+        padding-bottom: 166px;
+    }
+    .client-review-box {
+        padding: 30px 20px;
+    }
+    .hosting-benefit-img-con figure {
+        width: 270px;
+    }
+    .hosting-benefit-content-con ul li {
+        padding-left: 30px;
+        margin-bottom: 6px;
+    }
+    /*  */
+    .sub-banner-img-con figure {
+        width: 250px;
+    }
+    .sub-banner-content-con .breadcrumb {
+        height: 40px;
+    }
+    .hosting-empowered-inner-con {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .hosting-empowered-inner-con p {
+        margin-bottom: 8px;
+    }
+    .hosting-empowered-inner-con {
+        padding: 30px 26px;
+        gap: 16px;
+    }
+    .mission-image-con figure {
+        width: 280px;
+    }
+    .mission-con {
+        margin-bottom: 40px;
+    }
+    .hostiko-team-inner-con {
+        grid-template-columns: 100%;
+    }
+    .hostiko-team-member-con {
+        width: 255px;
+        margin: 0 auto;
+    }
+    /*  */
+    .dedicated-banner-con .sub-banner-inner-con {
+        gap: 30px;
+    }
+    .dedicated-details-box ul {
+        grid-template-columns: 100%;
+        gap: 8px;
+        width: 190px;
+        margin: 0 auto;
+    }
+    /*  */
+    .domain-hosting-types-con .hosting-type-box {
+        width: 330px;
+        margin: 0 auto;
+    }
+    .reseller-hosting-types-con .hosting-types-inner-con {
+        grid-template-columns: 100%;
+    }
+    .domain-price-main-con .table thead th, .domain-price-main-con .table tbody tr:not(:last-child) td,
+    .domain-price-main-con .table tbody tr:last-child td{
+        font-size: 14px;
+    }
+    .domain-price-main-con .table thead th{
+        padding: 12px 5px;
+    }
+    .domain-price-main-con .table tbody tr td {
+        padding: 10px 6px;
+    }
+    .domain-price-main-con .table thead th:first-child, .domain-price-main-con .table tbody tr td:first-child {
+        padding-left: 8px;
+    }
+    .domain-hosting-types-con .hosting-type-box figure img {
+        height: 36px;
+    }
+    .domain-hosting-types-con .hosting-type-box figure {
+        margin-bottom: 8px;
+    }
+    .domain-hosting-types-con .hosting-type-box p {
+        margin-bottom: 10px;
+    }
+    .domain-hosting-types-con .hosting-type-box > span {
+        margin-bottom: 12px;
+    }
+    .hosting-price-box .numeric2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .hosting-price-box span.numeric1 {
+        font-size: 38px;
+        line-height: 32px;
+    }
+    .hosting-price-box span.dollar {
+        top: 0;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .domain-hosting-types-con .hosting-price-box {
+        margin-bottom: 14px;
+    }
+    .global-partners-main-con .generic-title {
+        margin-bottom: 20px;
+    }
+    .sub-banner-main-con {
+        padding: 100px 0 150px;
+    }
+    /*  */
+    .reseller-banner-con.sub-banner-main-con {
+        padding: 100px 0 150px;
+    }
+    .reseller-banner-con .sub-banner-content-con {
+        padding: 0;
+    }
+    .reseller-banner-con .sub-banner-img-con figure {
+        width: 200px;
+    }
+    .hosting-fatures-inner-con {
+        grid-template-columns: 100%;
+        width: 330px;
+        margin: 0 auto;
+    }
+    .hosting-features-con .generic-title {
+        margin-bottom: 20px;
+    }
+    .scripts-inner-con ul {
+        grid-template-columns: 40% 40%;
+    }
+    h6 {
+        font-size: 17px;
+    }
+    .scripts-main-con {
+        padding-bottom: 160px;
+    }
+    /*  */
+    .hostiko-vpn-benefits ul {
+        grid-template-columns: 100%;
+        width: 210px;
+        margin: 0 auto;
+        float: none;
+    }
+    .vps-con .price_rangetxt span {
+        display: none !important;
+    }
+    .vps-con .price_content .value {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .vps-con .image_holder small {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .vps-con .image_holder {
+        gap: 8px;
+        justify-content: unset;
+    }
+    .vps-con .product-calculations {
+        gap: 5px;
+    }
+    .vps-con .slider-box-inner-con {
+        padding: 14px 20px 30px;
+    }
+    .vps-con .price_rangetxt {
+        grid-template-columns: 18% 19% 19% 20% 19%;
+        gap: 0 4px;
+        margin-bottom: 20px;
+    }
+    .vps-con .price_txt .numeric2 {
+        line-height: 18px;
+        font-size: 18px;
+    }
+    .vps-con .month-title small {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .vps-con .price_txt .numeric1 {
+        line-height: 26px;
+        font-size: 32px;
+    }
+    .vps-con .price_txt .dollar {
+        line-height: 19px;
+        font-size: 22px;
+        padding-right: 4px;
+    }
+    .vps-con .month-title {
+        padding-left: 4px;
+    }
+    .vps-con #backup_val {
+        padding: 20px 30px;
+    }
+    .vps-con .vps_btn.generic-btn a {
+        height: 44px;
+        padding: 8px 40px;
+    }
+    .vps-con .vps-inner-con {
+        margin-bottom: 40px;
+    }
+    .hostiko-guarantee-img-con figure {
+        width: 260px;
+        margin: 0 auto;
+    }
+    .hostiko-guarantee-inner-con {
+        gap: 20px;
+    }
+    /*  */
+    .contact-banner-con .sub-banner-img-con figure {
+        width: 260px;
+    }
+    .contact-main-con {
+        padding-bottom: 210px;
+    }
+    .map-outer-con iframe {
+        height: 320px;
+        border: 7px solid var(--primary-color);
+    }
+    .map-outer-con {
+        margin-bottom: 50px;
+    }
+    .contact-form-con .generic-title {
+        margin-bottom: 20px;
+    }
+    .contact-form-con .form-box ul {
+        gap: 14px;
+        grid-template-columns: 100%;
+    }
+    .global-partners-inner-con ul li {
+        height: 70px;
+    }
+    .hosting-slide-box p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /*  */
+    .blog-banner-con {
+        padding: 100px 0 60px;
+    }
+    .blog-footer-con {
+        padding-top: 50px;
+    }
+    /*  */
+    /* 404 page */
+    .error-con h2 {
+        font-size: 70px;
+        line-height: 70px;
+        margin-bottom: 10px;
+    }
+    .error-con p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .error-con .generic-btn a {
+        padding: 16px 28px;
+        font-size: 14px;
+    }
+    /* 404 page */
+    /* coming soon page */
+    .coming-soon-con h2 {
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+    /* coming soon page */
+    #button {
+        bottom: 26px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    #button::after {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer-contact-info ul li i {
+        top: 3px;
+    }
+}

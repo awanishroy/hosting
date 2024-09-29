@@ -1,0 +1,182 @@
+@media only screen and (max-width: 1199px){
+    .hero_banner_content{padding: 0}
+    .padding_tb30{padding: 65px 0}
+    .hero_banner_content h1{font-size: 46px}
+    .hosting_plan_box_list{padding: 0 0 0 65px}
+    .search_domain_btn{right: 66px}
+    .footer_list_link li a{padding: 0 10px}
+    .sub_banner_page p{font-size: 22px; line-height: 28px}
+    .inner_price_content, .inner_slider_price_box{padding: 20px 25px !important;}
+    .buynow-button{padding: 35px 25px !important;}
+    .section_heading_box h2{font-size: 40px; line-height: 40px}
+    .domain_price_box{font-size: 48px}
+    .history_box{padding: 30px 15px}
+    .outer_hero_banner_content{padding-top: 20px}
+    .section_heading_box p{font-size: 18px}
+    .why_choose_box h2{font-size: 24px; line-height: 34px}
+    .default_dd_menu{top: 46px}
+    .mega_menu{width: 930px !important; left: -155px}
+
+
+}
+@media only screen and (max-width: 991px) {
+    .navbar-toggler-icon{background: url("../images/mobile_toogle_button.svg")}
+    .hero_banner_content h1{font-size: 34px; line-height: 34px; margin-bottom: 20px}
+    .hero_banner_content h1 small{font-size: 22px; line-height: 28px}
+    .hero_banner_content p{font-size: 18px; line-height: 24px; margin-bottom: 20px}
+    .btn_hero_banner, .btn_welcome, .btn_feature_box, .hosting_plan_btn{font-size: 16px; line-height: 24px; padding: 10px 30px}
+    .padding_tb30{padding: 45px 0}
+    .section_heading_box h2{font-size: 30px; line-height: 30px}
+    .section_heading_box h2:before{background-size: 88%; background-repeat: no-repeat}
+    .section_heading_box p{font-size: 18px}
+    .hosting_plan_box h2{font-size: 24px; line-height: 24px}
+    .hosting_plan_box_list{padding: 0 0 0 35px}
+    .hosting_plan_box_list li{font-size: 18px}
+    .hosting_plan_price_box{font-size: 48px}
+    .hosting_plan_price_box small{top: -15px}
+    .padding_top_30{padding-top: 0}
+    .search_domain_btn{right: 50px}
+    .margin_bottom_60{margin-bottom: 50px}
+    .white_box h4, .blue_box h4{font-size: 16px; line-height: 20px}
+    .outer_guarantee_box{padding: 20px 10px}
+    .hosting_guarantee_box h2{font-size: 34px; line-height: 34px}
+    .hosting_guarantee_box h2:before{background-position: 88%; background-repeat: no-repeat}
+    .hosting_guarantee_box p{font-size: 18px; line-height: 24px}
+    .padding_bottom_70{padding-bottom: 50px}
+    .counter_box figure{width: 40%}
+    .counter_box .counter_content_box{width: 60%; float: left}
+    .padding_bottom_40{padding-bottom: 30px}
+    .padding_top_40{padding-top: 30px}
+    .footer_list_link li a{font-size: 14px; padding: 0 5px}
+    .build_website_content_box h2{font-size: 36px; line-height: 36px}
+    .question_content{white-space: normal; text-align: left; font-size: 18px; line-height: 24px}
+    .hosting_plans_list li{font-size: 14px}
+    .navbar-toggler:focus{outline: none}
+    .default_navigation{padding: 10px 0}
+    .default_navigation_box{position: absolute; top: 100%; width: 30%; right: 0; background-color: #fff; z-index: 9; padding: 10px 0}
+    .openBtn, .side_nav_button{display: none}
+    .inner_default_navigation{margin-right: 0}
+    .inner_default_navigation li a{font-size: 14px; line-height: 24px; padding: 5px 20px !important;}
+    .inner_default_navigation li:first-child a{padding-left: 20px !important;}
+    .header_footer_dd{background-color: #6115d0}
+    .inner_default_navigation li .header_footer_dd a{color: #fff}
+    .outer_mega_menu{display: none}
+    .hosting_megamenu_dd_card01_header, .hosting_megamenu_dd_card02_header, .hosting_megamenu_dd_card03_header, .hosting_megamenu_dd_card04_header, .hosting_megamenu_dd_card05_header{padding: 5px 20px !important;}
+    .hosting_megamenu_dd_card01_header:before, .hosting_megamenu_dd_card02_header:before, .hosting_megamenu_dd_card03_header:before, .hosting_megamenu_dd_card04_header:before, .hosting_megamenu_dd_card05_header:before{display: none}
+    .vps_power_list{padding-left: 30px}
+    .why_choose_box h2{font-size: 20px; line-height: 30px}
+    .order_02{order: 2}
+    .order_01{order: 1}
+    .welcome_section_img{text-align: center}
+    .history_box p{font-size: 14px; line-height: 22px}
+    .margin_tablet{margin-bottom: 30px}
+    .hosting_plan_box_list li:before{display: none}
+    .hosting_plan_box_list li{text-align: center}
+    .hosting_plan_box_list{padding: 0}
+    .welcome_section{padding-bottom: 40px}
+    body{font-size: 16px}
+    .mailing_address_box{padding: 30px}
+    .mobile_hide{display: none}
+    .mobile_navigation{display: block}
+    .hosting_megamenu_dd{box-shadow: none; background-color: #6115d0}
+    .mobile_navigation li a{color: #fff !important; padding: 5px 20px !important; display: inline-block}
+    .mobile_navigation li a:hover{cursor: pointer}
+    .header01_contact_info_box, .header01_top_bar, .header03_contact_info{display: none}
+    .outer_header01_logo{border: none; text-align: left}
+    .header01_logo{padding: 15px}
+    .header01_navigation{top: 0}
+    .header02_mobile_toggle{position: absolute; right: 15px; top: 15px}
+    .outer_header01_navbar{position: absolute; top: 100%; right: 0; z-index: 9; background-color: #fff; width: 30%}
+    .header01_navbar .header01_dd_menu a{padding: 0 25px !important; color: #fff !important;}
+    .header01_dd_menu, .default_dd_menu{background-color: #6115d0}
+    .header01_navbar .default_dd_menu a{padding: 0 25px !important; color: #fff !important;}
+    .header03_mobile_toggle{position: absolute; right: 0; top: 15px; z-index: 9}
+    .header03_navigation_links{position: absolute; background-color: #fff; top: 80px; z-index: 9; right: 0; width: 30%}
+    .header03_outer{padding: 10px 0}
+    .header03_navbar li a{color: #271540; padding: 10px 20px !important}
+    .header03_dropdown, .header04_dropdown {background-color: #6115d0}
+    .header03_navbar .header03_dropdown a{color: #fff !important;}
+    .header04_top_bar{display: none}
+    .header05_toggle{position: absolute; right: 0; top: -55px; padding: 0}
+    .header04_outer_box{top: 0}
+    .header04_navbar li a{color: #271540}
+    .header04_navbar .header04_dropdown a{color: #fff !important;}
+}
+@media only screen and (max-width: 767px){
+    .order_2{order: 2}
+    .order_1{order: 1}
+    .default_navigation{padding: 15px}
+    .hero_banner_img figure{margin:0 auto; text-align: center}
+    .hero_banner_img img{width: 80%}
+    .hero_banner_content{padding: 30px 0 0 0; text-align: center}
+    .padding_top_60{padding-top: 40px}
+    .padding_bottom_60{padding-bottom: 40px}
+    .section_heading_box p{font-size: 16px; line-height: 24px}
+    .margin_top_100{margin-top: 50px}
+    .outer_hosting_plan_box{padding: 0 50px}
+    .hosting_plan_box_list{padding:  0}
+    .hosting_plan_price_box{font-size: 36px}
+    .hosting_plan_price_box small{top: -10px; font-size: 14px}
+    .mobile_margin{margin-top: 80px}
+    .section_heading_box h2{font-size: 26px; line-height: 26px}
+    .section_heading_box h2:before{background-size: 75%; left: -35px}
+    .search_domain_img figure, .welcome_section_img figure{margin: 0 auto; text-align: center}
+    .search_domain_img figure img{width: 70%}
+    .search_domain_field{width: 100%}
+    .search_domain_btn{right: 5px}
+    .outer_search_filed{margin-bottom: 40px}
+    .welcome_section_img figure img{width: 70%}
+    .padding_top_70{padding-top: 0}
+    .blue_box{top: 20px}
+    .margin_box{margin-bottom: 20px}
+    .counter_box{float: left; width: 100%}
+    .feature_img_box figure{text-align: center}
+    .feature_content_box h3{font-size: 24px; line-height: 30px; margin-bottom: 10px}
+    .feature_content_box{text-align: center}
+    .testimonial_slider_indicator{bottom: -30px}
+    .mobile_hide{display: none}
+    .copy_right_box{float: none !important; text-align: center}
+    .default_footer{padding-top: 0}
+    .margin_bottom_30{margin-bottom: 0}
+    .footer_logo_box{text-align: center; margin-bottom: 20px}
+    .footer_list_link{margin-bottom: 20px; text-align: center}
+    .footer_social_links{text-align: center}
+    .sub_banner_page h1{font-size: 30px; line-height: 30px}
+    .sub_banner_page p{font-size: 18px; line-height: 24px; margin-bottom: 30px}
+    .breadcrumb{bottom: -56px; padding: 10px}
+    .all_plans_list_box, .technical_list_box{padding: 0 45px}
+    .build_website_content_box h2{font-size: 30px; line-height: 30px}
+    .hosting_feature_img_box figure, .hosting_feature_content_box{text-align: center}
+    .default_navigation_box{width: 50%}
+    .vps_power_experience_section:before{display: none}
+    .vps_power_list{margin-top: 20px}
+    .vps_power_list li{color: #6115d0}
+    .vps_power_list li:before{border: 1px solid #6115d0}
+    .why_choose_img_box{margin: 0 auto}
+    .why_choose_box{text-align: center}
+    .hosting_guarantee_box{margin-bottom: 30px}
+    .count{font-size: 24px}
+    .padding_top_75{padding-top: 50px}
+    .padding_bottom_15{padding-bottom: 25px}
+    .padding_top_15{padding-top: 25px}
+    .hosting_feature_content_box h3{margin-bottom: 10px}
+    .outer_header01_navbar, .header03_navigation_links{width: 50%}
+    .header02_mobile_toggle{top: 12px; right: 10px}
+}
+
+@media only screen and (max-width: 480px){
+    .header03_logo img{width: 100px}
+}
+@media (min-width: 640px) {
+    .comparison_plan_list {
+        display:none;
+    }
+    td,th {
+        display:table-cell !important;
+    }
+
+    td+td, th+th {
+        width: auto;
+    }
+
+}

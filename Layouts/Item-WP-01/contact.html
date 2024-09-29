@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="zxx">
+<head>
+    <!--Title-->
+    <title>Hostiko</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <!--description-->
+    <meta name="description" content="HOSTIKO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose hosting portfolio HTML5 template with ready home page demos.">
+    <!--Key Words-->
+    <meta name="keywords" content="">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--fontawesome style-->
+    <!--<link rel="stylesheet" href="assets/css/fonts-awesome.min.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!--style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+</head>
+<body>
+<div id="default_header"></div>
+<!--Hero Banner Section-->
+<section class="bg_6115d0 sub_banner_page padding_top_60 padding_bottom_60">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6">
+                <h1>Contact Us</h1>
+                <p>Hostiko is a Global Provider of Web Hosting and Related Services.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Slider Section-->
+<!--Contact Form-->
+<section class="padding_top_60 padding_bottom_60">
+    <div class="container">
+        <div class="section_heading_box margin_bottom_80 padding_left_40">
+            <h2>mailing Address</h2>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4">
+                <div class="mailing_address_box">
+                    <h4>Address</h4>
+                    <p>121 King Street, <br>
+                        Melbourne Victoria 3000 <br>
+                        Australia.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4">
+                <div class="mailing_address_box">
+                    <h4>Phone</h4>
+                    <ul class="">
+                        <li>Phone:<a href="tel:(123) 123-456789">(123) 123-456789</a></li>
+                        <li>Help:<a href="tel:(123) 123-456789">(123) 123-456789</a></li>
+                        <li>Intl.<a href="tel:(123) 123-456789">(123) 123-456789</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4">
+                <div class="mailing_address_box">
+                    <h4>Email</h4>
+                    <ul class="">
+                        <li><a href="mailto:support@hostikocom">support@hostikocom</a></li>
+                        <li><a href="mailto:info@hostiko.com">info@hostiko.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Here-->
+<!--Contact Form Section-->
+<section class="padding_top_60 padding_bottom_60 bg_dbf3fa">
+    <div class="container">
+        <div class="section_heading_box margin_bottom_80 padding_left_40">
+            <h2>Contact Form</h2>
+        </div>
+        <form action="" id="contactpage">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="contact_input_field">
+                        <input type="text" placeholder="First Name" name="name" id="name" class="contact_field" required>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="contact_input_filed">
+                        <input type="text" placeholder="Last Name" name="last_name" id="last_name" class="contact_field">
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="contact_input_filed">
+                        <input type="email" placeholder="Email Address" name="email" id="email" class="contact_field" required>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 margin_top_30">
+                    <textarea name="comments" id="comments" class="contact_field w-100" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    <button type="submit" class="submit_btn" id="submit" name="submit">Send Message</button>
+                    <div id="form_result"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+<!--Ends Here-->
+<div class="padding_top_40 padding_bottom_40">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 margin_box"><figure><img src="assets/images/partner_img01.png" alt="" class="img-fluid"></figure></div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6 margin_box"><figure><img src="assets/images/partner_img02.png" alt="" class="img-fluid"></figure></div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6"><figure><img src="assets/images/partner_img03.png" alt="" class="img-fluid"></figure></div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-6"><figure><img src="assets/images/partner_img04.png" alt="" class="img-fluid"></figure></div>
+        </div>
+    </div>
+</div>
+<div id="default_footer"></div>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.validate.js"></script>
+<script src="assets/js/hostiko_contact_form.js"></script>
+<script>
+    $(function(){
+        $("#default_header").load("include/default_header.html");
+        $("#default_footer").load("include/default_footer.html");
+    });
+    // Side Nav
+    function openNav() {
+        document.getElementById("mySidenav").style.right = "0";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.right = "-250px";
+    }
+
+
+    // Search Bar
+    function openSearch() {
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function closeSearch() {
+        document.getElementById("myOverlay").style.display = "none";
+    }
+</script>
+</body>
+</html>

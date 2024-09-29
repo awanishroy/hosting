@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html lang="zxx">
+<head>
+    <!--Title-->
+    <title>Hostiko</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <!--description-->
+    <meta name="description" content="HOSTIKO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose hosting portfolio HTML5 template with ready home page demos.">
+    <!--Key Words-->
+    <meta name="keywords" content="">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--fontawesome style-->
+    <!--<link rel="stylesheet" href="assets/css/fonts-awesome.min.css">-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!--style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+</head>
+<body>
+<div class="wrapper">
+    <!--Site Pre-loader-->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <section class="contact_banner">
+        <div id="default_header" class="animate-bottom main_header"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-6 col-md-7 hero_banner_content padding_top_200">
+                    <h1>Contact Us</h1>
+                    <p>Hostiko is a Global Provider of Web Hosting
+                        and Related Services.</p>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+    <!--Mailing Addresses-->
+    <section class="padding_top_200 padding_bottom_100 text-center">
+        <div class="container">
+            <div class="section_heading_box contact_page_heading" data-aos="fade-up">
+                <h2>Mailing Address</h2>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br>
+                    pariatur excepteur sint occaecat cupidatat non proident.</p>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 margin_box_mobile">
+                    <div class="mailing_address_box">
+                        <h3>Address</h3>
+                        <p>121 King Street,
+                            Melbourne Victoria 3000
+                            Australia.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="mailing_address_box margin_box_mobile">
+                        <h3>Phone</h3>
+                        <div>Phone:<a href="tel:Phone: (123) 123-456789"> (123) 123-456789</a></div>
+                        <div>Help:<a href="tel:Phone: (123) 123-456789"> (123) 123-456789</a></div>
+                        <div>Intel:<a href="tel:Phone: (123) 123-456789"> (123) 123-456789</a></div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="mailing_address_box">
+                        <h3>Phone</h3>
+                        <div><a href="mailto:support@hostikocom">support@hostikocom</a></div>
+                        <div><a href="mailto:info@hostiko.com">info@hostiko.com</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Ends Here-->
+    <section class="padding_bottom_100 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-xl-10 col-lg-10">
+                    <div class="section_heading_box" data-aos="fade-up">
+                        <h2>Contact Form</h2>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                    </div>
+                    <form action="" id="contactpage">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <input type="text" class="contact_form_fields name" id="first_name" name="name" placeholder="First Name">
+                                <input type="email" class="contact_form_fields email" id="email" name="name" placeholder="Email">
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <input type="text" class="contact_form_fields name" id="last_name" name="name" placeholder="First Name">
+                                <input type="tel" class="contact_form_fields tel" id="tel" name="tel" placeholder="Phone">
+                            </div>
+                        </div>
+                        <textarea class="contact_form_fields comment_box" name="comments" id="comments" cols="30" rows="5" placeholder="Message"></textarea>
+                        <button class="btn_submit_message" type="submit" name="submit" id="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+    <div id="default_footer" class="outer_default_header"></div>
+    <a href="javascript:" id="return-to-top" title="return to top"><i class="fa fa-arrow-up"></i></a>
+</div>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.validate.js"></script>
+<script src="assets/js/hostiko_contact_form.js"></script>
+<script src="assets/js/aos.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/lazysizes.min.js"></script>
+<script>
+    $(document).ready(function() {
+        setTimeout(function() {
+            $('.wrapper').addClass('loaded');
+        }, 100);
+        AOS.init();
+    });
+    $(function(){
+        $("#default_header").load("include/default_header.html");
+        $("#default_footer").load("include/default_footer.html");
+    });
+    // Side Nav
+    function openNav() {
+        document.getElementById("mySidenav").style.right = "0";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.right = "-250px";
+    }
+    // Search Bar
+    function openSearch() {
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function closeSearch() {
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 350) {        // If page is scrolled more than 50px
+            $('#return-to-top').fadeIn(200);    // Fade in the arrow
+        } else {
+            $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+        }
+    });
+    $('#return-to-top').click(function() {      // When arrow is clicked
+        $('body,html').animate({
+            scrollTop : 0                       // Scroll to top of body
+        }, 500);
+    });
+
+</script>
+<script>
+    new WOW().init();
+
+    $(window).on('scroll', function (event) {
+        var scrollValue = $(window).scrollTop();
+        if (scrollValue > 80) {
+            $('.navbar').addClass('affix');
+        } else{
+            $('.navbar').removeClass('affix');
+        }
+    });
+</script>
+</body>
+</html>
